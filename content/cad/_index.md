@@ -15,7 +15,7 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 7.1 | [Fusion 360](/cad/fusionFirst) | 30 minutes |
+| 7.1 | [Fusion 360](/cad/fusionfirst) | 30 minutes |
 | 7.2 | [OnShape](/cad/onshape) | 30 minutes |
 | 7.3 | [SolidWorks](/cad/solidworks) | 30 minutes |
 | 7.4 | [CAD Basics](/cad/cad_basics) | 30 minutes |

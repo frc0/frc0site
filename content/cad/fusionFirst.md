@@ -71,7 +71,7 @@ NOTE: every vendor has a different process for this. This is just a general over
 
 ### 9. Making a plate for the Power Breaker in Fusion 360
 
-Step 1: Import the Power Breaker STEP file into your design. This one is tricky to find so im going to link <a href="/3dModels/120Breaker.step" download>a copy I have hosted here</a>. This one originally came from [here](https://grabcad.com/library/first-robotics-120a-circuit-breaker-1).
+Step 1: Import the Power Breaker STEP file into your design. This one is tricky to find so im going to link <a id="raw-url" href="https://raw.githubusercontent.com/github-username/project/master/filename">download</a> a copy I have hosted here. This one originally came from [here](https://grabcad.com/library/first-robotics-120a-circuit-breaker-1).
 
 Step 2: Create a new sketch on the bottom face of the Power Breaker. This is the face that has the 4 holes for the screws. NOTE: Only 2 of the holes are used for the screws. The other 2 are for the Battery Positive line. You can ignore those holes.
 
