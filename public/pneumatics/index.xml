@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6. Pneumatics on FRC Zero</title>
+    <title>5.0 Pneumatics on FRC Zero</title>
     <link>https://frczero.org/pneumatics/</link>
-    <description>Recent content in 6. Pneumatics on FRC Zero</description>
+    <description>Recent content in 5.0 Pneumatics on FRC Zero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Feb 2023 22:28:37 -0500</lastBuildDate><atom:link href="https://frczero.org/pneumatics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>6.1 What are Pneumatics?</title>
+      <title>5.1 What are Pneumatics?</title>
       <link>https://frczero.org/pneumatics/what-are-pneumatics/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
@@ -18,7 +18,7 @@ In FRC teams typically use cylinders to extend and retract a piston. This can be
     </item>
     
     <item>
-      <title>6.2 Types of Pneumatic Components</title>
+      <title>5.2 Types of Pneumatic Components</title>
       <link>https://frczero.org/pneumatics/pneumatic-components/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
@@ -28,7 +28,7 @@ Component Description Image Vendor Link(s) Solenoid A solenoid is a valve that u
     </item>
     
     <item>
-      <title>6.3 Pneumatic Safety</title>
+      <title>5.3 Pneumatic Safety</title>
       <link>https://frczero.org/pneumatics/pneumatic-safety/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
@@ -38,7 +38,7 @@ Safety Rules Never use compressed air to propel a projectile.</description>
     </item>
     
     <item>
-      <title>6.4 How to Setup a Pneumatic System</title>
+      <title>5.4 How to Setup a Pneumatic System</title>
       <link>https://frczero.org/pneumatics/pneumatic-systems/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
@@ -48,7 +48,7 @@ Gatherings the Components The first step in setting up a pneumatic system is to 
     </item>
     
     <item>
-      <title>6.5 Pneumatic Control</title>
+      <title>5.5 Pneumatic Control</title>
       <link>https://frczero.org/pneumatics/pneumatic-control/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
@@ -57,7 +57,7 @@ Gatherings the Components The first step in setting up a pneumatic system is to 
     </item>
     
     <item>
-      <title>6.6 Pneumatic Troubleshooting</title>
+      <title>5.6 Pneumatic Troubleshooting</title>
       <link>https://frczero.org/pneumatics/pneumatic-troubleshooting/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
@@ -66,7 +66,7 @@ Gatherings the Components The first step in setting up a pneumatic system is to 
     </item>
     
     <item>
-      <title>6.7 Pneumatic Resources</title>
+      <title>5.7 Pneumatic Resources</title>
       <link>https://frczero.org/pneumatics/pneumatic-resources/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       

@@ -2,14 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://frczero.org/pneumatics/</loc>
-    <lastmod>2023-02-04T22:28:37-05:00</lastmod>
-  </url><url>
     <loc>https://frczero.org/about/</loc>
     <lastmod>2023-02-04T22:22:45-05:00</lastmod>
   </url><url>
-    <loc>https://frczero.org/</loc>
+    <loc>https://frczero.org/engineering_design/</loc>
+    <lastmod>2023-02-05T01:20:23-05:00</lastmod>
+  </url><url>
+    <loc>https://frczero.org/machining_fab/</loc>
+    <lastmod>2023-02-05T01:24:46-05:00</lastmod>
+  </url><url>
+    <loc>https://frczero.org/electronics/</loc>
+    <lastmod>2023-02-05T01:20:03-05:00</lastmod>
+  </url><url>
+    <loc>https://frczero.org/pneumatics/</loc>
     <lastmod>2023-02-04T22:28:37-05:00</lastmod>
+  </url><url>
+    <loc>https://frczero.org/programming/</loc>
+    <lastmod>2023-02-05T01:19:51-05:00</lastmod>
+  </url><url>
+    <loc>https://frczero.org/competition/</loc>
+    <lastmod>2023-02-05T01:27:54-05:00</lastmod>
+  </url><url>
+    <loc>https://frczero.org/</loc>
+    <lastmod>2023-02-05T01:27:54-05:00</lastmod>
   </url><url>
     <loc>https://frczero.org/pneumatics/what-are-pneumatics/</loc>
     <lastmod>2023-02-04T22:27:39-05:00</lastmod>

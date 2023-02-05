@@ -1,70 +1,105 @@
 [
 {
-	"uri": "https://frczero.org/pneumatics/",
-	"title": "6. Pneumatics",
+	"uri": "https://frczero.org/about/",
+	"title": "1.0 About FRC0",
 	"tags": [],
 	"description": "",
-	"content": "6. Pneumatics What are Pneumatics? In the context of FRC pneumatics refers to the use of compressed air to power mechanisms. This can be used to extend or retract a piston, or to move a piston in a linear direction. Pneumatic systems can be confusing to newcomers. This chapter will cover the basics of pneumatics and how to use them in FRC.\nContents for this Chapter Order Page Title Time Estimate 1. What are Pneumatics? 5 minutes 2. What are Pneumatic Components? 10 minutes 3. Pneumatic Safety 5 minutes 4. How to Setup a Pneumatic System 20 minutes 5. Pneumatic Control 20 minutes 6. Pneumatic Troubleshooting 10 minutes 7. Pneumatic Resources 5 minutes Total Estimated Time 75 minutes "
+	"content": "1.0 About FRC0? FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. It is a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. The site is broken down into chapters and sections. Each chapter is a topic and each section is a sub-topic. The chapters and sections are listed in the left sidebar. Teams can use FRC0 to help them prepare for the season, build their robot, and compete in the competition. Teams can submit content to FRC0 to help other teams. FRC0 is the collaborative effort of many teams and individuals.\n"
 },
 {
-	"uri": "https://frczero.org/about/",
-	"title": "1. About FRC0",
+	"uri": "https://frczero.org/engineering_design/",
+	"title": "2.0 Engineering Design",
 	"tags": [],
 	"description": "",
-	"content": "1. About FRC0? FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. It is a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. The site is broken down into chapters and sections. Each chapter is a topic and each section is a sub-topic. The chapters and sections are listed in the left sidebar. Teams can use FRC0 to help them prepare for the season, build their robot, and compete in the competition. Teams can submit content to FRC0 to help other teams. FRC0 is the collaborative effort of many teams and individuals.\n"
+	"content": "2.0 Engineering Design Lorem Ipsum.\n"
+},
+{
+	"uri": "https://frczero.org/machining_fab/",
+	"title": "3.0 Machining &amp; Fabrication",
+	"tags": [],
+	"description": "",
+	"content": "3.0 Machining \u0026amp; Fabrication Lorem Ipsum.\n"
+},
+{
+	"uri": "https://frczero.org/electronics/",
+	"title": "4.0 Electronics",
+	"tags": [],
+	"description": "",
+	"content": "4.0 Electronics Lorem Ipsum.\n"
+},
+{
+	"uri": "https://frczero.org/pneumatics/",
+	"title": "5.0 Pneumatics",
+	"tags": [],
+	"description": "",
+	"content": "5.0 Pneumatics What are Pneumatics? In the context of FRC pneumatics refers to the use of compressed air to power mechanisms. This can be used to extend or retract a piston, or to move a piston in a linear direction. Pneumatic systems can be confusing to newcomers. This chapter will cover the basics of pneumatics and how to use them in FRC.\nContents for this Chapter Order Page Title Time Estimate 1. What are Pneumatics? 5 minutes 2. What are Pneumatic Components? 10 minutes 3. Pneumatic Safety 5 minutes 4. How to Setup a Pneumatic System 20 minutes 5. Pneumatic Control 20 minutes 6. Pneumatic Troubleshooting 10 minutes 7. Pneumatic Resources 5 minutes Total Estimated Time 75 minutes "
+},
+{
+	"uri": "https://frczero.org/programming/",
+	"title": "6.0 Programming",
+	"tags": [],
+	"description": "",
+	"content": "6.0 Programming Lorem Ipsum.\n"
+},
+{
+	"uri": "https://frczero.org/competition/",
+	"title": "7.0 Competition",
+	"tags": [],
+	"description": "",
+	"content": "7.0 Competition Lorem Ipsum.\n"
 },
 {
 	"uri": "https://frczero.org/",
-	"title": "FRC0",
+	"title": "FRC0 - HOME",
 	"tags": [],
 	"description": "",
 	"content": "Welcome to FRC0 (FRC Zero) This is the home page for FRC0 (FRC Zero). FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. The goal of FRC0 is to provide a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more.\nWhy FRC0? FRC0 was created to help address the following issues:\nThere is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources. There is a lot of information about FIRST Robotics Competition, but it is not always easy to find. There is a lot of information about FIRST Robotics Competition, but it is not always easy to understand. There is a lot of information about FIRST Robotics Competition, but it is not always easy to find and understand. What are some topics that FRC0 will cover? Some of the topics that FRC0 will cover include:\nThe game The rules The robot The competition The team The season The build season The competition season The offseason The community The history The future "
 },
 {
 	"uri": "https://frczero.org/pneumatics/what-are-pneumatics/",
-	"title": "6.1 What are Pneumatics?",
+	"title": "5.1 What are Pneumatics?",
 	"tags": [],
 	"description": "",
 	"content": "Originally discovered by the ancient Greeks, pneumatics is the study of air pressure. Pneumatics is a branch of fluid power that uses compressed air to power actuators. Pneumatic actuators are used to move mechanical parts, such as valves, cylinders, and other devices. Pneumatic systems are used in a wide variety of applications, including robotics, manufacturing, and construction.\nIn FRC teams typically use cylinders to extend and retract a piston. This can be used to move a mechanism in a linear direction, or to rotate a mechanism. Cylinders are usually measured by the stroke length, bore diameter, and rod diameter. The stroke length is the distance the piston can travel in one direction. The bore diameter is the diameter of the cylinder. The rod diameter is the diameter of the piston. The bore and rod diameters are usually the same. They can also come in a large variety of sizes and styles.\nA typical pneumatic system in FRC can look something like this:\nImage courtesy of FRC 358\nBelow is a downloadable copy of FIRST\u0026rsquo;s pneumatics guide. This guide is a great resource for learning about pneumatics. It covers the latest hardware changes, and includes a lot of useful information. I highly recommend reading this guide.\nDownload the Pneumatics Guide\n"
 },
 {
 	"uri": "https://frczero.org/pneumatics/pneumatic-components/",
-	"title": "6.2 Types of Pneumatic Components",
+	"title": "5.2 Types of Pneumatic Components",
 	"tags": [],
 	"description": "",
 	"content": "Pneumatic components are the parts of a pneumatic system that use compressed air to do work. There are many different types of pneumatic components. The most common pneumatic components are shown in the table below:\nComponent Description Image Vendor Link(s) Solenoid A solenoid is a valve that uses an electric current to open and close. It is used to control the flow of air in a pneumatic system. Solenoids can be 12v or 24v. There is a jumper on the PCM for this! Andymark Double Solenoid A double solenoid is a valve that uses an electric current to open and close. It is used to control the flow of air in a pneumatic system. It has two ports, one for air in and one for air out. Solenoids of both kinds are usually attached to manifold Andymark Compressor A compressor is a device that uses an electric motor to compress air. It is used to provide the air pressure for a pneumatic system. Teams can prefill tanks with an offboard compressor board. It must still use the PCM as its controlling hardware. Andymark Pneumatic Cylinder A pneumatic cylinder is a device that uses compressed air to extend and retract a piston. These can come in a wide variety of sizes and shapes. Andymark Pneumatic Tank A pneumatic tank is a device that stores compressed air. They don\u0026rsquo;t all have to be plastic. There is not a limit on the capacity of your tanks, however they must be rated for higher than 125 PSI Andymark Pneumatic Fitting A pneumatic fitting is a device that connects two pneumatic components together. Fittings can come in many different styles. There are splitters, T taps, and more! Andymark Pneumatic Hose A pneumatic hose is a device that carries compressed air from one component to another. These can come in a variety of colors and styles. All of the ones for FRC are 1/4 inch in diameter. Andymark Pressure Release Valve A pressure release valve is a device that releases air pressure from a pneumatic system. There are several types of these used in FRC. There are levers, spring pulls and more. As long as it can safely vent air in a hurry! Andymark Pressure Switch A pressure switch is a device that detects when the air pressure in a pneumatic system is above or below a certain value. Andymark Pressure Gauge A pressure gauge is a device that displays the air pressure in a pneumatic system. Andymark Analog Pressure Sensor An analog pressure sensor is a device that converts the air pressure in a pneumatic system into an analog voltage. Andymark Pressure Regulator A pressure regulator is a device that controls the air pressure in a pneumatic system. Andymark Pneumatic Control Module A pneumatic control module is a device that controls the air pressure in a pneumatic system. CTRE, Andymark Pneumatic Hub The Pneumatic Hub features 16 solenoid channels which allow for up to 16 single-acting solenoids, 8 double-acting solenoids, or a combination of the two types. REV "
 },
 {
 	"uri": "https://frczero.org/pneumatics/pneumatic-safety/",
-	"title": "6.3 Pneumatic Safety",
+	"title": "5.3 Pneumatic Safety",
 	"tags": [],
 	"description": "",
 	"content": "Pneumatics are powerful and can be dangerous if not used properly. This section will cover the safety rules and guidelines for pneumatics. As is the case with all safety rules, they are not meant to be restrictive. They are meant to be guidelines to help keep you safe. If you have any questions about the safety rules, please ask your mentor or coach.\nSafety Rules Never use compressed air to propel a projectile. Never use compressed air to propel a person. Always wear safety glasses when working with pneumatics. Always check for humans and other objects in the path of the pistons, air, system, before turning on the compressor. Never turn on the compressor WITHOUT the pressure switch connected. Make sure that the release valve is open before turning on the compressor during initial setup. Potential Hazards Tank Shattering Compressor Overheating Solenoid Failure (Misfiring) PCM Failure (Lack of control or Pressure Feedback) Air Leak (This can force hoses to slip off fittings) "
 },
 {
 	"uri": "https://frczero.org/pneumatics/pneumatic-systems/",
-	"title": "6.4 How to Setup a Pneumatic System",
+	"title": "5.4 How to Setup a Pneumatic System",
 	"tags": [],
 	"description": "",
 	"content": "Setting up a pneumatic system can be a daunting task. This section will cover the basics of setting up a pneumatic system. It will cover the basics of the components and how to connect them. It will also cover the basics of how to setup the compressor and the PCM and how to test the system.\nGatherings the Components The first step in setting up a pneumatic system is to gather the components. The components are listed below:\nCompressor Pressure Switch Air Tank Solenoid Pneumatic Hose Fittings Release Valve Pressure Gauge Pressure Regulator Compressor The air compressor is the heart of the pneumatic system. It is the device that compresses the air and stores it in the air tank. The compressor is connected to the PCM and the PCM controls the compressor. Compressors will automatically run unless the pressure switch is above the set pressure limit. The compressor can also be manually turned on and off from the robot code. The PCM and the compressor are connected with a 12V power cable. The red and black wire spots are marked on the PCM or Hub.\nPressure Switch "
 },
 {
 	"uri": "https://frczero.org/pneumatics/pneumatic-control/",
-	"title": "6.5 Pneumatic Control",
+	"title": "5.5 Pneumatic Control",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://frczero.org/pneumatics/pneumatic-troubleshooting/",
-	"title": "6.6 Pneumatic Troubleshooting",
+	"title": "5.6 Pneumatic Troubleshooting",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://frczero.org/pneumatics/pneumatic-resources/",
-	"title": "6.7 Pneumatic Resources",
+	"title": "5.7 Pneumatic Resources",
 	"tags": [],
 	"description": "",
 	"content": ""

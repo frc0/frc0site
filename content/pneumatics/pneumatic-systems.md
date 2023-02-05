@@ -1,5 +1,5 @@
 ---
-title: "6.4 How to Setup a Pneumatic System"
+title: "5.4 How to Setup a Pneumatic System"
 date: 2023-02-04T22:27:39-05:00
 ---
 

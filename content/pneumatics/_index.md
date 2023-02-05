@@ -1,11 +1,11 @@
 +++
-title = "5. Pneumatics"
+title = "5.0 Pneumatics"
 date = 2023-02-04T22:28:37-05:00
-weight = 5
+weight = 5.0
 chapter = true
 +++
 
-# 5. Pneumatics
+# 5.0 Pneumatics
 
 ## What are Pneumatics?
 

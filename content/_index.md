@@ -1,5 +1,5 @@
 ---
-title: "FRC0"
+title: "FRC0 - HOME"
 ---
 
 # Welcome to FRC0 (FRC Zero)
