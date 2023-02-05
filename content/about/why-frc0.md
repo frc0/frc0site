@@ -1,6 +1,7 @@
 ---
 title: "0.1 Why FRC0?"
 date: 2023-02-04T22:22:45-05:00
+weight: 0.1
 ---
 
 FRC0 was created to help address the following issues:
