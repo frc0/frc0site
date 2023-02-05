@@ -1,17 +1,17 @@
 [
 {
-	"uri": "https://frczero.org/about/",
-	"title": "1.0 About FRC0",
+	"uri": "https://frczero.org/competition/",
+	"title": "1.0 Competition",
 	"tags": [],
 	"description": "",
-	"content": "1.0 About FRC0? FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. It is a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. The site is broken down into chapters and sections. Each chapter is a topic and each section is a sub-topic. The chapters and sections are listed in the left sidebar. Teams can use FRC0 to help them prepare for the season, build their robot, and compete in the competition. Teams can submit content to FRC0 to help other teams. FRC0 is the collaborative effort of many teams and individuals.\n"
+	"content": "1.0 Competition Competition is what brings every team together. The time when all the hard work pays off. The time when you get to show off your robot and your team. The time when you get to compete against other teams. The time when you get to have fun. The time when you get to win. The time when you get to lose. The time when you get to learn. The time when you get to grow. The time when you get to make friends. The time when you get to make memories. The time when you get to be a part of something bigger than yourself. The time when you get to be a part of FIRST Robotics Competition.\nF.I.R.S.T. is always, and will always be about more than the wins, losses and points on the field. It is about the people. It is about the students, mentors, parents, volunteers, and sponsors. It is about the teams. It is about the community. FRC and the other programs offered by F.I.R.S.T. have fostered the community behind this site. The experiences we have had at competitions have shaped us into the people we are today. We have made friends, learned lessons, and grown as people. We have made memories that will last a lifetime. We have been a part of something bigger than ourselves. We have been a part of a FIRST Robotics Competition.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 1. What is a FRC Competition? 5 minutes 2. Competition Events 10 minutes 3. Competition Rules 10 minutes 4. Competition Scoring 10 minutes 5. Parent\u0026rsquo;s Guide to Competition 5 minutes 6. Mentor\u0026rsquo;s Guide to Competition 5 minutes 7. Competition Resources 5 minutes 8. Competition Videos 5 minutes Total Estimated Time 50 minutes "
 },
 {
 	"uri": "https://frczero.org/engineering_design/",
 	"title": "2.0 Engineering Design",
 	"tags": [],
 	"description": "",
-	"content": "2.0 Engineering Design Lorem Ipsum.\n"
+	"content": "2.0 Engineering Design Engineering design is the process of designing a product or system to meet a specific set of requirements. The design process is a series of steps that engineers follow to design a product. The number of steps varies depending on who you ask, but the main point is that its a cycle. The design process is a cycle because it is not a linear process. Engineers will go back and forth between the steps as they work on the design. The design process is also iterative. This means that the design will be improved over time.\nAn example diagram of the design process is shown above.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate "
 },
 {
 	"uri": "https://frczero.org/machining_fab/",
@@ -25,7 +25,14 @@
 	"title": "4.0 Electronics",
 	"tags": [],
 	"description": "",
-	"content": "4.0 Electronics Lorem Ipsum.\n"
+	"content": "4.0 Electronics Electronics is the backbone of the robot. Without electronics, the robot would not be able to move, sense, or communicate. Electronics is the most complex part of the robot. Students will learn how to design, document, assemble, and test electronic circuits. Students will also learn how to use the tools and equipment needed to build these circuits. There are many different types of electronics that can be used on a robot. Some of these include:\nMotors Sensors Relays Switches Lights Cameras Microcontrollers Power Distribution HMIs (Human Machine Interfaces) Communication Hardware Below is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 1. What is Electronics? 5 minutes 2. Electronics Tools 10 minutes 3. Electronics Components 10 minutes 4. Electronics Circuits 10 minutes 5. Electronics Safety 10 minutes 6. Electronics Assembly 10 minutes 7. Electronics Testing 10 minutes 8. Electronics Documentation 10 minutes 9. Electronics Troubleshooting 10 minutes 10. Electronics Resources 10 minutes 11. Electronics Glossary 10 minutes Total Estimated Time 110 minutes "
+},
+{
+	"uri": "https://frczero.org/outreach_education/",
+	"title": "9.0 Outreach &amp; Education",
+	"tags": [],
+	"description": "",
+	"content": "9.0 Outreach \u0026amp; Education Lorem Ipsum.\n"
 },
 {
 	"uri": "https://frczero.org/pneumatics/",
@@ -42,18 +49,25 @@
 	"content": "6.0 Programming Lorem Ipsum.\n"
 },
 {
-	"uri": "https://frczero.org/competition/",
-	"title": "7.0 Competition",
+	"uri": "https://frczero.org/cad/",
+	"title": "7.0 Computer Aided Design",
 	"tags": [],
 	"description": "",
-	"content": "7.0 Competition Lorem Ipsum.\n"
+	"content": "7.0 Computer Aided Design Lorem Ipsum.\n"
+},
+{
+	"uri": "https://frczero.org/business_marketing/",
+	"title": "8.0 Business &amp; Marketing",
+	"tags": [],
+	"description": "",
+	"content": "8.0 Business \u0026amp; Marketing Lorem Ipsum.\n"
 },
 {
 	"uri": "https://frczero.org/",
 	"title": "FRC0 - HOME",
 	"tags": [],
 	"description": "",
-	"content": "Welcome to FRC0 (FRC Zero) This is the home page for FRC0 (FRC Zero). FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. The goal of FRC0 is to provide a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more.\nWhy FRC0? FRC0 was created to help address the following issues:\nThere is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources. There is a lot of information about FIRST Robotics Competition, but it is not always easy to find. There is a lot of information about FIRST Robotics Competition, but it is not always easy to understand. There is a lot of information about FIRST Robotics Competition, but it is not always easy to find and understand. What are some topics that FRC0 will cover? Some of the topics that FRC0 will cover include:\nThe game The rules The robot The competition The team The season The build season The competition season The offseason The community The history The future "
+	"content": "Welcome to FRC0 (FRC Zero) This is the home page for FRC0 (FRC Zero). FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. The goal of FRC0 is to provide a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. FRC0 is a work in progress. We are always looking for new contributors to help us improve the site. If you are interested in contributing, please see the writing-content page.\nWhat are some topics that FRC0 will cover? Some of the topics that FRC0 will cover include:\nEngineering Design Machining and Fabrication Electronics Pneumatics Programming Competition "
 },
 {
 	"uri": "https://frczero.org/pneumatics/what-are-pneumatics/",
@@ -105,15 +119,22 @@
 	"content": ""
 },
 {
+	"uri": "https://frczero.org/about/",
+	"title": "0.0 About FRC0",
+	"tags": [],
+	"description": "",
+	"content": "0.0 About FRC0? FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. It is a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. The site is broken down into chapters and sections. Each chapter is a topic and each section is a sub-topic. The chapters and sections are listed in the left sidebar. Teams can use FRC0 to help them prepare for the season, build their robot, and compete in the competition. Teams can submit content to FRC0 to help other teams. FRC0 is the collaborative effort of many teams and individuals.\n"
+},
+{
 	"uri": "https://frczero.org/about/why-frc0/",
-	"title": "1.1 Why FRC0?",
+	"title": "0.1 Why FRC0?",
 	"tags": [],
 	"description": "",
 	"content": "FRC0 was created to help address the following issues:\nThere is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources. There are not as many Mentors and Coaches as there are students. Guides like WPIlib, Rev, CTRE, and others are great, but they are not always easy to understand or they don\u0026rsquo;t cover all the topics. For example, the WPIlib guides do not cover the game or the competition. The CTRE guides are specific to the CTRE motor controllers and hardware. The Rev guides are specific to the Rev motor controllers and hardware. There is no comprehensive guide to FRC as a whole. Now there is. Rookie teams need an easy to follow guide to help them get started. Why do many of the pages look like powerpoint slides (On Desktop)? This website was built using the learn theme for Hugo. The learn theme is designed to look like powerpoint slides. This makes it easy to read and understand. The theme is also responsive, so it looks good on mobile devices. With this theme, we can focus on the content and not the design. Since the focus is on knowledge and information, the design is secondary. The biggest benefit of using Hugo and other SSG (static site generators) is new \u0026ldquo;posts\u0026rdquo; can be added to the site without having to rebuild the entire site. This makes it easy to add new content and keep the site up to date. If you are interested in learning about writing content for this site, please see the Writing Content page.\n"
 },
 {
 	"uri": "https://frczero.org/about/writing-content/",
-	"title": "1.3 Writing Content for the Website",
+	"title": "0.3 Writing Content for the Website",
 	"tags": [],
 	"description": "",
 	"content": "So you want to write content for the FRC0 website? Great! This page will help you get started.\nWhat is Markdown? Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML. It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. For more information, please see the Markdown Guide.\nWhat is Hugo? Hugo is a static site generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. For more information, please see the Hugo Documentation.\nWhat does a page of markdown look like for FRC0? --- title: \u0026#34;1.1 Why FRC0?\u0026#34; date: 2023-02-04T22:22:45-05:00 --- FRC0 was created to help address the following issues: - There is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources. - There are not as many Mentors and Coaches as there are students. - Guides like WPIlib, Rev, CTRE, and others are great, but they are not always easy to understand or they don\u0026#39;t cover all the topics. - For example, the WPIlib guides do not cover the game or the competition. - The CTRE guides are specific to the CTRE motor controllers and hardware. - The Rev guides are specific to the Rev motor controllers and hardware. - There is no comprehensive guide to FRC as a whole. Now there is. - Rookie teams need an easy to follow guide to help them get started. ## Why do many of the pages look like powerpoint slides (On Desktop)? This website was built using the learn theme for Hugo. The learn theme is designed to look like powerpoint slides. This makes it easy to read and understand. The theme is also responsive, so it looks good on mobile devices. With this theme, we can focus on the content and not the design. Since the focus is on knowledge and information, the design is secondary. The biggest benefit of using Hugo and other SSG (static site generators) is new \u0026#34;posts\u0026#34; can be added to the site without having to rebuild the entire site. This makes it easy to add new content and keep the site up to date. If you are interested in learning about writing content for this site, please see the [Writing Content](/about/writing-content/) page. How do I write a page of markdown for FRC0? Its pretty simple. The first section is called the \u0026ldquo;Front Matter\u0026rdquo;. It is used to define the title and date of the page. The rest of the page is the content. The content is written in markdown. Try to keep the content to 1-2 paragraphs per section. This makes it easier to read and understand. I would also recommend using a plain text editor like Notepad++ or Visual Studio Code. These editors have plugins that make it easy to write markdown. Once you have new content ready to go, you can submit a pull request to our github with your new markdown content. We will review the content and add it to the site accordingly.\n"
