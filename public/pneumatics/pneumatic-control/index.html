@@ -12,21 +12,21 @@
     <title>5.5 Pneumatic Control :: FRC Zero</title>
 
     
-    <link href="/css/nucleus.css?1675622745" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1675622745" rel="stylesheet">
-    <link href="/css/hybrid.css?1675622745" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1675622745" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1675622745" rel="stylesheet">
-    <link href="/css/auto-complete.css?1675622745" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1675622745" rel="stylesheet">
-    <link href="/css/theme.css?1675622745" rel="stylesheet">
-    <link href="/css/tabs.css?1675622745" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1675622745" rel="stylesheet">
+    <link href="/css/nucleus.css?1675624615" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1675624615" rel="stylesheet">
+    <link href="/css/hybrid.css?1675624615" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1675624615" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1675624615" rel="stylesheet">
+    <link href="/css/auto-complete.css?1675624615" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1675624615" rel="stylesheet">
+    <link href="/css/theme.css?1675624615" rel="stylesheet">
+    <link href="/css/tabs.css?1675624615" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1675624615" rel="stylesheet">
     <link href ="/stylesheets/style.css" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1675622745"></script>
+    <script src="/js/jquery-3.3.1.min.js?1675624615"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1675622745"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1675622745"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1675624615"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1675624615"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/frczero.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1675622745"></script>
+<script type="text/javascript" src="/js/search.js?1675624615"></script>
 
     
   </div>
@@ -694,11 +694,12 @@
 <h2 id="controlling-the-different-solenoids-via-code">Controlling the Different Solenoids via Code</h2>
 <p>There are two different types of solenoids that are used in FRC. The first is the single solenoid. This is the most basic solenoid and is used to control airflow in a single direction. The second is the double solenoid. This is used to control two different directions of airflow. Both have some basic commands for controlling them. <a href="https://docs.wpilib.org/en/stable/docs/software/hardware-apis/pneumatics/pneumatics.html#single-solenoids-in-wpilib">This is an example from wpilib</a> for the single solenoid. An example for the double solenoid is <a href="https://docs.wpilib.org/en/stable/docs/software/hardware-apis/pneumatics/pneumatics.html#double-solenoids-in-wpilib">here</a>.</p>
 <h2 id="operating-the-solenoids-manually-without-full-code">Operating the Solenoids Manually (Without Full Code)</h2>
+<p>NOTE: You still need to have the rest of your system enabled and controlled with the PCM/PCH properly. This is just a way to manually control the solenoids without having to write code for it. This is useful for testing and debugging.</p>
 <p>Many of the FRC solenoids feature a button on their top. When this is pressed it forces the solenoid to change the direction of the air flow. This should be done with EXTREME CAUTION as you will be right next to the solenoid, and given the laws of space and time, probably near the cylinder you&rsquo;re gonna set off.</p>
 <p><img src="/images/pneumatics/manual-solenoid-button.jpeg" alt="Solenoid Button">
 The button on the top of the solenoid is used to manually change the direction of the air flow.</p>
 <h2 id="controlling-the-air-compressor-in-code-with-better-feedback">Controlling the Air Compressor in Code with Better Feedback</h2>
-<p>By using an analog pressure sensor, teams can get much more detailed information about the pressure in the system. This allows for more accurate control of the system. This is especially important for teams that are using a compressor that is not controlled by the PCM/PCH. This is a guide for <a href="https://docs.wpilib.org/en/stable/docs/software/hardware-apis/pneumatics/pneumatics.html#pressure-transducersr">using the analog pressure sensor</a> in Java and C++.</p>
+<p>By using an analog pressure sensor, teams can get much more detailed information about the pressure in the system. This allows for more accurate control of the system. This is especially important for teams that are using a compressor that is not controlled by the PCM/PCH. This is a guide for <a href="https://docs.wpilib.org/en/stable/docs/software/hardware-apis/pneumatics/pneumatics.html#pressure-transducers">using the analog pressure sensor</a> in Java and C++.</p>
 
 
 <footer class="footline">
@@ -1116,19 +1117,19 @@ The button on the top of the solenoid is used to manually change the direction o
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1675622745"></script>
-    <script src="/js/perfect-scrollbar.min.js?1675622745"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1675622745"></script>
-    <script src="/js/jquery.sticky.js?1675622745"></script>
-    <script src="/js/featherlight.min.js?1675622745"></script>
-    <script src="/js/highlight.pack.js?1675622745"></script>
+    <script src="/js/clipboard.min.js?1675624615"></script>
+    <script src="/js/perfect-scrollbar.min.js?1675624615"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1675624615"></script>
+    <script src="/js/jquery.sticky.js?1675624615"></script>
+    <script src="/js/featherlight.min.js?1675624615"></script>
+    <script src="/js/highlight.pack.js?1675624615"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1675622745"></script>
-    <script src="/js/learn.js?1675622745"></script>
-    <script src="/js/hugo-learn.js?1675622745"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1675624615"></script>
+    <script src="/js/learn.js?1675624615"></script>
+    <script src="/js/hugo-learn.js?1675624615"></script>
     
         
-            <script src="/mermaid/mermaid.js?1675622745"></script>
+            <script src="/mermaid/mermaid.js?1675624615"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

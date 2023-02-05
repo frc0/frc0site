@@ -13,6 +13,8 @@ There are two different types of solenoids that are used in FRC. The first is th
 
 ## Operating the Solenoids Manually (Without Full Code)
 
+NOTE: You still need to have the rest of your system enabled and controlled with the PCM/PCH properly. This is just a way to manually control the solenoids without having to write code for it. This is useful for testing and debugging.
+
 Many of the FRC solenoids feature a button on their top. When this is pressed it forces the solenoid to change the direction of the air flow. This should be done with EXTREME CAUTION as you will be right next to the solenoid, and given the laws of space and time, probably near the cylinder you're gonna set off.
 
 ![Solenoid Button](/images/pneumatics/manual-solenoid-button.jpeg)
@@ -20,4 +22,4 @@ The button on the top of the solenoid is used to manually change the direction o
 
 ## Controlling the Air Compressor in Code with Better Feedback
 
-By using an analog pressure sensor, teams can get much more detailed information about the pressure in the system. This allows for more accurate control of the system. This is especially important for teams that are using a compressor that is not controlled by the PCM/PCH. This is a guide for [using the analog pressure sensor](https://docs.wpilib.org/en/stable/docs/software/hardware-apis/pneumatics/pneumatics.html#pressure-transducersr) in Java and C++.
+By using an analog pressure sensor, teams can get much more detailed information about the pressure in the system. This allows for more accurate control of the system. This is especially important for teams that are using a compressor that is not controlled by the PCM/PCH. This is a guide for [using the analog pressure sensor](https://docs.wpilib.org/en/stable/docs/software/hardware-apis/pneumatics/pneumatics.html#pressure-transducers) in Java and C++.
