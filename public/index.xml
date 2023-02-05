@@ -18,7 +18,7 @@ In FRC teams typically use cylinders to extend and retract a piston. This can be
     </item>
     
     <item>
-      <title>6.2 What are Pneumatic Components?</title>
+      <title>6.2 Types of Pneumatic Components</title>
       <link>https://frczero.org/pneumatics/pneumatic-components/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
@@ -90,7 +90,8 @@ There is a lot of information about FIRST Robotics Competition, but it is spread
       <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
       
       <guid>https://frczero.org/about/writing-content/</guid>
-      <description></description>
+      <description>So you want to write content for the FRC0 website? Great! This page will help you get started.
+What is Markdown? Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML. It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. For more information, please see the Markdown Guide.</description>
     </item>
     
   </channel>

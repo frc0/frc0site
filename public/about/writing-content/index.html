@@ -12,21 +12,21 @@
     <title>1.3 Writing Content for the Website :: FRC Zero</title>
 
     
-    <link href="/css/nucleus.css?1675574202" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1675574202" rel="stylesheet">
-    <link href="/css/hybrid.css?1675574202" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1675574202" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1675574202" rel="stylesheet">
-    <link href="/css/auto-complete.css?1675574202" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1675574202" rel="stylesheet">
-    <link href="/css/theme.css?1675574202" rel="stylesheet">
-    <link href="/css/tabs.css?1675574202" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1675574202" rel="stylesheet">
+    <link href="/css/nucleus.css?1675577558" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1675577558" rel="stylesheet">
+    <link href="/css/hybrid.css?1675577558" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1675577558" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1675577558" rel="stylesheet">
+    <link href="/css/auto-complete.css?1675577558" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1675577558" rel="stylesheet">
+    <link href="/css/theme.css?1675577558" rel="stylesheet">
+    <link href="/css/tabs.css?1675577558" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1675577558" rel="stylesheet">
     <link href ="/stylesheets/style.css" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1675574202"></script>
+    <script src="/js/jquery-3.3.1.min.js?1675577558"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1675574202"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1675574202"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1675577558"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1675577558"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/frczero.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1675574202"></script>
+<script type="text/javascript" src="/js/search.js?1675577558"></script>
 
     
   </div>
@@ -211,9 +211,9 @@
  
   
     
-      <li data-nav-id="/pneumatics/pneumatic-components/" title="6.2 What are Pneumatic Components?" class="dd-item ">
+      <li data-nav-id="/pneumatics/pneumatic-components/" title="6.2 Types of Pneumatic Components" class="dd-item ">
         <a href="/pneumatics/pneumatic-components/">
-        6.2 What are Pneumatic Components?
+        6.2 Types of Pneumatic Components
         
         </a>
     </li>
@@ -343,7 +343,7 @@
 
     
     <section id="footer">
-      <p>Contributions by: <a href="http://rockemsockemrobotics.com" target="_blank">FRC 453</a> & _______ </p>
+      <p>Contributions by: <a href="http://rockemsockemrobotics.com" target="_blank">FRC 453 Rock'em Sock'em Robotics</a> & FRC 2129 Ultraviolet & FTC 12600 Robotters </p>
 <br>
 <p>Hosting, Domain and Support by: <a href="https://mrsiefensrobotemporium.com" target="_blank">Mr. Siefen's Robot Emporium</a></p>
 <br>
@@ -400,7 +400,14 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-markdown">What is Markdown?</a></li>
+    <li><a href="#what-is-hugo">What is Hugo?</a></li>
+    <li><a href="#what-does-a-page-of-markdown-look-like-for-frc0">What does a page of markdown look like for FRC0?</a></li>
+    <li><a href="#how-do-i-write-a-page-of-markdown-for-frc0">How do I write a page of markdown for FRC0?</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -423,6 +430,33 @@
         
 
 
+<p>So you want to write content for the FRC0 website?  Great!  This page will help you get started.</p>
+<h2 id="what-is-markdown">What is Markdown?</h2>
+<p>Markdown is a lightweight markup language with plain text formatting syntax.  It is designed so that it can be converted to HTML.  It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.  For more information, please see the <a href="https://www.markdownguide.org/">Markdown Guide</a>.</p>
+<h2 id="what-is-hugo">What is Hugo?</h2>
+<p>Hugo is a static site generator written in Go.  It is optimized for speed, ease of use, and configurability.  Hugo takes a directory with content and templates and renders them into a full HTML website.  For more information, please see the <a href="https://gohugo.io/documentation/">Hugo Documentation</a>.</p>
+<h2 id="what-does-a-page-of-markdown-look-like-for-frc0">What does a page of markdown look like for FRC0?</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;1.1 Why FRC0?&#34;
+</span></span><span style="display:flex;"><span>date: 2023-02-04T22:22:45-05:00
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>FRC0 was created to help address the following issues:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> There is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> There are not as many Mentors and Coaches as there are students.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Guides like WPIlib, Rev, CTRE, and others are great, but they are not always easy to understand or they don&#39;t cover all the topics.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> For example, the WPIlib guides do not cover the game or the competition.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> The CTRE guides are specific to the CTRE motor controllers and hardware.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> The Rev guides are specific to the Rev motor controllers and hardware.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> There is no comprehensive guide to FRC as a whole. Now there is.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Rookie teams need an easy to follow guide to help them get started.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Why do many of the pages look like powerpoint slides (On Desktop)?
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>This website was built using the learn theme for Hugo. The learn theme is designed to look like powerpoint slides. This makes it easy to read and understand. The theme is also responsive, so it looks good on mobile devices. With this theme, we can focus on the content and not the design. Since the focus is on knowledge and information, the design is secondary. The biggest benefit of using Hugo and other SSG (static site generators) is new &#34;posts&#34; can be added to the site without having to rebuild the entire site. This makes it easy to add new content and keep the site up to date. If you are interested in learning about writing content for this site, please see the [<span style="color:#f92672">Writing Content</span>](<span style="color:#a6e22e">/about/writing-content/</span>) page.
+</span></span></code></pre></div><h2 id="how-do-i-write-a-page-of-markdown-for-frc0">How do I write a page of markdown for FRC0?</h2>
+<p>Its pretty simple.  The first section is called the &ldquo;Front Matter&rdquo;.  It is used to define the title and date of the page.  The rest of the page is the content.  The content is written in markdown. Try to keep the content to 1-2 paragraphs per section.  This makes it easier to read and understand. I would also recommend using a plain text editor like <a href="https://notepad-plus-plus.org/">Notepad++</a> or <a href="https://code.visualstudio.com/">Visual Studio Code</a>.  These editors have plugins that make it easy to write markdown. Once you have new content ready to go, you can submit a pull request to our <a href="https://github.com/frc0/frc0site">github</a> with your new markdown content. We will review the content and add it to the site accordingly.</p>
 
 
 <footer class="footline">
@@ -661,19 +695,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1675574202"></script>
-    <script src="/js/perfect-scrollbar.min.js?1675574202"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1675574202"></script>
-    <script src="/js/jquery.sticky.js?1675574202"></script>
-    <script src="/js/featherlight.min.js?1675574202"></script>
-    <script src="/js/highlight.pack.js?1675574202"></script>
+    <script src="/js/clipboard.min.js?1675577558"></script>
+    <script src="/js/perfect-scrollbar.min.js?1675577558"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1675577558"></script>
+    <script src="/js/jquery.sticky.js?1675577558"></script>
+    <script src="/js/featherlight.min.js?1675577558"></script>
+    <script src="/js/highlight.pack.js?1675577558"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1675574202"></script>
-    <script src="/js/learn.js?1675574202"></script>
-    <script src="/js/hugo-learn.js?1675574202"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1675577558"></script>
+    <script src="/js/learn.js?1675577558"></script>
+    <script src="/js/hugo-learn.js?1675577558"></script>
     
         
-            <script src="/mermaid/mermaid.js?1675574202"></script>
+            <script src="/mermaid/mermaid.js?1675577558"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
