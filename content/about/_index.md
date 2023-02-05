@@ -15,3 +15,9 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
+| 0.1 | [Why FRC0?](/about/why-frc0/) | 5 minutes |
+| 0.2 | [How to Use FRC0](/about/how-to-use-frc0/) | 5 minutes |
+| 0.3 | [How to write for FRC0](/about/writing-content/) | 5 minutes |
+| 0.4 | [Who are the contributors?](/about/contributors/) | 5 minutes |
+| 0.5 | [Special Thanks and References](/about/thanks/) | 5 minutes |
+|     | Total | 25 minutes |
