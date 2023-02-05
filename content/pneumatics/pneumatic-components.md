@@ -1,5 +1,5 @@
 ---
-title: "6.2 What are Pneumatic Components?"
+title: "6.2 Types of Pneumatic Components"
 date: 2023-02-04T22:27:39-05:00
 ---
 
