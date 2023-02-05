@@ -10,7 +10,7 @@ This site would not be possible without the following:
 - [Hugo Learn Theme](https://themes.gohugo.io/hugo-theme-learn/) - A theme for Hugo that is designed to look like powerpoint slides.
 - [Hugo Learn Theme Docs](https://learn.netlify.app/en/) - The documentation for the Hugo Learn Theme.
 - [Mr. Siefen's Robot Emporium](https://www.mrseifensrobotemporium.com/) - A personal blog by Mr. Siefen. It has alot of non-FRC content, but it is focused on robotics, stem, iot, and other not as relevent topics.
-- [docs.wpilib.org](https://docs.wpilib.org/en/latest/) - The documentation for WPIlib.
+- [docs.wpilib.org](https://docs.wpilib.org/en/latest/) - The documentation for WPIlib. This should be considered the standard and Official "gold source" of information for FRC. It is the most complete and up to date source of information for FRC for many topics. Where possible, this site will link to the WPIlib documentation.
 - [REV Robotics](https://docs.revrobotics.com/docs/rev-ion) - A company that makes motor controllers and other hardware for FRC.
 - [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/) - A company that makes motor controllers and other hardware for FRC.
 - [AndyMark](https://www.andymark.com/) - A company that makes parts for FRC. They also supply field game pieces. The standard K.O.P. (Kit of Parts) chassis is made by AndyMark. It is tried, tested, and proven to work.
