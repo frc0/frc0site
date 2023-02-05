@@ -1,5 +1,5 @@
 ---
-title: "1.3 Writing Content for the Website"
+title: "0.3 Writing Content for the Website"
 date: 2023-02-04T22:22:45-05:00
 ---
 
