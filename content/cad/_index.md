@@ -15,21 +15,21 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 7.1 | [Fusion 360](/content/cad/fusionFirst.md) | 30 minutes |
-| 7.2 | [OnShape](/content/cad/onshape.md) | 30 minutes |
-| 7.3 | [SolidWorks](/content/cad/solidworks.md) | 30 minutes |
-| 7.4 | [CAD Basics](/content/cad/cad_basics.md) | 30 minutes |
-| 7.5 | [CAD for FRC](/content/cad/cad_for_frc.md) | 30 minutes |
-| 7.6 | [CAD for FRC - Drivetrain](/content/cad/cad_for_frc_drivetrain.md) | 30 minutes |
-| 7.7 | [CAD for FRC - Intake](/content/cad/cad_for_frc_intake.md) | 30 minutes |
-| 7.8 | [CAD for FRC - Shooter](/content/cad/cad_for_frc_shooter.md) | 30 minutes |
-| 7.9 | [CAD for FRC - Climber](/content/cad/cad_for_frc_climber.md) | 30 minutes |
-| 7.10 | [CAD for FRC - Control Panel](/content/cad/cad_for_frc_control_panel.md) | 30 minutes |
-| 7.11 | [CAD for FRC - Electrical](/content/cad/cad_for_frc_electrical.md) | 30 minutes |
-| 7.12 | [CAD for FRC - Pneumatics](/content/cad/cad_for_frc_pneumatics.md) | 30 minutes |
-| 7.13 | [CAD for FRC - 3d Printing](/content/cad/cad_for_frc_3d_printing.md) | 30 minutes |
-| 7.14 | [CAD for FRC - CNC](/content/cad/cad_for_frc_cnc.md) | 30 minutes |
-| 7.15 | [CAD for FRC - Sheet Metal](/content/cad/cad_for_frc_sheet_metal.md) | 30 minutes |
-| 7.16 | [CAD for FRC - Wood](/content/cad/cad_for_frc_wood.md) | 30 minutes |
-|      | [Appendix A - CAD Resources](/content/cad/appendix_a.md) | 30 minutes |
+| 7.1 | [Fusion 360](/content/cad/fusionFirst) | 30 minutes |
+| 7.2 | [OnShape](/content/cad/onshape) | 30 minutes |
+| 7.3 | [SolidWorks](/content/cad/solidworks) | 30 minutes |
+| 7.4 | [CAD Basics](/content/cad/cad_basics) | 30 minutes |
+| 7.5 | [CAD for FRC](/content/cad/cad_for_frc) | 30 minutes |
+| 7.6 | [CAD for FRC - Drivetrain](/content/cad/cad_for_frc_drivetrain) | 30 minutes |
+| 7.7 | [CAD for FRC - Intake](/content/cad/cad_for_frc_intake) | 30 minutes |
+| 7.8 | [CAD for FRC - Shooter](/content/cad/cad_for_frc_shooter) | 30 minutes |
+| 7.9 | [CAD for FRC - Climber](/content/cad/cad_for_frc_climber) | 30 minutes |
+| 7.10 | [CAD for FRC - Control Panel](/content/cad/cad_for_frc_control_panel) | 30 minutes |
+| 7.11 | [CAD for FRC - Electrical](/content/cad/cad_for_frc_electrical) | 30 minutes |
+| 7.12 | [CAD for FRC - Pneumatics](/content/cad/cad_for_frc_pneumatics) | 30 minutes |
+| 7.13 | [CAD for FRC - 3d Printing](/content/cad/cad_for_frc_3d_printing) | 30 minutes |
+| 7.14 | [CAD for FRC - CNC](/content/cad/cad_for_frc_cnc) | 30 minutes |
+| 7.15 | [CAD for FRC - Sheet Metal](/content/cad/cad_for_frc_sheet_metal) | 30 minutes |
+| 7.16 | [CAD for FRC - Wood](/content/cad/cad_for_frc_wood) | 30 minutes |
+|      | [Appendix A - CAD Resources](/content/cad/appendix_a) | 30 minutes |
 |      | Total | 8 hours |
