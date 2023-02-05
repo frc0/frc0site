@@ -53,7 +53,7 @@ Gatherings the Components The first step in setting up a pneumatic system is to 
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
       <guid>https://frczero.org/pneumatics/pneumatic-control/</guid>
-      <description></description>
+      <description>Pneumatic control is the process of controlling the flow of air to the pneumatic system. This is done by using solenoids to control cylinders of various shapes and sizes. All of the cylinders are controlled using the same basic hardware. At a minimum, if you have followed along you should have a compressor, a pressure switch, a release valve, and a solenoid. The solenoid is the only part of the system that is controlled by the robot.</description>
     </item>
     
     <item>

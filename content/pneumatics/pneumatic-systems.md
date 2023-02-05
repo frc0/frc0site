@@ -85,18 +85,72 @@ This is a close up of a solenoid and manifold.
 
 ## Pneumatic Hose
 
-lorem ipsum
+There are many vendors that sell the proper hose for pneumatic systems. The hose is measured by the inside diameter (ID) and the outside diameter (OD). The OD is the size of the hose and the ID is the size of the port that it connects to. The OD of the hose should be 1/4" and the ID of the port should be 1/4". The hose should be flexible and not kink easily. The hose should be able to withstand the pressure of the system (125 psi MAX). Below is a table with the different types of hose and their pressure ratings with a column for the vendor with a link to the product page:
 
-![Close up image of the Pneumatic Hose](/images/pneumatics/pneumatic-hose.jpg)
+| Vendor | Hose Type | Pressure Rating | Link |
+| --- | --- | --- | --- |
+| McMaster-Carr | Polyurethane | 150 PSI | [Link](https://www.mcmaster.com/tubing/od~1-4/self-retracting-firm-rubber-tubing-for-air-and-water/) |
+| AndyMark | Polyurethane | 125 PSI | [Link](https://www.andymark.com/products/20-meters-of-pneumatic-tubing-1-4-in-od-polyurethane-black?via=Z2lkOi8vYW5keW1hcmsvV29ya2FyZWE6OkNhdGFsb2c6OkNhdGVnb3J5LzViZWMyZjYwNjFhMTBkM2RiNDYxOGRmYg) |
+| AndyMark | Polyurethane | 116 Official/125 Tested PSI | [Link](https://www.andymark.com/products/20-meters-of-white-pneumatic-tubing?via=Z2lkOi8vYW5keW1hcmsvV29ya2FyZWE6OkNhdGFsb2c6OkNhdGVnb3J5LzViZWMyZjYwNjFhMTBkM2RiNDYxOGRmYg) |
+| VEX | Polyurethane | Not Listed PSI | [Link](https://www.vexrobotics.com/pneumatic-tubing.html) |
 
 ## Fittings & Connectors
 
-lorem ipsum
+Fittings and connectors can vary wildly from vendor to vendor. The fittings and connectors should be able to withstand the pressure of the system (125 psi MAX). Below is a table with the different types of fittings and connectors and their pressure ratings with a column for the vendor with a link to the product page:
 
-![Close up image of the Fittings & Connectors](/images/pneumatics/fittings-connectors.jpg)
+| Vendor | Fitting Type | Pressure Rating | Link |
+| --- | --- | --- | --- |
+| McMaster-Carr | Push to Connect | 150 PSI | [Link](https://www.mcmaster.com/quick-connect-fittings-for-air-and-water/) |
+| AndyMark | Various | 125 PSI | [Link](https://www.andymark.com/categories/pneumatics-fittings) |
+| VEX | Push to Connect | Not Listed PSI | [Link](https://www.vexrobotics.com/pneumatic-fittings.html) |
+
+Below is a chart with some images of the different types of fittings and connectors. Please note teams will have different names they use as casual names for the fittings and connectors. The names in the chart are the official names for the fittings and connectors:
+
+| Fitting/Connector | Image | Description |
+| --- | --- | --- |
+| Push to Connect Threaded 1/4" NPT port | ![Push to Connect](/images/pneumatics/push-to-connect.jpg) | Push to Connect fittings are used to connect the hose to the ports. They are easy to use and can be used with a wide variety of hose. |
+| Push to Connect to 1/4" NPT | ![Push to Connect to 1/4" NPT](/images/pneumatics/push-to-connect-to-1-4-npt.jpg) | Push to Connect to 1/4" NPT fittings are used to connect the hose to the ports. They are easy to use and can be used with a wide variety of hoses and fittings between the various styles of connectors. |
+| Push to Connect (T Connector) | ![Push to Connect (T Connector)](/images/pneumatics/push-to-connect-t-connector.jpg) | This type of connector splits off into 3 ends that can have Push to Connect ends |
+| Threaded 1/4" NPT (T Connector) | ![Threaded 1/4" NPT](/images/pneumatics/threaded-1-4-npt.jpg) | This type of connector splits off into 3 ends that can accept 1/4" NPT fittings. |
+| 1/4" NPT | ![1/4" NPT](/images/pneumatics/1-4-npt.jpg) | 1/4" NPT fittings are used to connect the hose to the ports. They are easy to use and can be used with a wide variety of hose. |
+| 1/4" NPT to 1/4" NPT | ![1/4" NPT to 1/4" NPT](/images/pneumatics/1-4-npt-to-1-4-npt.jpg) | 1/4" NPT to 1/4" NPT fittings are used to connect the hose to the ports. They are easy to use and can be used with a wide variety of hose. |
+| 1/4" NPT to 1/4" NPT to 1/4" NPT (T Connector) | ![1/4" NPT to 1/4" NPT to 1/4" NPT](/images/pneumatics/1-4-npt-to-1-4-npt-to-1-4-npt.jpg) | 1/4" NPT to 1/4" NPT to 1/4" NPT fittings are used to connect the hose to the ports. They are easy to use and can be used with a wide variety of hose. |
+
+There are also smaller types of fittings that are typically used for the solenoids. These are typically 1/8" NPT fittings. These are typically used for the solenoids and are not typically used for the main air lines. They can have a smaller diameter hose and are typically used only on the low pressure side of the system.
+
+Using all of the combinations of fittings and connectors, you can create a wide variety of pneumatic systems. Your team will need to figure out what works best for your team's unique hardware setup. Below are some example pneumatic fitting images in the context of FRC to help you get started:
+
+![Example pneumatic fitting images in the context of FRC 1](/images/pneumatics/example-pneumatic-fittings1.jpg)
+This is an example of "The Fitting Type" connecting "__ & __ "
+
+![Example pneumatic fitting images in the context of FRC 2](/images/pneumatics/example-pneumatic-fittings2.jpg)
+This is an example of "The Fitting Type" connecting "__ & __ "
+
+![Example pneumatic fitting images in the context of FRC 3](/images/pneumatics/example-pneumatic-fittings3.jpg)
+This is an example of "The Fitting Type" connecting "__ & __ "
+
+![Example pneumatic fitting images in the context of FRC 4](/images/pneumatics/example-pneumatic-fittings4.jpg)
+This is an example of "The Fitting Type" connecting "__ & __ "
+
+![Example pneumatic fitting images in the context of FRC 5](/images/pneumatics/example-pneumatic-fittings5.jpg)
+This is an example of "The Fitting Type" connecting "__ & __ "
+
+
 
 ## Connecting the PCM or PCH to the RoboRIO and PDP
 
-lorem ipsum
+Finally we can go through the process of connecting up the PCM or PCH to the RoboRIO and PDP. The PCM or PCH is connected to the RoboRIO and PDP using a 2 wire daisy chain commonly used in FRC called CAN. CAN or Controller Area Network is a serial bus that is used to connect multiple devices together. The RoboRIO and PDP are both CAN devices and the PCM or PCH is also a CAN device. You can support up to 63 CAN devices on a single CAN bus. most devices in the system will have 2 seperate Channels for in and out, except the Roborio which is a special case. The Roborio is always the starting point of your CAN connection in FRC.
 
-![Close up image of the PCM or PCH to the RoboRIO and PDP](/images/pneumatics/pcm-pch-roborio-pdp.jpg)
+In logical order the wiring for CAN should always go like this:
+RoboRIO -> (Other CAN devices) -> PCM or PCH -> (Other CAN devices) -> PDP (have the termimating resistor jumper active on the PDP)
+
+In a system with no other CAN components, like CAN motor controllers or sensors, the PCM or PCH is connected to the RoboRIO and PDP using the following diagram:
+
+![Fritzing Wiring Diagram of PCM to the RoboRIO and PDP](/images/pneumatics/pcm-pch-roborio-pdp.svg)
+This is a close up of the PCM or PCH to the RoboRIO and PDP. Note: The process is the same for both! This diagram was made in Fritzing. I dont have a PCH fritzings part so I used the PCM part. The PCH is the same as the PCM for CAN connection.
+
+The power connections for the PCM or PCH are as follows:
+
+Battery Positive -> Breaker -> PDP Positive -> Roborio and PCM/PCH Positive through their dedicated and marked ports
+
+Battery Negative -> PDP Negative -> Roborio and PCM/PCH Negative through their dedicated and marked ports
