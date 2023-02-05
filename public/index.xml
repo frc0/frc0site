@@ -62,7 +62,8 @@ Gatherings the Components The first step in setting up a pneumatic system is to 
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
       <guid>https://frczero.org/pneumatics/pneumatic-troubleshooting/</guid>
-      <description></description>
+      <description>Sometimes things dont work as expected. This section will help you troubleshoot your pneumatic system.
+Common Issues with Pneumatics Pneumatic solenoids are not working Check the solenoid wiring. Is the solenoid wired to the PCM? Is the solenoid wired to the correct channel? Is the solenoid wired with the correct polarity? Check the solenoid. Is the solenoid plugged in? Is the solenoid broken? If using a manifold, check the manifold for a proper seal If its a double solenoid, check they are both not firing at the same time Check the PCM.</description>
     </item>
     
     <item>
@@ -71,7 +72,8 @@ Gatherings the Components The first step in setting up a pneumatic system is to 
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
       
       <guid>https://frczero.org/pneumatics/pneumatic-resources/</guid>
-      <description></description>
+      <description>Below is a table of resources for pneumatics. These resources are provided by FIRST and other organizations.
+Resource Description Link Last Updated Official Pneumatics Manual The pneumatics manual is a resource for teams to use when designing and building their pneumatic system. It contains information on the pneumatic system, the components, and the rules. Pneumatics Manual 2023-01 Pneumatics Tutorial This tutorial is written by FIRST Robotics Team 358. Pneumatics Tutorial ?</description>
     </item>
     
     <item>
