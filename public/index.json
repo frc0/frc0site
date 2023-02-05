@@ -11,14 +11,14 @@
 	"title": "2.0 Engineering Design",
 	"tags": [],
 	"description": "",
-	"content": "2.0 Engineering Design Engineering design is the process of designing a product or system to meet a specific set of requirements. The design process is a series of steps that engineers follow to design a product. The number of steps varies depending on who you ask, but the main point is that its a cycle. The design process is a cycle because it is not a linear process. Engineers will go back and forth between the steps as they work on the design. The design process is also iterative. This means that the design will be improved over time.\nAn example diagram of the design process is shown above.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate "
+	"content": "2.0 Engineering Design Engineering design is the process of designing a product or system to meet a specific set of requirements. The design process is a series of steps that engineers follow to design a product. The number of steps varies depending on who you ask, but the main point is that its a cycle. The design process is a cycle because it is not a linear process. Engineers will go back and forth between the steps as they work on the design. The design process is also iterative. This means that the design will be improved over time.\nAn example diagram of the design process is shown above.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 2.1 Design Process 30 minutes 2.2 Design Brief 30 minutes 2.3 Design Constraints 30 minutes 2.4 Design Specifications 30 minutes 2.5 Design Requirements 30 minutes 2.6 Design Sketches 30 minutes 2.7 Design Models 30 minutes 2.8 Design Testing 30 minutes 2.9 Design Review 30 minutes 2.10 Design Iteration 30 minutes 2.11 Design Documentation 30 minutes 2.12 Design Presentation 30 minutes Total 6 hours "
 },
 {
 	"uri": "https://frczero.org/machining_fab/",
 	"title": "3.0 Machining &amp; Fabrication",
 	"tags": [],
 	"description": "",
-	"content": "3.0 Machining \u0026amp; Fabrication Lorem Ipsum.\n"
+	"content": "3.0 Machining \u0026amp; Fabrication There are many levels and types of machining and fabrication. The most common types of machining are turning and milling. Turning is the process of cutting a cylindrical shape into a piece of material. Milling is the process of cutting a flat shape into a piece of material. The most common types of fabrication are welding and 3D printing. Welding is the process of joining two pieces of metal together. 3D printing is the process of building a 3D object from a digital model. Teams without equipment like this can still benefit from the lessons in this chapter. Teams can learn how to make parts using other methods like hand tools and simple machines. Teams will also get advice on how to find new tools, access to mentors/shops, and how to use the tools they have. The lessons about machining and fabrication apply to all levels of teams. Teams can learn how to use the tools they have to make the best parts they can.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 3.1 Machining \u0026amp; Fabrication 30 minutes 3.2 Machining \u0026amp; Fabrication Tools 30 minutes 3.3 Machining \u0026amp; Fabrication Safety 30 minutes 3.4 Machining \u0026amp; Fabrication Materials 30 minutes 3.5 Machining \u0026amp; Fabrication Design 30 minutes 3.6 Machining \u0026amp; Fabrication Tolerances 30 minutes 3.7 Machining \u0026amp; Fabrication CAD 30 minutes 3.8 Machining \u0026amp; Fabrication CAM 30 minutes 3.9 Machining \u0026amp; Fabrication CNC 30 minutes 3.10 Machining \u0026amp; Fabrication 3D Printing 30 minutes 3.11 Machining \u0026amp; Fabrication Laser Cutting 30 minutes 3.12 Machining \u0026amp; Fabrication Bridgeport Mill 30 minutes 3.13 Machining \u0026amp; Fabrication Lathe 30 minutes 3.14 Machining \u0026amp; Fabrication Welding 30 minutes 3.15 Machining \u0026amp; Fabrication Hand Tools 30 minutes 3.16 Machining \u0026amp; Fabrication Simple Machines 30 minutes 3.17 Machining \u0026amp; Fabrication Shop Access 30 minutes 3.18 Machining \u0026amp; Fabrication Shop Safety 30 minutes Total 9 hours "
 },
 {
 	"uri": "https://frczero.org/electronics/",
@@ -26,13 +26,6 @@
 	"tags": [],
 	"description": "",
 	"content": "4.0 Electronics Electronics is the backbone of the robot. Without electronics, the robot would not be able to move, sense, or communicate. Electronics is the most complex part of the robot. Students will learn how to design, document, assemble, and test electronic circuits. Students will also learn how to use the tools and equipment needed to build these circuits. There are many different types of electronics that can be used on a robot. Some of these include:\nMotors Sensors Relays Switches Lights Cameras Microcontrollers Power Distribution HMIs (Human Machine Interfaces) Communication Hardware Below is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 1. What is Electronics? 5 minutes 2. Electronics Tools 10 minutes 3. Electronics Components 10 minutes 4. Electronics Circuits 10 minutes 5. Electronics Safety 10 minutes 6. Electronics Assembly 10 minutes 7. Electronics Testing 10 minutes 8. Electronics Documentation 10 minutes 9. Electronics Troubleshooting 10 minutes 10. Electronics Resources 10 minutes 11. Electronics Glossary 10 minutes Total Estimated Time 110 minutes "
-},
-{
-	"uri": "https://frczero.org/outreach_education/",
-	"title": "9.0 Outreach &amp; Education",
-	"tags": [],
-	"description": "",
-	"content": "9.0 Outreach \u0026amp; Education Lorem Ipsum.\n"
 },
 {
 	"uri": "https://frczero.org/pneumatics/",
@@ -46,28 +39,35 @@
 	"title": "6.0 Programming",
 	"tags": [],
 	"description": "",
-	"content": "6.0 Programming Lorem Ipsum.\n"
+	"content": "6.0 Programming In FRC there are 4 main programming languages that are used. These are Java, C++, LabVIEW, and Python. Each language has its own advantages and disadvantages. The language that you choose to use will depend on your team\u0026rsquo;s preferences and the programming language that your mentors are most comfortable with. The programming language that you choose to use will also depend on the programming language that your team\u0026rsquo;s robot controller is programmed in. The robot controller is the computer that controls the robot. The robot controller is a NI RoboRio. The Roborio can be configured for any of the languages listed above.\nRobot code is also not the only type of programming done in FRC. Teams write GUI software for their drive stations, they make games in Unity and Unreal Engine, and they write code for their websites. Students also learn how to write low level firmware for devices like arduinos and raspberry pis. Programming is a very important part of FRC and students can come into FRC with little to no programming experience and leave with a very strong understanding of programming. The guides here are intended to help in that process and also expose students to the different types of programming that are done in FRC.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 6.1 Programming Languages 30 minutes 6.2 Java 30 minutes 6.3 C++ 30 minutes 6.4 LabVIEW 30 minutes 6.5 Python 30 minutes 6.6 Robot Code 30 minutes 6.7 Timed Robot 30 minutes 6.8 Command Based Programming 30 minutes 6.9 RobotBuilder 30 minutes 6.10 Path Planning 30 minutes 6.11 Robot Simulation 30 minutes 6.12 Vision Processing 30 minutes 6.13 ROS 30 minutes 6.14 GUI Programming 30 minutes 6.15 Unity 30 minutes 6.16 Unreal Engine 30 minutes 6.17 Web Development 30 minutes 6.18 Arduino 30 minutes 6.19 Raspberry Pi 30 minutes "
 },
 {
 	"uri": "https://frczero.org/cad/",
 	"title": "7.0 Computer Aided Design",
 	"tags": [],
 	"description": "",
-	"content": "7.0 Computer Aided Design Lorem Ipsum.\n"
+	"content": "7.0 Computer Aided Design CAD or Computer Aided Design helps teams design their robot. It is a great way to visualize the robot and to make sure that the robot is designed correctly. CAD is also a great way to share the robot design with other teams and mentors. CAD is not required for the competition, but it is highly recommended. Software like Fusion 360, OnShape, and SolidWorks are all great options for teams to use. All 3 have free versions (For Educational use) that are great for teams to use. My personal favorite is Fusion 360 (Mr. Siefen\u0026rsquo;s opinion). All of them have great tutorials and resources to help teams get started. The goal of this chapter is to help teams get started with CAD and to help teams learn how to use CAD to design FRC specific items and hardware.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 7.1 Fusion 360 30 minutes 7.2 OnShape 30 minutes 7.3 SolidWorks 30 minutes 7.4 CAD Basics 30 minutes 7.5 CAD for FRC 30 minutes 7.6 CAD for FRC - Drivetrain 30 minutes 7.7 CAD for FRC - Intake 30 minutes 7.8 CAD for FRC - Shooter 30 minutes 7.9 CAD for FRC - Climber 30 minutes 7.10 CAD for FRC - Control Panel 30 minutes 7.11 CAD for FRC - Electrical 30 minutes 7.12 CAD for FRC - Pneumatics 30 minutes 7.13 CAD for FRC - 3d Printing 30 minutes 7.14 CAD for FRC - CNC 30 minutes 7.15 CAD for FRC - Sheet Metal 30 minutes 7.16 CAD for FRC - Wood 30 minutes Appendix A - CAD Resources 30 minutes Total 8 hours "
 },
 {
 	"uri": "https://frczero.org/business_marketing/",
 	"title": "8.0 Business &amp; Marketing",
 	"tags": [],
 	"description": "",
-	"content": "8.0 Business \u0026amp; Marketing Lorem Ipsum.\n"
+	"content": "8.0 Business \u0026amp; Marketing Teams can benefit from a strong business plan and attract sponsors by having a strong marketing plan. There are simple, free ways to get started with both. While the business and marketing plans are not required for the competition, they are highly recommended. The Team Sustainability Award is given to teams that can show how they are growing their team and sustaining their team for the long term.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 8.1 Business Plan 30 minutes 8.2 Marketing Plan 30 minutes 8.3 Team Sustainability 30 minutes 8.4 Sponsorship 30 minutes 8.5 Social Media Management 30 minutes 8.6 Team Website 30 minutes 8.7 Team Branding 30 minutes 8.8 Team Logo 30 minutes 8.9 Team T-Shirt 30 minutes 8.10 Team Video 30 minutes 8.11 Team Photos 30 minutes "
+},
+{
+	"uri": "https://frczero.org/outreach_education/",
+	"title": "9.0 Outreach &amp; Education",
+	"tags": [],
+	"description": "",
+	"content": "9.0 Outreach \u0026amp; Education Outreach and education are important parts of the FIRST experience. Outreach is the process of sharing your team\u0026rsquo;s experience with others. Education is the process of learning about FIRST and the FIRST Robotics Competition and STEM. Outreach and education are important because they help to grow the FIRST community. The more people that are involved in FIRST, the more people that will be inspired to pursue STEM careers. The more people that are inspired to pursue STEM careers, the more people that will be able to solve the world\u0026rsquo;s problems. There are many ways to get involved in outreach and education. If you would like to get involved, talk to your team mentor or team leadership. For a direct way to get involved, check out the FIRST Volunteer Portal or submit content here to the FRC0 website for others to learn from too!\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate 9.1 FIRST Outreach 30 minutes 9.2 FIRST Education 30 minutes 9.3 FIRST Volunteer Portal 30 minutes 9.4 FIRST Volunteer Portal - Volunteer Opportunities 30 minutes 9.5 FIRST Volunteer Portal - Volunteer Events 30 minutes 9.6 FIRST Volunteer Portal - Volunteer Resources 30 minutes 9.7 FIRST Programs and Student Engagement 30 minutes 9.8 STEM Outreach 30 minutes 9.9 FIRST Outreach - FIRST LEGO League 30 minutes 9.10 FIRST Outreach - FIRST Tech Challenge 30 minutes 9.11 FIRST Outreach - FIRST Robotics Competition 30 minutes "
 },
 {
 	"uri": "https://frczero.org/",
 	"title": "FRC0 - HOME",
 	"tags": [],
 	"description": "",
-	"content": "Welcome to FRC0 (FRC Zero) This is the home page for FRC0 (FRC Zero). FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. The goal of FRC0 is to provide a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. FRC0 is a work in progress. We are always looking for new contributors to help us improve the site. If you are interested in contributing, please see the writing-content page.\nWhat are some topics that FRC0 will cover? Some of the topics that FRC0 will cover include:\nEngineering Design Machining and Fabrication Electronics Pneumatics Programming Competition "
+	"content": "Welcome to FRC0 (FRC Zero) This is the home page for FRC0 (FRC Zero). FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. The goal of FRC0 is to provide a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. FRC0 is a work in progress. We are always looking for new contributors to help us improve the site. If you are interested in contributing, please see the writing-content page.\nImportant Links:\nFRC0 on GitHub GM0 Website Docs.wpilib.org REV Robotics CTRE Phoenix Chief Delphi FIRST Robotics Competition FRC Reddit FRC Discord FRC YouTube FRC Twitch F.U.N. (First Update Now) RoboZone "
 },
 {
 	"uri": "https://frczero.org/pneumatics/what-are-pneumatics/",
@@ -123,7 +123,7 @@
 	"title": "0.0 About FRC0",
 	"tags": [],
 	"description": "",
-	"content": "0.0 About FRC0? FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. It is a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. The site is broken down into chapters and sections. Each chapter is a topic and each section is a sub-topic. The chapters and sections are listed in the left sidebar. Teams can use FRC0 to help them prepare for the season, build their robot, and compete in the competition. Teams can submit content to FRC0 to help other teams. FRC0 is the collaborative effort of many teams and individuals.\n"
+	"content": "0.0 About FRC0? FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. It is a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition and much more. The site is broken down into chapters and sections. Each chapter is a topic and each section is a sub-topic. The chapters and sections are listed in the left sidebar. Teams can use FRC0 to help them prepare for the season, build their robot, and compete in the competition. Teams can submit content to FRC0 to help other teams. FRC0 is the collaborative effort of many teams and individuals.\nBelow is an outline of the topics that will be covered in this chapter.\nContents for this Chapter Order Page Title Time Estimate "
 },
 {
 	"uri": "https://frczero.org/about/why-frc0/",
