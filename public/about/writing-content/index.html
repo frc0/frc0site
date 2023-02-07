@@ -12,21 +12,21 @@
     <title>0.3 Writing Content for the Website :: FRC Zero</title>
 
     
-    <link href="/css/nucleus.css?1675744415" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1675744415" rel="stylesheet">
-    <link href="/css/hybrid.css?1675744415" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1675744415" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1675744415" rel="stylesheet">
-    <link href="/css/auto-complete.css?1675744415" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1675744415" rel="stylesheet">
-    <link href="/css/theme.css?1675744415" rel="stylesheet">
-    <link href="/css/tabs.css?1675744415" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1675744415" rel="stylesheet">
+    <link href="/css/nucleus.css?1675744961" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1675744961" rel="stylesheet">
+    <link href="/css/hybrid.css?1675744961" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1675744961" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1675744961" rel="stylesheet">
+    <link href="/css/auto-complete.css?1675744961" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1675744961" rel="stylesheet">
+    <link href="/css/theme.css?1675744961" rel="stylesheet">
+    <link href="/css/tabs.css?1675744961" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1675744961" rel="stylesheet">
     <link href ="/stylesheets/style.css" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1675744415"></script>
+    <script src="/js/jquery-3.3.1.min.js?1675744961"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1675744415"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1675744415"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1675744961"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1675744961"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/frczero.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1675744415"></script>
+<script type="text/javascript" src="/js/search.js?1675744961"></script>
 
     
   </div>
@@ -728,6 +728,7 @@
     <li><a href="#what-is-hugo">What is Hugo?</a></li>
     <li><a href="#what-does-a-page-of-markdown-look-like-for-frc0">What does a page of markdown look like for FRC0?</a></li>
     <li><a href="#how-do-i-write-a-page-of-markdown-for-frc0">How do I write a page of markdown for FRC0?</a></li>
+    <li><a href="#how-do-i-add-credit-to-a-page">How do I add credit to a page?</a></li>
   </ul>
 </nav>
     </div>
@@ -779,7 +780,27 @@
 </span></span><span style="display:flex;"><span>This website was built using the learn theme for Hugo. The learn theme is designed to look like powerpoint slides. This makes it easy to read and understand. The theme is also responsive, so it looks good on mobile devices. With this theme, we can focus on the content and not the design. Since the focus is on knowledge and information, the design is secondary. The biggest benefit of using Hugo and other SSG (static site generators) is new &#34;posts&#34; can be added to the site without having to rebuild the entire site. This makes it easy to add new content and keep the site up to date. If you are interested in learning about writing content for this site, please see the [<span style="color:#f92672">Writing Content</span>](<span style="color:#a6e22e">/about/writing-content/</span>) page.
 </span></span></code></pre></div><h2 id="how-do-i-write-a-page-of-markdown-for-frc0">How do I write a page of markdown for FRC0?</h2>
 <p>Its pretty simple.  The first section is called the &ldquo;Front Matter&rdquo;.  It is used to define the title and date of the page.  The rest of the page is the content.  The content is written in markdown. Try to keep the content to 1-2 paragraphs per section.  This makes it easier to read and understand. I would also recommend using a plain text editor like <a href="https://notepad-plus-plus.org/">Notepad++</a> or <a href="https://code.visualstudio.com/">Visual Studio Code</a>.  These editors have plugins that make it easy to write markdown. Once you have new content ready to go, you can submit a pull request to our <a href="https://github.com/frc0/frc0site">github</a> with your new markdown content. We will review the content and add it to the site accordingly.</p>
-
+<h2 id="how-do-i-add-credit-to-a-page">How do I add credit to a page?</h2>
+<p>There is a method of marking the files beginning with something called <a href="https://gohugo.io/content-management/front-matter/">front matter</a>. Below is their method of marking it, however this won&rsquo;t show up on the page in a visible way and it&rsquo;s removed from the public HTML. I like being able to credit the individual authors who made the files so for now feel free to add a &ldquo;By So and So - Created on 01-01-1984&rdquo; under the title of the page. We will eventually have this auto generated based on the front matter data!</p>
+<pre tabindex="0"><code>---
+date: &#39;2012-04-06&#39; (you can use full or shortened time stamps)
+title: &#39;Page title&#39;
+weight: 6.0 (the weight is used to sort it on the menu so if it&#39;s in programming it&#39;ll be 6.something)
+lastmod:  &#39;2012-04-06&#39; (you can use full or shortened time stamps, this is only added if someone edits the original after it&#39;s published)
+author: &#39;your name&#39;
+editors: &#39;person1, person2, so on&#39;
+---
+</code></pre><p>If you&rsquo;re adding a whole new chapter it&rsquo;s gonna have different front matter. The only real difference is the chapter variable is set to true. The rest of the variables are the same. If you are an eagle eyed observer you&rsquo;re also seeing that the example below uses = and +++ instead of : and &mdash; like the first example. Either works, but they are exclusive to the page you are on. You CANNOT mix : with +++ or &mdash; with =. Thats just how it is!</p>
+<pre tabindex="0"><code>+++
+title = &#34;0.0 About FRC0&#34;
+date = 2023-02-04T22:22:45-05:00
+weight = 0.0
+chapter = true
+lastmod = 2023-02-04T22:22:45-05:00
+author = &#39;Mr. Siefen&#39;
+editors = &#39;&#39;
++++
+</code></pre>
 
 <footer class="footline">
 	
@@ -1228,19 +1249,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1675744415"></script>
-    <script src="/js/perfect-scrollbar.min.js?1675744415"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1675744415"></script>
-    <script src="/js/jquery.sticky.js?1675744415"></script>
-    <script src="/js/featherlight.min.js?1675744415"></script>
-    <script src="/js/highlight.pack.js?1675744415"></script>
+    <script src="/js/clipboard.min.js?1675744961"></script>
+    <script src="/js/perfect-scrollbar.min.js?1675744961"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1675744961"></script>
+    <script src="/js/jquery.sticky.js?1675744961"></script>
+    <script src="/js/featherlight.min.js?1675744961"></script>
+    <script src="/js/highlight.pack.js?1675744961"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1675744415"></script>
-    <script src="/js/learn.js?1675744415"></script>
-    <script src="/js/hugo-learn.js?1675744415"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1675744961"></script>
+    <script src="/js/learn.js?1675744961"></script>
+    <script src="/js/hugo-learn.js?1675744961"></script>
     
         
-            <script src="/mermaid/mermaid.js?1675744415"></script>
+            <script src="/mermaid/mermaid.js?1675744961"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
