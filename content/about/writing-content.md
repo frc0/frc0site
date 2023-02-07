@@ -41,3 +41,31 @@ This website was built using the learn theme for Hugo. The learn theme is design
 ## How do I write a page of markdown for FRC0?
 
 Its pretty simple.  The first section is called the "Front Matter".  It is used to define the title and date of the page.  The rest of the page is the content.  The content is written in markdown. Try to keep the content to 1-2 paragraphs per section.  This makes it easier to read and understand. I would also recommend using a plain text editor like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  These editors have plugins that make it easy to write markdown. Once you have new content ready to go, you can submit a pull request to our [github](https://github.com/frc0/frc0site) with your new markdown content. We will review the content and add it to the site accordingly.
+
+## How do I add credit to a page?
+There is a method of marking the files beginning with something called [front matter](https://gohugo.io/content-management/front-matter/). Below is their method of marking it, however this won't show up on the page in a visible way and it's removed from the public HTML. I like being able to credit the individual authors who made the files so for now feel free to add a "By So and So - Created on 01-01-1984" under the title of the page. We will eventually have this auto generated based on the front matter data!
+
+```
+---
+date: '2012-04-06' (you can use full or shortened time stamps)
+title: 'Page title'
+weight: 6.0 (the weight is used to sort it on the menu so if it's in programming it'll be 6.something)
+lastmod:  '2012-04-06' (you can use full or shortened time stamps, this is only added if someone edits the original after it's published)
+author: 'your name'
+editors: 'person1, person2, so on'
+---
+```
+
+If you're adding a whole new chapter it's gonna have different front matter. The only real difference is the chapter variable is set to true. The rest of the variables are the same. If you are an eagle eyed observer you're also seeing that the example below uses = and +++ instead of : and --- like the first example. Either works, but they are exclusive to the page you are on. You CANNOT mix : with +++ or --- with =. Thats just how it is!
+
+```
++++
+title = "0.0 About FRC0"
+date = 2023-02-04T22:22:45-05:00
+weight = 0.0
+chapter = true
+lastmod = 2023-02-04T22:22:45-05:00
+author = 'Mr. Siefen'
+editors = ''
++++
+```
