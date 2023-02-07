@@ -3,6 +3,9 @@ title = "1.0 Competition"
 date = 2023-02-05T01:27:54-05:00
 weight = 1.0
 chapter = true
+lastmod = 2023-02-04T22:22:45-05:00
+author = 'Mr. Siefen'
+editors = ''
 +++
 
 # 1.0 Competition

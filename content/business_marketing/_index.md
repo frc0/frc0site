@@ -3,6 +3,9 @@ title = "8.0 Business & Marketing"
 date = 2023-02-05T01:49:25-05:00
 weight = 8.0
 chapter = true
+lastmod = 2023-02-04T22:22:45-05:00
+author = 'Mr. Siefen'
+editors = ''
 +++
 
 # 8.0 Business & Marketing

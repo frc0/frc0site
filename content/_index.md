@@ -1,5 +1,8 @@
 ---
 title: "FRC0 - HOME"
+lastmod: 2023-02-04T22:22:45-05:00
+author: 'Mr. Siefen'
+editors: 'ngalotti'
 ---
 
 # Welcome to FRC0 (FRC Zero)
