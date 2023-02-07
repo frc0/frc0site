@@ -22,20 +22,20 @@ Below is an outline of the topics that will be covered in this chapter.
 | --- | --- | --- |
 | 6.1 | [Programming Languages](/programming/programming_languages) | 30 minutes |
 | 6.2 | [Java](/programming/java) | 30 minutes |
-| 6.3 | [C++](/programming/cpp.md) | 30 minutes |
-| 6.4 | [LabVIEW](/programming/labview.md) | 30 minutes |
-| 6.5 | [Python](/programming/python.md) | 30 minutes |
-| 6.6 | [Robot Code](/programming/robot_code.md) | 30 minutes |
-| 6.7 | [Timed Robot](/programming/timed_robot.md) | 30 minutes | [
-| 6.8 | [Command Based Programming](/programming/command_based_programming.md) | 30 minutes |
-| 6.9 | [RobotBuilder](/programming/robotbuilder.md) | 30 minutes |
-| 6.10 | [Path Planning](/programming/path_planning.md) | 30 minutes |
-| 6.11 | [Robot Simulation](/programming/robot_simulation.md) | 30 minutes |
-| 6.12 | [Vision Processing](/programming/vision_processing.md) | 30 minutes |
-| 6.13 | [ROS](/programming/ros.md) | 30 minutes |
-| 6.14 | [GUI Programming](/programming/gui_programming.md) | 30 minutes |
-| 6.15 | [Unity](/programming/unity.md) | 30 minutes |
-| 6.16 | [Unreal Engine](/programming/unreal_engine.md) | 30 minutes |
-| 6.17 | [Web Development](/programming/web_development.md) | 30 minutes |
-| 6.18 | [Arduino](/programming/arduino.md) | 30 minutes |
-| 6.19 | [Raspberry Pi](/programming/raspberry_pi.md) | 30 minutes |
+| 6.3 | [C++](/programming/cpp) | 30 minutes |
+| 6.4 | [LabVIEW](/programming/labview) | 30 minutes |
+| 6.5 | [Python](/programming/python) | 30 minutes |
+| 6.6 | [Robot Code](/programming/robot_code) | 30 minutes |
+| 6.7 | [Timed Robot](/programming/timed_robot) | 30 minutes | [
+| 6.8 | [Command Based Programming](/programming/command_based_programming) | 30 minutes |
+| 6.9 | [RobotBuilder](/programming/robotbuilder) | 30 minutes |
+| 6.10 | [Path Planning](/programming/path_planning) | 30 minutes |
+| 6.11 | [Robot Simulation](/programming/robot_simulation) | 30 minutes |
+| 6.12 | [Vision Processing](/programming/vision_processing) | 30 minutes |
+| 6.13 | [ROS](/programming/ros) | 30 minutes |
+| 6.14 | [GUI Programming](/programming/gui_programming) | 30 minutes |
+| 6.15 | [Unity](/programming/unity) | 30 minutes |
+| 6.16 | [Unreal Engine](/programming/unreal_engine) | 30 minutes |
+| 6.17 | [Web Development](/programming/web_development) | 30 minutes |
+| 6.18 | [Arduino](/programming/arduino) | 30 minutes |
+| 6.19 | [Raspberry Pi](/programming/raspberry_pi) | 30 minutes |

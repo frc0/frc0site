@@ -21,16 +21,16 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 2.1 | [Design Process](/engineering_design/design_process.md) | 30 minutes |
-| 2.2 | [Design Brief](/engineering_design/design_brief.md) | 30 minutes |
-| 2.3 | [Design Constraints](/engineering_design/design_constraints.md) | 30 minutes |
-| 2.4 | [Design Specifications](/engineering_design/design_specifications.md) | 30 minutes |
-| 2.5 | [Design Requirements](/engineering_design/design_requirements.md) | 30 minutes |
-| 2.6 | [Design Sketches](/engineering_design/design_sketches.md) | 30 minutes |
-| 2.7 | [Design Models](/engineering_design/design_models.md) | 30 minutes |
-| 2.8 | [Design Testing](/engineering_design/design_testing.md) | 30 minutes |
-| 2.9 | [Design Review](/engineering_design/design_review.md) | 30 minutes |
-| 2.10 | [Design Iteration](/engineering_design/design_iteration.md) | 30 minutes |
-| 2.11 | [Design Documentation](/engineering_design/design_documentation.md) | 30 minutes |
-| 2.12 | [Design Presentation](/engineering_design/design_presentation.md) | 30 minutes |
+| 2.1 | [Design Process](/engineering_design/design_process) | 30 minutes |
+| 2.2 | [Design Brief](/engineering_design/design_brief) | 30 minutes |
+| 2.3 | [Design Constraints](/engineering_design/design_constraints) | 30 minutes |
+| 2.4 | [Design Specifications](/engineering_design/design_specifications) | 30 minutes |
+| 2.5 | [Design Requirements](/engineering_design/design_requirements) | 30 minutes |
+| 2.6 | [Design Sketches](/engineering_design/design_sketches) | 30 minutes |
+| 2.7 | [Design Models](/engineering_design/design_models) | 30 minutes |
+| 2.8 | [Design Testing](/engineering_design/design_testing) | 30 minutes |
+| 2.9 | [Design Review](/engineering_design/design_review) | 30 minutes |
+| 2.10 | [Design Iteration](/engineering_design/design_iteration) | 30 minutes |
+| 2.11 | [Design Documentation](/engineering_design/design_documentation) | 30 minutes |
+| 2.12 | [Design Presentation](/engineering_design/design_presentation) | 30 minutes |
 |      | Total | 6 hours |

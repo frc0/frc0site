@@ -50,9 +50,9 @@ The next few chapters will guide you through the aspects of each programming lan
 # Next:
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 6.2 | [Java](/content/programming/java.md) | 30 minutes |
-| 6.3 | [C++](/content/programming/cpp.md) | 30 minutes |
-| 6.4 | [LabVIEW](/content/programming/labview.md) | 30 minutes |
-| 6.5 | [Python](/content/programming/python.md) | 30 minutes |
+| 6.2 | [Java](/programming/java/) | 30 minutes |
+| 6.3 | [C++](/programming/cpp/) | 30 minutes |
+| 6.4 | [LabVIEW](/programming/labview/) | 30 minutes |
+| 6.5 | [Python](/programming/python/) | 30 minutes |
 
-[-> Back to index/programming](/content/_index.md)
+[-> Back to index/programming](/programming)
