@@ -1,4 +1,4 @@
-+++
+---
 date: '2023-2-6'
 title: '6.1 Programming Languages'
 weight: 6.1
@@ -6,7 +6,7 @@ lastmod: '2023-2-6'
 author: 'Mansour Quddus'
 authorLink: 'https://github.com/devmanso'
 editors: 'Mr. Siefen'
-+++
+---
 
 # Programming Languages
  by [Mansour Quddus](https://github.com/devmanso) - Febuary 6th, 2023
