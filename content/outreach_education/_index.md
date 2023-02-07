@@ -18,14 +18,14 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 9.1 | [FIRST Outreach](/content/outreach_education/outreach.md) | 30 minutes |
-| 9.2 | [FIRST Education](/content/outreach_education/education.md) | 30 minutes |
-| 9.3 | [FIRST Volunteer Portal](/content/outreach_education/volunteer_portal.md) | 30 minutes |
-| 9.4 | [FIRST Volunteer Portal - Volunteer Opportunities](/content/outreach_education/volunteer_portal_volunteer_opportunities.md) | 30 minutes |
-| 9.5 | [FIRST Volunteer Portal - Volunteer Events](/content/outreach_education/volunteer_portal_volunteer_events.md) | 30 minutes |
-| 9.6 | [FIRST Volunteer Portal - Volunteer Resources](/content/outreach_education/volunteer_portal_volunteer_resources.md) | 30 minutes |
-| 9.7 | [FIRST Programs and Student Engagement](/content/outreach_education/programs_and_student_engagement.md) | 30 minutes |
-| 9.8 | [STEM Outreach](/content/outreach_education/stem_outreach.md) | 30 minutes |
-| 9.9 | [FIRST Outreach - FIRST LEGO League](/content/outreach_education/fll.md) | 30 minutes |
-| 9.10 | [FIRST Outreach - FIRST Tech Challenge](/content/outreach_education/ftc.md) | 30 minutes |
-| 9.11 | [FIRST Outreach - FIRST Robotics Competition](/content/outreach_education/frc.md) | 30 minutes |
+| 9.1 | [FIRST Outreach](/outreach_education/outreach.md) | 30 minutes |
+| 9.2 | [FIRST Education](/outreach_education/education.md) | 30 minutes |
+| 9.3 | [FIRST Volunteer Portal](/outreach_education/volunteer_portal.md) | 30 minutes |
+| 9.4 | [FIRST Volunteer Portal - Volunteer Opportunities](/outreach_education/volunteer_portal_volunteer_opportunities.md) | 30 minutes |
+| 9.5 | [FIRST Volunteer Portal - Volunteer Events](/outreach_education/volunteer_portal_volunteer_events.md) | 30 minutes |
+| 9.6 | [FIRST Volunteer Portal - Volunteer Resources](/outreach_education/volunteer_portal_volunteer_resources.md) | 30 minutes |
+| 9.7 | [FIRST Programs and Student Engagement](/outreach_education/programs_and_student_engagement.md) | 30 minutes |
+| 9.8 | [STEM Outreach](/outreach_education/stem_outreach.md) | 30 minutes |
+| 9.9 | [FIRST Outreach - FIRST LEGO League](/outreach_education/fll.md) | 30 minutes |
+| 9.10 | [FIRST Outreach - FIRST Tech Challenge](/outreach_education/ftc.md) | 30 minutes |
+| 9.11 | [FIRST Outreach - FIRST Robotics Competition](/outreach_education/frc.md) | 30 minutes |

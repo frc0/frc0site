@@ -18,14 +18,14 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 8.1 | [Business Plan](/content/business_marketing/business_plan.md) | 30 minutes |
-| 8.2 | [Marketing Plan](/content/business_marketing/marketing_plan.md) | 30 minutes |
-| 8.3 | [Team Sustainability](/content/business_marketing/team_sustainability.md) | 30 minutes |
-| 8.4 | [Sponsorship](/content/business_marketing/sponsorship.md) | 30 minutes |
-| 8.5 | [Social Media Management](/content/business_marketing/social_media_management.md) | 30 minutes |
-| 8.6 | [Team Website](/content/business_marketing/team_website.md) | 30 minutes |
-| 8.7 | [Team Branding](/content/business_marketing/team_branding.md) | 30 minutes |
-| 8.8 | [Team Logo](/content/business_marketing/team_logo.md) | 30 minutes |
-| 8.9 | [Team T-Shirt](/content/business_marketing/team_tshirt.md) | 30 minutes |
-| 8.10 | [Team Video](/content/business_marketing/team_video.md) | 30 minutes |
-| 8.11 | [Team Photos](/content/business_marketing/team_photos.md) | 30 minutes |
+| 8.1 | [Business Plan](/business_marketing/business_plan.md) | 30 minutes |
+| 8.2 | [Marketing Plan](/business_marketing/marketing_plan.md) | 30 minutes |
+| 8.3 | [Team Sustainability](/business_marketing/team_sustainability.md) | 30 minutes |
+| 8.4 | [Sponsorship](/business_marketing/sponsorship.md) | 30 minutes |
+| 8.5 | [Social Media Management](/business_marketing/social_media_management.md) | 30 minutes |
+| 8.6 | [Team Website](/business_marketing/team_website.md) | 30 minutes |
+| 8.7 | [Team Branding](/business_marketing/team_branding.md) | 30 minutes |
+| 8.8 | [Team Logo](/business_marketing/team_logo.md) | 30 minutes |
+| 8.9 | [Team T-Shirt](/business_marketing/team_tshirt.md) | 30 minutes |
+| 8.10 | [Team Video](/business_marketing/team_video.md) | 30 minutes |
+| 8.11 | [Team Photos](/business_marketing/team_photos.md) | 30 minutes |
