@@ -47,3 +47,7 @@ body.dark-mode .nav-next {
 body.dark-mode .nav-prev {
     background: #333!important;
 }
+
+body.dark-mode #footer a {
+    color:#2179ec !important;
+}

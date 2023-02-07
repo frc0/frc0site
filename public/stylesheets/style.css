@@ -34,3 +34,20 @@ body.dark-mode #header-wrapper {
 body.dark-mode #sidebar {
     background: #333;
 }
+
+body.dark-mode .highlight {
+    background: #222;
+    color:#2179ec !important;
+}
+
+body.dark-mode .nav-next {
+    background: #333 !important;
+}
+
+body.dark-mode .nav-prev {
+    background: #333!important;
+}
+
+body.dark-mode #footer a {
+    color:#2179ec !important;
+}
