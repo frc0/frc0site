@@ -7,9 +7,7 @@ author: 'Mansour Quddus'
 authorLink: 'https://github.com/devmanso'
 editors: 'Mr. Siefen'
 ---
-
-# Programming Languages
- by [Mansour Quddus](https://github.com/devmanso) - Febuary 6th, 2023
+by [Mansour Quddus](https://github.com/devmanso) - Febuary 6th, 2023
 
 ## What is programming?
 
