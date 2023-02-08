@@ -51,22 +51,3 @@ body.dark-mode .nav-prev {
 body.dark-mode #footer a {
     color:#2179ec !important;
 }
-
-body.dark-mode .copy-to-clipboard {
-    background-image: url("/images/clippy.svg") !important;
-    background-color: #fa6060 !important;
-    background-position: 50% 50% !important;
-    background-size: 16px 16px !important;
-    background-repeat: no-repeat !important;
-    width: 27px !important;
-    height: 1.45rem !important;
-    top: -1px   !important;
-    display: inline-block !important;
-    vertical-align: middle !important;
-    position: relative !important;
-    color: #5e5e5e !important;
-    margin-left: -0.2rem !important;
-    cursor: pointer !important;
-    border-radius: 0 2px 2px 0 !important;
-    margin-bottom: 1px !important;
-}
