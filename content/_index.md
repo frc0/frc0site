@@ -11,7 +11,7 @@ This is the home page for FRC0 (FRC Zero).  FRC0 is a knowledge base for student
 
 ### Cool Video of the Github Commit History (Updated Weekly)
 
-{{< youtube JGDiu-InnGU >}}
+https://youtu.be/JGDiu-InnGU
 
 ### Important Links:
 
