@@ -5,9 +5,8 @@ weight: 6.1
 lastmod: '2023-2-6'
 author: 'Mansour Quddus'
 authorLink: 'https://github.com/devmanso'
-editors: 'Mr. Siefen'
+editors: 'Mr. Siefen, Foehammer127'
 ---
-by [Mansour Quddus](https://github.com/devmanso) - Febuary 6th, 2023
 
 ## What is programming?
 
