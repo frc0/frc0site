@@ -69,14 +69,134 @@ While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great 
 | Theme Name (link) | Description |
 | --- | --- |
 | [Learn](https://learn.netlify.app/en/) | The learn theme is a theme designed for knowledge websites. |
+| [Universal](https://themes.gohugo.io/themes/hugo-universal-theme/) | The universal theme is a **GOOD** choice for teams. |
 | [Ananke](https://themes.gohugo.io/gohugo-theme-ananke/) | The ananke theme is a theme designed for blog websites. |
 | [Hugo Coder](https://themes.gohugo.io/hugo-book/) | The hugo coder theme is a simple and clean blog theme. |
 | [Theme.gohugo.io](https://themes.gohugo.io/) | The theme.gohugo.io website lists many themes for Hugo. I used that to find these themes! |
+
+### How to Install Hugo on Windows (Properly!!!)
+
+**Note:** The following instructions are based on the [Hugo Installation Guide](https://gohugo.io/installation/windows/)
+
+1. Download the latest version of Hugo from the [Download the Windows ARM 64bit version](https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_0.110.0_windows-amd64.zip) or see the [Hugo Releases](https://github.com/gohugoio/hugo/releases) page for other versions.
+
+2. Extract the zip file to a folder on your computer. (I recommend somewhere with a short path like `C:\hugo`). The zip file should contain a single executable file named `hugo.exe` and a folder named `LICENSE.md` and `README.md`. If you try to run the `hugo.exe` file now, it will open a command prompt window and then close. This is because the `hugo.exe` program is not a gui program. It is a command line program. To run the `hugo.exe` program, you need to open a command prompt window and then run the `hugo.exe` program from the command prompt window. DO NOT DO THAT YET! Wait for step 7.
+
+4. Open the command prompt window. To do this, press the Windows key and the R key at the same time. This will open the Run dialog box. In the Run dialog box, type `cmd` and then press the Enter key. This will open the command prompt window. (You should do this as an administrator. To do this, right click on the command prompt icon and then click on the "Run as administrator" option.)
+
+5. In order to actually use the `hugo` command and not have to use `C:/hugo/hugo.exe` you need to add it to your PATH! To do this in the command prompt window type `set PATH=%PATH%;C:\hugo\bin` and then press the Enter key. (You should replace `C:\hugo\bin` with the path to the folder where you extracted the `hugo.exe` program.)
+
+6. Change the directory to the folder where you extracted the `hugo.exe` program. To do this, type `cd C:\hugo` and then press the Enter key. (You should replace `C:\hugo` with the path to the folder where you extracted the `hugo.exe` program.)
+
+7. To test that the `hugo` command is working, type `hugo version` and then press the Enter key. This should print the version of Hugo that you installed. If it does not print the version of Hugo that you installed, then you should go back and make sure that you followed the instructions correctly.
+
+    - If you are confident that you followed the instructions correctly, then you should try to reinstall Hugo. If you are still having problems, then you should submit an issue on the [frczero.org github repo](https://github.com/frc0/frc0site)
+
+### How can a team use the Universal theme and Hugo?
+
+**Note:** The following instructions are based on the [Universal Theme Quick Start Guide](https://themes.gohugo.io/themes/hugo-universal-theme/). To see the theme in action, visit the [Universal Theme Demo](https://devcows.github.io/hugo-universal-theme/).
+
+1. Create a new Hugo website using the following command:
+
+    ```bash
+    hugo new site my-website
+    ```
+2. Change the directory to the new website:
+
+    ```bash
+    cd my-website
+    ```
+3. Add the Universal theme to the website. There are 2 methods based on whether or not you have Git installed on your computer. If you do not have Git installed on your computer, then you should use the first method. If you do have Git installed on your computer, then you should use the second method:
+
+    - Method 1: Download the theme as a zip file and extract it to the website:
+        - Download the theme from the [Universal Theme Github Repo](https://github.com/devcows/hugo-universal-theme) as a zip file.
+        - Extract the zip file to the websites themes folder. If one does not exist, then create one.
+        - You need to rename the folder that you extracted from `hugo-universal-theme-master` to `hugo-universal-theme`.
+
+    - Method 2: Clone the theme using Git and add it to the website (Still rename the folder to `hugo-universal-theme` after cloning):
+
+    ```bash
+    mkdir themes
+    cd themes
+    git clone https://github.com/devcows/hugo-universal-theme
+    ```
+4. Open up the website configuration file called config.toml and add the following content:
+
+    ```toml
+    style = "default"
+    defaultContentLanguage = "en"
+    title = "My Website"
+    theme = "hugo-universal-theme"
+
+    [params]
+    disabled_logo = false
+    logo_text = "Universal"
+
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+    ```
+    
+    You can go into much greater detail with the configuration file, but this is the bare minimum that you need to get started. To learn more visit the [Universal Theme Configuration Guide](https://themes.gohugo.io/themes/hugo-universal-theme/#configuration).
+
+5. Run the project using the following command:
+
+    ```bash
+    hugo server
+    ```
+6. Open up a web browser and go to the following address:
+
+    ```bash
+    http://localhost:1313/
+    ```
+7. You should see the following page:
+
+    ![Universal Theme Screenshot](https://raw.githubusercontent.com/frc0/frc0site/master/static/img/universal-theme-screenshot.png)
+
+8. To create a new page, run the following command (You should probably do this from a different command prompt window):
+
+    ```bash
+    hugo new page about.md
+    ```
+9. Open up the new page in a text editor or VS code and add the following content:
+
+    ```markdown
+    ---
+    title: "About"
+    date: 2019-01-01T00:00:00-05:00
+    draft: false
+    ---
+
+    Hello World!
+    ```
+10. Save the file and then go to the following address in your web browser:
+
+    ```bash
+    http://localhost:1313/about/
+    ```
+11. You should see the following page:
+
+    ![Universal Theme About Page Screenshot](https://raw.githubusercontent.com/frc0/frc0site/master/static/img/universal-theme-about-page-screenshot.png)
+
+    - If you are having problems, then you should go back and make sure that you followed the instructions correctly.
+    - If you are confident that you followed the instructions correctly and you are still having problems, then you should submit an issue on the [frczero.org github repo](https://github.com/frc0/frc0site)
+
+12. Keep reading and following the official [Universal Theme Quick Start Guide](https://themes.gohugo.io/themes/hugo-universal-theme/) to learn more about the theme and how to make the most of it. You will have to rename the Menu tabs to match your team's needed layout. This is done by creating files called partials in the `layouts/partials` folder. There are lots of examples of the partials in the themes folder and the `exampleSite` folder.
+
+13. When you are ready to publish your website, run the following command:
+
+    ```bash
+    hugo
+    ```
+    **Note:** When you run the hugo command, it will create a public folder. This folder contains all of the files that you need to upload to your webhosting service.
 
 ### How can a team use the Ananke theme and Hugo?
 
 **Note:** The following instructions are based on the [Hugo Quick Start Guide](https://gohugo.io/getting-started/quick-start/). This also assumes you have already installed Hugo on your computer.
 
+**Note 2:** The following instructions are based on the [Ananke Theme Quick Start Guide](https://themes.gohugo.io/gohugo-theme-ananke/). To see the theme in action, visit the [Ananke Theme Demo](https://gohugo-ananke-theme-demo.netlify.app/).
+
+```markdown
+//TODO: These instructions are incomplete and students had issues following them at a recent workshop. They need to be updated.
 1. Create a new Hugo website using the following command:
 
     ```bash
@@ -165,7 +285,7 @@ While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great 
     
     ```
 
-    **Note:** When you run the hugo command, it will create a public folder. This folder contains all of the files that you need to upload to your webhosting service.
+```
 
 ## How can a team design a website like frczero.org using WordPress?
 
