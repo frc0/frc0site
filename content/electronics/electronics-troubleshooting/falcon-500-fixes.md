@@ -45,7 +45,7 @@ I would also highly recommend you keep a bolt extractor set with left-handed dri
 
 ### Wobbly Shaft
 
-Teams who have bought Falcon v3 motors for the 2023 season have been reporting wobbly shafts. This is a result of the shaft tolerances being off and way out of the usual expected specs. It's certainly not all, but teams **ABSOLUTELY** should check any v3 falcon 500s for this issue. [Reddit Post identifying the issue](https://www.reddit.com/r/FRC/comments/10tqytu/the_new_falcons_are_bad_and_the_shaft_is_lose/)
+Teams who have bought Falcon v3 motors for the 2023 season have been reporting wobbly shafts. This is a result of the shaft tolerances being off and way out of the usual expected specs. It's all a possible consequence of removing the shaft bolts(cuz they were loose cuz of missing loctite) It's certainly not all motors, but teams **ABSOLUTELY** should check any v3 falcon 500s for this issue. [Reddit Post identifying the issue](https://www.reddit.com/r/FRC/comments/10tqytu/the_new_falcons_are_bad_and_the_shaft_is_lose/)
 
 #### Fixes for the wobbly shaft
 
@@ -59,7 +59,7 @@ Teams who have bought Falcon 500s of all variants have been reporting broken bol
 
 #### Fixes for the broken bolts
 
-1. Replace the bolts with stronger ones. This is a good option, but it is ideal as Teams paying $220 for a motor should not have to replace the bolts. This is a problem that will need to be addressed by the vendors.
+1. Replace the bolts with stronger ones. This is a good option, but it is not ideal as Teams paying $220 for a motor should not have to replace the bolts. This is a problem that will need to be addressed by the vendors.
 2. If you break a bolt, you can use a bolt extractor to remove the broken bolt. This is a good option, but can lead to damaging the threads if not done correctly.
     - A guide on how to do this can be found [here](https://www.wikihow.com/Use-a-Screw-Extractor)
 3. Many teams will not be in a situation that they would need to be removing bolts except for the other issues listed here. If you are in this situation, and you need to remove bolts you should seriously consider the risks involved and the potential damage to the motor.
@@ -85,7 +85,7 @@ The Falcon 500 motors are High-Performance motors, and as such, they are designe
 
 ### Size Changes and Documentation Confusion
 
-Something that caught many people off guard is the new larger size of the v3 vs the v1/v2 models. The v3 size is correct in the cad model, but the website for the Falcon 500 only has a v2 2D drawing. While most teams would instinctively use the updated 3D model,, some teams may grab the 2D v2 in a rush and not notice the size difference until its time to assemble it all. This would mean redesigning things in a hurry or having to use the v2/v1s that are smaller. This is a problem that will need to be addressed by the vendors and they need to update the website to reflect the correct size of the v3.
+Something that caught many people off guard is the new larger size of the v3 vs the v1/v2 models. The v3 size is correct in the cad model, but the website for the Falcon 500 only has a v2 2D drawing. While most teams would instinctively use the updated 3D model, some teams may grab the 2D v2 in a rush and not notice the size difference until its time to assemble it all. This would mean redesigning things in a hurry or having to use the v2/v1s that are smaller. This is a problem that will need to be addressed by the vendors and they need to update the website to reflect the correct size of the v3.
 
 #### Fixes for the size changes and documentation confusion
 
