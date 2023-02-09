@@ -28,6 +28,16 @@ Promote the team to the community Promote the team to potential sponsors Promote
     </item>
     
     <item>
+      <title>4.9.4 Falcon 500 Fixes</title>
+      <link>https://frczero.org/electronics/electronics-troubleshooting/falcon-500-fixes/</link>
+      <pubDate>Wed, 08 Feb 2023 23:34:12 -0500</pubDate>
+      
+      <guid>https://frczero.org/electronics/electronics-troubleshooting/falcon-500-fixes/</guid>
+      <description>What is a Falcon 500? The Falcon 500 is a motor and motor controller combination unit. It is a brushless motor with an integrated motor controller. The motor controller is a Talon FX motor controller. The motor is a brushless motor.
+Leaving aside any &amp;ldquo;Availability, Ethical (IFI Issues), Etc&amp;rdquo; The new Falcon v3s for the 2023 season have been noted to have a few issues. This page is a collection of fixes for those issues and to cover the basics of troubleshooting the Falcon 500 in the v1 and v2 variants as well.</description>
+    </item>
+    
+    <item>
       <title>5.1 What are Pneumatics?</title>
       <link>https://frczero.org/pneumatics/what-are-pneumatics/</link>
       <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
