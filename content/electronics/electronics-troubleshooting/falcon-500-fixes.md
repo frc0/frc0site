@@ -101,7 +101,75 @@ We have a teardown of the Falcon 500 V2 motor. This is a
 
 ### Falcon 500 V3 Teardown
 
-We have a teardown of the Falcon 500 V3 motor. This is a
+The pictures and account you see here is in no way fictional. This is a real account of a real person who has a real Falcon 500 V3 motor. This was verified by Mr. Siefen who runs FRC0 and wrote the following guide. He took the pictures, stripped the screws, opened the stuff you shouldnt ever open. He did this so you dont have to. If you follow this guide WE (FRC0) and HE (ME, Mr. Siefen) are not responsible. This is purely for informational purposes, unintentional comedic relief during a stressful build season moment, and to show you what can happen and possible fixes.
+
+#### Steps and Comments
+
+1. Remove the case screws from the front of the motor.
+    1. These are T9 torx screws. There are 3 per end of the motor. These are shorter than the ones on the V1/V2 and hopefully help with the bending/snapping of the previous ones.
+![Step 1: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step1-falcon-500-v3-teardown.jpg)
+2. The front plate and shaft will come off after the removal of the previous screws.
+    1. The shaft has a toothed end of the spline shaft that is inserted into a matching insert on the rotor.
+    2. If you notice this is already massively different from the previous versions.
+![Step 2: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step2-falcon-500-v3-teardown.jpg)
+3. You can separate the shaft spline from the front plate by pulling it out through the back.
+    1. If you examine the shaft you'll see how the large end is one piece that was done on a lathe and then it's placed over the spline shaft
+    2. It's then joined with a pin and ground down to keep it locked in place.
+![Step 3: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step3-falcon-500-v3-teardown.jpg)
+4. Before removing the back case screws look at the insides where the front screws were attached
+    1. The posts look a little beat up, I was very gentle and the new shorter bolts only have a small amount of grab.
+    2. You may want to get longer screws (idk if this is possible yet) if you are planning on face mounting the falcon V3
+    3. Also notice how much clearance you have from the air cooling ports to the rotor.
+        1. If you plan to use either air cooling port you should not over extend your fittings. There's about a fly's eyelash worth of gap before you'll be hitting the rotor and unintentionally braking the motor Flintstones style.
+![Step 4: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step4-falcon-500-v3-teardown.jpg)
+5. These are the screws from both the front and back casing. They are the same so you don't have to worry about mixing these up. However these are the only T9 sized torx screws on the falcon.
+    1. If you didn't already you can now remove the back casing screws. Do this gently since it's the same soft grade metal as before and can strip out.
+    2. Again this is still an improvement over the long case bolts that would snap/bend inside the casing. We lost 3 falcons this way our first year with them.
+![Step 5: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step5-falcon-500-v3-teardown.jpg)
+6. When you take these off the case can slide off. Don't worry right now about remembering how it goes back.
+    1. There are 3 slots on the front and back plates to align it properly for assembly.
+    2. Funny how the back side of the casing has loctite but the front posts had 0 sign of this… grrrrrrrr
+![Step 6: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step6-falcon-500-v3-teardown.jpg)
+7. This is as far as you would ever need to disassemble the front half of a Falcon. Anything past this is beyond your control from this side. 
+    1. Idk why you would ever need to get the rotor apart and I have no clue how you would do that.
+![Step 7: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step7-falcon-500-v3-teardown.jpg)
+8. Look at the back side on the motors cap. There are 2 bolt heads and sizes here. Both are for the talonFX technically.
+    1. The two screws around the FX cap are protecting a data port. They don't need to be removed unless you plan to use the port. 
+        1. I do this later on
+    1. The three T10 security screws **suckkkkkkkkk**
+        1. We stripped one of the three out. We were gentle and I don't see why a team should be doing this so proceed ahead at your own peril…
+![Step 8: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step8-falcon-500-v3-teardown.jpg)
+9. These are two of the three T10 security head screws for the talonFX.
+    1. These screws keep the cap, hall encoder and motor controller PCB all aligned. Taking this apart can mess this up!
+    2. There's no sign of loctite here unless my colorblindness has messed me up again here.
+    3. So why did I take it apart anyways? Science? No. You'll see why soon.
+![Step 9: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step9-falcon-500-v3-teardown.jpg)
+10. First off, this screw started to strip before I even starting trying to apply any pressure at all. As someone on reddit said
+    1. "Really wish people would stop using security screw heads on products only engineers and mechanics will use"
+    2. We know the security risks inherit and we need to be able to service these $220 motors when they were not properly QCd by the vendor
+![Step 10: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step10-falcon-500-v3-teardown.jpg)
+11. Moving on to the data port screws while I calm down from the stripped screw…
+    1. This is a 2.5 Allen! No torx needed for once, but now we've introduced a third tool and bolt size on this thing. So make sure to have all 3 sizes handy.
+    2. These screws are so small. They will get lost if you even sneeze while doing this step. At comp they will be gone in an instant. Do not lose them as they are also not a size you can get at the local store. You will be forced to try and cut a longer bolt and file it down to this stub by hand and blood and tears
+![Step 11: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step11-falcon-500-v3-teardown.jpg)
+12. Back to the stripped T10. It has now been transformed into a flathead as our screw remover was removed from the robotics lab by ghosts or a pack of raiders.
+    1. If you are like us and don't have a screw extractor, you can try to make a slot on the head with a Dremel. This is something we have practiced a lot 
+        1. No you can't ask why we practice this. 
+    2. If you try to do this method be careful to not cut too deep and damage the motor. If you cut too far or wobble while cutting you'll take off too much of the bolts head and the flat head will not work.
+![Step 12: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step12-falcon-500-v3-teardown.jpg)
+13. So then I got the cap off.
+    1. Remember how I said earlier I had a good reason for removing the cap? When I took this motor out of the box and shook it I heard a rattle.
+    2. At first I expected this to be the wobbly shaft, but it was fine luckily.
+    3. Then as I did the tear down I expected to find some loose metal, a spare bolt, something wrong in the front side. No dice obviously you saw what I saw.
+![Step 13: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step13-falcon-500-v3-teardown.gif)
+14. The spacer that goes on the T10 was not where it belongs and was loose in the cap. The other one was glued in place like it should be.
+    1. This helps keep the cap from being over tightened and also keeps the Hall sensor that is the encoders for the Falcon, aligned and flat with the motor. Without this we would have not gotten accurate encoder data and with this being for a drivetrain that's killer.
+![Step 14: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step14-falcon-500-v3-teardown.jpg)
+15. Okay so that's the end of disassembling a Falcon. Time to put it all back together. For the most part just reverse the steps in the guide.
+    1. Remember how I said before there are 3 slots on the casing? One is solid and the other two look different. If you look at the back plate and the front plate there are matching grooves.
+    2. When putting everything back together make sure to line these slots up properly. It's the only way it actually goes back together anyways without any gaps.
+![Step 15: Falcon 500 V3 Teardown](/images/falcon-v3-teardown/step15-falcon-500-v3-teardown.jpg)
+
 
 ### Other Fixes
 
