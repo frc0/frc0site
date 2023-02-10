@@ -164,5 +164,14 @@ FRC 453 Rock&amp;rsquo;em Sock&amp;rsquo;em Robotics FRC 2129 Ultraviolet FTC 12
 Hugo - A static site generator written in Go. Hugo Learn Theme - A theme for Hugo that is designed to look like powerpoint slides. Hugo Learn Theme Docs - The documentation for the Hugo Learn Theme. Mr. Siefen&amp;rsquo;s Robot Emporium - A personal blog by Mr. Siefen. It has alot of non-FRC content, but it is focused on robotics, stem, iot, and other not as relevent topics.</description>
     </item>
     
+    <item>
+      <title>6.3.1 Syntax</title>
+      <link>https://frczero.org/programming/cpp/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/programming/cpp/syntax/</guid>
+      <description>What is syntax in the context of programming? Syntax is the set of rules that defines what combinations of high-level language elements (semi-human english/insert your language) can be written in. It also sets rules about whitespace, comments, and other details of the code. Syntax is also refering to how the code can be laid out. For C++ thankfully the whitespace is not important, but it is important to know how to use it to make your code more readable.</description>
+    </item>
+    
   </channel>
 </rss>
