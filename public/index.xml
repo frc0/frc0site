@@ -173,5 +173,14 @@ Hugo - A static site generator written in Go. Hugo Learn Theme - A theme for Hug
       <description>What is syntax in the context of programming? Syntax is the set of rules that defines what combinations of high-level language elements (semi-human english/insert your language) can be written in. It also sets rules about whitespace, comments, and other details of the code. Syntax is also refering to how the code can be laid out. For C++ thankfully the whitespace is not important, but it is important to know how to use it to make your code more readable.</description>
     </item>
     
+    <item>
+      <title>6.3.2 Structure</title>
+      <link>https://frczero.org/programming/cpp/structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/programming/cpp/structure/</guid>
+      <description>What is Structure? Structure is the way that C++ is organized. There are many schools of thought and not really one exact way to do it. The way that we will be doing it is the way that is most common in FRC and is the way that most teams will be able to help you with. It is also the way that we will be using in the examples and lessons for consistency.</description>
+    </item>
+    
   </channel>
 </rss>
