@@ -36,6 +36,7 @@ int main()
 ### What is the structure of a typical FRC C++ program?
 
 The structure of a typical FRC C++ program is as follows:
+//TODO: THIS IS NOT THE CORRECT STRUCTURE WITH FRC LIBRARIES, IT IS JUST A PLACEHOLDER
 
 ```cpp
 #include <frc/TimedRobot.h>
@@ -80,9 +81,6 @@ void Robot::TestPeriodic() {
     // Code goes here and is run every 20ms while the robot is in test mode
 }
 
-#ifndef RUNNING_FRC_TESTS
-int main() { return frc::StartRobot<Robot>(); }
-#endif
 ```
 
 #### Why is the FRC structure so different?
@@ -112,3 +110,5 @@ The FRC TimedRobot structure is very similar across the OOP languages (C++ and J
                 // Code goes here 
             } 
         ```
+
+[-> Back to 6.3 Programming/cpp](/programming/cpp/)
