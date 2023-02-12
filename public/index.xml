@@ -182,5 +182,14 @@ Hugo - A static site generator written in Go. Hugo Learn Theme - A theme for Hug
       <description>What is Structure? Structure is the way that C++ is organized. There are many schools of thought and not really one exact way to do it. The way that we will be doing it is the way that is most common in FRC and is the way that most teams will be able to help you with. It is also the way that we will be using in the examples and lessons for consistency.</description>
     </item>
     
+    <item>
+      <title>6.3.3 Data Types</title>
+      <link>https://frczero.org/programming/cpp/datattypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/programming/cpp/datattypes/</guid>
+      <description>What are Data Types? Data types are a way to classify data. They are used to tell the compiler what kind of data is being used so that it can perform operations on the data correctly. For example, if you want to add two numbers, the compiler needs to know that the data is a number and also the type of number data it is. Besides numbers, there are data types for characters, strings, booleans, and more.</description>
+    </item>
+    
   </channel>
 </rss>
