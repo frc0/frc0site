@@ -200,5 +200,14 @@ Hugo - A static site generator written in Go. Hugo Learn Theme - A theme for Hug
       <description>What is Input and Output? In many scenarios you will want to get input from the user or output information to the user. In C++ there are a few different ways to do this. The most common way is to use the std::cin and std::cout objects. These objects are part of the standard library and are really convenient to use. While there are other ways to do this for FRC, when you are beginning to learn C++ it is best to use these objects.</description>
     </item>
     
+    <item>
+      <title>6.3.5 Control Structures</title>
+      <link>https://frczero.org/programming/cpp/controlstructures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/programming/cpp/controlstructures/</guid>
+      <description>What are Control Structures? Control structures are used to control the flow of a program. They allow you to make decisions and repeat code. There are many different types of control structures, but we will focus on the most common ones. If you want to learn more about control structures in general, you can read more about them here. This page will focus on the control structures used in C++ and very very briefly in FRC C++.</description>
+    </item>
+    
   </channel>
 </rss>
