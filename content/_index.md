@@ -44,7 +44,7 @@ FRC0 is a work in progress.  We are always looking for new contributors to help 
 
 #### Cool Video of the Github Commit History (Updated Weekly)
 
-https://youtu.be/JGDiu-InnGU
+https://youtu.be/htZ70xkUiO4
 
 #### Important Links:
 
