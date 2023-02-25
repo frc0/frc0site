@@ -3,6 +3,7 @@ date: '2023-2-12'
 title: '6.3.3 Data Types'
 weight: 6.3.3
 lastmod: '2023-2-12'
+draft: true
 ---
 
 ## What are Data Types?

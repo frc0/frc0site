@@ -8,11 +8,33 @@ editors: 'ngalotti'
 # Welcome to FRC0 (FRC Zero)
 
 #### &#x26A0; Emergency Notice to FRC Turkey Teams:
->Due to the recent Earthquakes some events [Izmir](https://www.frcturkey.org/bolgesel-yarismalari/2023-izmir-regional/) & [Mersin](https://www.frcturkey.org/bolgesel-yarismalari/2023-mersin-regional/) have been **CANCELED** . Please check the [FIRST Turkey Website Announcement](https://www.frcturkey.org/2023-izmir-mersin-regional/) for more information.
-
-#### Same message hopefully in decent Turkish:
+On 2/15/2023 the following message was added:
+>​​Dear FIRST Robotics Competition Teams,
 >
-> Son depremler nedeniyle bazı olaylar [İzmir](https://www.frcturkey.org/bolgesel-yarismalari/2023-izmir-regional/) & [Mersin](https://www.frcturkey.org/bolgesel-yarismalari/2023-mersin-bölgesel/) **İPTAL EDİLDİ** . Daha fazla bilgi için lütfen [FIRST Turkey Web Sitesi Duyurusunu](https://www.frcturkey.org/2023-izmir-mersin-regional/) inceleyin.
+>As you know, due to the earthquake disaster in our country. Izmir and Mersin Regional Tournaments were cancelled.
+>
+>In order to create an opportunity for our teams registered and affected by these regional tournaments, the 3rd Regional was organized in our country this year under the name of Haliç Regional, on 31 March-1/2 April 2023.
+>It is important that our teams registered to Izmir and Mersin events promptly inform about their participation status via the form below, so that we can make the plans correctly.
+>
+>We kindly ask our affected teams to fill in the determination form, which they can access from [https://forms.gle/nacFRSJKupSWPs3t6](https://forms.gle/nacFRSJKupSWPs3t6), by carefully reading the explanations and filling them in by 18:00 on February 19, 2023 .
+>
+>regards
+>
+>Important Note: The form must be filled by the team's Lead 1 or Lead 2 mentor. Applications not in this way will not be considered.
+
+#### Same message in Turkish:
+>Değerli FIRST Robotics Competition Takımlarımız,
+>
+>Bildiğiniz üzere ülkemizde yaşanan deprem felaketi nedeniyle. İzmir ve Mersin Bölgesel Turnuvaları iptal edilmişti.
+>
+>Bu bölgesel turnuvalarda kayıtlı olan ve etkilenen takımlarımıza fırsat yaratmak amacıyla ülkemizde bu yıl Haliç Regional adıyla 31 Mart-1/2 Nisan 2023 tarihlerinde Volkswagen Arena’da 3.Regional organize edilmiştir.
+>Takımlarımızdan İzmir ve Mersin etkinliklerine kayıtlı takımlarımızın katılım durumlarını ivedi şekilde aşağıdaki form aracılığıyla bilgilendirmesi planlamaları doğru şekilde yapabilmemiz için önemlidir.
+>
+>Lütfen etkilenen takımlarımız [https://forms.gle/nacFRSJKupSWPs3t6](https://forms.gle/nacFRSJKupSWPs3t6) adresinden ulaşacakları tespit formunu açıklamaları dikkatli şekilde okuyarak 19 Şubat 2023 saat 18:00’e kadar doldurmalarını rica ederiz.
+>
+>Saygılarımızla
+>
+>Önemli Not : Form mutlaka takımın Lead 1 yada Lead 2 mentoru tarafından doldurulmalıdır. Bu şekilde olmayan başvurular dikkate alınamıyacaktır
 
 ### What's FRC0 and How Can I Learn More About It?
 

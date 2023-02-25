@@ -3,6 +3,7 @@ date: '2023-2-10'
 title: '6.3.2 Structure'
 weight: 6.3.2
 lastmod: '2023-2-10'
+draft: true
 ---
 
 ## What is Structure?
