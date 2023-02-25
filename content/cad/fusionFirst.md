@@ -1,6 +1,7 @@
 ---
 title: "7.1 Fusion 360"
 date: 2023-02-04T22:27:39-05:00
+weight: 1
 ---
 
 ## What is Fusion 360?

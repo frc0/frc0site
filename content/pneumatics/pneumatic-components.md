@@ -1,6 +1,7 @@
 ---
 title: "5.2 Types of Pneumatic Components"
 date: 2023-02-04T22:27:39-05:00
+weight: 2
 ---
 
 Pneumatic components are the parts of a pneumatic system that use compressed air to do work. There are many different types of pneumatic components. The most common pneumatic components are shown in the table below:

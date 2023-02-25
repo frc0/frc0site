@@ -2,7 +2,7 @@
 title: "4.9 Electronics Troubleshooting"
 date: 2023-02-08T23:34:12-05:00
 draft: false
-weight: 4.9
+weight: 9
 ---
 
 ### What is Electronics Troubleshooting?

@@ -1,7 +1,7 @@
 ---
 date: '2023-2-10'
 title: '6.3 C++'
-weight: 6.3
+weight: 3
 lastmod: '2023-2-10'
 ---
 

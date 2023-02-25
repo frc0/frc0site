@@ -1,7 +1,7 @@
 +++
 title = "7.0 Computer Aided Design"
 date = 2023-02-05T01:47:38-05:00
-weight = 7.0
+weight = 7
 chapter = true
 lastmod = 2023-02-04T22:22:45-05:00
 author = 'Mr. Siefen'

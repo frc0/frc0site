@@ -1,6 +1,8 @@
 ---
 title: "5.1 What are Pneumatics?"
 date: 2023-02-04T22:27:39-05:00
+draft: false
+weight: 1
 ---
 
 Originally discovered by the ancient Greeks, pneumatics is the study of air pressure. Pneumatics is a branch of fluid power that uses compressed air to power actuators. Pneumatic actuators are used to move mechanical parts, such as valves, cylinders, and other devices. Pneumatic systems are used in a wide variety of applications, including robotics, manufacturing, and construction.
