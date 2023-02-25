@@ -1,7 +1,7 @@
 +++
 title = "6.0 Programming"
 date = 2023-02-05T01:19:51-05:00
-weight = 6.0
+weight = 6
 chapter = true
 lastmod = 2023-02-04T22:22:45-05:00
 author = 'Mr. Siefen'

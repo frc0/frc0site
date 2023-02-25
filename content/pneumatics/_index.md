@@ -1,7 +1,7 @@
 +++
 title = "5.0 Pneumatics"
 date = 2023-02-04T22:28:37-05:00
-weight = 5.0
+weight = 5
 chapter = true
 lastmod = 2023-02-04T22:22:45-05:00
 author = 'Mr. Siefen'

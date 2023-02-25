@@ -1,7 +1,7 @@
 ---
 title: "0.5 Special Thanks and References"
 date: 2023-02-04T22:22:45-05:00
-weight: 0.5
+weight: 5
 ---
 
 This site would not be possible without the following:

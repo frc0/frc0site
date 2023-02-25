@@ -1,7 +1,7 @@
 +++
 title = "4.0 Electronics"
 date = 2023-02-05T01:20:03-05:00
-weight = 4.0
+weight = 4
 chapter = true
 lastmod = 2023-02-04T22:22:45-05:00
 author = 'Mr. Siefen'

@@ -1,7 +1,7 @@
 ---
 title: "0.3 Writing Content for the Website"
 date: 2023-02-04T22:22:45-05:00
-weight: 0.1
+weight: 3
 ---
 
 So you want to write content for the FRC0 website?  Great!  This page will help you get started.

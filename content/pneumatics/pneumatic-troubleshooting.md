@@ -1,6 +1,8 @@
 ---
 title: "5.6 Pneumatic Troubleshooting"
 date: 2023-02-04T22:27:39-05:00
+draft: false
+weight: 6
 ---
 
 ![Sad robot falls down gif](https://i.gifer.com/Vp4d.gif)

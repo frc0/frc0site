@@ -1,6 +1,8 @@
 ---
 title: "5.7 Pneumatic Resources"
 date: 2023-02-04T22:27:39-05:00
+draft: false
+weight: 7
 ---
 
 Below is a table of resources for pneumatics. These resources are provided by FIRST and other organizations.

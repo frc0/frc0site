@@ -1,6 +1,8 @@
 ---
 title: "5.3 Pneumatic Safety"
 date: 2023-02-04T22:27:39-05:00
+draft: false
+weight: 3
 ---
 
 Pneumatics are powerful and can be dangerous if not used properly. This section will cover the safety rules and guidelines for pneumatics. As is the case with all safety rules, they are not meant to be restrictive. They are meant to be guidelines to help keep you safe. If you have any questions about the safety rules, please ask your mentor or coach.

@@ -1,11 +1,12 @@
 ---
 title: "1.2 Starting a Team"
 date: 2023-02-04T22:27:39-05:00
+weight: 2
 ---
 
 Now that you're a little bit more aware of what FIRST Robotics Competition is, you may be interested in starting a team. This page will give you a brief overview of what it takes to start a team., what supplies you need, and how to get started. If you're interested in starting a team, you should also check out the [FIRST Robotics Competition Team Starter Guide](https://www.firstinspires.org/robotics/frc/start-a-team).
 
-Below is a video produced by [FRC team 573] (https://www.youtube.com/watch?v=QZ9Z9Z9Z9Z9) that gives some more info.
+This is a video produced by [FRC team 573] (https://www.youtube.com/watch?v=QZ9Z9Z9Z9Z9) that gives some more info.
 
 ### What Are Some Things to Consider When Starting a Team?
 

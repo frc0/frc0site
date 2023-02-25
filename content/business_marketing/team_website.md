@@ -1,7 +1,7 @@
 +++
 title = "8.7 Team Website"
 date = 2023-02-04T22:22:45-05:00
-weight = 8.7
+weight = 7
 lastmod = 2023-02-04T22:22:45-05:00
 author = 'Mr. Siefen'
 editors = ''

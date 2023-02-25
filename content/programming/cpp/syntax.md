@@ -1,7 +1,7 @@
 ---
 date: '2023-2-10'
 title: '6.3.1 Syntax'
-weight: 6.3.1
+weight: 1
 lastmod: '2023-2-10'
 draft: true
 ---
