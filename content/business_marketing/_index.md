@@ -22,9 +22,9 @@ Below is an outline of the topics that will be covered in this chapter.
 | 8.2 | [Marketing Plan](/business_marketing/marketing_plan) | 30 minutes |
 | 8.3 | [Team Sustainability](/business_marketing/team_sustainability) | 30 minutes |
 | 8.4 | [Sponsorship](/business_marketing/sponsorship) | 30 minutes |
-| 8.5 | [Social Media Management](/business_marketing/social_media_management) | 30 minutes |
+| 8.5 | [Team Branding](/business_marketing/team_branding) | 30 minutes |
 | 8.6 | [Team Website](/business_marketing/team_website) | 30 minutes |
-| 8.7 | [Team Branding](/business_marketing/team_branding) | 30 minutes |
+| 8.7 | [Social Media Management](/business_marketing/social_media_management) | 30 minutes |
 | 8.8 | [Team Logo](/business_marketing/team_logo) | 30 minutes |
 | 8.9 | [Team T-Shirt](/business_marketing/team_tshirt) | 30 minutes |
 | 8.10 | [Team Video](/business_marketing/team_video) | 30 minutes |

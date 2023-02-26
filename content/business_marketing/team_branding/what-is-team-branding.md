@@ -1,5 +1,5 @@
 ---
-title: "8.7.1 What is Team Branding?"
+title: "8.5.1 What is Team Branding?"
 date: 2023-02-26
 weight: 1
 chapter: false
