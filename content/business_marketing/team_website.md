@@ -1,7 +1,7 @@
 ---
-title: "8.7 Team Website"
+title: "8.6 Team Website"
 date: 2023-02-04T22:22:45-05:00
-weight: 7
+weight: 6
 chapter: false
 lastmod: 2023-02-26
 author: 'Mr. Siefen'

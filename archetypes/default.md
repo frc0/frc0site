@@ -7,4 +7,3 @@ lastmod: {{ .Date }}
 author: 'Your Name'
 editors: ''
 ---
-
