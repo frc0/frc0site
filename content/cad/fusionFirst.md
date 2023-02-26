@@ -1,7 +1,11 @@
 ---
 title: "7.1 Fusion 360"
-date: 2023-02-04T22:27:39-05:00
+date: 2023-02-07
 weight: 1
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 ## What is Fusion 360?

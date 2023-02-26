@@ -1,11 +1,12 @@
-+++
-title = "8.7 Team Website"
-date = 2023-02-04T22:22:45-05:00
-weight = 7
-lastmod = 2023-02-04T22:22:45-05:00
-author = 'Mr. Siefen'
-editors = ''
-+++
+---
+title: "8.6 Team Website"
+date: 2023-02-04T22:22:45-05:00
+weight: 6
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
+---
 
 ## Why should FRC teams have a website?
 
@@ -33,11 +34,11 @@ A table below lists some of the most common features of a team website. The tabl
 | Home Page | The home page is the first page a visitor sees when they visit the website. The home page should include a brief description of the team, a list of the team's sponsors, and a list of the team's mentors. |
 | About Page | The about page should include a brief description of the team, a list of the team's sponsors, and a list of the team's mentors. |
 | Sponsors Page | The sponsors page should include a list of the team's sponsors. |
-| Team Members Page (optional) | The team members page should have information meant for team members and ideally could be password protected. |
 | Contact Page | The contact page should include a form for visitors to contact the team. |
-| Calendar Page | The calendar page should include a calendar of team events. |
 | Media Page | The media page should include links to team videos and photos. |
 | Social Media Links | The website should include links to the team's social media accounts. |
+| Calendar Page (optional) | The calendar page should include a calendar of team events. |
+| Team Members Page (optional) | The team members page should have information meant for team members and ideally could be password protected. |
 
 ## How can a team create a website?
 
@@ -64,12 +65,11 @@ There are many ways to host a website. The table below lists some of the most co
 
 ## How can a team design a website like frczero.org using Hugo?
 
-While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great resource for learning how to use Hugo, it does not cover how to design a knowledge website like frczero.org. For a teams website to be successful, it needs to be designed to be easy to use and easy to navigate. The learn theme may not be the best choice. The table below lists some of the most common themes for Hugo:
+While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great resource for learning how to use Hugo, it is not a great layout for a Team or Branding website. For a teams website to be successful, it needs to be designed to be easy to use and easy to navigate. The learn theme may not be the best choice. The table below lists some of the most common themes for Hugo:
 
 | Theme Name (link) | Description |
 | --- | --- |
 | [Learn](https://learn.netlify.app/en/) | The learn theme is a theme designed for knowledge websites. |
-| [Universal](https://themes.gohugo.io/themes/hugo-universal-theme/) | The universal theme is a **GOOD** choice for teams. |
 | [Ananke](https://themes.gohugo.io/gohugo-theme-ananke/) | The ananke theme is a theme designed for blog websites. |
 | [Hugo Coder](https://themes.gohugo.io/hugo-book/) | The hugo coder theme is a simple and clean blog theme. |
 | [Theme.gohugo.io](https://themes.gohugo.io/) | The theme.gohugo.io website lists many themes for Hugo. I used that to find these themes! |
@@ -92,9 +92,9 @@ While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great 
 
     - If you are confident that you followed the instructions correctly, then you should try to reinstall Hugo. If you are still having problems, then you should submit an issue on the [frczero.org github repo](https://github.com/frc0/frc0site)
 
-### How can a team use the Universal theme and Hugo?
+### How can a team use a theme and Hugo?
 
-**Note:** The following instructions are based on the [Universal Theme Quick Start Guide](https://themes.gohugo.io/themes/hugo-universal-theme/). To see the theme in action, visit the [Universal Theme Demo](https://devcows.github.io/hugo-universal-theme/).
+Using any theme with Hugo will come with its own set of instructions. There are things that they all have in common though. The following instructions are based on the [Hugo Quick Start Guide](https://gohugo.io/getting-started/quick-start/). This also assumes you have already installed Hugo on your computer.
 
 1. Create a new Hugo website using the following command:
 
@@ -106,88 +106,28 @@ While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great 
     ```bash
     cd my-website
     ```
-3. Add the Universal theme to the website. There are 2 methods based on whether or not you have Git installed on your computer. If you do not have Git installed on your computer, then you should use the first method. If you do have Git installed on your computer, then you should use the second method:
-
-    - Method 1: Download the theme as a zip file and extract it to the website:
-        - Download the theme from the [Universal Theme Github Repo](https://github.com/devcows/hugo-universal-theme) as a zip file.
-        - Extract the zip file to the websites themes folder. If one does not exist, then create one.
-        - You need to rename the folder that you extracted from `hugo-universal-theme-master` to `hugo-universal-theme`.
-
-    - Method 2: Clone the theme using Git and add it to the website (Still rename the folder to `hugo-universal-theme` after cloning):
+3. Add the theme to the website:
 
     ```bash
-    mkdir themes
-    cd themes
-    git clone https://github.com/devcows/hugo-universal-theme
+    git init && git submodule add <link to theme repo you want to use> themes/<name of theme>
     ```
-4. Open up the website configuration file called config.toml and add the following content:
+4. Copy the example site from the theme to the website:
+
+    ```bash
+    cp -r themes/<name of theme>/exampleSite/* .
+    ```
+
+5. Edit the `config.toml` file to change the theme to the theme you want to use:
 
     ```toml
-    style = "default"
-    defaultContentLanguage = "en"
-    title = "My Website"
-    theme = "hugo-universal-theme"
-
-    [params]
-    disabled_logo = false
-    logo_text = "Universal"
-
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    theme = "<name of theme>"
     ```
-    
-    You can go into much greater detail with the configuration file, but this is the bare minimum that you need to get started. To learn more visit the [Universal Theme Configuration Guide](https://themes.gohugo.io/themes/hugo-universal-theme/#configuration).
-
-5. Run the project using the following command:
+6. Start the Hugo server:
 
     ```bash
     hugo server
     ```
-6. Open up a web browser and go to the following address:
-
-    ```bash
-    http://localhost:1313/
-    ```
-7. You should see the following page:
-
-    ![Universal Theme Screenshot](https://raw.githubusercontent.com/frc0/frc0site/master/static/img/universal-theme-screenshot.png)
-
-8. To create a new page, run the following command (You should probably do this from a different command prompt window):
-
-    ```bash
-    hugo new page about.md
-    ```
-9. Open up the new page in a text editor or VS code and add the following content:
-
-    ```markdown
-    ---
-    title: "About"
-    date: 2019-01-01T00:00:00-05:00
-    draft: false
-    ---
-
-    Hello World!
-    ```
-10. Save the file and then go to the following address in your web browser:
-
-    ```bash
-    http://localhost:1313/about/
-    ```
-11. You should see the following page:
-
-    ![Universal Theme About Page Screenshot](https://raw.githubusercontent.com/frc0/frc0site/master/static/img/universal-theme-about-page-screenshot.png)
-
-    - If you are having problems, then you should go back and make sure that you followed the instructions correctly.
-    - If you are confident that you followed the instructions correctly and you are still having problems, then you should submit an issue on the [frczero.org github repo](https://github.com/frc0/frc0site)
-
-12. Keep reading and following the official [Universal Theme Quick Start Guide](https://themes.gohugo.io/themes/hugo-universal-theme/) to learn more about the theme and how to make the most of it. You will have to rename the Menu tabs to match your team's needed layout. This is done by creating files called partials in the `layouts/partials` folder. There are lots of examples of the partials in the themes folder and the `exampleSite` folder.
-
-13. When you are ready to publish your website, run the following command:
-
-    ```bash
-    hugo
-    ```
-    **Note:** When you run the hugo command, it will create a public folder. This folder contains all of the files that you need to upload to your webhosting service.
+7. Open a web browser and go to `localhost:1313` to see the website.
 
 ### How can a team use the Ananke theme and Hugo?
 
@@ -287,13 +227,9 @@ While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great 
 
 ```
 
-## How can a team design a website like frczero.org using WordPress?
+To learn more about the Ananke theme, visit the [Ananke Theme Documentation](https://themes.gohugo.io/gohugo-theme-ananke/).
 
-// TODO - Add instructions for using WordPress
-
-## How can a team design a website like frczero.org using Django?
-
-// TODO - Add instructions for using Django
+> If you want to just start with a cloned version of the Team 453 website which uses the Ananke theme, then you can fork or download and make a new copy of the [FRC 453 Team Website Repository](https://github.com/team453/teamWebsite) and then follow the instructions in the README.md file and the articles [How did we make this site? pt 1](http://rockemsockemrobotics.com/post/ssglesson1/) & [How did we make this site? pt 2](http://rockemsockemrobotics.com/post/ssglesson2/).
 
 ## How can a team design a website like frczero.org using a website builder?
 
@@ -303,7 +239,7 @@ While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great 
 
 // TODO - Add instructions for designing a website from scratch
 
-Currently Mr. Siefen has a very very very.... very basic website from scratch guide on his personal blog [here](https://mrsiefensrobotemporium.com/blogs/2022/October/websiteCreationpt3.html). He recommends skipping part 1 unless you are interested in learning about hosting with AWS... its not fun.
+Currently Mr. Siefen has a very very very.... very basic website from scratch guide on his personal blog [here](https://mrsiefensrobotemporium.com/blogs/2022/October/websiteCreationpt3.html). He recommends skipping part 1 unless you are interested in learning about hosting with AWS... it's not fun.
 
 ## How can a team host a website using a free hosting service?
 
@@ -317,18 +253,6 @@ Currently Mr. Siefen has a very very very.... very basic website from scratch gu
 
 // TODO - Add instructions for hosting a website on a team member's computer
 
-## How can a team use services like Read the Docs to host a website?
-
-// TODO - Add instructions for using services like Read the Docs to host a website
-
-## How can a team use GitHub Pages to host a website?
-
-// TODO - Add instructions for using GitHub Pages to host a website
-
 ## How can a team use Netlify to host a website?
 
 // TODO - Add instructions for using Netlify to host a website
-
-## How can a team use AWS to host a website?
-
-// TODO - Add instructions for using AWS to host a website

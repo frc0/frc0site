@@ -1,7 +1,11 @@
 ---
 title: "0.5 Special Thanks and References"
-date: 2023-02-04T22:22:45-05:00
+date: 2023-02-04
 weight: 5
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 This site would not be possible without the following:

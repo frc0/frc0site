@@ -3,6 +3,10 @@ title: "2.1.4 Create a Prototype"
 date: 2023-02-24
 draft: false
 weight: 4
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 ## What is a Prototype?

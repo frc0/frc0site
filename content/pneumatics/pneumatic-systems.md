@@ -1,8 +1,12 @@
 ---
 title: "5.4 How to Setup a Pneumatic System"
-date: 2023-02-04T22:27:39-05:00
+date: 2023-02-04
 draft: false
 weight: 4
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 Setting up a pneumatic system can be a daunting task. This section will cover the basics of setting up a pneumatic system. It will cover the basics of the components and how to connect them. It will also cover the basics of how to setup the compressor and the PCM and how to test the system.

@@ -3,6 +3,10 @@ title: "2.1.1 Identify the Problem"
 date: 2023-02-24
 draft: false
 weight: 1
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 The first step in the design process is to identify the problem. This is the most important step in the process. If you don't know what the problem is, you can't solve it. The problem should be clearly defined. It should be specific, and not too broad. It should also be measurable. This means that you should be able to know when the problem is solved. For example, if the problem is "I want to build a robot that can score points in the game", that is too broad. You need to be more specific. A better problem would be "I want to pick up a ball from the ground and score it in the high goal". This is a better problem because it is specific, and it is measurable. You can know when the problem is solved because you can score a ball in the high goal.

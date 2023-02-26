@@ -1,12 +1,12 @@
-+++
-title = "3.0 Machining & Fabrication"
-date = 2023-02-05T01:24:46-05:00
-weight = 3
-chapter = true
-lastmod = 2023-02-04T22:22:45-05:00
-author = 'Mr. Siefen'
-editors = ''
-+++
+---
+title: "3.0 Machining & Fabrication"
+date: 2023-02-05
+weight: 3
+chapter: true
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
+---
 
 # 3.0 Machining & Fabrication
 

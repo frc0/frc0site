@@ -1,12 +1,12 @@
-+++
-title = "0.0 About FRC0"
-date = 2023-02-04T22:22:45-05:00
-weight = 0
-chapter = true
-lastmod = 2023-02-04T22:22:45-05:00
-author = 'Mr. Siefen'
-editors = ''
-+++
+---
+title: "0.0 About FRC0"
+date: 2023-02-04
+weight: 0
+chapter: true
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
+---
 
 # 0.0 About FRC0?
 

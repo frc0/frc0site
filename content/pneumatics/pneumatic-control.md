@@ -1,7 +1,11 @@
 ---
 title: "5.5 Pneumatic Control"
-date: 2023-02-04T22:27:39-05:00
+date: 2023-02-04
 weight: 5
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 Pneumatic control is the process of controlling the flow of air to the pneumatic system. This is done by using solenoids to control cylinders of various shapes and sizes. All of the cylinders are controlled using the same basic hardware. At a minimum, if you have followed along you should have a compressor, a pressure switch, a release valve, and a solenoid. The solenoid is the only part of the system that is controlled by the robot. The compressor and solenoids are controlled by the PCM/PCH. The pressure switch stops the compressor if it detects anything above 125 psi. In case that fails there should ALWAYS be a mechanical safety valve that is properly tuned.
