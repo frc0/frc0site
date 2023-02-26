@@ -1,7 +1,11 @@
 ---
 title: "0.2 How to Use FRC0"
-date: 2023-02-04T22:22:45-05:00
+date: 2023-02-04
 weight: 2
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 FRC0 is based on the learn theme for Hugo. The learn theme is explained in detail on the [Hugo Learn Theme](https://learn.netlify.app/en/) website. What is useful about this theme is it uses a system of Chapters and Sections. Each Chapter is a topic and each Section is a sub-topic. The Chapters and Sections are listed in the left sidebar. The Chapters and Sections are also used to create the Table of Contents for each Chapter page. Below is a table of all of the chapters as of 2/5/2023:

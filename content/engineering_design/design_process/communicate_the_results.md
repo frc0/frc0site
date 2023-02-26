@@ -3,6 +3,10 @@ title: "2.1.6 Communicate the Results"
 date: 2023-02-24
 draft: false
 weight: 6
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 ## Why is it important to communicate the results?

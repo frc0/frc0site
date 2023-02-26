@@ -1,8 +1,12 @@
 ---
 title: "5.6 Pneumatic Troubleshooting"
-date: 2023-02-04T22:27:39-05:00
+date: 2023-02-04
 draft: false
 weight: 6
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 ![Sad robot falls down gif](https://i.gifer.com/Vp4d.gif)

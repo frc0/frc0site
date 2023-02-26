@@ -1,7 +1,11 @@
 ---
 title: "0.4 Who are the contributors?"
-date: 2023-02-04T22:22:45-05:00
+date: 2023-02-04
 weight: 4
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 This site is a collaborative effort of many teams, individuals and private companies. The following teams and individuals have contributed to this site:

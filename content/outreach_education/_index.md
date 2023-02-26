@@ -1,12 +1,12 @@
-+++
-title = "9.0 Outreach & Education"
-date = 2023-02-05T01:49:37-05:00
-weight = 9
-chapter = true
-lastmod = 2023-02-04T22:22:45-05:00
-author = 'Mr. Siefen'
-editors = ''
-+++
+---
+title: "9.0 Outreach & Education"
+date: 2023-02-05
+weight: 9
+chapter: true
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
+---
 
 # 9.0 Outreach & Education
 

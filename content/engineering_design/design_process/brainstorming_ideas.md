@@ -3,6 +3,10 @@ title: "2.1.3 Brainstorming Ideas"
 date: 2023-02-24
 draft: false
 weight: 3
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 Brainstorming is the process of generating as many ideas as possible. This can and should be a fun process. The ideas do not all need to be good, they just need to be different. The more ideas you generate, the more likely you are to find a good idea among the nonsense. While brainstorming, it is important to not judge the ideas and really encourage free thinking. Ideas can be documented in many ways, but no matter what it should be fun and easy to do. Students should be encouraged to use whatever method they are most comfortable with.

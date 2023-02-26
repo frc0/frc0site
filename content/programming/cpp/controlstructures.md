@@ -2,7 +2,10 @@
 date: '2023-2-12'
 title: '6.3.5 Control Structures'
 weight: 5
-lastmod: '2023-2-12'
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 draft: true
 ---
 

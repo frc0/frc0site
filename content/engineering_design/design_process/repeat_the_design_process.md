@@ -3,6 +3,10 @@ title: "2.1.7 Repeat the Design Process"
 date: 2023-02-24
 draft: false
 weight: 7
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 ## What is iteration?

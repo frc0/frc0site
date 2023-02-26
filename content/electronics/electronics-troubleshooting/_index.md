@@ -3,6 +3,10 @@ title: "4.9 Electronics Troubleshooting"
 date: 2023-02-08T23:34:12-05:00
 draft: false
 weight: 9
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 ### What is Electronics Troubleshooting?

@@ -3,6 +3,10 @@ title: "2.1.5 Testing a Prototype"
 date: 2023-02-24
 draft: false
 weight: 5
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 Testing the prototype that you created is an important step in the design process. It allows you to make sure that the prototype works as expected. It also allows you to make changes to the prototype early in the design process. This will save you time and money in the long run. Time in the FRC season is very limited, so you should make sure that you are spending your time wisely. The testing process will also help you be ready for inspection at the competition. You should test your prototype as often as possible. You should also test your prototype in as many different situations as possible. This will help you find any problems with the prototype before you have to use it in a competition.

@@ -3,6 +3,10 @@ title: "2.1.2 Research the Problem"
 date: 2023-02-24
 draft: false
 weight: 2
+chapter: false
+lastmod: 2023-02-26
+author: 'Mr. Siefen'
+editors: ''
 ---
 
 Now that you know what the problem is, you can work towards solving it. Before reinventing the wheel and 3D printing it...
