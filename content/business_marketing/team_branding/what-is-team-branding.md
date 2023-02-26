@@ -46,7 +46,7 @@ Branding guides are a set of guidelines that are used to create new content and 
 
 FIRST made a guide for their branding in 2015 that is a phenomenal resource for teams to use. You can find it below:
 
-<object data="https://www.firstinspires.org/sites/default/files/uploads/resource_library/first-brand-guidelines-web-2015.pdf" type="application/pdf" width="100%" height="700px">
+<object data="https://www.firstinspires.org/sites/default/files/uploads/resource_library/first-brand-guidelines-web-2015.pdf" type="application/pdf" width="75%" height="700px">
   <p>Viewer unavailable, click here <a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/first-brand-guidelines-web-2015.pdf">to download the PDF!</a></p>
 </object>
 

@@ -6,7 +6,17 @@
     <description>Recent content in FRC0 - HOME on FRC Zero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Feb 2023 22:22:45 -0500</lastBuildDate><atom:link href="https://frczero.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://frczero.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.7.1 What is Team Branding?</title>
+      <link>https://frczero.org/business_marketing/team_branding/what-is-team-branding/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/business_marketing/team_branding/what-is-team-branding/</guid>
+      <description>What is a Brand? In the context of FRC the team&amp;rsquo;s brand can include its name, logo, and other visual elements. These elements are used to create a consistent look and feel for the team. By planning ahead, creating styling guides and more, the team can create a brand that is easily recognizable and memorable. It&amp;rsquo;s also easy to create new content that fits within the brand.
+New members to your business and marketing team can make new content Day one and already have their templates and branding guidelines to follow.</description>
+    </item>
+    
     <item>
       <title>2.1.1 Identify the Problem</title>
       <link>https://frczero.org/engineering_design/design_process/identify_the_problem/</link>
@@ -17,19 +27,9 @@
     </item>
     
     <item>
-      <title>5.1 What are Pneumatics?</title>
-      <link>https://frczero.org/pneumatics/what-are-pneumatics/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
-      
-      <guid>https://frczero.org/pneumatics/what-are-pneumatics/</guid>
-      <description>Originally discovered by the ancient Greeks, pneumatics is the study of air pressure. Pneumatics is a branch of fluid power that uses compressed air to power actuators. Pneumatic actuators are used to move mechanical parts, such as valves, cylinders, and other devices. Pneumatic systems are used in a wide variety of applications, including robotics, manufacturing, and construction.
-In FRC teams typically use cylinders to extend and retract a piston. This can be used to move a mechanism in a linear direction, or to rotate a mechanism.</description>
-    </item>
-    
-    <item>
       <title>7.1 Fusion 360</title>
       <link>https://frczero.org/cad/fusionfirst/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/cad/fusionfirst/</guid>
       <description>What is Fusion 360? Fusion 360 is a 3D Design, CAM, and CAE tool from Autodesk. It is a cloud-based tool that allows you to design, simulate, and manufacture your robot. It is available for free to all FIRST Robotics Competition teams. Students and Mentors should sign up for a free account at https://www.autodesk.com/education/edu-software/overview?sorting=featured&amp;amp;filters=individual. After you setup or activate the Fusion 360 Educational access you should download it from https://www.autodesk.com/products/fusion-360/students-teachers-educators. You can also download the Fusion 360 app for your mobile device from the app store.</description>
@@ -38,11 +38,21 @@ In FRC teams typically use cylinders to extend and retract a piston. This can be
     <item>
       <title>0.1 Why FRC0?</title>
       <link>https://frczero.org/about/why-frc0/</link>
-      <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/about/why-frc0/</guid>
       <description>FRC0 was created to help address the following issues:
 There is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources. There are not as many Mentors and Coaches as there are students. Guides like WPIlib, Rev, CTRE, and others are great, but they are not always easy to understand or they don&amp;rsquo;t cover all the topics. For example, the WPIlib guides do not cover the game or the competition.</description>
+    </item>
+    
+    <item>
+      <title>5.1 What are Pneumatics?</title>
+      <link>https://frczero.org/pneumatics/what-are-pneumatics/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/pneumatics/what-are-pneumatics/</guid>
+      <description>Originally discovered by the ancient Greeks, pneumatics is the study of air pressure. Pneumatics is a branch of fluid power that uses compressed air to power actuators. Pneumatic actuators are used to move mechanical parts, such as valves, cylinders, and other devices. Pneumatic systems are used in a wide variety of applications, including robotics, manufacturing, and construction.
+In FRC teams typically use cylinders to extend and retract a piston. This can be used to move a mechanism in a linear direction, or to rotate a mechanism.</description>
     </item>
     
     <item>
@@ -65,9 +75,18 @@ Programming languages are the languages used to write the source code of program
     </item>
     
     <item>
+      <title>0.2 How to Use FRC0</title>
+      <link>https://frczero.org/about/how-to-use-frc0/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/about/how-to-use-frc0/</guid>
+      <description>FRC0 is based on the learn theme for Hugo. The learn theme is explained in detail on the Hugo Learn Theme website. What is useful about this theme is it uses a system of Chapters and Sections. Each Chapter is a topic and each Section is a sub-topic. The Chapters and Sections are listed in the left sidebar. The Chapters and Sections are also used to create the Table of Contents for each Chapter page.</description>
+    </item>
+    
+    <item>
       <title>1.2 Starting a Team</title>
       <link>https://frczero.org/competition/starting-a-team/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/competition/starting-a-team/</guid>
       <description>Now that you&amp;rsquo;re a little bit more aware of what FIRST Robotics Competition is, you may be interested in starting a team. This page will give you a brief overview of what it takes to start a team., what supplies you need, and how to get started. If you&amp;rsquo;re interested in starting a team, you should also check out the FIRST Robotics Competition Team Starter Guide.
@@ -77,20 +96,11 @@ This is a video produced by [FRC team 573] (https://www.</description>
     <item>
       <title>5.2 Types of Pneumatic Components</title>
       <link>https://frczero.org/pneumatics/pneumatic-components/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/pneumatics/pneumatic-components/</guid>
       <description>Pneumatic components are the parts of a pneumatic system that use compressed air to do work. There are many different types of pneumatic components. The most common pneumatic components are shown in the table below:
 Component Description Image Vendor Link(s) Solenoid A solenoid is a valve that uses an electric current to open and close. It is used to control the flow of air in a pneumatic system. Solenoids can be 12v or 24v.</description>
-    </item>
-    
-    <item>
-      <title>0.2 How to Use FRC0</title>
-      <link>https://frczero.org/about/how-to-use-frc0/</link>
-      <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
-      
-      <guid>https://frczero.org/about/how-to-use-frc0/</guid>
-      <description>FRC0 is based on the learn theme for Hugo. The learn theme is explained in detail on the Hugo Learn Theme website. What is useful about this theme is it uses a system of Chapters and Sections. Each Chapter is a topic and each Section is a sub-topic. The Chapters and Sections are listed in the left sidebar. The Chapters and Sections are also used to create the Table of Contents for each Chapter page.</description>
     </item>
     
     <item>
@@ -103,23 +113,23 @@ Component Description Image Vendor Link(s) Solenoid A solenoid is a valve that u
     </item>
     
     <item>
-      <title>5.3 Pneumatic Safety</title>
-      <link>https://frczero.org/pneumatics/pneumatic-safety/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
-      
-      <guid>https://frczero.org/pneumatics/pneumatic-safety/</guid>
-      <description>Pneumatics are powerful and can be dangerous if not used properly. This section will cover the safety rules and guidelines for pneumatics. As is the case with all safety rules, they are not meant to be restrictive. They are meant to be guidelines to help keep you safe. If you have any questions about the safety rules, please ask your mentor or coach.
-Safety Rules Never use compressed air to propel a projectile.</description>
-    </item>
-    
-    <item>
       <title>0.3 Writing Content for the Website</title>
       <link>https://frczero.org/about/writing-content/</link>
-      <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/about/writing-content/</guid>
       <description>So you want to write content for the FRC0 website? Great! This page will help you get started.
 What is Markdown? Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML. It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. For more information, please see the Markdown Guide.</description>
+    </item>
+    
+    <item>
+      <title>5.3 Pneumatic Safety</title>
+      <link>https://frczero.org/pneumatics/pneumatic-safety/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/pneumatics/pneumatic-safety/</guid>
+      <description>Pneumatics are powerful and can be dangerous if not used properly. This section will cover the safety rules and guidelines for pneumatics. As is the case with all safety rules, they are not meant to be restrictive. They are meant to be guidelines to help keep you safe. If you have any questions about the safety rules, please ask your mentor or coach.
+Safety Rules Never use compressed air to propel a projectile.</description>
     </item>
     
     <item>
@@ -142,23 +152,23 @@ Leaving aside any &amp;ldquo;Availability, Ethical (IFI Issues), Etc&amp;rdquo; 
     </item>
     
     <item>
-      <title>5.4 How to Setup a Pneumatic System</title>
-      <link>https://frczero.org/pneumatics/pneumatic-systems/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
-      
-      <guid>https://frczero.org/pneumatics/pneumatic-systems/</guid>
-      <description>Setting up a pneumatic system can be a daunting task. This section will cover the basics of setting up a pneumatic system. It will cover the basics of the components and how to connect them. It will also cover the basics of how to setup the compressor and the PCM and how to test the system.
-Gatherings the Components The first step in setting up a pneumatic system is to gather the components.</description>
-    </item>
-    
-    <item>
       <title>0.4 Who are the contributors?</title>
       <link>https://frczero.org/about/contributors/</link>
-      <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/about/contributors/</guid>
       <description>This site is a collaborative effort of many teams, individuals and private companies. The following teams and individuals have contributed to this site:
 FRC 453 Rock&amp;rsquo;em Sock&amp;rsquo;em Robotics FRC 2129 Ultraviolet FTC 12600 Robotters Mansour Quddus Hosting Maintenance and the Domain Name are provided by Mr. Siefen&amp;rsquo;s Robot Emporium and ResGreen Group where he works when not doing all that other stuff.</description>
+    </item>
+    
+    <item>
+      <title>5.4 How to Setup a Pneumatic System</title>
+      <link>https://frczero.org/pneumatics/pneumatic-systems/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/pneumatics/pneumatic-systems/</guid>
+      <description>Setting up a pneumatic system can be a daunting task. This section will cover the basics of setting up a pneumatic system. It will cover the basics of the components and how to connect them. It will also cover the basics of how to setup the compressor and the PCM and how to test the system.
+Gatherings the Components The first step in setting up a pneumatic system is to gather the components.</description>
     </item>
     
     <item>
@@ -171,22 +181,22 @@ FRC 453 Rock&amp;rsquo;em Sock&amp;rsquo;em Robotics FRC 2129 Ultraviolet FTC 12
     </item>
     
     <item>
-      <title>5.5 Pneumatic Control</title>
-      <link>https://frczero.org/pneumatics/pneumatic-control/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
-      
-      <guid>https://frczero.org/pneumatics/pneumatic-control/</guid>
-      <description>Pneumatic control is the process of controlling the flow of air to the pneumatic system. This is done by using solenoids to control cylinders of various shapes and sizes. All of the cylinders are controlled using the same basic hardware. At a minimum, if you have followed along you should have a compressor, a pressure switch, a release valve, and a solenoid. The solenoid is the only part of the system that is controlled by the robot.</description>
-    </item>
-    
-    <item>
       <title>0.5 Special Thanks and References</title>
       <link>https://frczero.org/about/thanks/</link>
-      <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/about/thanks/</guid>
       <description>This site would not be possible without the following:
 Hugo - A static site generator written in Go. Hugo Learn Theme - A theme for Hugo that is designed to look like powerpoint slides. Hugo Learn Theme Docs - The documentation for the Hugo Learn Theme. Mr. Siefen&amp;rsquo;s Robot Emporium - A personal blog by Mr. Siefen. It has alot of non-FRC content, but it is focused on robotics, stem, iot, and other not as relevent topics.</description>
+    </item>
+    
+    <item>
+      <title>5.5 Pneumatic Control</title>
+      <link>https://frczero.org/pneumatics/pneumatic-control/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/pneumatics/pneumatic-control/</guid>
+      <description>Pneumatic control is the process of controlling the flow of air to the pneumatic system. This is done by using solenoids to control cylinders of various shapes and sizes. All of the cylinders are controlled using the same basic hardware. At a minimum, if you have followed along you should have a compressor, a pressure switch, a release valve, and a solenoid. The solenoid is the only part of the system that is controlled by the robot.</description>
     </item>
     
     <item>
@@ -199,9 +209,19 @@ Hugo - A static site generator written in Go. Hugo Learn Theme - A theme for Hug
     </item>
     
     <item>
+      <title>8.6 Team Website</title>
+      <link>https://frczero.org/business_marketing/team_website/</link>
+      <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
+      
+      <guid>https://frczero.org/business_marketing/team_website/</guid>
+      <description>Why should FRC teams have a website? There are numerous benefits teams can gain from having a website. A website can be used to:
+Promote the team to the community Promote the team to potential sponsors Promote the team to potential mentors Promote the team to potential students Share information with team members Organize team information in a central location Share team information with the public Practice web development skills Practice graphic design skills Practice writing skills Learn about web hosting Learn about web design What should a team website include?</description>
+    </item>
+    
+    <item>
       <title>5.6 Pneumatic Troubleshooting</title>
       <link>https://frczero.org/pneumatics/pneumatic-troubleshooting/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/pneumatics/pneumatic-troubleshooting/</guid>
       <description>Sometimes things dont work as expected. This section will help you troubleshoot your pneumatic system.
@@ -220,21 +240,11 @@ Common Issues with Pneumatics Pneumatic solenoids are not working Check the sole
     <item>
       <title>5.7 Pneumatic Resources</title>
       <link>https://frczero.org/pneumatics/pneumatic-resources/</link>
-      <pubDate>Sat, 04 Feb 2023 22:27:39 -0500</pubDate>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://frczero.org/pneumatics/pneumatic-resources/</guid>
       <description>Below is a table of resources for pneumatics. These resources are provided by FIRST and other organizations.
 Resource Description Link Last Updated Official Pneumatics Manual The pneumatics manual is a resource for teams to use when designing and building their pneumatic system. It contains information on the pneumatic system, the components, and the rules. Pneumatics Manual 2023-01 Pneumatics Tutorial This tutorial is written by FIRST Robotics Team 358. Pneumatics Tutorial ?</description>
-    </item>
-    
-    <item>
-      <title>8.7 Team Website</title>
-      <link>https://frczero.org/business_marketing/team_website/</link>
-      <pubDate>Sat, 04 Feb 2023 22:22:45 -0500</pubDate>
-      
-      <guid>https://frczero.org/business_marketing/team_website/</guid>
-      <description>Why should FRC teams have a website? There are numerous benefits teams can gain from having a website. A website can be used to:
-Promote the team to the community Promote the team to potential sponsors Promote the team to potential mentors Promote the team to potential students Share information with team members Organize team information in a central location Share team information with the public Practice web development skills Practice graphic design skills Practice writing skills Learn about web hosting Learn about web design What should a team website include?</description>
     </item>
     
   </channel>
