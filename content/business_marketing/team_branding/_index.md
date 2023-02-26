@@ -1,7 +1,7 @@
 ---
-title: "8.7 Team Branding"
+title: "8.5 Team Branding"
 date: 2023-02-26
-weight: 7
+weight: 5
 chapter: false
 lastmod: 2023-02-26
 author: 'Mr. Siefen'
@@ -16,7 +16,9 @@ Branding is the process of creating a name, symbol, or design that identifies an
 This section will cover the following topics:
 | Order | Topic | Description |
 | --- | --- | --- |
-| 8.7.1 | [What is Team Branding?](/business_marketing/team_branding/what-is-team-branding/) | This section will cover what team branding is and why it is important. |
-| 8.7.2 | [Team Branding Examples](/business_marketing/team_branding/team-branding-examples/) | This section will cover team branding examples. |
-| 8.7.3 | [Team Branding Resources](/business_marketing/team_branding/team-branding-resources/) | This section will cover team branding resources. |
-| 8.7.4 | [How to Create a Team Brand](/business_marketing/team_branding/how-to-create-a-team-brand/) | This section will cover how to create a team brand. |
+| 8.5.1 | [What is Team Branding?](/business_marketing/team_branding/what-is-team-branding/) | This section will cover what team branding is and why it is important. |
+| 8.5.2 | [Team Branding Examples](/business_marketing/team_branding/team-branding-examples/) | This section will cover team branding examples. |
+| 8.5.3 | [Team Branding Resources](/business_marketing/team_branding/team-branding-resources/) | This section will cover team branding resources. |
+| 8.5.4 | [How to Create Graphics Using Paint.net](/business_marketing/how-to-create-graphics-using-paint.net) | 30 minutes |
+| 8.5.5 | [How to Create Graphics Using Canva](/business_marketing/how-to-create-graphics-using-canva) | 30 minutes |
+| 8.5.6 | [Creating Document Templates](/business_marketing/creating-document-templates) | 30 minutes |
