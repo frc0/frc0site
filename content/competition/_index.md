@@ -20,13 +20,13 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 1. | [What is a FRC Competition?](/competition/what-is-a-competition/) | 5 minutes |
-| 2. | [Starting a Team](/competition/starting-a-team/) | 20 minutes |
-| 3. | [Competition Events](/competition/competition-events/) | 10 minutes |
-| 4. | [Competition Rules](/competition/competition-rules/) | 10 minutes |
-| 5. | [Competition Scoring](/competition/competition-scoring/) | 10 minutes |
-| 6. | [Parent's Guide to Competition](/competition/parents-guide-to-competition/) | 5 minutes |
-| 7. | [Mentor's Guide to Competition](/competition/mentors-guide-to-competition/) | 5 minutes |
-| 8. | [Competition Resources](/competition/competition-resources/) | 5 minutes |
-| 9. | [Competition Videos](/competition/competition-videos/) | 5 minutes |
+| 1.1 | [What is a FRC?](/competition/what-is-frc/) | 5 minutes |
+| 1.2 | [Starting a Team](/competition/starting-a-team/) | 20 minutes |
+| 1.3 | [Competition Events](/competition/competition-events/) | 10 minutes |
+| 1.4 | [Competition Rules](/competition/competition-rules/) | 10 minutes |
+| 1.5 | [Competition Scoring](/competition/competition-scoring/) | 10 minutes |
+| 1.6 | [Parent's Guide to Competition](/competition/parents-guide-to-competition/) | 5 minutes |
+| 1.7 | [Mentor's Guide to Competition](/competition/mentors-guide-to-competition/) | 5 minutes |
+| 1.8 | [Competition Resources](/competition/competition-resources/) | 5 minutes |
+| 1.9 | [Competition Videos](/competition/competition-videos/) | 5 minutes |
 |    | Total Estimated Time | 70 minutes |

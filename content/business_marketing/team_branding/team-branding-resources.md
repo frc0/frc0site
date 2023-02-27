@@ -40,12 +40,12 @@ Adobe has many tools that could be used for team branding. However, they are not
 
 [NDSU Bison Robotics](https://www.ndsubisonrobotics.org/) is an Alumni group that made a presentation about branding:
 
-<object data="https://www.ndsubisonrobotics.org/uploads/5/9/8/8/59888285/jumpstart_-_marketing_2fbranding.pdf" type="application/pdf" width="75%" height="700px">
+<object data="https://www.ndsubisonrobotics.org/uploads/5/9/8/8/59888285/jumpstart_-_marketing_2fbranding.pdf" type="application/pdf" width="100%" height="700px">
   <p>Viewer unavailable, click here <a href="https://www.ndsubisonrobotics.org/uploads/5/9/8/8/59888285/jumpstart_-_marketing_2fbranding.pdf">to download the PDF!</a></p>
 </object>
 
 [frctutorials.com](https://frctutorials.com/) also has a guide on marketing and social media written by Team 4150:  
-<object data="https://frctutorials.com/translations/en-us/TeamManagement/MarketingSocialMedia.pdf" type="application/pdf" width="75%" height="700px">
+<object data="https://frctutorials.com/translations/en-us/TeamManagement/MarketingSocialMedia.pdf" type="application/pdf" width="100%" height="700px">
   <p>Viewer unavailable, click here <a href="https://frctutorials.com/translations/en-us/TeamManagement/MarketingSocialMedia.pdf">to download the PDF!</a></p>
 </object>
 

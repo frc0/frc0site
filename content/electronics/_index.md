@@ -29,15 +29,15 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 1. | [What is Electronics?](/electronics/what-is-electronics/) | 5 minutes |
-| 2. | [Electronics Tools](/electronics/electronics-tools/) | 10 minutes |
-| 3. | [Electronics Components](/electronics/electronics-components/) | 10 minutes |
-| 4. | [Electronics Circuits](/electronics/electronics-circuits/) | 10 minutes |
-| 5. | [Electronics Safety](/electronics/electronics-safety/) | 10 minutes |
-| 6. | [Electronics Assembly](/electronics/electronics-assembly/) | 10 minutes |
-| 7. | [Electronics Testing](/electronics/electronics-testing/) | 10 minutes |
-| 8. | [Electronics Documentation](/electronics/electronics-documentation/) | 10 minutes |
-| 9. | [Electronics Troubleshooting](/electronics/electronics-troubleshooting/) | 10 minutes |
-| 10. | [Electronics Resources](/electronics/electronics-resources/) | 10 minutes |
-| 11. | [Electronics Glossary](/electronics/electronics-glossary/) | 10 minutes |
+| 4.1 | [What is Electronics?](/electronics/what-is-electronics/) | 5 minutes |
+| 4.2 | [Electronics Tools](/electronics/electronics-tools/) | 10 minutes |
+| 4.3 | [Electronics Components](/electronics/electronics-components/) | 10 minutes |
+| 4.4 | [Electronics Circuits](/electronics/electronics-circuits/) | 10 minutes |
+| 4.5 | [Electronics Safety](/electronics/electronics-safety/) | 10 minutes |
+| 4.6 | [Electronics Assembly](/electronics/electronics-assembly/) | 10 minutes |
+| 4.7 | [Electronics Testing](/electronics/electronics-testing/) | 10 minutes |
+| 4.8 | [Electronics Documentation](/electronics/electronics-documentation/) | 10 minutes |
+| 4.9 | [Electronics Troubleshooting](/electronics/electronics-troubleshooting/) | 10 minutes |
+| 4.10 | [Electronics Resources](/electronics/electronics-resources/) | 10 minutes |
+| 4.11 | [Electronics Glossary](/electronics/electronics-glossary/) | 10 minutes |
 |     | Total Estimated Time | 110 minutes |
