@@ -20,7 +20,7 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 1.1 | [What is a FRC?](/competition/what-is-frc/) | 5 minutes |
+| 1.1 | [What is FRC?](/competition/what-is-frc/) | 35 minutes |
 | 1.2 | [Starting a Team](/competition/starting-a-team/) | 20 minutes |
 | 1.3 | [Competition Events](/competition/competition-events/) | 10 minutes |
 | 1.4 | [Competition Rules](/competition/competition-rules/) | 10 minutes |
