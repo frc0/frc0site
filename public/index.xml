@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://frczero.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>8.7.1 What is Team Branding?</title>
+      <title>8.5.1 What is Team Branding?</title>
       <link>https://frczero.org/business_marketing/team_branding/what-is-team-branding/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -66,6 +66,16 @@ Programming languages are the languages used to write the source code of program
     </item>
     
     <item>
+      <title>8.5.2 Team Branding Examples</title>
+      <link>https://frczero.org/business_marketing/team_branding/team-branding-examples/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/business_marketing/team_branding/team-branding-examples/</guid>
+      <description>This section will show you some examples of team branding. We picked teams that we know, or we think are good examples of branding. If you know of a team that has good branding, please let us know and we will add them to this list.
+Team 453 - Rockem Sockem Robotics (Author&amp;rsquo;s team) The Team Website was just redone with some of these ideas in mind. The previous website was a bit dated, and the new one is much more modern and easier to update using SSG just like frczero.</description>
+    </item>
+    
+    <item>
       <title>2.1.2 Research the Problem</title>
       <link>https://frczero.org/engineering_design/design_process/research_the_problem/</link>
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
@@ -101,6 +111,16 @@ This is a video produced by [FRC team 573] (https://www.</description>
       <guid>https://frczero.org/pneumatics/pneumatic-components/</guid>
       <description>Pneumatic components are the parts of a pneumatic system that use compressed air to do work. There are many different types of pneumatic components. The most common pneumatic components are shown in the table below:
 Component Description Image Vendor Link(s) Solenoid A solenoid is a valve that uses an electric current to open and close. It is used to control the flow of air in a pneumatic system. Solenoids can be 12v or 24v.</description>
+    </item>
+    
+    <item>
+      <title>8.5.3 Team Branding Resources</title>
+      <link>https://frczero.org/business_marketing/team_branding/team-branding-resources/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/business_marketing/team_branding/team-branding-resources/</guid>
+      <description>This section will cover team branding resources. This includes software, websites, and other resources that can be used to create team branding. it also includes resources that can be used to learn more about team branding.
+Software &amp;amp; Websites Paint.net Paint.net is a free image and photo editing software for computers that run Windows. It is a great alternative to Adobe Photoshop. It is very similar to Photoshop, but it is much easier to use.</description>
     </item>
     
     <item>
