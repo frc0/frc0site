@@ -276,5 +276,14 @@ Common Issues with Pneumatics Pneumatic solenoids are not working Check the sole
 Resource Description Link Last Updated Official Pneumatics Manual The pneumatics manual is a resource for teams to use when designing and building their pneumatic system. It contains information on the pneumatic system, the components, and the rules. Pneumatics Manual 2023-01 Pneumatics Tutorial This tutorial is written by FIRST Robotics Team 358. Pneumatics Tutorial ?</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://frczero.org/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/privacy-policy/</guid>
+      <description>First a Personal Note about why we even have analytics at all. We are not collecting any personal data whatsoever, no one has an account, user&amp;rsquo;s don&amp;rsquo;t have profiles and we don&amp;rsquo;t have any way to identify you. We are not selling your data to anyone, we are not using your data to target you with ads, we are not using your data to make money. We are not using your data to make any decisions about you.</description>
+    </item>
+    
   </channel>
 </rss>
