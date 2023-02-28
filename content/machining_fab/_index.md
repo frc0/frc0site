@@ -18,15 +18,15 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 3.1 | [Machining & Fabrication](/machining_fab/machining_fab) | 30 minutes |
-| 3.2 | [Machining & Fabrication Tools](/machining_fab/machining_fab_tools) | 30 minutes |
-| 3.3 | [Machining & Fabrication Safety](/machining_fab/machining_fab_safety) | 30 minutes |
-| 3.4 | [Machining & Fabrication Materials](/machining_fab/machining_fab_materials) | 30 minutes |
-| 3.5 | [Machining & Fabrication Design](/machining_fab/machining_fab_design) | 30 minutes |
-| 3.6 | [Machining & Fabrication Tolerances](/machining_fab/machining_fab_tolerances) | 30 minutes |
-| 3.7 | [Machining & Fabrication CAD](/machining_fab/machining_fab_cad) | 30 minutes |
-| 3.8 | [Machining & Fabrication CAM](/machining_fab/machining_fab_cam) | 30 minutes |
-| 3.9 | [Machining & Fabrication CNC](/machining_fab/machining_fab_cnc) | 30 minutes |
+| 3.1 | [Machining & Fabrication](/machining_fab/machining-fab) | 30 minutes |
+| 3.2 | [Machining & Fabrication Tools](/machining_fab/machining-fab-tools) | 30 minutes |
+| 3.3 | [Machining & Fabrication Safety](/machining_fab/machining-fab-safety) | 30 minutes |
+| 3.4 | [Machining & Fabrication Materials](/machining_fab/machining-fab-materials) | 30 minutes |
+| 3.5 | [Machining & Fabrication Design](/machining_fab/machining-fab-design) | 30 minutes |
+| 3.6 | [Machining & Fabrication Tolerances](/machining_fab/machining-fab-tolerances) | 30 minutes |
+| 3.7 | [Machining & Fabrication CAD](/machining_fab/machining-fab-cad) | 30 minutes |
+| 3.8 | [Machining & Fabrication CAM](/machining_fab/machining-fab-cam) | 30 minutes |
+| 3.9 | [Machining & Fabrication CNC](/machining_fab/machining-fab-cnc) | 30 minutes |
 | 3.10 | [Machining & Fabrication 3D Printing](/machining_fab/machining_fab_3d_printing) | 30 minutes |
 | 3.11 | [Machining & Fabrication Laser Cutting](/machining_fab/machining_fab_laser_cutting) | 30 minutes |
 | 3.12 | [Machining & Fabrication Bridgeport Mill](/machining_fab/machining_fab_bridgeport_mill) | 30 minutes |
