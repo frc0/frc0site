@@ -4,7 +4,7 @@ date: 2023-02-04
 author: 'Mr. Siefen'
 editors: 'ngalotti'
 chapter: false
-lastmod: 2023-02-26
+lastmod: 2023-02-27
 draft: false
 ---
 
@@ -51,17 +51,19 @@ https://youtu.be/htZ70xkUiO4
 
 #### Important Links:
 
-- [FRC0 on GitHub](https://github.com/frc0/frc0site)
-- [GM0 Website](https://gm0.org)
-- [Docs.wpilib.org](https://docs.wpilib.org/en/stable/)
-- [REV Robotics](https://docs.revrobotics.com/docs/rev-ion)
-- [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/)
-- [Chief Delphi](https://www.chiefdelphi.com/)
-- [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc)
-- [FRC Reddit](https://www.reddit.com/r/FRC/)
-- [FRC Discord](https://discord.gg/frc)
-- [FRC YouTube](https://www.youtube.com/@FIRSTRoboticsCompetition)
-- [FRC Twitch](https://www.twitch.tv/firstinspires)
-- [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow)
-- [RoboZone](https://www.youtube.com/c/RoboZoneTV)
-- [FindRobotParts](https://www.findrobotparts.com/)
+| Link | Description |
+| :--- | :--- |
+| [GM0 Website](https://gm0.org) | The FTC website that inspired us to create FRC0. |
+| [Docs.wpilib.org](https://docs.wpilib.org/en/stable/) | The official documentation for the WPILib libraries. |
+| [REV Robotics](https://docs.revrobotics.com/docs/rev-ion) | The official documentation for the REV Robotics hardware. |
+| [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/) | The official documentation for the CTRE Phoenix hardware. |
+| [Unofficial FRC Mechanism Encyclopedia](https://www.projectb.net.au/resources/robot-mechanisms/) | A website that has a lot of information on different mechanisms. This website is really handy for engineering design [research](https://frczero.org/engineering_design/design_process/research_the_problem/)! |
+| [Chief Delphi](https://www.chiefdelphi.com/) | The official FIRST Robotics Competition forum. |
+| [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) | The official FIRST Robotics Competition website. |
+| [FRC Discord](https://discord.gg/frc) | The Unofficial FIRST Robotics Competition Discord server. |
+| [FRC Reddit](https://www.reddit.com/r/FRC/) | The official FIRST Robotics Competition subreddit. |
+| [FRC YouTube](https://www.youtube.com/@FIRSTRoboticsCompetition) | The official FIRST Robotics Competition YouTube channel. |
+| [FRC Twitch](https://www.twitch.tv/firstinspires) | The official FIRST Robotics Competition Twitch channel. |
+| [RoboZone](https://www.youtube.com/c/RoboZoneTV) | RoboZone is a FRC Podcast hosted by Pete eckman. He is a mentor for an FRC team so the schedule during season can be as hectic as our seasons can be. They post at least once a week though! |
+| [FindRobotParts](https://www.findrobotparts.com/) | A website that helps you find parts for your robot. |
+| [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow) | F.U.N. is a FRC podcast online. Lots of great content and discussions. |
