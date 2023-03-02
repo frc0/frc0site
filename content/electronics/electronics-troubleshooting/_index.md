@@ -19,22 +19,20 @@ Below is an outline of the topics that will be covered in this section.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 4.9.1 | [Electronics Troubleshooting Process](/electronics/electronics-troubleshooting/electronics-troubleshooting-process/) | 10 minutes |
-| 4.9.2 | [Electronics Troubleshooting Tools](/electronics/electronics-troubleshooting/electronics-troubleshooting-tools/) | 10 minutes |
-| 4.9.3 | [Electronics Troubleshooting Techniques](/electronics/electronics-troubleshooting/electronics-troubleshooting-techniques/) | 10 minutes |
+| 4.9.1 | Electronics Troubleshooting Process | 10 minutes |
+| 4.9.2 | Electronics Troubleshooting Tools | 10 minutes |
+| 4.9.3 | Electronics Troubleshooting Techniques | 10 minutes |
 | 4.9.4 | [Falcon 500 Fixes](/electronics/electronics-troubleshooting/falcon-500-fixes/) | 20 minutes |
-| 4.9.5 | [Talon SRX Fixes](/electronics/electronics-troubleshooting/talon-srx-fixes/) | 20 minutes |
-| 4.9.6 | [Pigeon IMU Fixes](/electronics/electronics-troubleshooting/pigeon-imu-fixes/) | 20 minutes |
-| 4.9.7 | [Spark Max Fixes](/electronics/electronics-troubleshooting/spark-max-fixes/) | 20 minutes |
-| 4.9.8 | [Spark Max Encoder Fixes](/electronics/electronics-troubleshooting/spark-max-encoder-fixes/) | 20 minutes |
-| 4.9.9 | [Radio and Network Fixes](/electronics/electronics-troubleshooting/radio-and-network-fixes/) | 20 minutes |
-| 4.9.10 | [CAN Bus Fixes](/electronics/electronics-troubleshooting/can-bus-fixes/) | 20 minutes |
-| 4.9.11 | [Power Distribution Fixes](/electronics/electronics-troubleshooting/power-distribution-fixes/) | 20 minutes |
-| 4.9.12 | [Roborio Fixes](/electronics/electronics-troubleshooting/roborio-fixes/) | 20 minutes |
-| 4.9.13 | [PWM Motor Controller Fixes](/electronics/electronics-troubleshooting/pwm-motor-controller-fixes/) | 20 minutes |
-| 4.9.14 | [PCM Fixes](/electronics/electronics-troubleshooting/pcm-fixes/) | 20 minutes |
-| 4.9.15 | [Limelight Fixes](/electronics/electronics-troubleshooting/limelight-fixes/) | 20 minutes |
-| 4.9.16 | [Camera Fixes](/electronics/electronics-troubleshooting/camera-fixes/) | 20 minutes |
+| 4.9.5 | Talon SRX Fixes | 20 minutes |
+| 4.9.6 | Pigeon IMU Fixes | 20 minutes |
+| 4.9.7 | Spark Max Fixes | 20 minutes |
+| 4.9.8 | Spark Max Encoder Fixes | 20 minutes |
+| 4.9.9 | Radio and Network Fixes | 20 minutes |
+| 4.9.10 | CAN Bus Fixes | 20 minutes |
+| 4.9.11 | Power Distribution Fixes | 20 minutes |
+| 4.9.12 | Roborio Fixes | 20 minutes |
+| 4.9.13 | Other Motor Controller Fixes | 20 minutes |
+| 4.9.14 | PCM/PCH Fixes | 20 minutes |
 
 ### Next Steps
 

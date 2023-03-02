@@ -22,12 +22,12 @@ Below is an outline of the topics that will be covered in this chapter.
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
 | 2.1 | [Design Process](/engineering_design/design_process) | 30 minutes |
-| 2.2 | [Design Constraints](/engineering_design/design_constraints) | 30 minutes |
-| 2.3 | [Design Sketches](/engineering_design/design_sketches) | 30 minutes |
-| 2.4 | [Design Models](/engineering_design/design_models) | 30 minutes |
-| 2.5 | [Design Testing](/engineering_design/design_testing) | 30 minutes |
-| 2.6 | [Design Review](/engineering_design/design_review) | 30 minutes |
-| 2.7 | [Design Iteration](/engineering_design/design_iteration) | 30 minutes |
-| 2.8 | [Design Documentation](/engineering_design/design_documentation) | 30 minutes |
-| 2.9 | [Design Presentation](/engineering_design/design_presentation) | 30 minutes |
+| 2.2 | Design Constraints | 30 minutes |
+| 2.3 | Design Sketches | 30 minutes |
+| 2.4 | Design Models | 30 minutes |
+| 2.5 | Design Testing | 30 minutes |
+| 2.6 | Design Review | 30 minutes |
+| 2.7 | Design Iteration | 30 minutes |
+| 2.8 | Design Documentation | 30 minutes |
+| 2.9 | Design Presentation | 30 minutes |
 |      | Total | 4.5 hours |
