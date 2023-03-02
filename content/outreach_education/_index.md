@@ -18,10 +18,10 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 9.1 | [FIRST Outreach](/outreach_education/outreach) | 30 minutes |
-| 9.2 | [FIRST Education](/outreach_education/education) | 30 minutes |
-| 9.3 | [FIRST Volunteer Portal](/outreach_education/volunteer_portal) | 30 minutes |
-| 9.4 | [STEM Outreach](/outreach_education/stem_outreach) | 30 minutes |
-| 9.5 | [FIRST Outreach - FIRST LEGO League](/outreach_education/fll) | 30 minutes |
-| 9.6 | [FIRST Outreach - FIRST Tech Challenge](/outreach_education/ftc) | 30 minutes |
-| 9.7 | [FIRST Outreach - FIRST Robotics Competition](/outreach_education/frc) | 30 minutes |
+| 9.1 | FIRST Outreach | 30 minutes |
+| 9.2 | FIRST Education | 30 minutes |
+| 9.3 | FIRST Volunteer Portal | 30 minutes |
+| 9.4 | STEM Outreach | 30 minutes |
+| 9.5 | FIRST Outreach - FIRST LEGO League | 30 minutes |
+| 9.6 | FIRST Outreach - FIRST Tech Challenge | 30 minutes |
+| 9.7 | FIRST Outreach - FIRST Robotics Competition | 30 minutes |
