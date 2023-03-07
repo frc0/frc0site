@@ -132,6 +132,15 @@ Component Description Image Vendor Link(s) Solenoid A solenoid is a valve that u
     </item>
     
     <item>
+      <title>3.3.6 3D Printing</title>
+      <link>https://frczero.org/machining_fab/machining-fab-tools/3d-printing/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/machining_fab/machining-fab-tools/3d-printing/</guid>
+      <description>3D printing is a process of making a three dimensional object from a digital file. The creation of a 3D printed object is done using additive processes. In an additive process an object is created by laying down successive layers of material until the object is created. Each of these layers can be seen as a thinly sliced horizontal cross-section of the eventual object. There are also multiple kinds of 3D printing.</description>
+    </item>
+    
+    <item>
       <title>8.5.3 Team Branding Resources</title>
       <link>https://frczero.org/business_marketing/team_branding/team-branding-resources/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
