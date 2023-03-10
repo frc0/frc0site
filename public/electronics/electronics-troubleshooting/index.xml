@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.9 Electronics Troubleshooting on FRC Zero</title>
+    <link>https://frczero.org/electronics/electronics-troubleshooting/</link>
+    <description>Recent content in 4.9 Electronics Troubleshooting on FRC Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Feb 2023 23:34:12 -0500</lastBuildDate><atom:link href="https://frczero.org/electronics/electronics-troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.9.4 Falcon 500 Fixes</title>
+      <link>https://frczero.org/electronics/electronics-troubleshooting/falcon-500-fixes/</link>
+      <pubDate>Wed, 08 Feb 2023 23:34:12 -0500</pubDate>
+      
+      <guid>https://frczero.org/electronics/electronics-troubleshooting/falcon-500-fixes/</guid>
+      <description>What is a Falcon 500? The Falcon 500 is a motor and motor controller combination unit. It is a brushless motor with an integrated motor controller. The motor controller is a Talon FX motor controller. The motor is a brushless motor.
+Leaving aside any &amp;ldquo;Availability, Ethical (IFI Issues), Etc&amp;rdquo; The new Falcon v3s for the 2023 season have been noted to have a few issues. This page is a collection of fixes for those issues and to cover the basics of troubleshooting the Falcon 500 in the v1 and v2 variants as well.</description>
+    </item>
+    
+  </channel>
+</rss>

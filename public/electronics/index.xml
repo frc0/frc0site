@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.0 Electronics on FRC Zero</title>
+    <link>https://frczero.org/electronics/</link>
+    <description>Recent content in 4.0 Electronics on FRC Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://frczero.org/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.1 What is Electronics?</title>
+      <link>https://frczero.org/electronics/what-is-electronics/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/electronics/what-is-electronics/</guid>
+      <description>In the simplest terms, electronics is the study of how to control the flow of electrons. This is done by using electronic components to create circuits. These circuits can be used to do a variety of things, such as controlling motors, sensing the environment, and communicating with other devices. In FRC, electronics are used to control the robot and its mechanisms. This page will cover the basics of electronics and how they are used in FRC.</description>
+    </item>
+    
+  </channel>
+</rss>

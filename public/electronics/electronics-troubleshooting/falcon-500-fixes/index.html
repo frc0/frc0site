@@ -1,0 +1,2621 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.93.3" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.ico" type="image/ico">
+ 
+    <title>4.9.4 Falcon 500 Fixes :: FRC Zero</title>
+
+    
+    <link href="/css/nucleus.css?1678423302" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1678423302" rel="stylesheet">
+    <link href="/css/hybrid.css?1678423302" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1678423302" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1678423302" rel="stylesheet">
+    <link href="/css/auto-complete.css?1678423302" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1678423302" rel="stylesheet">
+    <link href="/css/theme.css?1678423302" rel="stylesheet">
+    <link href="/css/tabs.css?1678423302" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1678423302" rel="stylesheet">
+    <link href ="/stylesheets/style.css" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1678423302"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/electronics/electronics-troubleshooting/falcon-500-fixes/">
+    <nav id="sidebar" class="">
+
+    
+    
+      <div id="header-wrapper">
+        <div id="header">
+          <a id="logo" href='/'>
+  <img src="/images/FRCZero.png" alt="Logo for FRC Zero" />
+</a>
+
+        </div>
+        
+            <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1678423302"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1678423302"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/frczero.org\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1678423302"></script>
+
+        
+        <br>
+<div class="js-toggle-wrapper">
+    <div class="js-toggle">
+        <div class="js-toggle-track">
+            <div class="js-toggle-track-check">
+                <img src="data:image/png;base64,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" role="presentation" style="pointer-events: none;" width="16" height="16">
+            </div>
+            <div class="js-toggle-track-x">
+                <img src="data:image/png;base64,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" role="presentation" style="pointer-events: none;" width="16" height="16">
+            </div>
+        </div>
+        <div class="js-toggle-thumb"></div>
+        <input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
+    </div>
+</div>
+
+<style>
+
+     
+    
+    .js-toggle-wrapper {
+        display: table;
+        margin: 0 auto;
+    }
+    
+    .js-toggle {
+        touch-action: pan-x;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        -webkit-touch-callout: none;
+        user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      .js-toggle-screenreader-only {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      .js-toggle-track {
+        width: 50px;
+        height: 24px;
+        padding: 0;
+        border-radius: 30px;
+        background-color: hsl(222, 14%, 7%);
+        transition: all 0.2s ease;
+      }
+      
+      .js-toggle-track-check {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 5px;
+        top: 0px;
+        bottom: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: 0;
+        opacity: 0;
+        transition: opacity 0.25s ease;
+      }
+      
+      .js-toggle--checked .js-toggle-track-check {
+        opacity: 1;
+        transition: opacity 0.25s ease;
+      }
+      
+      .js-toggle-track-x {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        right: 5px;
+        top: 0px;
+        bottom: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: 0;
+        opacity: 1;
+        transition: opacity 0.25s ease;
+      }
+      
+      .js-toggle--checked .js-toggle-track-x {
+        opacity: 0;
+      }
+      
+      .js-toggle-thumb {
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: #fafafa;
+        box-sizing: border-box;
+        transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+        transform: translateX(0);
+      }
+      
+      .js-toggle--checked .js-toggle-thumb {
+        transform: translateX(26px);
+        border-color: #19ab27;
+      }
+      
+      .js-toggle--focus .js-toggle-thumb {
+        box-shadow: 0px 0px 2px 3px rgb(255, 167, 196);
+      }
+      
+      .js-toggle:active .js-toggle-thumb {
+        box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
+      }
+    </style>
+
+<script>
+    var body = document.body;
+	var switcher = document.getElementsByClassName('js-toggle')[0];
+
+	
+	switcher.addEventListener("click", function() {
+        this.classList.toggle('js-toggle--checked');
+        this.classList.add('js-toggle--focus');
+		
+		if (this.classList.contains('js-toggle--checked')) {
+			body.classList.add('dark-mode');
+			
+			localStorage.setItem('darkMode', 'true');
+		} else {
+			body.classList.remove('dark-mode');
+			setTimeout(function() {
+				localStorage.removeItem('darkMode');
+			}, 100);
+		}
+	})
+
+	
+	if (localStorage.getItem('darkMode')) {
+		
+        switcher.classList.add('js-toggle--checked');
+        body.classList.add('dark-mode');
+	}
+
+</script>
+      </div>
+      
+        <section id="homelinks">
+          <ul>
+            <li>
+                <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+            </li>
+          </ul>
+        </section>
+      
+    
+        <div class="highlightable">
+        <ul class="topics">
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/about/" title="0.0 About FRC0" class="dd-item
+            
+            
+            
+            ">
+          <a href="/about/">
+              0.0 About FRC0
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/about/why-frc0/" title="0.1 Why FRC0?" class="dd-item ">
+            <a href="/about/why-frc0/">
+            0.1 Why FRC0?
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/about/how-to-use-frc0/" title="0.2 How to Use FRC0" class="dd-item ">
+            <a href="/about/how-to-use-frc0/">
+            0.2 How to Use FRC0
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/about/writing-content/" title="0.3 Writing Content for the Website" class="dd-item ">
+            <a href="/about/writing-content/">
+            0.3 Writing Content for the Website
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/about/contributors/" title="0.4 Who are the contributors?" class="dd-item ">
+            <a href="/about/contributors/">
+            0.4 Who are the contributors?
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/about/thanks/" title="0.5 Special Thanks and References" class="dd-item ">
+            <a href="/about/thanks/">
+            0.5 Special Thanks and References
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/competition/" title="1.0 Competition" class="dd-item
+            
+            
+            
+            ">
+          <a href="/competition/">
+              1.0 Competition
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/competition/what-is-frc/" title="1.1 What is FRC?" class="dd-item ">
+            <a href="/competition/what-is-frc/">
+            1.1 What is FRC?
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/competition/starting-a-team/" title="1.2 Starting a Team" class="dd-item ">
+            <a href="/competition/starting-a-team/">
+            1.2 Starting a Team
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/engineering_design/" title="2.0 Engineering Design" class="dd-item
+            
+            
+            
+            ">
+          <a href="/engineering_design/">
+              2.0 Engineering Design
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+                
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/engineering_design/design_process/" title="2.1 Design Process" class="dd-item
+            
+            
+            
+            ">
+          <a href="/engineering_design/design_process/">
+              2.1 Design Process
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/engineering_design/design_process/identify_the_problem/" title="2.1.1 Identify the Problem" class="dd-item ">
+            <a href="/engineering_design/design_process/identify_the_problem/">
+            2.1.1 Identify the Problem
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/engineering_design/design_process/research_the_problem/" title="2.1.2 Research the Problem" class="dd-item ">
+            <a href="/engineering_design/design_process/research_the_problem/">
+            2.1.2 Research the Problem
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/engineering_design/design_process/brainstorming_ideas/" title="2.1.3 Brainstorming Ideas" class="dd-item ">
+            <a href="/engineering_design/design_process/brainstorming_ideas/">
+            2.1.3 Brainstorming Ideas
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/engineering_design/design_process/creating_a_prototype/" title="2.1.4 Create a Prototype" class="dd-item ">
+            <a href="/engineering_design/design_process/creating_a_prototype/">
+            2.1.4 Create a Prototype
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/engineering_design/design_process/test_a_prototype/" title="2.1.5 Testing a Prototype" class="dd-item ">
+            <a href="/engineering_design/design_process/test_a_prototype/">
+            2.1.5 Testing a Prototype
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/engineering_design/design_process/communicate_the_results/" title="2.1.6 Communicate the Results" class="dd-item ">
+            <a href="/engineering_design/design_process/communicate_the_results/">
+            2.1.6 Communicate the Results
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/engineering_design/design_process/repeat_the_design_process/" title="2.1.7 Repeat the Design Process" class="dd-item ">
+            <a href="/engineering_design/design_process/repeat_the_design_process/">
+            2.1.7 Repeat the Design Process
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/machining_fab/" title="3.0 Machining &amp; Fabrication" class="dd-item
+            
+            
+            
+            ">
+          <a href="/machining_fab/">
+              3.0 Machining &amp; Fabrication
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+                
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/machining_fab/machining-fab/" title="3.1 What is Machining &amp; Fabrication?" class="dd-item ">
+            <a href="/machining_fab/machining-fab/">
+            3.1 What is Machining &amp; Fabrication?
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/machining_fab/machining-fab-tools/" title="3.3 Machining &amp; Fabrication Tools" class="dd-item
+            
+            
+            
+            ">
+          <a href="/machining_fab/machining-fab-tools/">
+              3.3 Machining &amp; Fabrication Tools
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/machining_fab/machining-fab-tools/3d-printing/" title="3.3.6 3D Printing" class="dd-item ">
+            <a href="/machining_fab/machining-fab-tools/3d-printing/">
+            3.3.6 3D Printing
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/electronics/" title="4.0 Electronics" class="dd-item
+            parent
+            
+            
+            ">
+          <a href="/electronics/">
+              4.0 Electronics
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+                
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/electronics/what-is-electronics/" title="4.1 What is Electronics?" class="dd-item ">
+            <a href="/electronics/what-is-electronics/">
+            4.1 What is Electronics?
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/electronics/electronics-troubleshooting/" title="4.9 Electronics Troubleshooting" class="dd-item
+            parent
+            
+            
+            ">
+          <a href="/electronics/electronics-troubleshooting/">
+              4.9 Electronics Troubleshooting
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/electronics/electronics-troubleshooting/falcon-500-fixes/" title="4.9.4 Falcon 500 Fixes" class="dd-item active">
+            <a href="/electronics/electronics-troubleshooting/falcon-500-fixes/">
+            4.9.4 Falcon 500 Fixes
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/pneumatics/" title="5.0 Pneumatics" class="dd-item
+            
+            
+            
+            ">
+          <a href="/pneumatics/">
+              5.0 Pneumatics
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/pneumatics/what-are-pneumatics/" title="5.1 What are Pneumatics?" class="dd-item ">
+            <a href="/pneumatics/what-are-pneumatics/">
+            5.1 What are Pneumatics?
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/pneumatics/pneumatic-components/" title="5.2 Types of Pneumatic Components" class="dd-item ">
+            <a href="/pneumatics/pneumatic-components/">
+            5.2 Types of Pneumatic Components
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/pneumatics/pneumatic-safety/" title="5.3 Pneumatic Safety" class="dd-item ">
+            <a href="/pneumatics/pneumatic-safety/">
+            5.3 Pneumatic Safety
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/pneumatics/pneumatic-systems/" title="5.4 How to Setup a Pneumatic System" class="dd-item ">
+            <a href="/pneumatics/pneumatic-systems/">
+            5.4 How to Setup a Pneumatic System
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/pneumatics/pneumatic-control/" title="5.5 Pneumatic Control" class="dd-item ">
+            <a href="/pneumatics/pneumatic-control/">
+            5.5 Pneumatic Control
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/pneumatics/pneumatic-troubleshooting/" title="5.6 Pneumatic Troubleshooting" class="dd-item ">
+            <a href="/pneumatics/pneumatic-troubleshooting/">
+            5.6 Pneumatic Troubleshooting
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/pneumatics/pneumatic-resources/" title="5.7 Pneumatic Resources" class="dd-item ">
+            <a href="/pneumatics/pneumatic-resources/">
+            5.7 Pneumatic Resources
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/programming/" title="6.0 Programming" class="dd-item
+            
+            
+            
+            ">
+          <a href="/programming/">
+              6.0 Programming
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+                
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/programming/programming_languages/" title="6.1 Programming Languages" class="dd-item ">
+            <a href="/programming/programming_languages/">
+            6.1 Programming Languages
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/programming/cpp/" title="6.3 C&#43;&#43;" class="dd-item
+            
+            
+            
+            ">
+          <a href="/programming/cpp/">
+              6.3 C&#43;&#43;
+              
+          </a>
+          
+          
+        </li>
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/cad/" title="7.0 Computer Aided Design" class="dd-item
+            
+            
+            
+            ">
+          <a href="/cad/">
+              7.0 Computer Aided Design
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/cad/fusionfirst/" title="7.1 Fusion 360" class="dd-item ">
+            <a href="/cad/fusionfirst/">
+            7.1 Fusion 360
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/business_marketing/" title="8.0 Business &amp; Marketing" class="dd-item
+            
+            
+            
+            ">
+          <a href="/business_marketing/">
+              8.0 Business &amp; Marketing
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+                
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/business_marketing/team_branding/" title="8.5 Team Branding" class="dd-item
+            
+            
+            
+            ">
+          <a href="/business_marketing/team_branding/">
+              8.5 Team Branding
+              
+          </a>
+          
+          
+            <ul>
+              
+              
+              
+    
+            
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/business_marketing/team_branding/what-is-team-branding/" title="8.5.1 What is Team Branding?" class="dd-item ">
+            <a href="/business_marketing/team_branding/what-is-team-branding/">
+            8.5.1 What is Team Branding?
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/business_marketing/team_branding/team-branding-examples/" title="8.5.2 Team Branding Examples" class="dd-item ">
+            <a href="/business_marketing/team_branding/team-branding-examples/">
+            8.5.2 Team Branding Examples
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/business_marketing/team_branding/team-branding-resources/" title="8.5.3 Team Branding Resources" class="dd-item ">
+            <a href="/business_marketing/team_branding/team-branding-resources/">
+            8.5.3 Team Branding Resources
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+                
+              
+                
+                
+    
+    
+    
+    
+     
+      
+        
+          <li data-nav-id="/business_marketing/team_website/" title="8.6 Team Website" class="dd-item ">
+            <a href="/business_marketing/team_website/">
+            8.6 Team Website
+            
+            </a>
+        </li>
+         
+      
+     
+    
+                
+              
+            
+            </ul>
+          
+        </li>
+      
+     
+    
+            
+            
+    
+    
+    
+    
+     
+      
+        
+        <li data-nav-id="/outreach_education/" title="9.0 Outreach &amp; Education" class="dd-item
+            
+            
+            
+            ">
+          <a href="/outreach_education/">
+              9.0 Outreach &amp; Education
+              
+          </a>
+          
+          
+        </li>
+      
+     
+    
+            
+        </ul>
+    
+        
+        
+    
+        
+        <section id="footer">
+          <p>Join Our Discord! https://discord.gg/Ja2WFKCjEK</p>
+<br>
+<p>Founders: Mr. Siefen and Foehammer127</p>
+<br>
+<p><a href="/about/contributors">Contributors are listed here!</a></p>
+<br>
+<p>Hosting, Domain and Support by: <a href="https://mrsiefensrobotemporium.com" target="_blank">Mr. Siefen's Robot Emporium</a></p>
+<p><a href="/privacy-policy/" target="_blank">Privacy Policy</a></p>
+<br>
+<p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+        </section>
+      </div>
+    </nav>
+    
+    
+    
+    
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>FRC0 - HOME</a> > <a href='/electronics/'>4.0 Electronics</a> > <a href='/electronics/electronics-troubleshooting/'>4.9 Electronics Troubleshooting</a> > 4.9.4 Falcon 500 Fixes
+          
+        
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#what-is-a-falcon-500">What is a Falcon 500?</a></li>
+        <li><a href="#before-you-start-do-you-have-your-falcon-fixing-kit">Before you start, do you have your Falcon Fixing Kit?</a></li>
+        <li><a href="#contents-for-this-section">Contents for this Section</a></li>
+        <li><a href="#wobbly-shaft">Wobbly Shaft</a></li>
+        <li><a href="#broken-bolts">Broken Bolts</a></li>
+        <li><a href="#missing-loctite">Missing Loctite</a></li>
+        <li><a href="#overheating">Overheating</a></li>
+        <li><a href="#size-changes-and-documentation-confusion">Size Changes and Documentation Confusion</a></li>
+        <li><a href="#falcon-500-v1-teardown">Falcon 500 V1 Teardown</a></li>
+        <li><a href="#falcon-500-v2-teardown">Falcon 500 V2 Teardown</a></li>
+        <li><a href="#falcon-500-v3-teardown">Falcon 500 V3 Teardown</a></li>
+        <li><a href="#other-fixes">Other Fixes</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              4.9.4 Falcon 500 Fixes
+            </h1>
+          
+
+        
+
+
+<h3 id="what-is-a-falcon-500">What is a Falcon 500?</h3>
+<p>The Falcon 500 is a motor and motor controller combination unit. It is a brushless motor with an integrated motor controller. The motor controller is a Talon FX motor controller. The motor is a brushless motor.</p>
+<p>Leaving aside any &ldquo;Availability, Ethical (IFI Issues), Etc&rdquo; The new Falcon v3s for the 2023 season have been noted to have a few issues. This page is a collection of fixes for those issues and to cover the basics of troubleshooting the Falcon 500 in the v1 and v2 variants as well.</p>
+<h3 id="before-you-start-do-you-have-your-falcon-fixing-kit">Before you start, do you have your Falcon Fixing Kit?</h3>
+<p>The Falcon Fixing Kit is a collection of tools and parts that you will need to fix the v1/v2 Falcon 500s. A B.O.M. for the v3 will be produced as soon as we get some&hellip; The kit includes the following items:</p>
+<ol>
+<li>Medium Strength Loctite (Loctite 243)</li>
+<li>New screws for motor housings since the torx heads strip easily:
+<ul>
+<li><a href="https://www.mcmaster.com/92095A475/">Button Head Hex Drive Screw, Passivated 18-8 Stainless Steel, M3 x 0.50 mm Thread, 50mm Long McMaster-Carr</a></li>
+</ul>
+</li>
+<li>Shaft shims
+<ul>
+<li><a href="https://www.mcmaster.com/94773A712/">18-8 Stainless Steel Shims, for Shortening 5/16&quot; Diameter Screw Shoulder, 0.02&quot; Thick McMaster-Carr</a></li>
+</ul>
+</li>
+<li>Hardened T10 Driver for case screws
+<ul>
+<li><a href="https://www.mcmaster.com/4584A17/">Bits, 1/4&quot; Hex Shank for Power Tools, T10 Size McMaster-Carr</a></li>
+</ul>
+</li>
+<li>Extended Hardened T8 bit for shaft screws
+<ul>
+<li><a href="https://www.mcmaster.com/7396A38/">Bits, 1/4&quot; Hex Shank for Power Tools, T8 Size, 3-1/2&quot; Long Overall</a></li>
+</ul>
+</li>
+</ol>
+<p>Additional Notes from Chief Delphi User who came up with the B.O.M. above:</p>
+<p>I would also highly recommend you keep a bolt extractor set with left-handed drill bits and thread extractors. I had to use those on more than one occasion because the T10 case screws are soft and strip easily, or came out completely bent a few times after I fought them for an hour (hence the replacement screws above). We kept this set of tools and parts in the Falcon Un****** box and used it to QC verify (and fix) every one of the 32+ Falcon’s that passed through our shop last year.<a href="https://www.chiefdelphi.com/t/2021-2022-falcon-issues-loctite-shaft-shims/402712/15">BOM Maker&rsquo;s story from fixing them during the 2022 season</a></p>
+<h3 id="contents-for-this-section">Contents for this Section</h3>
+<table>
+<thead>
+<tr>
+<th>Order</th>
+<th>Section Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td><a href="#wobbly-shaft">Wobbly Shaft</a></td>
+</tr>
+<tr>
+<td>2.</td>
+<td><a href="#broken-bolts">Broken Bolts</a></td>
+</tr>
+<tr>
+<td>3.</td>
+<td><a href="#missing-loctite">Missing Loctite</a></td>
+</tr>
+<tr>
+<td>4.</td>
+<td><a href="#overheating">Overheating</a></td>
+</tr>
+<tr>
+<td>5.</td>
+<td><a href="#size-changes-and-documentation-confusion">Size Changes and Documentation Confusion</a></td>
+</tr>
+<tr>
+<td>6.</td>
+<td><a href="#falcon-500-v1-teardown">Falcon 500 V1 Teardown</a></td>
+</tr>
+<tr>
+<td>7.</td>
+<td><a href="#falcon-500-v2-teardown">Falcon 500 V2 Teardown</a></td>
+</tr>
+<tr>
+<td>8.</td>
+<td><a href="#falcon-500-v3-teardown">Falcon 500 V3 Teardown</a></td>
+</tr>
+<tr>
+<td>9.</td>
+<td><a href="#other-fixes">Other Fixes</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="wobbly-shaft">Wobbly Shaft</h3>
+<p>Teams who have bought Falcon v3 motors for the 2023 season have been reporting wobbly shafts. This is a result of the shaft tolerances being off and way out of the usual expected specs. It&rsquo;s all a possible consequence of removing the shaft bolts(cuz they were loose cuz of missing loctite) It&rsquo;s certainly not all motors, but teams <strong>ABSOLUTELY</strong> should check any v3 falcon 500s for this issue. <a href="https://www.reddit.com/r/FRC/comments/10tqytu/the_new_falcons_are_bad_and_the_shaft_is_lose/">Reddit Post identifying the issue</a></p>
+<h4 id="fixes-for-the-wobbly-shaft">Fixes for the wobbly shaft</h4>
+<ol>
+<li>3d print a spacer to help keep the shaft on place. This can be the same falcon 500 spacers, but oversized by roughly 2mm. This came from the same reddit post, but has not been confirmed for a long term fix.</li>
+<li>Submit a RMA to VEX/CTRE/WCP for a replacement motor. This is a problem however as there are no parts for spares, vendors are out of stock for the remainder of the 2023 season <a href="https://www.vexrobotics.com/217-6515.html">https://www.vexrobotics.com/217-6515.html</a> and if there are ones for RMA reserved, they will be subject to the same issue. This is a problem that will need to be addressed by the vendors.</li>
+<li>Don&rsquo;t use a v3 Falcon 500 unless you dont have any other options. This is absolutely a really subpar option, but if you have no other options, you have no other options.</li>
+</ol>
+<h3 id="broken-bolts">Broken Bolts</h3>
+<p>Teams who have bought Falcon 500s of all variants have been reporting broken bolts. This is a result of the bolts being too soft and stripping out or snapping. This is a problem that has been around for a while, but has been exacerbated by the new v3 falcons. These include longer screws that are too long in some cases and they were over tightened.</p>
+<h4 id="fixes-for-the-broken-bolts">Fixes for the broken bolts</h4>
+<ol>
+<li>Replace the bolts with stronger ones. This is a good option, but it is not ideal as Teams paying $220 for a motor should not have to replace the bolts. This is a problem that will need to be addressed by the vendors.</li>
+<li>If you break a bolt, you can use a bolt extractor to remove the broken bolt. This is a good option, but can lead to damaging the threads if not done correctly.
+<ul>
+<li>A guide on how to do this can be found <a href="https://www.wikihow.com/Use-a-Screw-Extractor">here</a></li>
+</ul>
+</li>
+<li>Many teams will not be in a situation that they would need to be removing bolts except for the other issues listed here. If you are in this situation, and you need to remove bolts you should seriously consider the risks involved and the potential damage to the motor.</li>
+</ol>
+<h3 id="missing-loctite">Missing Loctite</h3>
+<p>Teams who have bought Falcon 500s of all variants have been reporting missing loctite. This seems like not a big deal, except the bolts are crucial to the performance of the motor and its overall safety. This is a problem that has been around for a while, but has been fixed/exacerbated by the new v3 falcons. The rush to get the v3 falcons out the door while trying to avoid this has led partially to the wobbly shaft, and this is something seemingly to have been overlooked as a consqeuence of trying to fix it on the v1 and v2s in the past. Without the loctite, the bolts can come loose and cause the motor to fail during a match or practice.</p>
+<h4 id="fixes-for-the-missing-loctite">Fixes for the missing loctite</h4>
+<ol>
+<li>Replace the bolts with stronger ones. This is a good option, because more than likely you will strip/snap a bolt trying to QA inspect your bolts for loctite. This is a problem that will need to be addressed by the vendors.</li>
+<li>While I would normally recommend not taking apart a motor, this is a situation where you should take apart the motor and inspect the bolts. If you find a bolt without loctite, you should replace it with a stronger bolt as with all of the bolts and you should add loctite to the bolts. Use the 243 as listed in the BOM above.</li>
+</ol>
+<h3 id="overheating">Overheating</h3>
+<p>The Falcon 500 motors are High-Performance motors, and as such, they are designed to be able to handle a lot of power. However, they are not designed to be able to handle a lot of power for a long period of time. The motors are designed to be able to handle a lot of power for a short period of time, and then they need to be allowed to cool down. This is a problem that has been around for a while, but has possibly been improved by the v3. The jury is still out on this one. The motors feature air cooling ports that can be attached to your pneumatics system. A guide for this is <a href="https://link.vex.com/vexpro/falcon-500-user-guide">here</a> under the section called &ldquo;Using the Falcon 500 Cooling Port&rdquo;. Many teams who are not familiar with this, or don&rsquo;t see the benefit of it, will not use it. This is a problem that will lead to burnt out and overheated motors.</p>
+<h4 id="fixes-for-the-overheating">Fixes for the overheating</h4>
+<ol>
+<li>Use the cooling ports. This is a good option and is what the port is literally made for.</li>
+<li>Monitor the motors temperature. This is a good option, and it can help you know when you should let air in the ports to conserve air and the motor. This requires some extra work, but the Phoenix Motor controllers using the IMotorController interface have a method called getTemperature() that can be used to get the temperature of the motor. This reports the data in celsius&hellip; but whatever. <a href="https://api.ctr-electronics.com/phoenix/release/java/com/ctre/phoenix/motorcontrol/IMotorController.html#getTemperature()">Java API Doc</a></li>
+<li>Don&rsquo;t use the cooling ports. This is a bad option, but if you don&rsquo;t have the time to monitor the temperature, or you don&rsquo;t have working pnuematics on the bot you can just not use them. This is a problem that will lead to burnt out and overheated motors. This is done at the risk of the Team choosing to not use the port. Rather silly if you ask me.</li>
+</ol>
+<h3 id="size-changes-and-documentation-confusion">Size Changes and Documentation Confusion</h3>
+<p>Something that caught many people off guard is the new larger size of the v3 vs the v1/v2 models. The v3 size is correct in the cad model, but the website for the Falcon 500 only has a v2 2D drawing. While most teams would instinctively use the updated 3D model, some teams may grab the 2D v2 in a rush and not notice the size difference until its time to assemble it all. This would mean redesigning things in a hurry or having to use the v2/v1s that are smaller. This is a problem that will need to be addressed by the vendors and they need to update the website to reflect the correct size of the v3.</p>
+<h4 id="fixes-for-the-size-changes-and-documentation-confusion">Fixes for the size changes and documentation confusion</h4>
+<ol>
+<li>Use the v3 3D model. This is a good option, and is the correct option. If you are not using a v3 then this is not an issue for you.</li>
+</ol>
+<h3 id="falcon-500-v1-teardown">Falcon 500 V1 Teardown</h3>
+<p>We have a teardown of the Falcon 500 V1 motor. This is a</p>
+<h3 id="falcon-500-v2-teardown">Falcon 500 V2 Teardown</h3>
+<p>We have a teardown of the Falcon 500 V2 motor. This is a</p>
+<h3 id="falcon-500-v3-teardown">Falcon 500 V3 Teardown</h3>
+<p>The pictures and account you see here is in no way fictional. This is a real account of a real person who has a real Falcon 500 V3 motor. This was verified by Mr. Siefen who runs FRC0 and wrote the following guide. He took the pictures, stripped the screws, opened the stuff you shouldnt ever open. He did this so you dont have to. If you follow this guide WE (FRC0) and HE (ME, Mr. Siefen) are not responsible. This is purely for informational purposes, unintentional comedic relief during a stressful build season moment, and to show you what can happen and possible fixes.</p>
+<h4 id="steps-and-comments">Steps and Comments</h4>
+<ol>
+<li>Remove the case screws from the front of the motor.
+<ol>
+<li>These are T9 torx screws. There are 3 per end of the motor. These are shorter than the ones on the V1/V2 and hopefully help with the bending/snapping of the previous ones.
+<img src="/images/falcon-v3-teardown/step1-falcon-500-v3-teardown.jpg" alt="Step 1: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>The front plate and shaft will come off after the removal of the previous screws.
+<ol>
+<li>The shaft has a toothed end of the spline shaft that is inserted into a matching insert on the rotor.</li>
+<li>If you notice this is already massively different from the previous versions.
+<img src="/images/falcon-v3-teardown/step2-falcon-500-v3-teardown.jpg" alt="Step 2: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>You can separate the shaft spline from the front plate by pulling it out through the back.
+<ol>
+<li>If you examine the shaft you&rsquo;ll see how the large end is one piece that was done on a lathe and then it&rsquo;s placed over the spline shaft</li>
+<li>It&rsquo;s then joined with a pin and ground down to keep it locked in place.
+<img src="/images/falcon-v3-teardown/step3-falcon-500-v3-teardown.jpg" alt="Step 3: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>Before removing the back case screws look at the insides where the front screws were attached
+<ol>
+<li>The posts look a little beat up, I was very gentle and the new shorter bolts only have a small amount of grab.</li>
+<li>You may want to get longer screws (idk if this is possible yet) if you are planning on face mounting the falcon V3</li>
+<li>Also notice how much clearance you have from the air cooling ports to the rotor.
+<ol>
+<li>If you plan to use either air cooling port you should not over extend your fittings. There&rsquo;s about a fly&rsquo;s eyelash worth of gap before you&rsquo;ll be hitting the rotor and unintentionally braking the motor Flintstones style.
+<img src="/images/falcon-v3-teardown/step4-falcon-500-v3-teardown.jpg" alt="Step 4: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>These are the screws from both the front and back casing. They are the same so you don&rsquo;t have to worry about mixing these up. However these are the only T9 sized torx screws on the falcon.
+<ol>
+<li>If you didn&rsquo;t already you can now remove the back casing screws. Do this gently since it&rsquo;s the same soft grade metal as before and can strip out.</li>
+<li>Again this is still an improvement over the long case bolts that would snap/bend inside the casing. We lost 3 falcons this way our first year with them.
+<img src="/images/falcon-v3-teardown/step5-falcon-500-v3-teardown.jpg" alt="Step 5: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>When you take these off the case can slide off. Don&rsquo;t worry right now about remembering how it goes back.
+<ol>
+<li>There are 3 slots on the front and back plates to align it properly for assembly.</li>
+<li>Funny how the back side of the casing has loctite but the front posts had 0 sign of this… grrrrrrrr
+<img src="/images/falcon-v3-teardown/step6-falcon-500-v3-teardown.jpg" alt="Step 6: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>This is as far as you would ever need to disassemble the front half of a Falcon. Anything past this is beyond your control from this side.
+<ol>
+<li>Idk why you would ever need to get the rotor apart and I have no clue how you would do that.
+<img src="/images/falcon-v3-teardown/step7-falcon-500-v3-teardown.jpg" alt="Step 7: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>Look at the back side on the motors cap. There are 2 bolt heads and sizes here. Both are for the talonFX technically.
+<ol>
+<li>The two screws around the FX cap are protecting a data port. They don&rsquo;t need to be removed unless you plan to use the port.
+<ol>
+<li>I do this later on</li>
+</ol>
+</li>
+<li>The three T10 security screws <strong>suckkkkkkkkk</strong>
+<ol>
+<li>We stripped one of the three out. We were gentle and I don&rsquo;t see why a team should be doing this so proceed ahead at your own peril…
+<img src="/images/falcon-v3-teardown/step8-falcon-500-v3-teardown.jpg" alt="Step 8: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>These are two of the three T10 security head screws for the talonFX.
+<ol>
+<li>These screws keep the cap, hall encoder and motor controller PCB all aligned. Taking this apart can mess this up!</li>
+<li>There&rsquo;s no sign of loctite here unless my colorblindness has messed me up again here.</li>
+<li>So why did I take it apart anyways? Science? No. You&rsquo;ll see why soon.
+<img src="/images/falcon-v3-teardown/step9-falcon-500-v3-teardown.jpg" alt="Step 9: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>First off, this screw started to strip before I even starting trying to apply any pressure at all. As someone on reddit said
+<ol>
+<li>&ldquo;Really wish people would stop using security screw heads on products only engineers and mechanics will use&rdquo;</li>
+<li>We know the security risks inherit and we need to be able to service these $220 motors when they were not properly QCd by the vendor
+<img src="/images/falcon-v3-teardown/step10-falcon-500-v3-teardown.jpg" alt="Step 10: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>Moving on to the data port screws while I calm down from the stripped screw…
+<ol>
+<li>This is a 2.5 Allen! No torx needed for once, but now we&rsquo;ve introduced a third tool and bolt size on this thing. So make sure to have all 3 sizes handy.</li>
+<li>These screws are so small. They will get lost if you even sneeze while doing this step. At comp they will be gone in an instant. Do not lose them as they are also not a size you can get at the local store. You will be forced to try and cut a longer bolt and file it down to this stub by hand and blood and tears
+<img src="/images/falcon-v3-teardown/step11-falcon-500-v3-teardown.jpg" alt="Step 11: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>Back to the stripped T10. It has now been transformed into a flathead as our screw remover was removed from the robotics lab by ghosts or a pack of raiders.
+<ol>
+<li>If you are like us and don&rsquo;t have a screw extractor, you can try to make a slot on the head with a Dremel. This is something we have practiced a lot
+<ol>
+<li>No you can&rsquo;t ask why we practice this.</li>
+</ol>
+</li>
+<li>If you try to do this method be careful to not cut too deep and damage the motor. If you cut too far or wobble while cutting you&rsquo;ll take off too much of the bolts head and the flat head will not work.
+<img src="/images/falcon-v3-teardown/step12-falcon-500-v3-teardown.jpg" alt="Step 12: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>So then I got the cap off.
+<ol>
+<li>Remember how I said earlier I had a good reason for removing the cap? When I took this motor out of the box and shook it I heard a rattle.</li>
+<li>At first I expected this to be the wobbly shaft, but it was fine luckily.</li>
+<li>Then as I did the tear down I expected to find some loose metal, a spare bolt, something wrong in the front side. No dice obviously you saw what I saw.
+<img src="/images/falcon-v3-teardown/step13-falcon-500-v3-teardown.gif" alt="Step 13: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>The spacer that goes on the T10 was not where it belongs and was loose in the cap. The other one was glued in place like it should be.
+<ol>
+<li>This helps keep the cap from being over tightened and also keeps the Hall sensor that is the encoders for the Falcon, aligned and flat with the motor. Without this we would have not gotten accurate encoder data and with this being for a drivetrain that&rsquo;s killer.
+<img src="/images/falcon-v3-teardown/step14-falcon-500-v3-teardown.jpg" alt="Step 14: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+<li>Okay so that&rsquo;s the end of disassembling a Falcon. Time to put it all back together. For the most part just reverse the steps in the guide.
+<ol>
+<li>Remember how I said before there are 3 slots on the casing? One is solid and the other two look different. If you look at the back plate and the front plate there are matching grooves.</li>
+<li>When putting everything back together make sure to line these slots up properly. It&rsquo;s the only way it actually goes back together anyways without any gaps.
+<img src="/images/falcon-v3-teardown/step15-falcon-500-v3-teardown.jpg" alt="Step 15: Falcon 500 V3 Teardown"></li>
+</ol>
+</li>
+</ol>
+<h3 id="other-fixes">Other Fixes</h3>
+<p>Did we miss something?</p>
+<p>If you have any other issues that you have found with the Falcon 500, please let us know by adding it to the listings or submitting an issue on our github repo. We will be updating this post as we find more issues and fixes.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/electronics/electronics-troubleshooting/" title="4.9 Electronics Troubleshooting"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/pneumatics/" title="5.0 Pneumatics" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1678423302"></script>
+    <script src="/js/perfect-scrollbar.min.js?1678423302"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1678423302"></script>
+    <script src="/js/jquery.sticky.js?1678423302"></script>
+    <script src="/js/featherlight.min.js?1678423302"></script>
+    <script src="/js/highlight.pack.js?1678423302"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1678423302"></script>
+    <script src="/js/learn.js?1678423302"></script>
+    <script src="/js/hugo-learn.js?1678423302"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1678423302"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+<script type="module">
+    
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+    
+    
+  
+    
+    
+    const firebaseConfig = {
+      apiKey: "AIzaSyAxrh_pkFQKu4iNBUW4ZcKLK1IjPIMKoTA",
+      authDomain: "frczero-c27d3.firebaseapp.com",
+      projectId: "frczero-c27d3",
+      storageBucket: "frczero-c27d3.appspot.com",
+      messagingSenderId: "593871872736",
+      appId: "1:593871872736:web:8f2fd90823ed387efba685",
+      measurementId: "G-ML6YNLPMR3"
+    };
+  
+    
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  </body>
+</html>
+

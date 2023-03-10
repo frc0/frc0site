@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+
+<head>
+  <meta charset="utf-8"> <meta name="description" content="">
+
+ <link rel="icon" href="/images/favicon.ico" type="image/ico">
+ <link rel="stylesheet" src="/stylesheets/style.css">
+  
+  <title>404 Page not found</title>
+
+   
+    <link href="/css/nucleus.css?1675747741" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1675747741" rel="stylesheet">
+    <link href="/css/hybrid.css?1675747741" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1675747741" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1675747741" rel="stylesheet">
+    <link href="/css/theme.css?1675747741" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1675747741" rel="stylesheet">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    
+<style>
+    :root #header + #content > #left > #rlblock_left {
+      display: none !important;
+    }
+
+    body {
+      background-color: #3bf3b6;
+      color: #333;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.42857143;
+    }
+
+    p,
+    li,
+    ul {
+      text-align: center
+    }
+
+    ul {
+      list-style-type: none;
+    }
+</style>
+<script>
+  var imgElem;
+  var imgArr;
+  
+  
+  function displayRndImage () {
+          var num = Math.floor(Math.random() * imgArr.length);
+          var imgfile =  imgArr[num];
+          imgElem.src = imgfile;
+          console.log(imgfile);
+  }
+  
+  function displayRandomImage (canvas, imgs) {
+          var num = Math.floor(Math.random() * imgs.length);
+          var imgfile =  imgs [num];
+          imgElem = document.getElementById(canvas);
+          imgElem.src = imgfile;
+          console.log(imgfile);
+  }
+  
+  function playRandomImage (canvas, imgs, delay) {
+          imgElem = document.getElementById(canvas);
+          imgArr = imgs;
+          var intervalx = setInterval(displayRndImage , delay );
+  }       
+  </script>
+</head>
+
+  <body class="" data-url="/">
+
+    <section id="body" style="margin-left:0px;">
+      <div id="overlay"></div>
+      <div id="chapter">
+        <div id="body-inner">
+          <h1>Error...</h1>
+          <p>
+          </p>
+          <p>How did you even get here? Looks like this page doesn&#39;t exist ¯\_(ツ)_/¯.</p>
+          <p></p>
+          <p><a href='/'>Go to homepage</a></p>
+          <p><img src='https://thumbs.gfycat.com/SilentWeirdAmericanbadger-max-1mb.gif' style="width:200%" alt="Page not found!" id="errorGif"></p>
+
+        </div>
+      </div>
+
+    </section>
+    <script>
+      var images = ["https://thumbs.gfycat.com/SilentWeirdAmericanbadger-max-1mb.gif", "https://media.tenor.com/ACy8YfHUofwAAAAC/fail-robot.gif", "https://media2.giphy.com/media/U8MnmuVDpK264/200w.gif?cid=6c09b952w3lh6ps8kfi57ndsrkoy44dhej92nko18y95b6ul&rid=200w.gif&ct=g", "https://media.tenor.com/PiJ_nW6EDjEAAAAM/robot-fail.gif", "https://motherboard-images.vice.com/content-images/contentimage/no-id/1433538606565630.gif", "https://media.tenor.com/AXbGkn13oh0AAAAd/robot-typing-fail.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPgh5NxG_uva1bb_73jERUC92P6DRQcp4qLw&usqp=CAU", "https://upgifs.com//img/gifs/fH1nfbTi1P8mk.gif", "https://upgifs.com//img/gifs/HzEOp5K2Vpu8g.gif", "https://bestanimations.com/media/robots/1716918552robot-animated-gif-image-7.gif"];
+      displayRandomImage("errorGif", images);
+</script>
+  </body>
+</html>

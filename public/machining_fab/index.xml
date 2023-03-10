@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.0 Machining &amp; Fabrication on FRC Zero</title>
+    <link>https://frczero.org/machining_fab/</link>
+    <description>Recent content in 3.0 Machining &amp; Fabrication on FRC Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://frczero.org/machining_fab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.1 What is Machining &amp; Fabrication?</title>
+      <link>https://frczero.org/machining_fab/machining-fab/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/machining_fab/machining-fab/</guid>
+      <description>What is Machining? Machining is the process of cutting, shaping, and finishing materials using a machine. In FRC machining is used to create parts for the robot. This can be done using a CNC machine, a 3D printer, or a manual mill or lathe. There are many different types of these machines, and each has its own advantages and disadvantages. This section will cover the basics of machining and how to use some standard machines.</description>
+    </item>
+    
+  </channel>
+</rss>

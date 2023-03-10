@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0.0 About FRC0 on FRC Zero</title>
+    <link>https://frczero.org/about/</link>
+    <description>Recent content in 0.0 About FRC0 on FRC Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://frczero.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0.1 Why FRC0?</title>
+      <link>https://frczero.org/about/why-frc0/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/about/why-frc0/</guid>
+      <description>FRC0 was created to help address the following issues:
+ There is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources. There are not as many Mentors and Coaches as there are students. Guides like WPIlib, Rev, CTRE, and others are great, but they are not always easy to understand or they don&amp;rsquo;t cover all the topics.  For example, the WPIlib guides do not cover the game or the competition.</description>
+    </item>
+    
+    <item>
+      <title>0.2 How to Use FRC0</title>
+      <link>https://frczero.org/about/how-to-use-frc0/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/about/how-to-use-frc0/</guid>
+      <description>FRC0 is based on the learn theme for Hugo. The learn theme is explained in detail on the Hugo Learn Theme website. What is useful about this theme is it uses a system of Chapters and Sections. Each Chapter is a topic and each Section is a sub-topic. The Chapters and Sections are listed in the left sidebar. The Chapters and Sections are also used to create the Table of Contents for each Chapter page.</description>
+    </item>
+    
+    <item>
+      <title>0.3 Writing Content for the Website</title>
+      <link>https://frczero.org/about/writing-content/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/about/writing-content/</guid>
+      <description>So you want to write content for the FRC0 website? Great! This page will help you get started.
+What is Markdown? Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML. It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. For more information, please see the Markdown Guide.</description>
+    </item>
+    
+    <item>
+      <title>0.4 Who are the contributors?</title>
+      <link>https://frczero.org/about/contributors/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/about/contributors/</guid>
+      <description>This site is a collaborative effort of many teams, individuals and private companies. The following teams and individuals have contributed to this site:
+ FRC 453 Rock&amp;rsquo;em Sock&amp;rsquo;em Robotics FRC 2129 Ultraviolet FTC 12600 Robotters Mansour Quddus  Hosting Maintenance and the Domain Name are provided by Mr. Siefen&amp;rsquo;s Robot Emporium and ResGreen Group where he works when not doing all that other stuff.</description>
+    </item>
+    
+    <item>
+      <title>0.5 Special Thanks and References</title>
+      <link>https://frczero.org/about/thanks/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/about/thanks/</guid>
+      <description>This site would not be possible without the following:
+ Hugo - A static site generator written in Go. Hugo Learn Theme - A theme for Hugo that is designed to look like powerpoint slides. Hugo Learn Theme Docs - The documentation for the Hugo Learn Theme. Mr. Siefen&amp;rsquo;s Robot Emporium - A personal blog by Mr. Siefen. It has alot of non-FRC content, but it is focused on robotics, stem, iot, and other not as relevent topics.</description>
+    </item>
+    
+  </channel>
+</rss>
