@@ -13,9 +13,9 @@ draft: false
 ## Important Notices:
 ---
 
-#### &#x26A0; It's Week 2 of the 2023 Competition Season! &#x26A0;
+#### &#x26A0; It's Week 1 of the 2023 Competition Season! &#x26A0;
 
-Events are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
+Event's are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
 
 #### &#x26A0; Event Rescheduling for FRC Turkey Teams &#x26A0;
 
