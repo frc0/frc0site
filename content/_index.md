@@ -13,9 +13,9 @@ draft: false
 ## Important Notices:
 ---
 
-#### &#x26A0; It's Week 2 of the 2023 Competition Season! &#x26A0;
+#### &#x26A0; It's Week 3 of the 2023 Competition Season! &#x26A0;
 
-Events are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
+[Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
 
 #### &#x26A0; Event Rescheduling for FRC Turkey Teams &#x26A0;
 
@@ -29,7 +29,7 @@ FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Co
 
 FRC0 is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC0 Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC0 contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/frc0/frc0site/issues/new/choose) on our GitHub repository.
 
-### Cool Video of the Github Commit History (Updated Weekly)
+### Cool Video of the Github Commit History
 
 https://youtu.be/htZ70xkUiO4
 

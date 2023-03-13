@@ -74,3 +74,63 @@ author = 'Mr. Siefen'
 editors = ''
 +++
 ```
+
+## How do I add text and headings to a page?
+
+You can add text and headings to a page by using the following syntax:
+
+```markdown
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+Normal text
+```
+
+## How do I add images to a page?
+
+You can add images to a page by using the following syntax:
+
+```markdown
+![Image Title](/images/image-name.png)
+```
+
+The image title is optional.  The image name is the name of the image file.  The image file should be placed in the `static/images` directory.  The image file should be a PNG file.  The image file should be 1280x720 pixels.  The image file should be less than 1MB in size.
+
+## How do I add a link to a page?
+
+You can add a link to a page by using the following syntax:
+
+```markdown
+[Link Title](https://www.example.com)
+```
+
+The link title is the text that will be displayed for the link.  The link URL is the URL of the page that the link will point to.
+
+## How do I add a table to a page?
+
+You can add a table to a page by using the following syntax:
+
+```markdown
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1    | Row 1    | Row 1    |
+| Row 2    | Row 2    | Row 2    |
+| Row 3    | Row 3    | Row 3    |
+```
+
+## How do I add a quote to a page?
+
+You can add a quote to a page by using the following syntax:
+
+```markdown
+> This is a quote.
+```

@@ -19,12 +19,12 @@ Below is a table outlining the topics you will learn about in this section speci
 #  C++ Topics
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 6.3.1 | [Syntax](/programming/cpp/syntax/) | 30 minutes |
-| 6.3.2 | [Structure](/programming/cpp/structure/) | 30 minutes |
-| 6.3.3 | [Data Types](/programming/cpp/datatypes/) | 30 minutes |
-| 6.3.4 | [Input/Output](/programming/cpp/inputoutput) | 30 minutes |
-| 6.3.5 | [Control Structures](/programming/cpp//controlstructures) | 30 minutes |
-| 6.3.6 | [Error Handling](/programming/cpp/errorhandling) | 30 minutes |
-| 6.3.7 | [OOP for CPP](/programming/cpp/oop) | 30 minutes |
+| 6.3.1 | Syntax | 30 minutes |
+| 6.3.2 | Structure | 30 minutes |
+| 6.3.3 | Data Types | 30 minutes |
+| 6.3.4 | Input/Output | 30 minutes |
+| 6.3.5 | Control Structures | 30 minutes |
+| 6.3.6 | Error Handling | 30 minutes |
+| 6.3.7 | OOP for CPP | 30 minutes |
 
 [-> Back to 6.0 Programming](/programming/)
