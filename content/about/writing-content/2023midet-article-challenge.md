@@ -1,5 +1,5 @@
 ---
-date: '2023-3-13'Detroit
+date: '2023-3-13'
 title: '0.3.4 Detroit, MI Article Challenge 2023'
 weight: 4
 chapter: false
