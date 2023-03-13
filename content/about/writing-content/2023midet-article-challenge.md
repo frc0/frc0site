@@ -18,7 +18,7 @@ You probably got to this page by scanning a QR code.  If you did not scan a QR c
 
 ## Rules and Guidelines
 
-As with all FRC and FIRST related things Gracious Professionalism is always our top priority. Please keep this in mind when writing your article.  We want to encourage students to write articles about FRC, but we also want to make sure that the articles are written in a way that is respectful to all teams and all people. Any articles that are not written in a way that honors [Gracious Professionalism Standards](firstinspires.org/community/inspire/enduring-legacy-of-gracious-professionalism) will be rejected.
+As with all FRC and FIRST related things Gracious Professionalism is always our top priority. Please keep this in mind when writing your article.  We want to encourage students to write articles about FRC, but we also want to make sure that the articles are written in a way that is respectful to all teams and all people. Any articles that are not written in a way that honors [Gracious Professionalism Standards](https://www.firstinspires.org/community/inspire/enduring-legacy-of-gracious-professionalism) will be rejected.
 
 ### Article Requirements
 
