@@ -21,21 +21,21 @@ Below is an outline of the topics that will be covered in this chapter.
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
 | 6.1 | [Programming Languages](/programming/programming_languages) | 30 minutes |
-| 6.2 | [Java](/programming/java) | 30 minutes |
+| 6.2 | Java | 30 minutes |
 | 6.3 | [C++](/programming/cpp) | 30 minutes |
-| 6.4 | [LabVIEW](/programming/labview) | 30 minutes |
-| 6.5 | [Python](/programming/python) | 30 minutes |
-| 6.6 | [Robot Code](/programming/robot_code) | 30 minutes |
-| 6.7 | [Timed Robot](/programming/timed_robot) | 30 minutes | [
-| 6.8 | [Command Based Programming](/programming/command_based_programming) | 30 minutes |
-| 6.9 | [RobotBuilder](/programming/robotbuilder) | 30 minutes |
-| 6.10 | [Path Planning](/programming/path_planning) | 30 minutes |
-| 6.11 | [Robot Simulation](/programming/robot_simulation) | 30 minutes |
-| 6.12 | [Vision Processing](/programming/vision_processing) | 30 minutes |
-| 6.13 | [ROS](/programming/ros) | 30 minutes |
-| 6.14 | [GUI Programming](/programming/gui_programming) | 30 minutes |
-| 6.15 | [Unity](/programming/unity) | 30 minutes |
-| 6.16 | [Unreal Engine](/programming/unreal_engine) | 30 minutes |
-| 6.17 | [Web Development](/programming/web_development) | 30 minutes |
-| 6.18 | [Arduino](/programming/arduino) | 30 minutes |
-| 6.19 | [Raspberry Pi](/programming/raspberry_pi) | 30 minutes |
+| 6.4 | LabVIEW | 30 minutes |
+| 6.5 | Python | 30 minutes |
+| 6.6 | Robot Code | 30 minutes |
+| 6.7 | Timed Robot | 30 minutes | [
+| 6.8 | Command Based Programming | 30 minutes |
+| 6.9 | RobotBuilder | 30 minutes |
+| 6.10 | Path Planning | 30 minutes |
+| 6.11 | Robot Simulation | 30 minutes |
+| 6.12 | Vision Processing | 30 minutes |
+| 6.13 | ROS | 30 minutes |
+| 6.14 | GUI Programming | 30 minutes |
+| 6.15 | Unity | 30 minutes |
+| 6.16 | Unreal Engine | 30 minutes |
+| 6.17 | Web Development | 30 minutes |
+| 6.18 | Arduino | 30 minutes |
+| 6.19 | Raspberry Pi | 30 minutes |

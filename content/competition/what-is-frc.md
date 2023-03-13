@@ -178,3 +178,44 @@ The last part of the event is the awards ceremony. Normally this was done after 
 - [Best Practices for Awards](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/awards/best-practices-for-teams.pdf)
 - [Impact Award](https://www.firstinspires.org/resource-library/frc/first-impact-award-resources)
 - [Inside Look at Judging](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/awards/inside-look-at-judging-process.pdf)
+
+## Post Season
+
+This is also sometimes called the offseason. Usually this would be a time teams can lay back and relax, but really there are so many useful things you can do during this time. [OCCRA](https://osedfoundation.org/what-we-support/occra/) is an offseason competition for FRC teams in Oakland County Michigan, but similar programs exist elsewhere. This is a great way to get some more practice in and get some more matches in. This can be valuable teaching and training time for new team members.
+
+### Outreach and Summer Camps
+
+This is a great time to get out and do some outreach. There are many summer camps and other events that are looking for STEM activities. This is a great way to get your team out in the community and show off what you do. This is also a great way to get new members. You can also do some outreach at your local library or other community centers. Teams have also used summer camps as ways to get funding for the team by charging for the activities. If your team has FLL equipment, knowledge and a coach, you can also run a Lego Robotics summer camp. This would also be great PR for your team and count towards stuff like the Impact Award or Sustainability Award.
+
+### Pit Design and Shop Improvements
+
+When going to a competition your pit becomes the home for your robot, drivers and a rotating mass of students constantly asking if they can help after each match. With the post season you are fresh off of competing and can think back to what worked and what didn't. You can use this time to make improvements to your pit. You can also use this time to make improvements to your shop. This is a great time to get some new tools, or to organize your shop. Your pit should be modular, adjustable from 8x8 feet to 10x10 feet and be able to be set up and taken down in 30 minutes or less. This is a great time to make sure your pit is ready for the next season.
+
+Things to consider:
+
+- How will you store your robot?
+- How will you store your tools?
+- How will you store your batteries?
+- How will you store your spare parts?
+- How can you improve the aesthetics of your pit?
+- How can you improve the functionality of your pit?
+- How can you improve the safety of your pit?
+- How can you improve the speed of your pit setup and teardown?
+- How can you improve the organization of your pit?
+- How can you improve the accessibility of your pit?
+
+### Team Building
+
+This is a great time to get to know your team better. You can do team building activities, team bonding activities, or just hang out and get to know each other better. This is a great time to get to know your new members better. Team field trips to sponsors work sites, robotics companies, and more are also great ways to get to know each other better and take advantage of the extra time. As you visit all of these places as a team you learn more about each other and you learn more about the world around you. You ask questions, you learn, you grow. New experiences also helps a group of people bond together, even the unpleasant ones.
+
+### Fundraising
+
+This is a great time to do some fundraising. You can do some fundraising events or pound the pavement and talk to local businesses and community members. Students can do bottle drives, car washes, and more. You can work on team merchandise, sell products in partnership with vendors [see Batthawk on andymark](https://www.andymark.com/products/batthawk-pack-of-4). FRC team 1720 created a voltmeter for battery reading, NOT testing, but they sell it in partnership with andymark and it is a fundraiser for their team. We use these on FRC 453!
+
+### Mentoring
+
+Training and teaching new students takes up so much time, but the post season means you just got tons of free time! This is a great time to mentor other teams. You can mentor other teams in your area, or you can mentor teams from other areas by writing content for here, docs.wpilib.org or other online resources. Film video lessons to have ready for the offseason and to share with other teams. You can mentor other lower level teams like FTC, FLL, FLL jr and even VEX or other competitions. Any time spent teaching robotics is time well spent!
+
+### Robot Design
+
+Test out all of your crazy ideas you cant take a chance on during the competition season. Try out swerve drive, home brew some new navigation tools, shift some paradigms! Mainly this is a low risk and low speed time where you can try out new things, read up on the winning teams and see what they did you want to also do. Study up on designs, mechanisms, and more.

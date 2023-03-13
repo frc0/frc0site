@@ -18,13 +18,13 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 8.1 | [Business Plan](/business_marketing/business_plan) | 30 minutes |
-| 8.2 | [Marketing Plan](/business_marketing/marketing_plan) | 30 minutes |
-| 8.3 | [Team Sustainability](/business_marketing/team_sustainability) | 30 minutes |
-| 8.4 | [Sponsorship](/business_marketing/sponsorship) | 30 minutes |
+| 8.1 | Business Plan | 30 minutes |
+| 8.2 | Marketing Plan | 30 minutes |
+| 8.3 | Team Sustainability | 30 minutes |
+| 8.4 | Sponsorship | 30 minutes |
 | 8.5 | [Team Branding](/business_marketing/team_branding) | 30 minutes |
 | 8.6 | [Team Website](/business_marketing/team_website) | 30 minutes |
-| 8.7 | [Social Media Management](/business_marketing/social_media_management) | 30 minutes |
-| 8.9 | [Team Apparel & Giveaway Items](/business_marketing/team_tshirt) | 30 minutes |
-| 8.10 | [Team Video](/business_marketing/team_video) | 30 minutes |
-| 8.11 | [Team Photos](/business_marketing/team_photos) | 30 minutes |
+| 8.7 | Social Media Management | 30 minutes |
+| 8.9 | Team Apparel & Giveaway Items | 30 minutes |
+| 8.10 | Team Video | 30 minutes |
+| 8.11 | Team Photos | 30 minutes |
