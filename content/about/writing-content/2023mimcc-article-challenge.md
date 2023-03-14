@@ -14,7 +14,7 @@ unlisted: true
 
 ## Thank you for participating in the 2023 Macomb, MI Article Challenge!
 
-You probably got to this page by scanning a QR code.  If you did not scan a QR code, you can still participate in the 2023 Macomb, MI Article Challenge anyways! You can participate in the 2023 Macomb, MI Article Challenge by writing an article that covers one of the two FIM Troy FRC competitions and follows the rules below.
+You probably got to this page by scanning a QR code.  If you did not scan a QR code, you can still participate in the 2023 Macomb, MI Article Challenge anyways! You can participate in the 2023 Macomb, MI Article Challenge by writing an article that covers one of the two FIM Macomb FRC competition and follows the rules below.
 
 ## Rules and Guidelines
 

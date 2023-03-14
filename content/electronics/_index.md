@@ -30,7 +30,7 @@ Below is an outline of the topics that will be covered in this chapter.
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
 | 4.1 | [What is Electronics?](/electronics/what-is-electronics/) | 20 minutes |
-| 4.2 | Electronics Tools | 10 minutes |
+| 4.2 | [Electronics Tools](/electronics/electronics-tools/) | 10 minutes |
 | 4.3 | Electronics Components | 10 minutes |
 | 4.4 | Electronics Circuits | 10 minutes |
 | 4.5 | Electronics Safety | 10 minutes |

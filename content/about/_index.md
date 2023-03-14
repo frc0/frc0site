@@ -3,7 +3,7 @@ title: "0.0 About FRC0"
 date: 2023-02-04
 weight: 0
 chapter: true
-lastmod: 2023-02-26
+lastmod: 2023-03-14
 author: 'Mr. Siefen'
 editors: ''
 ---
