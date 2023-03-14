@@ -64,8 +64,8 @@ Teams will arrive at the event and check in with the event staff. They will be g
 
 After the team has set up their pit space, they will be inspected by the event staff. The inspection is to make sure that the robot is safe and ready to compete. The inspection checklist can be found here:
 
-<object data="https://firstfrc.blob.core.windows.net/frc2023/Manual/2023-inspection-checklist.pdf" type="application/pdf" width="100%" height="700px">
-  <p>Viewer unavailable, click here <a href="https://firstfrc.blob.core.windows.net/frc2023/Manual/2023-inspection-checklist.pdf">to download the PDF!</a></p>
+<object data="https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023-inspection-checklist.pdf" type="application/pdf" width="100%" height="700px">
+  <p>Viewer unavailable, click here <a href="https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023-inspection-checklist.pdf">to download the PDF!</a></p>
 </object>
 
 LRI (Lead Robot Inspectors) are amazing volunteers that do everything they can to make sure teams make it out onto the field. They are very knowledgeable and will often be called over when FTA's (Field Technical Advisors) have questions. There priority is to get your bot inspected and out onto the field, they are NOT there to make your life miserable. If you have questions about the inspection process, ask them. They are there to help you.
@@ -98,7 +98,7 @@ Those sheets all came from the '2023 Strategy Board' topic [here](https://www.ch
 ---
 
 #### Match Scoring
-During the qualification matches, teams will be competing for the highest score possible. The breakdown of the scoring from [REV Robotics](https://docs.revrobotics.com/frc-kickoff-concepts/charged-up-2023/game-breakdown) and the 2023 game manual can be found below:
+During the qualification matches, teams will be competing for the highest score possible. The breakdown of the scoring from [REV Robotics](https://docs.revrobotics.com/FRC-kickoff-concepts/charged-up-2023/game-breakdown) and the 2023 game manual can be found below:
 
 |                    Award                    |           AUTO           | TELEOP | Ranking Point |
 |:-------------------------------------------:|:------------------------:|:------:|:-------------:|
@@ -139,11 +139,11 @@ The playoff matches are the final matches of the event. The 8 alliances play aga
 
 ![Bracket System](/images/competition/bracket.PNG)
 
-Now this year there will also be awards breaks during the final matches. This is in an attempt to actually speed up the overall event time. We will see how this pans out. Either way this is what everyone has been waiting for. The final matches. The matches that will determine who is the overall winning alliance. There are scenarios where there are ties and other things that can happen. The full rules for the playoff matches can be found [here](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-11.pdf). Ultimately the matches are more or less the same as the qualification matches. The only difference is that the alliances are already selected and they wont change match to match, Teams will have limited time between matchs and will have to bring some of their pit tools to the field. Most of this information will be covered with the drive teams at the events.
+Now this year there will also be awards breaks during the final matches. This is in an attempt to actually speed up the overall event time. We will see how this pans out. Either way this is what everyone has been waiting for. The final matches. The matches that will determine who is the overall winning alliance. There are scenarios where there are ties and other things that can happen. The full rules for the playoff matches can be found [here](https://firstFRC.blob.core.windows.net/FRC2023/Manual/Sections/2023FRCGameManual-11.pdf). Ultimately the matches are more or less the same as the qualification matches. The only difference is that the alliances are already selected and they wont change match to match, Teams will have limited time between matchs and will have to bring some of their pit tools to the field. Most of this information will be covered with the drive teams at the events.
 
 ### Awards
 
-The last part of the event is the awards ceremony. Normally this was done after the final matches had ended, as stated in the previous section, now the awards are done in between the final matches. Teams will see video submissions from award winners, hear descriptions and explanations of the awards, and then the awards will be given out. When a team is called for awards they usually all go down to the field, collect a medal, get high fives from the judges and gather at the back of the field for a team photo. Other teams are all cheering them on and congratulating them. Usually the judge explanations contain hints and puns and its fun to guess who is going to win. All of the awards are listed below and the full descriptions can be found [here](https://www.firstinspires.org/robotics/frc/awards).
+The last part of the event is the awards ceremony. Normally this was done after the final matches had ended, as stated in the previous section, now the awards are done in between the final matches. Teams will see video submissions from award winners, hear descriptions and explanations of the awards, and then the awards will be given out. When a team is called for awards they usually all go down to the field, collect a medal, get high fives from the judges and gather at the back of the field for a team photo. Other teams are all cheering them on and congratulating them. Usually the judge explanations contain hints and puns and its fun to guess who is going to win. All of the awards are listed below and the full descriptions can be found [here](https://www.firstinspires.org/robotics/FRC/awards).
 
 - Machine, Creativity, & Innovation Awards 
     - Autonomous Award sponsored by Ford 
@@ -174,10 +174,10 @@ The last part of the event is the awards ceremony. Normally this was done after 
 
 #### Awards Resources
 
-- [Judge Sample Questions](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/awards/frc_practice_questions_for_awards.pdf)
-- [Best Practices for Awards](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/awards/best-practices-for-teams.pdf)
-- [Impact Award](https://www.firstinspires.org/resource-library/frc/first-impact-award-resources)
-- [Inside Look at Judging](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/awards/inside-look-at-judging-process.pdf)
+- [Judge Sample Questions](https://www.firstinspires.org/sites/default/files/uploads/resource_library/FRC/game-and-season-info/awards/FRC_practice_questions_for_awards.pdf)
+- [Best Practices for Awards](https://www.firstinspires.org/sites/default/files/uploads/resource_library/FRC/game-and-season-info/awards/best-practices-for-teams.pdf)
+- [Impact Award](https://www.firstinspires.org/resource-library/FRC/first-impact-award-resources)
+- [Inside Look at Judging](https://www.firstinspires.org/sites/default/files/uploads/resource_library/FRC/game-and-season-info/awards/inside-look-at-judging-process.pdf)
 
 ## Post Season
 

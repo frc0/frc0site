@@ -63,7 +63,7 @@ There are many ways to host a website. The table below lists some of the most co
 | Host the website on a team member's computer | Hosting the website on a team member's computer is a free way to host a website. Hosting the website on a team member's computer is often limited in features and functionality. | Free |
 | Use services like Read the Docs | Services like Read the Docs are services that allow users to host websites for free. Services like Read the Docs are often limited in features and functionality. | Free |
 
-## How can a team design a website like frczero.org using Hugo?
+## How can a team design a website like FRCzero.org using Hugo?
 
 While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great resource for learning how to use Hugo, it is not a great layout for a Team or Branding website. For a teams website to be successful, it needs to be designed to be easy to use and easy to navigate. The learn theme may not be the best choice. The table below lists some of the most common themes for Hugo:
 
@@ -90,7 +90,7 @@ While the [Learn Hugo Theme](https://learn.netlify.app/en/) tutorial is a great 
 
 7. To test that the `hugo` command is working, type `hugo version` and then press the Enter key. This should print the version of Hugo that you installed. If it does not print the version of Hugo that you installed, then you should go back and make sure that you followed the instructions correctly.
 
-    - If you are confident that you followed the instructions correctly, then you should try to reinstall Hugo. If you are still having problems, then you should submit an issue on the [frczero.org github repo](https://github.com/frc0/frc0site)
+    - If you are confident that you followed the instructions correctly, then you should try to reinstall Hugo. If you are still having problems, then you should submit an issue on the [FRCzero.org github repo](https://github.com/FRC0/FRC0site)
 
 ### How can a team use a theme and Hugo?
 
@@ -231,11 +231,11 @@ To learn more about the Ananke theme, visit the [Ananke Theme Documentation](htt
 
 > If you want to just start with a cloned version of the Team 453 website which uses the Ananke theme, then you can fork or download and make a new copy of the [FRC 453 Team Website Repository](https://github.com/team453/teamWebsite) and then follow the instructions in the README.md file and the articles [How did we make this site? pt 1](http://rockemsockemrobotics.com/post/ssglesson1/) & [How did we make this site? pt 2](http://rockemsockemrobotics.com/post/ssglesson2/).
 
-## How can a team design a website like frczero.org using a website builder?
+## How can a team design a website like FRCzero.org using a website builder?
 
 // TODO - Add instructions for using a website builder
 
-## How can a team design a website like frczero.org from scratch?
+## How can a team design a website like FRCzero.org from scratch?
 
 // TODO - Add instructions for designing a website from scratch
 

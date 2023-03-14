@@ -8,7 +8,7 @@ There is a lot of information about the FRC program, and it can be hard to find 
 
 ## How can teams and mentors add new content?
 
-STEP 1: Read the guide [here](https://frczero.org/about/writing-content/) it covers most of this!
+STEP 1: Read the guide [here](https://FRCzero.org/about/writing-content/) it covers most of this!
 
 Teams and mentors can add new content by creating a new markdown file in the appropriate folder. The website is hosted on GitHub, so you will need a GitHub account to contribute to the website. If you don't have a GitHub account, you can create one for free at [github.com](https://github.com). Once you have a GitHub account, you can create a new markdown file by clicking the "Create new file" button on the GitHub website. You can also create a new markdown file by clicking the "Create new file" button in the GitHub desktop application. You can download the GitHub desktop application at [desktop.github.com](https://desktop.github.com). 
 
@@ -19,8 +19,8 @@ Once you have created a new markdown file, you can add content to the file by ty
 Markdown is a simple markup language that is used to format text. You can learn more about markdown at [daringfireball.net/projects/markdown](https://daringfireball.net/projects/markdown). Here are some tips and tricks for working with markdown:
 
 - You can add a header to a markdown file by adding a number of `#` symbols before the header text. The more `#` symbols you add, the smaller the header will be. For example, `# Header 1` will create a large header, `## Header 2` will create a medium header, and `### Header 3` will create a small header.
-- You can add a link to a markdown file by adding the link text in square brackets and the link in parentheses. For example, `[FRC Zero](https://frczero.org)` will create a link to the website.
-- You can add an image to a markdown file by adding the image text in square brackets and the image in parentheses. For example, `![FRC zero logo](https://frczero.org/images/FRCZero.png)` will add an image to the file.
+- You can add a link to a markdown file by adding the link text in square brackets and the link in parentheses. For example, `[FRC Zero](https://FRCzero.org)` will create a link to the website.
+- You can add an image to a markdown file by adding the image text in square brackets and the image in parentheses. For example, `![FRC zero logo](https://FRCzero.org/images/FRCZero.png)` will add an image to the file.
 - You can add a list to a markdown file by adding a number of `-` symbols before the list item. For example, `- List item 1` will create a list item, `- List item 2` will create a list item, and `- List item 3` will create a list item.
 - You can add a table to a markdown file by adding a number of `|` symbols before the table item. For example, `| Table item 1 | Table item 2 | Table item 3 |` will create a table item, `| Table item 4 | Table item 5 | Table item 6 |` will create a table item, and `| Table item 7 | Table item 8 | Table item 9 |` will create a table item.
 - You can add a code block to a markdown file by adding a number of backticks before and after the code block. For example, `` `Code block` `` will create a code block.
