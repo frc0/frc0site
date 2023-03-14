@@ -126,7 +126,7 @@ Relays are used to control high voltage devices. This can be lights, actuators o
 * SPIKE Relay P/N: 217-0220 and SPIKE-RELAY-H
 * Automation Direct Relay P/N: AD-SSR6M12-DC-200D, AD-SSRM6M25-DC-200D, ADSSR6M45-DC-200D
 
-![Relay](https://mililanirobotics.gitbooks.io/frc-electrical-bible/content/Motor_Controllers/spike.png)
+![Relay](/images/electronics/spike.png)
 Source Image: [FRC Electrical Bible](https://mililanirobotics.gitbooks.io/frc-electrical-bible/content/Motor_Controllers/spike.html)
 
 ### Lights
