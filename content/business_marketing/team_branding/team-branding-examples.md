@@ -12,7 +12,7 @@ This section will show you some examples of team branding. We picked teams that 
 
 ## Team 453 - Rockem Sockem Robotics (Author's team)
 
-The [Team Website](http://www.rockemsockemrobotics.com/) was just redone with some of these ideas in mind. The previous website was a bit dated, and the new one is much more modern and easier to update using SSG just like frczero.org does. The team is also using Canva and Paint.net to do 99.9% of all graphical design work this year. In the past we've had a mixture of tools, designers and as you'll see later on, some of the designs were not consistent. This year we are trying to be more consistent and use the same tools and processes to create all of our graphics.
+The [Team Website](http://www.rockemsockemrobotics.com/) was just redone with some of these ideas in mind. The previous website was a bit dated, and the new one is much more modern and easier to update using SSG just like FRCzero.org does. The team is also using Canva and Paint.net to do 99.9% of all graphical design work this year. In the past we've had a mixture of tools, designers and as you'll see later on, some of the designs were not consistent. This year we are trying to be more consistent and use the same tools and processes to create all of our graphics.
 
 ### Current Branding Examples
 
@@ -52,7 +52,7 @@ Their youtube channel is [here](https://www.youtube.com/channel/UCcTTCmaXF7zM0Ak
 
 ## Team 1868 - Space Cookies
 
-Their team website is [here](https://frc.spacecookies.org/). They are an all girls team that is sponsored by NASA! They have a great professional website and are a great example of branding. They also publish a branding standards document that you can view [here](https://pub.lucidpress.com/SpaceCookiesBrandGuidelines/#_0). They also have a branding summary [here](https://pub.lucidpress.com/BrandingSummary/#6UnIPHbAiuea).
+Their team website is [here](https://FRC.spacecookies.org/). They are an all girls team that is sponsored by NASA! They have a great professional website and are a great example of branding. They also publish a branding standards document that you can view [here](https://pub.lucidpress.com/SpaceCookiesBrandGuidelines/#_0). They also have a branding summary [here](https://pub.lucidpress.com/BrandingSummary/#6UnIPHbAiuea).
 
 ![Team 1868 Logo](/images/business_marketing/team_branding/team_1868_logo.png)
 

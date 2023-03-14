@@ -20,5 +20,5 @@ Image courtesy of [FRC 358](http://team358.org/files/pneumatic/)
 
 Below is a downloadable copy of FIRST's pneumatics guide. This guide is a great resource for learning about pneumatics. It covers the latest hardware changes, and includes a lot of useful information. I highly recommend reading this guide.
 
-[Download the Pneumatics Guide](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/technical-resources/frc_pneumatics_manual.pdf)
+[Download the Pneumatics Guide](https://www.firstinspires.org/sites/default/files/uploads/resource_library/FRC/technical-resources/FRC_pneumatics_manual.pdf)
 

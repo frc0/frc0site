@@ -44,15 +44,15 @@ The `input` variable can be any type of variable that you would like to get inpu
 
 ## How to use Input and Output in FRC
 
-When you are using C++ for FRC you will need to use the `frc::SmartDashboard` class to output information to the SmartDashboard. The `frc::SmartDashboard` class is part of the WPILib library and is used to output information to the SmartDashboard. The `frc::SmartDashboard` class is used in the following way:
+When you are using C++ for FRC you will need to use the `FRC::SmartDashboard` class to output information to the SmartDashboard. The `FRC::SmartDashboard` class is part of the WPILib library and is used to output information to the SmartDashboard. The `FRC::SmartDashboard` class is used in the following way:
 
 ```cpp
-frc::SmartDashboard::PutNumber("MyNumber", 1);
+FRC::SmartDashboard::PutNumber("MyNumber", 1);
 ```
 
-The `frc::SmartDashboard::PutNumber` method is used to output a number to the SmartDashboard. The `frc::SmartDashboard::PutNumber` method takes two arguments. The first argument is a string that represents the name of the number. The second argument is a number that represents the value of the number. The `frc::SmartDashboard::PutNumber` method will output the number to the SmartDashboard with the name specified in the first argument.
+The `FRC::SmartDashboard::PutNumber` method is used to output a number to the SmartDashboard. The `FRC::SmartDashboard::PutNumber` method takes two arguments. The first argument is a string that represents the name of the number. The second argument is a number that represents the value of the number. The `FRC::SmartDashboard::PutNumber` method will output the number to the SmartDashboard with the name specified in the first argument.
 
-The `frc::SmartDashboard` class also has a `GetNumber` method that can be used to get a number from the SmartDashboard. The `frc::SmartDashboard::GetNumber` method takes one argument. The first argument is a string that represents the name of the number. The `frc::SmartDashboard::GetNumber` method will get the number from the SmartDashboard with the name specified in the first argument and return it to the program.
+The `FRC::SmartDashboard` class also has a `GetNumber` method that can be used to get a number from the SmartDashboard. The `FRC::SmartDashboard::GetNumber` method takes one argument. The first argument is a string that represents the name of the number. The `FRC::SmartDashboard::GetNumber` method will get the number from the SmartDashboard with the name specified in the first argument and return it to the program.
 
 ### What are the other ways to display data besides the SmartDashboard?
 
@@ -60,7 +60,7 @@ In FRC we have the default driver station, SmartDashboard, Shuffleboard and now 
 
 Tool | Description | Documentation
 --- | --- | ---
-Driver Station | The LabVIEW Dashboard is automatically launched by the FRC Driver Station by default. The purpose of the Dashboard is to provide feedback about the operation of the robot using tabbed display with a variety of built in features. | [Driver Station Documentation](https://docs.wpilib.org/en/stable/docs/software/dashboards/labview-dashboard/driver-station-labview-dashboard.html#frc-labview-dashboard)
+Driver Station | The LabVIEW Dashboard is automatically launched by the FRC Driver Station by default. The purpose of the Dashboard is to provide feedback about the operation of the robot using tabbed display with a variety of built in features. | [Driver Station Documentation](https://docs.wpilib.org/en/stable/docs/software/dashboards/labview-dashboard/driver-station-labview-dashboard.html#FRC-labview-dashboard)
 SmartDashboard | SmartDashboard allows you to view your robot data by automatically creating customizable indicators specifically for each piece of data sent from your robot. | [SmartDashboard Documentation](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-software.html#smartdashboard)
 Shuffleboard | Shuffleboard has the same features as SmartDashboard. It also improves on the setup and visualization of your data with new features and a modern design at the cost of being less resource efficient. | [Shuffleboard Documentation](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-software.html#shuffleboard)
 Glass | Glass is a Dashboard focused on being a programmer’s tool for debugging. The primary advantages are the field view, pose visualization and advanced signal plotting tools. | [Glass Documentation](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-software.html#glass)
@@ -73,9 +73,9 @@ If you would like to learn more about the `std::cin` and `std::cout` objects you
   * [C++ Input and Output](https://www.tutorialspoint.com/cplusplus/cpp_input_output.htm)
   * [C++ Input and Output](https://www.geeksforgeeks.org/input-output-cpp/)
 
-If you would like to learn more about the `frc::SmartDashboard` class and other FRC tools you can check out the following resources:
+If you would like to learn more about the `FRC::SmartDashboard` class and other FRC tools you can check out the following resources:
 
-* [FRC Driver Station](https://docs.wpilib.org/en/stable/docs/software/dashboards/labview-dashboard/driver-station-labview-dashboard.html#frc-labview-dashboard)
+* [FRC Driver Station](https://docs.wpilib.org/en/stable/docs/software/dashboards/labview-dashboard/driver-station-labview-dashboard.html#FRC-labview-dashboard)
 * [FRC SmartDashboard](https://docs.wpilib.org/en/stable/docs/software/dashboards/smartdashboard/index.html#smartdashboard)
 * [FRC Shuffleboard](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/index.html#shuffleboard)
 * [FRC Glass](https://docs.wpilib.org/en/stable/docs/software/dashboards/glass/index.html#glass)

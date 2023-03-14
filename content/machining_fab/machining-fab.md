@@ -47,8 +47,8 @@ Finally the operator can then turn on the spindle. Most lathes support bi-direct
 
 Team 971 has a great training manual for lathe safety and operation. It is a great resource for learning how to use a lathe. You can view it below or download it. The viewer doesn't work on mobile devices.
 
-<object data="https://frc971.org/training/lathe/SpartanRoboticsLatheTrainingManual.pdf" type="application/pdf" width="100%" height="700px">
-  <p>Viewer unavailable, click here <a href="https://frc971.org/training/lathe/SpartanRoboticsLatheTrainingManual.pdf">to download the PDF!</a></p>
+<object data="https://FRC971.org/training/lathe/SpartanRoboticsLatheTrainingManual.pdf" type="application/pdf" width="100%" height="700px">
+  <p>Viewer unavailable, click here <a href="https://FRC971.org/training/lathe/SpartanRoboticsLatheTrainingManual.pdf">to download the PDF!</a></p>
 </object>
 
 ### What is a CNC Machine?
@@ -78,7 +78,7 @@ See, we pulled a sneaky on ya. 3D printers are not really "machining" in the tra
 
 ![3D Printer Diagram](https://cdn.thomasnet.com/insights-images/embedded-images/87ab5c4b-8555-42c9-b276-ad9780888f22/768d2291-4b16-4f48-a27b-c4369930c4de/FullHD/fig1.jpg)
 
-An FRC specific resource about 3D printing was created by team 7528 and can be found [here](https://sites.google.com/view/frc7528electrical/mechanical/3d-printing). They have sample lessons for slicing, troubleshooting, and more.
+An FRC specific resource about 3D printing was created by team 7528 and can be found [here](https://sites.google.com/view/FRC7528electrical/mechanical/3d-printing). They have sample lessons for slicing, troubleshooting, and more.
 
 ## What is Fabrication?
 

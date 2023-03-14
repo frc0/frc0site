@@ -23,22 +23,22 @@ The reason this is currently only open to some FIM events is due to the prizes b
 
 | Challenge Link | Cutoff Date | Status |
 | --- | --- | --- |
-| [Troy 1 or 2](https://frczero.org/about/writing-content/2023mitry-article-challenge/) | 2023-04-04 | Open |
-| [Kettering 1 or 2](https://frczero.org/about/writing-content/2023miket-article-challenge/) | 2023-04-04 | Open |
-| [Macomb](https://frczero.org/about/writing-content/2023mimcc-article-challenge/) | 2023-04-04 | Open |
-| [Detroit and Wayne State](https://frczero.org/about/writing-content/2023midet-article-challenge/) | 2023-04-04 | Open |
+| [Troy 1 or 2](https://FRCzero.org/about/writing-content/2023mitry-article-challenge/) | 2023-04-04 | Open |
+| [Kettering 1 or 2](https://FRCzero.org/about/writing-content/2023miket-article-challenge/) | 2023-04-04 | Open |
+| [Macomb](https://FRCzero.org/about/writing-content/2023mimcc-article-challenge/) | 2023-04-04 | Open |
+| [Detroit and Wayne State](https://FRCzero.org/about/writing-content/2023midet-article-challenge/) | 2023-04-04 | Open |
 
 ---
 
 #### &#x26A0; It's Week 3 of the 2023 Competition Season! &#x26A0;
 
-[Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
+[Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
 
 ---
 
 #### &#x26A0; Event Rescheduling for FRC Turkey Teams &#x26A0;
 
-The canceled Izmir and Mersin Regional Tournaments have been replaced with the [Halic Regional](https://frc-events.firstinspires.org/2023/TUHC) event. For more specific information, please see the [FRC Turkey website](https://www.frcturkey.org/2023-izmir-mersin-regional/).
+The canceled Izmir and Mersin Regional Tournaments have been replaced with the [Halic Regional](https://FRC-events.firstinspires.org/2023/TUHC) event. For more specific information, please see the [FRC Turkey website](https://www.FRCturkey.org/2023-izmir-mersin-regional/).
 
 ---
 
@@ -46,7 +46,7 @@ The canceled Izmir and Mersin Regional Tournaments have been replaced with the [
 
 FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams.  The goal of FRC0 is to provide a single source of information for all things FIRST Robotics Competition.  This includes information on the game, the rules, the robot, and the competition and even important notices (See above). There are lessons, troubleshooting and hardware teardowns.  There are also videos and other resources to help you learn more about FRC. You can learn more about FRC0 by reading the [about chapter](/about/).
 
-FRC0 is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC0 Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC0 contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/frc0/frc0site/issues/new/choose) on our GitHub repository.
+FRC0 is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC0 Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC0 contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
 
 ---
 
@@ -64,10 +64,10 @@ https://youtu.be/htZ70xkUiO4
 | [Docs.wpilib.org](https://docs.wpilib.org/en/stable/) | The official documentation for the WPILib libraries. |
 | [REV Robotics](https://docs.revrobotics.com/docs/rev-ion) | The official documentation for the REV Robotics hardware. |
 | [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/) | The official documentation for the CTRE Phoenix hardware. |
-| [Unofficial FRC Mechanism Encyclopedia](https://www.projectb.net.au/resources/robot-mechanisms/) | A website that has a lot of information on different mechanisms. This website is really handy for engineering design [research](https://frczero.org/engineering_design/design_process/research_the_problem/)! |
+| [Unofficial FRC Mechanism Encyclopedia](https://www.projectb.net.au/resources/robot-mechanisms/) | A website that has a lot of information on different mechanisms. This website is really handy for engineering design [research](https://FRCzero.org/engineering_design/design_process/research_the_problem/)! |
 | [Chief Delphi](https://www.chiefdelphi.com/) | The official FIRST Robotics Competition forum. |
-| [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) | The official FIRST Robotics Competition website. |
-| [FRC Discord](https://discord.gg/frc) | The Unofficial FIRST Robotics Competition Discord server. |
+| [FIRST Robotics Competition](https://www.firstinspires.org/robotics/FRC) | The official FIRST Robotics Competition website. |
+| [FRC Discord](https://discord.gg/FRC) | The Unofficial FIRST Robotics Competition Discord server. |
 | [FRC Reddit](https://www.reddit.com/r/FRC/) | The official FIRST Robotics Competition subreddit. |
 | [FRC YouTube](https://www.youtube.com/@FIRSTRoboticsCompetition) | The official FIRST Robotics Competition YouTube channel. |
 | [FRC Twitch](https://www.twitch.tv/firstinspires) | The official FIRST Robotics Competition Twitch channel. |

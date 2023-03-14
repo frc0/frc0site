@@ -44,7 +44,7 @@ This website was built using the learn theme for Hugo. The learn theme is design
 
 ## How do I write a page of markdown for FRC0?
 
-Its pretty simple.  The first section is called the "Front Matter".  It is used to define the title and date of the page.  The rest of the page is the content.  The content is written in markdown. Try to keep the content to 1-2 paragraphs per section.  This makes it easier to read and understand. I would also recommend using a plain text editor like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  These editors have plugins that make it easy to write markdown. Once you have new content ready to go, you can submit a pull request to our [github](https://github.com/frc0/frc0site) with your new markdown content. We will review the content and add it to the site accordingly.
+Its pretty simple.  The first section is called the "Front Matter".  It is used to define the title and date of the page.  The rest of the page is the content.  The content is written in markdown. Try to keep the content to 1-2 paragraphs per section.  This makes it easier to read and understand. I would also recommend using a plain text editor like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  These editors have plugins that make it easy to write markdown. Once you have new content ready to go, you can submit a pull request to our [github](https://github.com/FRC0/FRC0site) with your new markdown content. We will review the content and add it to the site accordingly.
 
 ## How do I add credit to a page?
 

@@ -43,10 +43,10 @@ The structure of a typical FRC C++ program is as follows:
 //TODO: THIS IS NOT THE CORRECT STRUCTURE WITH FRC LIBRARIES, IT IS JUST A PLACEHOLDER
 
 ```cpp
-#include <frc/TimedRobot.h>
-#include <frc/smartdashboard/SmartDashboard.h>
+#include <FRC/TimedRobot.h>
+#include <FRC/smartdashboard/SmartDashboard.h>
 
-class Robot : public frc::TimedRobot {
+class Robot : public FRC::TimedRobot {
 public:
     void RobotInit() override;
     void RobotPeriodic() override;
