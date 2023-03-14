@@ -126,7 +126,7 @@ Relays are used to control high voltage devices. This can be lights, actuators o
 * SPIKE Relay P/N: 217-0220 and SPIKE-RELAY-H
 * Automation Direct Relay P/N: AD-SSR6M12-DC-200D, AD-SSRM6M25-DC-200D, ADSSR6M45-DC-200D
 
-![Relay](https://mililanirobotics.gitbooks.io/FRC-electrical-bible/content/Motor_Controllers/spike.png)
+![Relay](https://mililanirobotics.gitbooks.io/frc-electrical-bible/content/Motor_Controllers/spike.png)
 Source Image: FRC Electrical Bible
 
 ### Lights
@@ -140,7 +140,7 @@ Lights are used to provide visual feedback to the drivers and operators. They al
 * Robot Signal Light
 * LED Spotlight
 
-Some of the lights listed above can also be used to aid vision processing. The spotlight and ring lights are common choices for this. FRC is moving away from "Retroflective" tape and towards AprilTags for vision targets. 2023 is an inbetween year where both are used. The lights shine towards the tape and the light bounces back directly into the camera. The camera sees only the reflected light and has a clear view of the tape. This is called retroreflection.
+Some of the lights listed above can also be used to aid vision processing. The spotlight and ring lights are common choices for this. FRC is moving away from "Retroflective" tape and towards AprilTags for vision targets. 2023 is a between year where both are used. The lights shine towards the tape and the light bounces back directly into the camera. The camera sees only the reflected light and has a clear view of the tape. This is called retroreflection.
 
 ![LED matrix Demo GIF](https://repository-images.githubusercontent.com/258303942/f90e1b80-944f-11ea-88bd-d049f801cc7a)
 
