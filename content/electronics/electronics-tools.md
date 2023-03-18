@@ -92,9 +92,8 @@ Image Source: [Pro Tool Reviews](https://www.protoolreviews.com/wp-content/uploa
 Just like wire strippers, there are so many styles of wire crimpers. Wire crimpers are used to crimp connectors of all kinds. The style will depend completely on the connectors you are using. The most common wire crimps can be done with the first pair of wire strippers we showed you. The first pair of wire strippers has a built in crimper. It is color coded to match the connector size. Typically the following colors are used:
 
 - Red = 22-18 AWG
-- Yellow = 16-14 AWG
-- Blue = 12-10 AWG
-- Green = 8-6 AWG
+- Blue = 16-14 AWG
+- Yellow = 12-10 AWG
 
 ![Wire Crimpers](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSerSuQ6uNFWasvlfNepLEtT_YMxMGLbRj0ChfkW-WIUUJKJE1DJLk-kT0OS962LDpkAt4&usqp=CAU)
 Image Source: [Panduit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSerSuQ6uNFWasvlfNepLEtT_YMxMGLbRj0ChfkW-WIUUJKJE1DJLk-kT0OS962LDpkAt4&usqp=CAU)
