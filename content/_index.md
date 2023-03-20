@@ -1,5 +1,5 @@
 ---
-title: "FRC0 - HOME"
+title: "FRC Zero - HOME"
 date: 2023-02-04
 author: 'Mr. Siefen'
 editors: 'ngalotti, foehammer127'
@@ -8,18 +8,18 @@ lastmod: 2023-03-13
 draft: false
 ---
 
-# Welcome to FRC0 (FRC Zero)
+# Welcome to FRC Zero
 
 ## Important Notices:
 ---
 
 #### &#x26A0; We have announced a FIM student journalism challenge! &#x26A0;
 
-Want to become an online, published journalist? Seeking some PR for your team? Want to win some cool prizes? This your chance to do all of that, help us get more content for FRCzero and did we mention the prizes?  We want to support student FRC journalism and are looking for student writers to write articles about FIM events.
+Want to become an online, published journalist? Seeking some PR for your team? Want to win some cool prizes? This your chance to do all of that, help us get more content for FRC zero and did we mention the prizes?  We want to support student FRC journalism and are looking for student writers to write articles about FIM events.
 
 **ALL ARTICLES THAT PASS BASIC SUBMISSION RULES WILL BE PUBLISHED ON FRCZERO.ORG**.
 
-The reason this is currently only open to some FIM events is due to the prizes being paid for "Out of Pocket" by Mr. Siefen and He cannot possibly hand deliver hundreds of prizes or pay to ship it all. If this goes well or we get challenge sponsors and volunteers we can expand it to more/all events.  If you are interested in helping out, please contact Mr. Siefen on the [FRC0 Discord](https://discord.gg/Ja2WFKCjEK) server, email him [here](mailto:siefens.robot.emporium@gmail.com).  Individual links can be found below:
+The reason this is currently only open to some FIM events is due to the prizes being paid for "Out of Pocket" by Mr. Siefen and He cannot possibly hand deliver hundreds of prizes or pay to ship it all. If this goes well or we get challenge sponsors and volunteers we can expand it to more/all events.  If you are interested in helping out, please contact Mr. Siefen on the [FRC Zero Discord](https://discord.gg/Ja2WFKCjEK) server, email him [here](mailto:siefens.robot.emporium@gmail.com).  Individual links can be found below:
 
 | Challenge Link | Cutoff Date | Status |
 | --- | --- | --- |
@@ -42,11 +42,11 @@ The canceled Izmir and Mersin Regional Tournaments have been replaced with the [
 
 ---
 
-## What's FRC0 and How Can I Learn More About It?
+## What's FRC Zero and How Can I Learn More About It?
 
-FRC0 is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams.  The goal of FRC0 is to provide a single source of information for all things FIRST Robotics Competition.  This includes information on the game, the rules, the robot, and the competition and even important notices (See above). There are lessons, troubleshooting and hardware teardowns.  There are also videos and other resources to help you learn more about FRC. You can learn more about FRC0 by reading the [about chapter](/about/).
+FRC Zero is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams.  The goal of FRC Zero is to provide a single source of information for all things FIRST Robotics Competition.  This includes information on the game, the rules, the robot, and the competition and even important notices (See above). There are lessons, troubleshooting and hardware teardowns.  There are also videos and other resources to help you learn more about FRC. You can learn more about FRC Zero by reading the [about chapter](/about/).
 
-FRC0 is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC0 Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC0 contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
+FRC Zero is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC Zero Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC Zero contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
 
 ---
 
@@ -60,7 +60,7 @@ https://youtu.be/htZ70xkUiO4
 
 | Link | Description |
 | :--- | :--- |
-| [GM0 Website](https://gm0.org) | The FTC website that inspired us to create FRC0. |
+| [gm0 Website](https://gm0.org) | The FTC website that inspired us to create FRC Zero. |
 | [Docs.wpilib.org](https://docs.wpilib.org/en/stable/) | The official documentation for the WPILib libraries. |
 | [REV Robotics](https://docs.revrobotics.com/docs/rev-ion) | The official documentation for the REV Robotics hardware. |
 | [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/) | The official documentation for the CTRE Phoenix hardware. |
@@ -71,6 +71,6 @@ https://youtu.be/htZ70xkUiO4
 | [FRC Reddit](https://www.reddit.com/r/FRC/) | The official FIRST Robotics Competition subreddit. |
 | [FRC YouTube](https://www.youtube.com/@FIRSTRoboticsCompetition) | The official FIRST Robotics Competition YouTube channel. |
 | [FRC Twitch](https://www.twitch.tv/firstinspires) | The official FIRST Robotics Competition Twitch channel. |
-| [RoboZone](https://www.youtube.com/c/RoboZoneTV) | RoboZone is a FRC Podcast hosted by Pete Eckman. He is a mentor for an FRC team so the schedule during season can be as hectic as our seasons can be. They post at least once a week though! |
+| [RoboZone](https://www.youtube.com/c/RoboZoneTV) | RoboZone is a FRC Podcast hosted by Pete Eckman. He is a mentor for an FRC team so the schedule during season can be as hectic as our seasons can be. RoboZone posts at least once a week though! |
 | [FindRobotParts](https://www.findrobotparts.com/) | A website that helps you find parts for your robot. |
 | [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow) | F.U.N. is a FRC podcast online. Lots of great content and discussions. |

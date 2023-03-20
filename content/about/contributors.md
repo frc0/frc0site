@@ -15,4 +15,4 @@ This site is a collaborative effort of many teams, individuals and private compa
 - FTC 12600 Robotters
 - [Mansour Quddus](https://github.com/devmanso)
 
-Hosting Maintenance and the Domain Name are provided by [Mr. Siefen's Robot Emporium](https://www.mrsiefensrobotemporium.com/) and [ResGreen Group](https://resgreengroup.com/) where he works when not doing all that FRC stuff.
+Hosting Maintenance and the Domain Name are provided by [Mr. Siefen's Robot Emporium](https://www.mrsiefensrobotemporium.com/).

@@ -1,5 +1,5 @@
 ---
-title: "0.2 How to Use FRC0"
+title: "0.2 How to Use FRC Zero"
 date: 2023-02-04
 weight: 2
 chapter: false
@@ -8,11 +8,11 @@ author: 'Mr. Siefen'
 editors: ''
 ---
 
-FRC0 is based on the learn theme for Hugo. The learn theme is explained in detail on the [Hugo Learn Theme](https://learn.netlify.app/en/) website. What is useful about this theme is it uses a system of Chapters and Sections. Each Chapter is a topic and each Section is a sub-topic. The Chapters and Sections are listed in the left sidebar. The Chapters and Sections are also used to create the Table of Contents for each Chapter page. Below is a table of all of the chapters as of 2/5/2023:
+FRC Zero is based on the learn theme for Hugo. The learn theme is explained in detail on the [Hugo Learn Theme](https://learn.netlify.app/en/) website. What is useful about this theme is it uses a system of Chapters and Sections. Each Chapter is a topic and each Section is a sub-topic. The Chapters and Sections are listed in the left sidebar. The Chapters and Sections are also used to create the Table of Contents for each Chapter page. Below is a table of all of the chapters as of 2/5/2023:
 
 | Order | Chapter Title |
 | --- | --- |
-| 0.0 | [About FRC0](/about/) |
+| 0.0 | [About FRC Zero](/about/) |
 | 1.0 | [Competition](/competition/) |
 | 2.0 | [Engineering Design](/engineering_design/) |
 | 3.0 | [Machining & Fabrication](/machining_fab/) |

@@ -3,7 +3,7 @@ date: '2023-3-13'
 title: '0.3.4 Detroit, MI Article Challenge 2023'
 weight: 4
 chapter: false
-lastmod: 2023-03-13s
+lastmod: 2023-03-13
 author: 'Mr. Siefen'
 editors: ''
 draft: false

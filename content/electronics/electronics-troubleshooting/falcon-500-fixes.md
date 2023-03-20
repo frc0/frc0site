@@ -105,7 +105,7 @@ We have a teardown of the Falcon 500 V2 motor. This is a
 
 ### Falcon 500 V3 Teardown
 
-The pictures and account you see here is in no way fictional. This is a real account of a real person who has a real Falcon 500 V3 motor. This was verified by Mr. Siefen who runs FRC0 and wrote the following guide. He took the pictures, stripped the screws, opened the stuff you shouldnt ever open. He did this so you dont have to. If you follow this guide WE (FRC0) and HE (ME, Mr. Siefen) are not responsible. This is purely for informational purposes, unintentional comedic relief during a stressful build season moment, and to show you what can happen and possible fixes.
+The pictures and account you see here is in no way fictional. This is a real account of a real person who has a real Falcon 500 V3 motor. This was verified by Mr. Siefen who runs FRC Zero and wrote the following guide. He took the pictures, stripped the screws, opened the stuff you shouldn't ever open. He did this so you don't have to. If you follow this guide WE (FRC Zero) and HE (ME, Mr. Siefen) are not responsible. This is purely for informational purposes, unintentional comedic relief during a stressful build season moment, and to show you what can happen and possible fixes.
 
 #### Steps and Comments
 

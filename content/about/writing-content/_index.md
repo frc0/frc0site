@@ -8,7 +8,7 @@ author: 'Mr. Siefen'
 editors: ''
 ---
 
-So you want to write content for the FRC0 website?  Great!  This page will help you get started.
+So you want to write content for the FRC Zero website?  Great!  This page will help you get started.
 
 ## What is Markdown?
 
@@ -18,15 +18,15 @@ Markdown is a lightweight markup language with plain text formatting syntax.  It
 
 Hugo is a static site generator written in Go.  It is optimized for speed, ease of use, and configurability.  Hugo takes a directory with content and templates and renders them into a full HTML website.  For more information, please see the [Hugo Documentation](https://gohugo.io/documentation/).
 
-## What does a page of markdown look like for FRC0?
+## What does a page of markdown look like for FRC Zero?
 
 ```markdown
 ---
-title: "1.1 Why FRC0?"
+title: "1.1 Why FRC Zero?"
 date: 2023-02-04T22:22:45-05:00
 ---
 
-FRC0 was created to help address the following issues:
+FRC Zero was created to help address the following issues:
 
 - There is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources.
 - There are not as many Mentors and Coaches as there are students.
@@ -42,7 +42,7 @@ FRC0 was created to help address the following issues:
 This website was built using the learn theme for Hugo. The learn theme is designed to look like powerpoint slides. This makes it easy to read and understand. The theme is also responsive, so it looks good on mobile devices. With this theme, we can focus on the content and not the design. Since the focus is on knowledge and information, the design is secondary. The biggest benefit of using Hugo and other SSG (static site generators) is new "posts" can be added to the site without having to rebuild the entire site. This makes it easy to add new content and keep the site up to date. If you are interested in learning about writing content for this site, please see the [Writing Content](/about/writing-content/) page.
 ```
 
-## How do I write a page of markdown for FRC0?
+## How do I write a page of markdown for FRC Zero?
 
 Its pretty simple.  The first section is called the "Front Matter".  It is used to define the title and date of the page.  The rest of the page is the content.  The content is written in markdown. Try to keep the content to 1-2 paragraphs per section.  This makes it easier to read and understand. I would also recommend using a plain text editor like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  These editors have plugins that make it easy to write markdown. Once you have new content ready to go, you can submit a pull request to our [github](https://github.com/FRC0/FRC0site) with your new markdown content. We will review the content and add it to the site accordingly.
 
@@ -65,7 +65,7 @@ If you're adding a whole new chapter it's gonna have different front matter. The
 
 ```
 +++
-title = "0.0 About FRC0"
+title = "0.0 About FRC Zero"
 date = 2023-02-04T22:22:45-05:00
 weight = 0.0
 chapter = true
