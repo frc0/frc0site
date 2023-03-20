@@ -8,14 +8,14 @@ lastmod: 2023-03-13
 draft: false
 ---
 
-# Welcome to FRC0 (FRC Zero)
+# Welcome to FRC Zero
 
 ## Important Notices:
 ---
 
 #### &#x26A0; We have announced a FIM student journalism challenge! &#x26A0;
 
-Want to become an online, published journalist? Seeking some PR for your team? Want to win some cool prizes? This your chance to do all of that, help us get more content for FRCzero and did we mention the prizes?  We want to support student FRC journalism and are looking for student writers to write articles about FIM events.
+Want to become an online, published journalist? Seeking some PR for your team? Want to win some cool prizes? This your chance to do all of that, help us get more content for FRC zero and did we mention the prizes?  We want to support student FRC journalism and are looking for student writers to write articles about FIM events.
 
 **ALL ARTICLES THAT PASS BASIC SUBMISSION RULES WILL BE PUBLISHED ON FRCZERO.ORG**.
 
@@ -60,7 +60,7 @@ https://youtu.be/htZ70xkUiO4
 
 | Link | Description |
 | :--- | :--- |
-| [GM0 Website](https://gm0.org) | The FTC website that inspired us to create FRC0. |
+| [gm0 Website](https://gm0.org) | The FTC website that inspired us to create FRC0. |
 | [Docs.wpilib.org](https://docs.wpilib.org/en/stable/) | The official documentation for the WPILib libraries. |
 | [REV Robotics](https://docs.revrobotics.com/docs/rev-ion) | The official documentation for the REV Robotics hardware. |
 | [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/) | The official documentation for the CTRE Phoenix hardware. |
@@ -71,6 +71,6 @@ https://youtu.be/htZ70xkUiO4
 | [FRC Reddit](https://www.reddit.com/r/FRC/) | The official FIRST Robotics Competition subreddit. |
 | [FRC YouTube](https://www.youtube.com/@FIRSTRoboticsCompetition) | The official FIRST Robotics Competition YouTube channel. |
 | [FRC Twitch](https://www.twitch.tv/firstinspires) | The official FIRST Robotics Competition Twitch channel. |
-| [RoboZone](https://www.youtube.com/c/RoboZoneTV) | RoboZone is a FRC Podcast hosted by Pete Eckman. He is a mentor for an FRC team so the schedule during season can be as hectic as our seasons can be. They post at least once a week though! |
+| [RoboZone](https://www.youtube.com/c/RoboZoneTV) | RoboZone is a FRC Podcast hosted by Pete Eckman. He is a mentor for an FRC team so the schedule during season can be as hectic as our seasons can be. RoboZone posts at least once a week though! |
 | [FindRobotParts](https://www.findrobotparts.com/) | A website that helps you find parts for your robot. |
 | [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow) | F.U.N. is a FRC podcast online. Lots of great content and discussions. |
