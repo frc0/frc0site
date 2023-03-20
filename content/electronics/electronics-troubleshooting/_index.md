@@ -30,7 +30,7 @@ Below is an outline of the topics that will be covered in this section.
 | 4.9.9 | Radio and Network Fixes | 20 minutes |
 | 4.9.10 | CAN Bus Fixes | 20 minutes |
 | 4.9.11 | Power Distribution Fixes | 20 minutes |
-| 4.9.12 | Roborio Fixes | 20 minutes |
+| 4.9.12 | RoboRio Fixes | 20 minutes |
 | 4.9.13 | Other Motor Controller Fixes | 20 minutes |
 | 4.9.14 | PCM/PCH Fixes | 20 minutes |
 
