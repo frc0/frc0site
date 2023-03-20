@@ -10,7 +10,7 @@ If you are curious what google analytics is collecting you can read about it [he
 
 Thank you for reading this, I'm trying my best to be transparent and honest about what we are doing and why we are doing it. If you have any questions or concerns please feel free to reach out to me at [siefens.robot.emporium@gmail.com](mailto:siefens.robot.emporium@gmail.com) or message me on our Discord server.
 
-- Mr. Siefen (Owner of FRC0 and Head Coach of FRC 453)
+- Mr. Siefen (Owner of FRC Zero and Head Coach of FRC 453)
 
 # Privacy Policy
 

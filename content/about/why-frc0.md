@@ -1,5 +1,5 @@
 ---
-title: "0.1 Why FRC0?"
+title: "0.1 Why FRC Zero?"
 date: 2023-02-04
 weight: 1
 chapter: false
@@ -8,7 +8,7 @@ author: 'Mr. Siefen'
 editors: ''
 ---
 
-FRC0 was created to help address the following issues:
+FRC Zero was created to help address the following issues:
 
 - There is a lot of information about FIRST Robotics Competition, but it is spread out across many different websites and sources.
 - There are not as many Mentors and Coaches as there are students.

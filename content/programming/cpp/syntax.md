@@ -18,7 +18,7 @@ Syntax is the set of rules that defines what combinations of high-level language
 using namespace std;
 
 int main() {
-    cout << "Hello  FRC0! This is a program written in C++ to teach you about syntax." << endl;
+    cout << "Hello  FRC Zero! This is a program written in C++ to teach you about syntax." << endl;
     return 0;
 }
 ```
