@@ -25,8 +25,8 @@ Below is an outline of the topics that will be covered in this chapter.
 | 1.3 | [Competition Events](/competition/events/) | 30 minutes |
 | 1.4 | Competition Rules | 10 minutes |
 | 1.5 | Competition Scoring | 10 minutes |
-| 1.6 | Parent's Guide to Competition | 5 minutes |
+| 1.6 | [Parent's Guide to Competition](/competition/parents-guide-to-competition) | 10 minutes |
 | 1.7 | Mentor's Guide to Competition | 5 minutes |
 | 1.8 | Competition Resources | 5 minutes |
 | 1.9 | Competition Videos | 5 minutes |
-|    | Total Estimated Time | 125 minutes |
+|    | Total Estimated Time | 130 minutes |
