@@ -30,7 +30,7 @@ The reason this is currently only open to some FIM events is due to the prizes b
 
 ---
 
-#### &#x26A0; It's Week 3 of the 2023 Competition Season! &#x26A0;
+#### &#x26A0; It's Week 4 of the 2023 Competition Season! &#x26A0;
 
 [Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
 
@@ -61,7 +61,7 @@ https://youtu.be/htZ70xkUiO4
 | Link | Description |
 | :--- | :--- |
 | [gm0 Website](https://gm0.org) | The FTC website that inspired us to create FRC Zero. |
-| [Docs.wpilib.org](https://docs.wpilib.org/en/stable/) | The official documentation for the WPILib libraries. |
+| [docs.wpilib.org](https://docs.wpilib.org/en/stable/) | The official documentation for the WPILib libraries. |
 | [REV Robotics](https://docs.revrobotics.com/docs/rev-ion) | The official documentation for the REV Robotics hardware. |
 | [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/) | The official documentation for the CTRE Phoenix hardware. |
 | [Unofficial FRC Mechanism Encyclopedia](https://www.projectb.net.au/resources/robot-mechanisms/) | A website that has a lot of information on different mechanisms. This website is really handy for engineering design [research](https://FRCzero.org/engineering_design/design_process/research_the_problem/)! |
