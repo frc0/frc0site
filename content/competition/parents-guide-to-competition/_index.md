@@ -50,11 +50,13 @@ Coaches, students and volunteers are under a tremendous amount of pressure on co
 
 ### The Blue Alliance
 
-TODO: Add information about the Blue Alliance
+TBA is an open source database for FRC competition match, awards and team information. It is the most up to date source of information for FRC competitions. You can find the TBA app for iOS and Android in the app store. You can also find the TBA website at [https://www.thebluealliance.com/](https://www.thebluealliance.com/). TBA also offers up an API so teams can make custom applications that can be used to display information about the competition or your team!
+
+The main feature parents will want to use is myTBA and adding their students team. Once a team is added you can setup notifications for upcoming matches, match scores, view the live stream and more! Parents who typically work during the day can setup notifications to be sent to their phone when their student's team is playing. This way they can watch the match live on their phone or computer. You can also find the matches linked from the FIRSTinspires youtube channel by clicking on a specific team's match.
 
 ### Pit Admin or Event Admin
 
-TODO: Add information about Pit Admin and Event Admin
+Someone at the competition must have all of the answers right? This is probably the event coordinator or sometimes also the Pit Admin. If there is an emergency or something that needs to be addressed, please talk to the event coordinator or Pit Admin. They will be able to help you with any questions you may have. They will know all emergency procedures, probably have a radio and be able to put you in contact with the right people. They often are found at tables in the pits or near the stands. Teams will check in with the Event Admin or Pit Admin upon arrival so your Coach should be able to point you in the right direction.
 
 ### Coaches
 
