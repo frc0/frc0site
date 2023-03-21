@@ -8,9 +8,21 @@ author: 'Mr. Siefen'
 editors: ''
 ---
 
+This is a video produced by [FRC team 573](https://www.youtube.com/watch?v=QZ9Z9Z9Z9Z9) that gives some more info.
+
 Now that you're a little bit more aware of what FIRST Robotics Competition is, you may be interested in starting a team. This page will give you a brief overview of what it takes to start a team., what supplies you need, and how to get started. If you're interested in starting a team, you should also check out the [FIRST Robotics Competition Team Starter Guide](https://www.firstinspires.org/robotics/FRC/start-a-team).
 
-This is a video produced by [FRC team 573] (https://www.youtube.com/watch?v=QZ9Z9Z9Z9Z9) that gives some more info.
+---
+
+#### The following advice is from FRC 2945 and their mentors. This was part of a Chief Delphi post [here](https://www.chiefdelphi.com/t/continuing-a-frc-team/430979/2) and used with permission!
+
+> If you are directly affiliated with a school or a school district, see if your high school administration(s) will allow you to have demonstrations after your competition season or during your preseason. Those events are a great way to get interested parties in. Bring the robot, a way to control it, and an electronic signup sheet (like a Google Forms). Even if you aren’t directly affiliated with a school or a district, this is the best way to grow the student population of your team.
+
+> To gain more mentors, recruit parents or use the FIRST Mentor Network on the FIRST site. If any teachers happen to pop into your demonstration, talk to them and try to enroll them into the team. Most of our mentors right now on our team are either current or former parents (Mentor OP is an alum of the team).
+
+> To keep that knowledge base built, have the seniors do documentation about what they’ve done in each system. My team still needs to do a better job of this, but having a starting place for new students to learn from is a great way to get those new students involved. Just adding students doesn’t do much if they aren’t engaged in the team
+
+---
 
 ### What Are Some Things to Consider When Starting a Team?
 
