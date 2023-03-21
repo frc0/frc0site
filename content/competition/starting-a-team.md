@@ -3,7 +3,7 @@ title: "1.2 Starting a Team"
 date: 2023-02-04
 weight: 2
 chapter: false
-lastmod: 2023-02-26
+lastmod: 2023-03-20
 author: 'Mr. Siefen'
 editors: ''
 ---

@@ -64,9 +64,13 @@ Coaches will be given an event itinerary that will include the event schedule, p
 
 ## How can Parents help their student prepare for a competition?
 
-### Practice Judging
+### Practice and Discuss Judging with your Student
 
-TODO: Add information about practice judging
+Judging is stressful for students and parents alike. It is important to practice and discuss the judging process with your student. They will be alone in the case of Dean's List and this can feel overwhelming if you haven't practiced and planned for it. Recently some of the awards names have been updated and FIRST released an updated PDF guide about "Best Practices for FRC Judged Awards" you can find below.
+
+<object data="https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/awards/best-practices-for-teams.pdf" type="application/pdf" width="100%" height="700px">
+  <p>Viewer unavailable, click here <a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/awards/best-practices-for-teams.pdf">to download the PDF!</a></p>
+</object>
 
 ### Discuss the Game Rules
 
