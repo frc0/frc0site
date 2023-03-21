@@ -3,7 +3,7 @@ title: "1.2 Starting a Team"
 date: 2023-02-04
 weight: 2
 chapter: false
-lastmod: 2023-02-26
+lastmod: 2023-03-20
 author: 'Mr. Siefen'
 editors: ''
 ---
@@ -14,7 +14,7 @@ Now that you're a little bit more aware of what FIRST Robotics Competition is, y
 
 ---
 
-#### The following advice is from FRC 2945 and their mentors. This was part of a Chief Delphi post [here](https://www.chiefdelphi.com/t/continuing-a-frc-team/430979/3) and used with permission!
+#### The following advice is from FRC 2945 and their mentors. This was part of a Chief Delphi post [here](https://www.chiefdelphi.com/t/continuing-a-frc-team/430979/3) and used with permission! It was in reference to keeping an exisiting team going, but the advice is still applicable to starting a team if you have another local team that is willing to help you out by supplying a Demo Bot.
 
 > If you are directly affiliated with a school or a school district, see if your high school administration(s) will allow you to have demonstrations after your competition season or during your preseason. Those events are a great way to get interested parties in. Bring the robot, a way to control it, and an electronic signup sheet (like a Google Forms). Even if you aren’t directly affiliated with a school or a district, this is the best way to grow the student population of your team.
 

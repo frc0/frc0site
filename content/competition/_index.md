@@ -28,5 +28,5 @@ Below is an outline of the topics that will be covered in this chapter.
 | 1.6 | [Parent's Guide to Competition](/competition/parents-guide-to-competition) | 10 minutes |
 | 1.7 | Mentor's Guide to Competition | 5 minutes |
 | 1.8 | Competition Resources | 5 minutes |
-| 1.9 | Competition Videos | 5 minutes |
+| 1.9 | [Competition Videos](/competition/videos) | 5 minutes |
 |    | Total Estimated Time | 130 minutes |
