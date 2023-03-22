@@ -18,7 +18,7 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 8.1 | Business Plan | 30 minutes |
+| 8.1 | [Business Plan](/business_marketing/business_plan) | 30 minutes |
 | 8.2 | Marketing Plan | 30 minutes |
 | 8.3 | Team Sustainability | 30 minutes |
 | 8.4 | Sponsorship | 30 minutes |
