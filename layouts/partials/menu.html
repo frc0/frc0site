@@ -23,7 +23,7 @@
     
         <div class="highlightable">
         <ul class="topics">
-            {{range .Site.Home.Sections.ByTitle}}
+            {{range .Site.Home.Sections.ByWeight}}
             {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
             {{end}}
         </ul>
