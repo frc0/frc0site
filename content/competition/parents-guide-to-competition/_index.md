@@ -1,7 +1,7 @@
 ---
-title: "1.6 Parent's Guide to Competition"
+title: "1.5 Parent's Guide to Competition"
 date: 2023-02-04
-weight: 6
+weight: 5
 chapter: false
 lastmod: 2023-03-20
 author: 'Mr. Siefen'

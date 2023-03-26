@@ -44,14 +44,12 @@ The next few chapters will guide you through the aspects of each programming lan
 4. Input/Output: The mechanism for reading data from or writing data to the user or other external sources.
 5. Control Structures: Constructs that control the flow of execution of the program, such as loops, if-then-else statements, and switch statements.
 6. Error handling: The process of detecting and resolving errors in the program, such as exceptions, runtime errors, and debugging.
-7. Object-Oriented Programming (OOP) concepts: A programming paradigm that organizes code into objects, each of which represents a real-world entity and encapsulates its data and behavior. (This will be touched on in 6.2: [Java](/content/programming/java.md) )
+7. Object-Oriented Programming (OOP) concepts: A programming paradigm that organizes code into objects, each of which represents a real-world entity and encapsulates its data and behavior. (This will be touched on in 6.1.1: [Java](/content/programming/java.md) )
 
 # Next:
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 6.2 | [Java](/programming/java/) | 30 minutes |
-| 6.3 | [C++](/programming/cpp/) | 30 minutes |
-| 6.4 | [LabVIEW](/programming/labview/) | 30 minutes |
-| 6.5 | [Python](/programming/python/) | 30 minutes |
-
-[-> Back to index/programming](/programming)
+| 6.1.1 | [Java](/programming/programming-languages/java/) | 30 minutes |
+| 6.1.2 | [C++](/programming/programming-languages/cpp/) | 30 minutes |
+| 6.1.3 | [LabVIEW](/programming/programming-languages/labview/) | 30 minutes |
+| 6.1.4 | [Python](/programming/programming-languages/python/) | 30 minutes |

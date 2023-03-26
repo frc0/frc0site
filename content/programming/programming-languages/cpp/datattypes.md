@@ -1,6 +1,6 @@
 ---
 date: '2023-2-12'
-title: '6.3.3 Data Types'
+title: '6.1.2.3 Data Types'
 weight: 3
 chapter: false
 lastmod: 2023-02-26

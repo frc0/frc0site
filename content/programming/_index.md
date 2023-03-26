@@ -20,22 +20,15 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 6.1 | [Programming Languages](/programming/programming_languages) | 30 minutes |
-| 6.2 | Java | 30 minutes |
-| 6.3 | [C++](/programming/cpp) | 30 minutes |
-| 6.4 | LabVIEW | 30 minutes |
-| 6.5 | Python | 30 minutes |
-| 6.6 | Robot Code | 30 minutes |
-| 6.7 | Timed Robot | 30 minutes | [
-| 6.8 | Command Based Programming | 30 minutes |
-| 6.9 | RobotBuilder | 30 minutes |
-| 6.10 | Path Planning | 30 minutes |
-| 6.11 | Robot Simulation | 30 minutes |
-| 6.12 | Vision Processing | 30 minutes |
-| 6.13 | ROS | 30 minutes |
-| 6.14 | GUI Programming | 30 minutes |
-| 6.15 | Unity | 30 minutes |
-| 6.16 | Unreal Engine | 30 minutes |
-| 6.17 | Web Development | 30 minutes |
-| 6.18 | Arduino | 30 minutes |
-| 6.19 | Raspberry Pi | 30 minutes |
+| 6.1 | [Programming Languages](/programming/programming-languages) | 30 minutes |
+| 6.2 | Robot Code | 30 minutes |
+| 6.3 | Timed Robot | 30 minutes |
+| 6.4 | Command Based Programming | 30 minutes |
+| 6.5 | RobotBuilder | 30 minutes |
+| 6.6 | Path Planning | 30 minutes |
+| 6.7 | Robot Simulation | 30 minutes |
+| 6.8 | Vision Processing | 30 minutes |
+| 6.9 | ROS | 30 minutes |
+| 6.10 | Unity and Unreal Engine | 30 minutes |
+| 6.11 | Web Development | 30 minutes |
+| 6.12 | Arduinos, Raspberry Pis and other SBCs | 30 minutes |

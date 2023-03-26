@@ -22,11 +22,10 @@ Below is an outline of the topics that will be covered in this chapter.
 | --- | --- | --- |
 | 1.1 | [What is FRC?](/competition/what-is-frc/) | 35 minutes |
 | 1.2 | [Starting a Team](/competition/starting-a-team/) | 20 minutes |
-| 1.3 | [Competition Events](/competition/events/) | 30 minutes |
+| 1.3 | [Events](/competition/events/) | 30 minutes |
 | 1.4 | [Game Rules](/competition/game-rules/) | 10 minutes |
-| 1.5 | Competition Scoring | 10 minutes |
-| 1.6 | [Parent's Guide to Competition](/competition/parents-guide-to-competition/) | 10 minutes |
-| 1.7 | Mentor's Guide to Competition | 5 minutes |
-| 1.8 | Competition Resources | 5 minutes |
-| 1.9 | [Competition Videos](/competition/videos/) | 5 minutes |
+| 1.5 | [Parent's Guide to Competition](/competition/parents-guide-to-competition/) | 10 minutes |
+| 1.6 | Mentor's Guide to Competition | 5 minutes |
+| 1.7 | Resources | 5 minutes |
+| 1.8 | [Videos](/competition/videos/) | 5 minutes |
 |    | Total Estimated Time | 130 minutes |

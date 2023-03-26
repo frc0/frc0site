@@ -1,6 +1,6 @@
 ---
 date: '2023-2-12'
-title: '6.3.4 Input and Output'
+title: '6.1.2.4 Input and Output'
 weight: 4
 chapter: false
 lastmod: 2023-02-26

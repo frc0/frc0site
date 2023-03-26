@@ -1,7 +1,7 @@
 ---
-title: "1.9 Competition Videos"
+title: "1.8 Competition Videos"
 date: 2023-02-04
-weight: 9
+weight: 8
 chapter: false
 lastmod: 2023-03-20
 author: 'Mr. Siefen'

@@ -19,9 +19,9 @@ In the context of FRC pneumatics refers to the use of compressed air to power me
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
 | 5.1 | [What are Pneumatics?](/pneumatics/what-are-pneumatics/) | 5 minutes |
-| 5.2 | [What are Pneumatic Components?](/pneumatics/pneumatic-components/) | 10 minutes |
+| 5.2 | [Pneumatic Components](/pneumatics/pneumatic-components/) | 10 minutes |
 | 5.3 | [Pneumatic Safety](/pneumatics/pneumatic-safety/) | 5 minutes |
-| 4.4 | [How to Setup a Pneumatic System](/pneumatics/pneumatic-systems/) | 20 minutes |
+| 5.4 | [How to Setup Pneumatic Systems](/pneumatics/pneumatic-systems/) | 20 minutes |
 | 5.5 | [Pneumatic Control](/pneumatics/pneumatic-control/) | 20 minutes |
 | 5.6 | [Pneumatic Troubleshooting](/pneumatics/pneumatic-troubleshooting/) | 10 minutes |
 | 5.7 | [Pneumatic Resources](/pneumatics/pneumatic-resources/) | 5 minutes |
