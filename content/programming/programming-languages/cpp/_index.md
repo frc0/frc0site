@@ -1,7 +1,7 @@
 ---
 date: '2023-2-10'
-title: '6.3 C++'
-weight: 3
+title: '6.1.2 C++'
+weight: 2
 chapter: false
 lastmod: 2023-02-26
 author: 'Mr. Siefen'
