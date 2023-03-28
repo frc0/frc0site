@@ -28,31 +28,13 @@ The reason this is currently only open to some FIM events is due to the prizes b
 | [Macomb](https://FRCzero.org/about/writing-content/2023mimcc-article-challenge/) | 2023-04-04 | Open |
 | [Detroit and Wayne State](https://FRCzero.org/about/writing-content/2023midet-article-challenge/) | 2023-04-04 | Open |
 
----
-
-#### &#x26A0; It's Week 4 of the 2023 Competition Season! &#x26A0;
+#### &#x26A0; It's Week 5 of the 2023 Competition Season! (Except for you... Lakeview #2) &#x26A0;
 
 [Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
-
----
 
 #### &#x26A0; Event Rescheduling for FRC Turkey Teams &#x26A0;
 
 The canceled Izmir and Mersin Regional Tournaments have been replaced with the [Halic Regional](https://FRC-events.firstinspires.org/2023/TUHC) event. For more specific information, please see the [FRC Turkey website](https://www.FRCturkey.org/2023-izmir-mersin-regional/).
-
----
-
-## What's FRC Zero and How Can I Learn More About It?
-
-FRC Zero is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams.  The goal of FRC Zero is to provide a single source of information for all things FIRST Robotics Competition.  This includes information on the game, the rules, the robot, and the competition and even important notices (See above). There are lessons, troubleshooting and hardware teardowns.  There are also videos and other resources to help you learn more about FRC. You can learn more about FRC Zero by reading the [about chapter](/about/).
-
-FRC Zero is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC Zero Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC Zero contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
-
----
-
-### Cool Video of the Github Commit History
-
-https://youtu.be/htZ70xkUiO4
 
 ---
 
@@ -74,3 +56,19 @@ https://youtu.be/htZ70xkUiO4
 | [RoboZone](https://www.youtube.com/c/RoboZoneTV) | RoboZone is a FRC Podcast hosted by Pete Eckman. He is a mentor for an FRC team so the schedule during season can be as hectic as our seasons can be. RoboZone posts at least once a week though! |
 | [FindRobotParts](https://www.findrobotparts.com/) | A website that helps you find parts for your robot. |
 | [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow) | F.U.N. is a FRC podcast online. Lots of great content and discussions. |
+| [The Blue Alliance](https://www.thebluealliance.com/) | The official FIRST Robotics Competition event and match information website. |
+| [Statbotics](https://www.statbotics.io/) | Modern FRC data and analytics. |
+
+---
+
+## What's FRC Zero and How Can I Learn More About It?
+
+FRC Zero is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams.  The goal of FRC Zero is to provide a single source of information for all things FIRST Robotics Competition.  This includes information on the game, the rules, the robot, and the competition and even important notices (See above). There are lessons, troubleshooting and hardware teardowns.  There are also videos and other resources to help you learn more about FRC. You can learn more about FRC Zero by reading the [about chapter](/about/).
+
+FRC Zero is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC Zero Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC Zero contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
+
+#### Cool Video of the Github Commit History
+
+https://youtu.be/htZ70xkUiO4
+
+---
