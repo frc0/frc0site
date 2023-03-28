@@ -1,5 +1,5 @@
 ---
-title: "4.2 Electronics Tools"
+title: "4.2 Tools"
 date: 2023-02-08T23:34:12-05:00
 draft: false
 weight: 2

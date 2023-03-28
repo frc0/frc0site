@@ -1,8 +1,8 @@
 ---
-title: "4.9 Electronics Troubleshooting"
+title: "4.7 Electronics Troubleshooting"
 date: 2023-02-08T23:34:12-05:00
 draft: false
-weight: 9
+weight: 7
 chapter: false
 lastmod: 2023-02-26
 author: 'Mr. Siefen'
@@ -19,23 +19,17 @@ Below is an outline of the topics that will be covered in this section.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 4.9.1 | Electronics Troubleshooting Process | 10 minutes |
-| 4.9.2 | Electronics Troubleshooting Tools | 10 minutes |
-| 4.9.3 | Electronics Troubleshooting Techniques | 10 minutes |
-| 4.9.4 | [Falcon 500 Fixes](/electronics/electronics-troubleshooting/falcon-500-fixes/) | 20 minutes |
-| 4.9.5 | Talon SRX Fixes | 20 minutes |
-| 4.9.6 | Pigeon IMU Fixes | 20 minutes |
-| 4.9.7 | Spark Max Fixes | 20 minutes |
-| 4.9.8 | Spark Max Encoder Fixes | 20 minutes |
-| 4.9.9 | Radio and Network Fixes | 20 minutes |
-| 4.9.10 | CAN Bus Fixes | 20 minutes |
-| 4.9.11 | Power Distribution Fixes | 20 minutes |
-| 4.9.12 | RoboRio Fixes | 20 minutes |
-| 4.9.13 | Other Motor Controller Fixes | 20 minutes |
-| 4.9.14 | PCM/PCH Fixes | 20 minutes |
-
-### Next Steps
-
-After you have learned about electronics troubleshooting, you are ready to learn about electronics resources. Click the link below to learn more about electronics resources.
-
-[4.10 Electronics Resources](/electronics/electronics-resources/)
+| 4.7.1 | Electronics Troubleshooting Process | 10 minutes |
+| 4.7.2 | Electronics Troubleshooting Tools | 10 minutes |
+| 4.7.3 | Electronics Troubleshooting Techniques | 10 minutes |
+| 4.7.4 | [Falcon 500 Fixes](/electronics/electronics-troubleshooting/falcon-500-fixes/) | 20 minutes |
+| 4.7.5 | Talon SRX Fixes | 20 minutes |
+| 4.7.6 | Pigeon IMU Fixes | 20 minutes |
+| 4.7.7 | Spark Max Fixes | 20 minutes |
+| 4.7.8 | Spark Max Encoder Fixes | 20 minutes |
+| 4.7.9 | Radio and Network Fixes | 20 minutes |
+| 4.7.10 | CAN Bus Fixes | 20 minutes |
+| 4.7.11 | Power Distribution Fixes | 20 minutes |
+| 4.7.12 | RoboRio Fixes | 20 minutes |
+| 4.7.13 | Other Motor Controller Fixes | 20 minutes |
+| 4.7.14 | PCM/PCH Fixes | 20 minutes |

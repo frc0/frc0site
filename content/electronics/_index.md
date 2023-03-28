@@ -30,14 +30,11 @@ Below is an outline of the topics that will be covered in this chapter.
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
 | 4.1 | [What is Electronics?](/electronics/what-is-electronics/) | 20 minutes |
-| 4.2 | [Electronics Tools](/electronics/electronics-tools/) | 10 minutes |
-| 4.3 | Electronics Components | 10 minutes |
-| 4.4 | Electronics Circuits | 10 minutes |
-| 4.5 | Electronics Safety | 10 minutes |
-| 4.6 | Electronics Assembly | 10 minutes |
-| 4.7 | Electronics Testing | 10 minutes |
-| 4.8 | Electronics Documentation | 10 minutes |
-| 4.9 | [Electronics Troubleshooting](/electronics/electronics-troubleshooting/) | 10 minutes |
-| 4.10 | Electronics Resources | 10 minutes |
-| 4.11 | Electronics Glossary | 10 minutes |
+| 4.2 | [Tools](/electronics/tools/) | 10 minutes |
+| 4.3 | [Components and Sensors](/electronics/components-and-sensors) | 10 minutes |
+| 4.4 | Circuits | 10 minutes |
+| 4.5 | Safety | 10 minutes |
+| 4.6 | Electronics Documentation | 10 minutes |
+| 4.7 | [Electronics Troubleshooting](/electronics/electronics-troubleshooting/) | 10 minutes |
+| 4.8 | Resources | 10 minutes |
 |     | Total Estimated Time | 2 hours |
