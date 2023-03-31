@@ -23,12 +23,13 @@ Below is an outline of the topics that will be covered in this chapter.
 | 6.1 | [Programming Languages](/programming/programming-languages) | 30 minutes |
 | 6.2 | Robot Code | 30 minutes |
 | 6.3 | Timed Robot | 30 minutes |
-| 6.4 | Command Based Programming | 30 minutes |
+| 6.4 | [Command Based Programming](/programming/command-based-programming) | 30 minutes |
 | 6.5 | RobotBuilder | 30 minutes |
-| 6.6 | Path Planning | 30 minutes |
+| 6.6 | [Path Planning](programming/path-planning) | 30 minutes |
 | 6.7 | Robot Simulation | 30 minutes |
 | 6.8 | Vision Processing | 30 minutes |
 | 6.9 | ROS | 30 minutes |
 | 6.10 | Unity and Unreal Engine | 30 minutes |
 | 6.11 | Web Development | 30 minutes |
 | 6.12 | Arduinos, Raspberry Pis and other SBCs | 30 minutes |
+| 6.13 | [GUI Programming](/programming/gui-programming) | 30 minutes |
