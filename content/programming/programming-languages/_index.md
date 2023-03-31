@@ -49,7 +49,7 @@ The next few chapters will guide you through the aspects of each programming lan
 # Next:
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 6.1.1 | [Java](/programming/programming-languages/java/) | 30 minutes |
+| 6.1.1 | Java | 30 minutes |
 | 6.1.2 | [C++](/programming/programming-languages/cpp/) | 30 minutes |
-| 6.1.3 | [LabVIEW](/programming/programming-languages/labview/) | 30 minutes |
+| 6.1.3 | LabVIEW | 30 minutes |
 | 6.1.4 | [Python](/programming/programming-languages/python/) | 30 minutes |
