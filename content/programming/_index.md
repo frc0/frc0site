@@ -25,7 +25,7 @@ Below is an outline of the topics that will be covered in this chapter.
 | 6.3 | Timed Robot | 30 minutes |
 | 6.4 | [Command Based Programming](/programming/command-based-programming) | 30 minutes |
 | 6.5 | RobotBuilder | 30 minutes |
-| 6.6 | [Path Planning](programming/path-planning) | 30 minutes |
+| 6.6 | [Path Planning](/programming/path-planning) | 30 minutes |
 | 6.7 | Robot Simulation | 30 minutes |
 | 6.8 | Vision Processing | 30 minutes |
 | 6.9 | ROS | 30 minutes |
