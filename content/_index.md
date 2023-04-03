@@ -28,7 +28,7 @@ The reason this is currently only open to some FIM events is due to the prizes b
 | [Macomb](https://FRCzero.org/about/writing-content/2023mimcc-article-challenge/) | 2023-04-04 | Open |
 | [Detroit and Wayne State](https://FRCzero.org/about/writing-content/2023midet-article-challenge/) | 2023-04-04 | Open |
 
-#### &#x26A0; It's Week 5 of the 2023 Competition Season! (Except for you... Lakeview #2) &#x26A0;
+#### &#x26A0; It's Week 6 of the 2023 Competition Season! &#x26A0;
 
 [Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
 
@@ -58,6 +58,7 @@ The canceled Izmir and Mersin Regional Tournaments have been replaced with the [
 | [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow) | F.U.N. is a FRC podcast online. Lots of great content and discussions. |
 | [The Blue Alliance](https://www.thebluealliance.com/) | The official FIRST Robotics Competition event and match information website. |
 | [Statbotics](https://www.statbotics.io/) | Modern FRC data and analytics. |
+| [FRC Queue](https://frcqueue.com/) | A website/app that helps you find when matches are coming up, when you need to be queuing, etc. |
 
 ---
 
