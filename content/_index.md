@@ -58,6 +58,7 @@ The canceled Izmir and Mersin Regional Tournaments have been replaced with the [
 | [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow) | F.U.N. is a FRC podcast online. Lots of great content and discussions. |
 | [The Blue Alliance](https://www.thebluealliance.com/) | The official FIRST Robotics Competition event and match information website. |
 | [Statbotics](https://www.statbotics.io/) | Modern FRC data and analytics. |
+| [FRC Queue](https://frcqueue.com/) | A website/app that helps you find when matches are coming up, when you need to be queuing, etc. |
 
 ---
 
