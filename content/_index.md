@@ -13,22 +13,7 @@ draft: false
 ## Important Notices:
 ---
 
-#### &#x26A0; We have announced a FIM student journalism challenge! &#x26A0;
-
-Want to become an online, published journalist? Seeking some PR for your team? Want to win some cool prizes? This your chance to do all of that, help us get more content for FRC zero and did we mention the prizes?  We want to support student FRC journalism and are looking for student writers to write articles about FIM events.
-
-**ALL ARTICLES THAT PASS BASIC SUBMISSION RULES WILL BE PUBLISHED ON FRCZERO.ORG**.
-
-The reason this is currently only open to some FIM events is due to the prizes being paid for "Out of Pocket" by Mr. Siefen and He cannot possibly hand deliver hundreds of prizes or pay to ship it all. If this goes well or we get challenge sponsors and volunteers we can expand it to more/all events.  If you are interested in helping out, please contact Mr. Siefen on the [FRC Zero Discord](https://discord.gg/Ja2WFKCjEK) server, email him [here](mailto:siefens.robot.emporium@gmail.com).  Individual links can be found below:
-
-| Challenge Link | Cutoff Date | Status |
-| --- | --- | --- |
-| [Troy 1 or 2](https://FRCzero.org/about/writing-content/2023mitry-article-challenge/) | 2023-04-04 | Open |
-| [Kettering 1 or 2](https://FRCzero.org/about/writing-content/2023miket-article-challenge/) | 2023-04-04 | Open |
-| [Macomb](https://FRCzero.org/about/writing-content/2023mimcc-article-challenge/) | 2023-04-04 | Open |
-| [Detroit and Wayne State](https://FRCzero.org/about/writing-content/2023midet-article-challenge/) | 2023-04-04 | Open |
-
-#### &#x26A0; It's Week 6 of the 2023 Competition Season! &#x26A0;
+#### &#x26A0; It's Week 7 of the 2023 Competition Season! &#x26A0;
 
 [Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
 
