@@ -15,20 +15,20 @@ The following is a list of the most common electronics tools used in FRC. This l
 
 | Tool | Description |
 | --- | --- |
-| [Multimeter](/electronics/electronics-tools/#multimeter) | A multimeter is a device that measures voltage, current, and resistance. |
-| [Wire Strippers](/electronics/electronics-tools/#wire-strippers) | A wire stripper is a tool that is used to strip wires. |
-| [Hot Air Gun](/electronics/electronics-tools/#hot-air-gun) | A hot air gun is a tool that is used to heat up shrink tubing. |
-| [Crimpers](/electronics/electronics-tools/#crimpers) | A crimper is a tool that is used to crimp wires. |
-| [Anderson Powerpole Crimper](/electronics/electronics-tools/#anderson-powerpole-crimper) | An Anderson Powerpole crimper is a tool that is used to crimp Anderson Powerpole connectors. |
-| [Ferrule Crimper](/electronics/electronics-tools/#ferrule-crimper) | A ferrule crimper is a tool that is used to crimp ferrules. |
-| [Dupont Crimper](/electronics/electronics-tools/#dupont-crimper) | A Dupont crimper is a tool that is used to crimp Dupont connectors. |
-| [JST Crimper](/electronics/electronics-tools/#jst-crimper) | A JST crimper is a tool that is used to crimp JST connectors. |
-| [Ethernet Crimper](/electronics/electronics-tools/#ethernet-crimper) | An Ethernet crimper is a tool that is used to crimp Ethernet connectors. |
-| [Soldering Iron](/electronics/electronics-tools/#soldering-iron) | A soldering iron is a tool that is used to solder wires. |
-| [Rework Station](/electronics/electronics-tools/#soldering-station) | A rework station is a tool that is used to solder wires and PCBs. |
-| [Oscilloscope](/electronics/electronics-tools/#oscilloscope) | An oscilloscope is a device that measures voltage over time. |
-| [Logic Analyzer](/electronics/electronics-tools/#logic-analyzer) | A logic analyzer is a device that measures digital signals. |
-| [Power Supply](/electronics/electronics-tools/#power-supply) | A power supply is a device that provides power to other devices. |
+| [Multimeter](/electronics/tools/#multimeter) | A multimeter is a device that measures voltage, current, and resistance. |
+| [Wire Strippers](/electronics/tools/#wire-strippers) | A wire stripper is a tool that is used to strip wires. |
+| [Hot Air Gun](/electronics/tools/#hot-air-gun) | A hot air gun is a tool that is used to heat up shrink tubing. |
+| [Crimpers](/electronics/tools/#crimpers) | A crimper is a tool that is used to crimp wires. |
+| [Anderson Powerpole Crimper](/electronics/etools/#anderson-powerpole-crimper) | An Anderson Powerpole crimper is a tool that is used to crimp Anderson Powerpole connectors. |
+| [Ferrule Crimper](/electronics/tools/#ferrule-crimper) | A ferrule crimper is a tool that is used to crimp ferrules. |
+| [Dupont Crimper](/electronics/etools/#dupont-crimper) | A Dupont crimper is a tool that is used to crimp Dupont connectors. |
+| [JST Crimper](/electronics/tools/#jst-crimper) | A JST crimper is a tool that is used to crimp JST connectors. |
+| [Ethernet Crimper](/electronics/tools/#ethernet-crimper) | An Ethernet crimper is a tool that is used to crimp Ethernet connectors. |
+| [Soldering Iron](/electronics/tools/#soldering-iron) | A soldering iron is a tool that is used to solder wires. |
+| [Rework Station](/electronics/tools/#soldering-iron) | A rework station is a tool that is used to solder wires and PCBs. |
+| [Oscilloscope](/electronics/tools/#oscilloscope) | An oscilloscope is a device that measures voltage over time. |
+| [Logic Analyzer](/electronics/tools/#logic-analyzer) | A logic analyzer is a device that measures digital signals. |
+| [Power Supply](/electronics/tools/#power-supply) | A power supply is a device that provides power to other devices. |
 
 ### Multimeter
 
@@ -140,7 +140,22 @@ TODO: Add Ethernet Crimpers Info
 
 ### Soldering Iron
 
-TODO: Add Soldering Iron Info
+A soldering iron is a tool that is used to melt solder onto a joint. A joint is any place where two wires, legs of a components, or any other two pieces of metal are connected. When soldering components and wires for electrical usage, we use thinner gauge solder. When soldering components and wires for mechanical usage, we use thicker gauge solder. Adafruit has a great [guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering) on soldering that we recommend you read.
+
+![Soldering Iron](https://cdn-learn.adafruit.com/assets/assets/000/001/983/original/tools_Hakko_Fx88.jpg?1396778007)
+
+A brief overview of the steps to connect two wires with solder is as follows:
+
+1. Strip the wire to expose the copper
+2. Twist the two wires together ![https://workmanship.nasa.gov/lib/insp/2%20books/links/sections/graphics/407/407-17.gif](https://workmanship.nasa.gov/lib/insp/2%20books/links/sections/graphics/407/407-17.gif)
+    1. NASA has a recommended splice method that we recommend you use. You can find it [here](https://workmanship.nasa.gov/lib/insp/2%20books/links/sections/407%20Splices.html).
+3. Heat the soldering iron tip
+4. Place the soldering iron tip on the connection point of the two wires
+5. Apply solder to the wires, the solder will melt and flow across the connection point
+6. Remove the soldering iron tip and allow the solder to cool
+7. Repeat steps 3-6 until the solder has formed a good connection
+8. Add heat shrink tubing to the connection point
+9. Shrink the heat shrink tubing
 
 ### Rework Station
 
