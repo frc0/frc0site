@@ -4,7 +4,7 @@ date: 2023-02-08T23:34:12-05:00
 draft: false
 weight: 2
 chapter: false
-lastmod: 2023-03-14
+lastmod: 2023-04-21
 author: 'Mr. Siefen'
 editors: ''
 ---
@@ -157,9 +157,15 @@ A brief overview of the steps to connect two wires with solder is as follows:
 8. Add heat shrink tubing to the connection point
 9. Shrink the heat shrink tubing
 
+NOTE: FIRST does not allow the use of soldering irons in the pits, but they are allowed in your regular meeting space if you have one. At competitions, they are NOT allowed for the same reason as the rework stations and welders. They create smoke, can set off venue fire alarms and can be a fire hazard.
+
 ### Rework Station
 
-TODO: Add Rework Station Info
+A rework station will commonly have a soldering iron and a hot air gun. The soldering iron is used to solder components onto a PCB. The hot air gun is used to reseat solder on a PCB, remove components from a PCB or heat shrink tubing and other insulated crimps. These stations are very useful for teams that have a lot of PCBs to solder and rework. They will also sometimes come with a built in smoke extractor to help with the fumes from soldering. These setups can be very expensive, but they are worth it if you do lots of soldering and rework.
+
+![Rework Station](https://m.media-amazon.com/images/I/6111tnLJ1IL._AC_UF894,1000_QL80_.jpg)
+
+Sparkfun has a good video guide about using a rework station [here](https://youtu.be/9D0oTGeheBA) if you are interested in learning more. FIRST does not allow the use of rework stations in the pits, but they are allowed in your regular meeting space if you have one. At competitions, they are NOT allowed for the same reason as the soldering irons and welders. They create smoke, can set off venue fire alarms and can be a fire hazard.
 
 ### Oscilloscope
 
@@ -171,4 +177,6 @@ TODO: Add Logic Analyzer Info
 
 ### Power Supply
 
-TODO: Add Power Supply Info
+A variable voltage and amperage power supply is a very useful tool to have. It can be used to power a circuit without a battery, to test a circuit, to test a motor, to test a motor controller, etc. Now, not every power supply is powerful enough to handle motors, but some are and this can simplify the hardware setup needed to test a motor. Variable voltage lets you set a target voltage level and the supply will try to maintain that voltage level. Variable amperage lets you set a max amperage level and the supply will limit and regulate the current to that level. There are also fixed voltage and amperage power supplies, but they are not as useful as the variable ones. These static convertors are typically used between AC to DC or DC to DC. For example, a 12V DC to 5V DC convertor is used to power a 5V circuit from a 12V battery. A 120V AC to 12V DC convertor is used to power a 12V circuit from a 120V wall outlet.
+
+Sparkfun's [video guide](https://youtu.be/uraPWaeAgYA) on power supplies is a good place to start if you are interested in learning more. There is also an in depth [guide](https://learn.sparkfun.com/tutorials/how-to-power-a-project) on Sparkfun's website that covers more information.
