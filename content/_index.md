@@ -13,13 +13,9 @@ draft: false
 ## Important Notices:
 ---
 
-#### &#x26A0; It's Week 7 of the 2023 Competition Season! &#x26A0;
+#### &#x26A0; It's Off-Season 2023! &#x26A0;
 
-[Events](/competition/events/) are running live and match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the live streams on the [FIRST Twitch Channel](https://www.thebluealliance.com/gameday#chat=hidden).
-
-#### &#x26A0; Event Rescheduling for FRC Turkey Teams &#x26A0;
-
-The canceled Izmir and Mersin Regional Tournaments have been replaced with the [Halic Regional](https://FRC-events.firstinspires.org/2023/TUHC) event. For more specific information, please see the [FRC Turkey website](https://www.FRCturkey.org/2023-izmir-mersin-regional/).
+[Events](/competition/events/) are over, but match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the previous seasons footage on the official [FRC YouTube Page](https://www.youtube.com/@FIRSTRoboticsCompetition/playlists) under playlists.
 
 ---
 
