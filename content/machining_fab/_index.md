@@ -18,13 +18,13 @@ Below is an outline of the topics that will be covered in this chapter.
 
 | Order | Page Title | Time Estimate |
 | --- | --- | --- |
-| 3.1 | [Machining & Fabrication](/machining_fab/machining-fab) | 30 minutes |
-| 3.2 | Machining & Fabrication Safety | 30 minutes |
+| 3.1 | [What is Machining & Fabrication?](/machining_fab/machining-fab) | 30 minutes |
+| 3.2 | [Machining & Fabrication Safety](/machining_fab/safety) | 30 minutes |
 | 3.3 | [Machining & Fabrication Tools](/machining_fab/machining-fab-tools) | 7 hours |
 | 3.4 | Machining & Fabrication Materials | 30 minutes |
 | 3.5 | Machining & Fabrication Design | 30 minutes |
 | 3.6 | Machining & Fabrication Tolerances | 30 minutes |
 | 3.7 | Machining & Fabrication CAD & Drawings | 30 minutes |
 | 3.8 | Machining & Fabrication CAM | 30 minutes |
-| 3.9 | Machining & Fabrication CNC](/machining_fab/machining-fab-cnc) | 30 minutes |
+| 3.9 | Machining & Fabrication CNC | 30 minutes |
 |      | Total | 11 hours |
