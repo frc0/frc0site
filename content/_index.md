@@ -40,7 +40,7 @@ draft: false
 | [The Blue Alliance](https://www.thebluealliance.com/) | The official FIRST Robotics Competition event and match information website. |
 | [Statbotics](https://www.statbotics.io/) | Modern FRC data and analytics. |
 | [FRC Queue](https://frcqueue.com/) | A website/app that helps you find when matches are coming up, when you need to be queuing, etc. |
-| [FRC China Wiki](https://wiki.firstrobotics.com.cn/) | A Wiki for FRC China created by Teams 6353, 6940 and 6941 from Shanghai! Their github can be found [here](https://github.com/FRC-China/FRC-Wiki) |
+| [FRC China Wiki](https://wiki.firstrobotics.com.cn/) | A Wiki for FRC China created by Teams [6353](http://zodiac6353.cn/), 6940 and [6941](https://www.ironpulse.net/) from Shanghai! Their github can be found [here](https://github.com/FRC-China/FRC-Wiki) |
 
 ---
 
