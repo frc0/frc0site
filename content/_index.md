@@ -8,9 +8,7 @@ lastmod: 2023-03-20
 draft: false
 ---
 
-# Welcome to FRC Zero
-
-## Important Notices:
+# Important Notices:
 ---
 
 #### &#x26A0; It's Off-Season 2023! &#x26A0;
