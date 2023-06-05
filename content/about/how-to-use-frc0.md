@@ -32,3 +32,5 @@ FRCzero.org is not an official source of information for FIRST Robotics Competit
 
 FRCzero.org is a non-official, non-licensed, uninsured, community of it's users. It is up to you as a user to use your best judgement when submitting new documentation or following existing documentation. No one is responsible for any damages or injuries that may occur from the use of this site except YOU! If you are unsure about something, please ask a mentor or FRC community member for help. Thats what they are there for.
 
+As we aim to make the best content, we also aim to make the best experience for our users. We use cookies to help us track how our users use the site. We also use Google Analytics to help us track how our users use the site. We do not sell or share any of this information with anyone. We do not make any money from this site. We do not have any paid advertising so again all of the analytics are used to help us improve the site. For more information please read our [privacy policy](/privacy-policy/).
+
