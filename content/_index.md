@@ -12,9 +12,34 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 # Important Notices:
 ---
 
-#### &#x26A0; It's Off-Season 2023! &#x26A0;
+#### &#x26A0; It's Pre-Season 2024! &#x26A0;
 
-[Events](/competition/events/) are over, but match information, stats and more can be found [here](https://www.thebluealliance.com/events) on the Blue Alliance.  You can also find the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the FIRST website.  Finally, you can watch the previous seasons footage on the official [FRC YouTube Page](https://www.youtube.com/@FIRSTRoboticsCompetition/playlists) under playlists.
+- The events for 2023 have concluded. Teams, spectators, and enthusiasts can retrieve match details, statistics, and more from [The Blue Alliance's events page](https://www.thebluealliance.com/events). 
+
+- Those looking to brush up on last season's rules can access the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the official FIRST website.
+
+- To view footage from previous FRC seasons, check out the official [FRC YouTube Page](https://www.youtube.com/@FIRSTRoboticsCompetition/playlists) under the playlists section.
+
+- Starting 9/21/23, teams will have the opportunity to make their First Round event selections on [FIRSTinspires.org](https://www.firstinspires.org/) under their Team Dashboard.
+
+---
+
+**URGENT FRC Blog Updates**
+
+**1. Motor Rule Changes for the 2024 Season**
+- Authored by: Jay O’Donnell, FIRST Robotics Competition Mechanical Engineer
+- Summary: For the 2024 season, there's a change to the robot rules. Teams will be limited to four motors for robot movement (referred to as propulsion motors). Certain types of motors are excluded from this limitation. The change is intended to reduce robot collisions and ensure field durability while aiming to level the playing field for teams with various resources.
+<ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-motor-rule-changes-for-the-2024-season" target="_blank">Motor Rule Changes for the 2024 Season</a></ul>
+
+**2. Award Updates for the 2024 Season**
+- Authored by: Fiona Hanlon, FIRST Robotics Competition Team Experience Specialist
+- Highlights:
+  - A reminder of award resources available to teams, including guidance for the Dean’s List Award, judging processes, and tips for interacting with judges.
+  - Updates to the FIRST Impact Award Video: Videos will be a part of the submission process, and bringing a flash drive is no longer necessary. Videos are optional and are not a part of the official judging process.
+  - Guidance for FIRST Impact Award Feedback: Teams can submit an optional question for feedback from event judges.
+  - The Highest Rookie Seed Award will be discontinued.
+<ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-award-updates-for-the-2024-season" target="_blank">Award Updates for the 2024 Season</a></ul>
+
 
 ---
 
