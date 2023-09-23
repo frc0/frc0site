@@ -45,28 +45,101 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 
 ## Important Links:
 
-| Link | Description |
-| :--- | :--- |
-| [gm0 Website](https://gm0.org) | The FTC website that inspired us to create FRC Zero. |
-| [docs.wpilib.org](https://docs.wpilib.org/en/stable/) | The official documentation for the WPILib libraries. |
-| [REV Robotics](https://docs.revrobotics.com/docs/rev-ion) | The official documentation for the REV Robotics hardware. |
-| [CTRE Phoenix](https://phoenix-documentation.readthedocs.io/en/latest/) | The official documentation for the CTRE Phoenix hardware. |
-| [Unofficial FRC Mechanism Encyclopedia](https://www.projectb.net.au/resources/robot-mechanisms/) | A website that has a lot of information on different mechanisms. This website is really handy for engineering design [research](https://FRCzero.org/engineering_design/design_process/research_the_problem/)! |
-| [Chief Delphi](https://www.chiefdelphi.com/) | The official FIRST Robotics Competition forum. |
-| [FIRST Robotics Competition](https://www.firstinspires.org/robotics/FRC) | The official FIRST Robotics Competition website. |
-| [FRC Discord](https://discord.gg/FRC) | The Unofficial FIRST Robotics Competition Discord server. |
-| [FRC Reddit](https://www.reddit.com/r/FRC/) | The official FIRST Robotics Competition subreddit. |
-| [FRC YouTube](https://www.youtube.com/@FIRSTRoboticsCompetition) | The official FIRST Robotics Competition YouTube channel. |
-| [FRC Twitch](https://www.twitch.tv/firstinspires) | The official FIRST Robotics Competition Twitch channel. |
-| [RoboZone](https://www.youtube.com/c/RoboZoneTV) | RoboZone is a FRC Podcast hosted by Pete Eckman. He is a mentor for an FRC team so the schedule during season can be as hectic as our seasons can be. RoboZone posts at least once a week though! |
-| [FindRobotParts](https://www.findrobotparts.com/) | A website that helps you find parts for your robot. |
-| [F.U.N. (First Update Now)](https://www.youtube.com/firstupdatesnow) | F.U.N. is a FRC podcast online. Lots of great content and discussions. |
-| [The Blue Alliance](https://www.thebluealliance.com/) | The official FIRST Robotics Competition event and match information website. |
-| [Statbotics](https://www.statbotics.io/) | Modern FRC data and analytics. |
-| [FRC Queue](https://frcqueue.com/) | A website/app that helps you find when matches are coming up, when you need to be queuing, etc. |
-| [FRC China Wiki](https://wiki.firstrobotics.com.cn/) | A Wiki for FRC China created by Teams [6353](http://zodiac6353.cn/), 6940 and [6941](https://www.ironpulse.net/) from Shanghai! Their github can be found [here](https://github.com/FRC-China/FRC-Wiki) |
+<p>Filter by Category:</p>
+<ul id="categoryFilters"></ul>
 
----
+<div id="cardsContainer"></div>
+
+<script>
+    const linksData = {
+        "Official Resources": [
+            { title: "docs.wpilib.org", description: "The official documentation for the WPILib libraries.", url: "https://docs.wpilib.org" },
+            { title: "REV Robotics", description: "The official documentation for the REV Robotics hardware.", url: "https://www.revrobotics.com/" },
+            { title: "CTRE Phoenix", description: "The official documentation for the CTRE Phoenix hardware.", url: "https://www.ctr-electronics.com/" },
+            { title: "FIRST Robotics Competition", description: "The official FIRST Robotics Competition website.", url: "https://www.firstinspires.org/robotics/frc" }
+        ],
+        "Community Resources": [
+            { title: "gm0 Website", description: "The FTC website that inspired us to create FRC Zero.", url: "https://gm0.org/" },
+            { title: "Unofficial FRC Mechanism Encyclopedia", description: "A website with information on different mechanisms. Handy for engineering design research.", url: "https://www.projectb.net.au/resources/robot-mechanisms/" },
+            { title: "Chief Delphi", description: "The official FIRST Robotics Competition forum.", url: "https://www.chiefdelphi.com/" },
+            { title: "FRC China Wiki", description: "A Wiki for FRC China created by Teams 6353, 6940, and 6941 from Shanghai.", url: "https://wiki.firstrobotics.com.cn/" }
+        ],
+        "Tools": [
+            { title: "FindRobotParts", description: "A website that helps you find parts for your robot.", url: "https://www.findrobotparts.com/" },
+            { title: "The Blue Alliance", description: "The official FIRST Robotics Competition event and match information website.", url: "https://www.thebluealliance.com/" },
+            { title: "Statbotics", description: "Modern FRC data and analytics.", url: "https://statbotics.io/" },
+            { title: "Nexus for FRC", description: "For teams Get notified when it's time to queue. View upcoming matches, event announcements, and more from anywhere. For events Elevate the team experience at your event with Nexus. Empower your volunteers with tools for queuing, inspection, announcements and more.", url: "https://frc.nexus/en/" },
+            { title: "Cache CAD", description: "A file management interface for Google Drive™ that allows selective syncing of files. This makes it ideal for managing engineering or CAD projects where multiple users need to edit files.", url: "https://www.cachecad.com//" }
+        ],
+        "Media": [
+            { title: "FRC YouTube", description: "The official FIRST Robotics Competition YouTube channel.", url: "https://www.youtube.com/user/FRCGamesense" },
+            { title: "FRC Twitch", description: "The official FIRST Robotics Competition Twitch channel.", url: "https://www.twitch.tv/firstinspires" },
+            { title: "RoboZone", description: "RoboZone is the original channel dedicated to competitive high school and middle school robotics!", url: "https://www.youtube.com/channel/UC7Om-SUPp74wzLiAAPUQr4Q" },
+            { title: "F.U.N. (First Update Now)", description: "FRC podcast online with great content and discussions.", url: "https://www.firstupdatesnow.com/" }
+        ]
+    };
+
+    const categoryFilters = document.getElementById('categoryFilters');
+for (let category in linksData) {
+    const li = document.createElement('li');
+    const label = document.createElement('label');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = true;
+    checkbox.className = 'category';
+    checkbox.dataset.target = category.replace(/\s+/g, '-'); 
+    label.appendChild(checkbox);
+
+    // Create a separate text node and append to the label
+    const labelText = document.createTextNode(' ' + category);
+    label.appendChild(labelText);
+
+    li.appendChild(label);
+    categoryFilters.appendChild(li);
+}
+  
+
+    const cardsContainer = document.getElementById('cardsContainer');
+    for (let category in linksData) {
+        const card = document.createElement('div');
+        card.className = 'card ' + category.replace(/\s+/g, '-'); 
+        const h3 = document.createElement('h3');
+        h3.innerText = category;
+        card.appendChild(h3);
+        const table = document.createElement('table');
+        linksData[category].forEach(link => {
+            const tr = document.createElement('tr');
+            const td1 = document.createElement('td');
+            td1.innerText = link.title;
+            const td2 = document.createElement('td');
+            td2.innerText = link.description;
+            const td3 = document.createElement('td');
+            const a = document.createElement('a');
+            a.href = link.url;
+            a.innerText = 'Visit';
+            a.target = "_blank";
+            td3.appendChild(a);
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+            table.appendChild(tr);
+        });
+        card.appendChild(table);
+        cardsContainer.appendChild(card);
+    }
+
+    document.querySelectorAll('.category').forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            const targetCategory = this.dataset.target;
+            const card = document.querySelector('.card.' + targetCategory);
+            if (this.checked) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+</script>
 
 ## What's FRC Zero and How Can I Learn More About It?
 
