@@ -1,0 +1,161 @@
+<!-- FILEPATH: /c:/Users/christian/Desktop/frc0site/Content Builder- Python/templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Template with WYSIWYG Editor Tool</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+    <!-- WYSIWYG Editor Tool CSS -->
+    <link rel="stylesheet" href="https://cdn.quilljs.com/1.3.7/quill.snow.css">
+
+</head>
+<body>
+
+    <div class="container my-5">
+
+        <h1 class="text-center mb-5">FRCZero WYSIWYG Editor Tool</h1>
+
+        <!-- Div for loading an existing file from the user -->
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <label for="file" class="form-label">Load File from your Computer</label>
+                <input class="form-control" type="file" id="file" name="file">
+            </div>
+        </div>
+
+        <!-- Div for loading an existing file from the server -->
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <label for="file" class="form-label">Load File from the Server</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">File 1</option>
+                    <option value="2">File 2</option>
+                    <option value="3">File 3</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+
+                <form>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="title" class="form-label">Title</label>
+                            <input type="text" class="form-control" id="title" name="title" placeholder="Enter title">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="date" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="date" name="date">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="author" class="form-label">Author</label>
+                            <input type="text" class="form-control" id="author" name="author" placeholder="Enter author">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="editors" class="form-label">Editors</label>
+                            <input type="text" class="form-control" id="editors" name="editors" placeholder="Enter editors">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="chapter" class="form-label">Chapter</label>
+                            <input type="checkbox" class="form-check-input" id="chapter" name="chapter">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastModified" class="form-label">Last Modified</label>
+                            <input type="date" class="form-control" id="lastModified" name="lastModified">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="draft" class="form-label">Draft</label>
+                            <input type="checkbox" class="form-check-input" id="draft" name="draft">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="description" class="form-label">Description</label>
+                            <textarea class="form-control" id="description" name="description" rows="3" placeholder="Enter description"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="content" class="form-label">Content</label>
+                            <div id="editor"></div>
+                            <input type="hidden" name="content" id="content">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+
+                <h2>Preview</h2>
+
+                <div id="preview"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- WYSIWYG Editor Tool JS -->
+    <script src="https://cdn.quilljs.com/1.3.7/quill.min.js"></script>
+
+    <script>
+        // Update the last modified date
+        document.getElementById('lastModified').valueAsDate = new Date();
+
+        // Draft is checked by default
+        document.getElementById('draft').checked = true;
+
+        // Using quill for WYSIWYG Editor Tool markdown
+
+        var quill = new Quill('#editor', {
+            theme: 'snow',
+            modules: {
+                'toolbar': true,
+                'clipboard': true,
+                'history': true
+            }
+        });
+
+        var preview = document.getElementById('preview');
+        var contentInput = document.getElementById('content');
+
+        quill.on('text-change', function() {
+            preview.innerHTML = quill.root.innerHTML;
+            contentInput.value = quill.root.innerHTML;
+        });
+    </script>
+
+</body>
+</html>
