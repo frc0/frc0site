@@ -59,7 +59,7 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 ## Important Links:
 
 <p>Filter by Category:</p>
-<ul id="categoryFilters"></ul>
+<ul id="categoryFilters" style="list-style-type: none; display: flex; flex-wrap: wrap;"></ul>
 
 <div id="cardsContainer"></div>
 
@@ -101,6 +101,9 @@ for (let category in linksData) {
     checkbox.checked = true;
     checkbox.className = 'category';
     checkbox.dataset.target = category.replace(/\s+/g, '-'); 
+    checkbox.style.marginRight = '5px';
+    checkbox.style.marginLeft = '5px';
+    label.style.marginRight = '10px';
     label.appendChild(checkbox);
 
     // Create a separate text node and append to the label

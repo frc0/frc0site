@@ -3,7 +3,7 @@ title: "10.0 Safety"
 date: 2023-03-23
 weight: 10
 chapter: true
-lastmod: 2023-03-23
+lastmod: 2023-10-25
 author: 'Mr. Siefen'
 editors: ''
 ---
@@ -14,6 +14,8 @@ editors: ''
 > Image from: [https://www.frcturkey.org/duyurular/08-10-2021/](https://www.frcturkey.org/duyurular/08-10-2021/)
 
 Safety is a very important part of FIRST Robotics. FIRST has an official safety manual that can be found [here](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf). The guides in this section will help you understand the safety rules and how to follow them, but they are **NOT** a replacement for the official safety manual. You should read the official manual and follow the rules in it, then read the guides in this section to help you understand the rules.
+
+In addition to the safety manual FIRST and UL have created a safety training portal teams can use to train their members. The portal can be found [here](https://lms4.learnshare.com/dashboard/dash.home.aspx?Z=geSEmDtE4xwuyTwg6Sx4LdU0faDk0s5hWZ6ILUmcii%2f8U1QENEJVyUzrmcgfZtbj&cid=236). The portal has a lot of great information and is a great resource for teams. Mentors should register for the portal and can assign training to their team members.
 
 Below is an outline of the topics that will be covered in this chapter.
 
