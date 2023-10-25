@@ -4,7 +4,7 @@ date: 2023-02-04
 author: 'Mr. Siefen'
 editors: 'ngalotti, foehammer127'
 chapter: false
-lastmod: 2023-03-20
+lastmod: 2023-10-25
 draft: false
 description: 'FRC Zero is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. The goal of FRC Zero is to provide a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition. There are lessons, troubleshooting and hardware teardowns. There are also videos and other resources to help you learn more about FRC.'
 ---
@@ -19,8 +19,6 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 - Those looking to brush up on last season's rules can access the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the official FIRST website.
 
 - To view footage from previous FRC seasons, check out the official [FRC YouTube Page](https://www.youtube.com/@FIRSTRoboticsCompetition/playlists) under the playlists section.
-
-- Starting 9/21/23, teams will have the opportunity to make their First Round event selections on [FIRSTinspires.org](https://www.firstinspires.org/) under their Team Dashboard.
 
 ---
 
@@ -40,13 +38,28 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
   - The Highest Rookie Seed Award will be discontinued.
 <ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-award-updates-for-the-2024-season" target="_blank">Award Updates for the 2024 Season</a></ul>
 
+**3. Introducing a New Way to Register Youth in the U.S. & Canada**
+- Authored by: FIRST Digital Transformation Team
+- Highlights:
+  - Introduction of mobile-friendly Express Enrollment for youth registration in the U.S. and Canada.
+  - FIRST lead coaches generate and share registration links
+  - Parents use these links for easy youth registration
+<ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-introducing-a-new-way-to-register-youth-in-the-us-and-canada" target="_blank">Introducing a New Way to Register Youth in the U.S. & Canada</a></ul>
 
+---
+
+### New FRC Products for the 2024 Season ###
+
+- There are new motors being released from [Rev Robotics](https://www.revrobotics.com/next-generation-spark-neo/) and [West Coast Products](https://wcproducts.com/products/kraken) for the 2024 season. Check them out!
+  - Highlights:
+    - REV Robotics presents NEO Vortex, a brushless motor with a high-resolution encoder and 640 Watts power. It's complemented by the SPARK Flex motor controller, featuring 3-phase current sensing and enhanced data port. Both offer direct docking integration
+    - WestCoast Products introduces Kraken X60, a motor with 1100+W peak power and 6,000RPM, integrated with Talon FX technology. Pre-orders are available, with shipments starting mid-December.
 ---
 
 ## Important Links:
 
 <p>Filter by Category:</p>
-<ul id="categoryFilters"></ul>
+<ul id="categoryFilters" style="list-style-type: none; display: flex; flex-wrap: wrap;"></ul>
 
 <div id="cardsContainer"></div>
 
@@ -88,6 +101,9 @@ for (let category in linksData) {
     checkbox.checked = true;
     checkbox.className = 'category';
     checkbox.dataset.target = category.replace(/\s+/g, '-'); 
+    checkbox.style.marginRight = '5px';
+    checkbox.style.marginLeft = '5px';
+    label.style.marginRight = '10px';
     label.appendChild(checkbox);
 
     // Create a separate text node and append to the label
