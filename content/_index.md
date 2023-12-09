@@ -75,6 +75,7 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
             { title: "gm0 Website", description: "The FTC website that inspired us to create FRC Zero.", url: "https://gm0.org/" },
             { title: "Unofficial FRC Mechanism Encyclopedia", description: "A website with information on different mechanisms. Handy for engineering design research.", url: "https://www.projectb.net.au/resources/robot-mechanisms/" },
             { title: "Chief Delphi", description: "The official FIRST Robotics Competition forum.", url: "https://www.chiefdelphi.com/" },
+            { title: "CD-Stats", description: "A web app that visualizes your Chief Delphi usage history, created by Connor Horn: https://github.com/ConnorHorn", url: "https://cd-stats.com/" },
             { title: "FRC China Wiki", description: "A Wiki for FRC China created by Teams 6353, 6940, and 6941 from Shanghai.", url: "https://wiki.firstrobotics.com.cn/" }
         ],
         "Tools": [
