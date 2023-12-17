@@ -12,7 +12,7 @@ While [The Blue Alliance](https://www.thebluealliance.com/) is the best place to
 
 ## FIRST Event Guide and Event Etiquette
 
-In the ethical and gracious spirit of FIRST, teams are expected to follow the [FIRST Event Rules](https://FRC-qa.firstinspires.org/eventrules) which is not part of the typical season game manual. Teams can find this on the [FRC QA website](https://FRC-qa.firstinspires.org/) or [click here](https://www.firstinspires.org/sites/default/files/uploads/FRC/EventRulesManual.pdf) to download a copy.
+In the ethical and gracious spirit of FIRST, teams are expected to follow the [FIRST Event Rules](https://FRC-qa.firstinspires.org/eventrules) which is not part of the typical season game manual. Teams can find this on the [FRC QA website](https://FRC-qa.firstinspires.org/) or [click here](https://www.firstinspires.org/sites/default/files/uploads/FRC/EventRulesManual.pdf) to download a copy. Starting in 2024 the event rules will be merged back into the main game manual [Event Rules Updates for 2024](https://www.firstinspires.org/robotics/frc/blog/2023-event-rules-updates-for-2024). 
 
 Some general event etiquette that teams should follow:
 
