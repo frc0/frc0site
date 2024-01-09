@@ -12,13 +12,13 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 # Important Notices:
 ---
 
-#### &#x26A0; It's Pre-Season 2024! &#x26A0;
+#### &#x26A0; It's Crescendo Time! &#x26A0;
 
-- The events for 2023 have concluded. Teams, spectators, and enthusiasts can retrieve match details, statistics, and more from [The Blue Alliance's events page](https://www.thebluealliance.com/events). 
+- The 2024 Season has officially kicked off! The game is called Crescendo, and the game manual is available [here](https://firstfrc.blob.core.windows.net/frc2024/Manual/2024GameManual.pdf).
 
-- Those looking to brush up on last season's rules can access the [2023 Game Manual](https://firstFRC.blob.core.windows.net/FRC2023/Manual/2023FRCGameManual.pdf) on the official FIRST website.
+- The game animation is available [here](https://youtu.be/9keeDyFxzY4?si=QVf2OAxZeceeyn4-).
 
-- To view footage from previous FRC seasons, check out the official [FRC YouTube Page](https://www.youtube.com/@FIRSTRoboticsCompetition/playlists) under the playlists section.
+- New to 2024 is the [KitBot](https://www.firstinspires.org/resource-library/frc/kitbot) from FIRST. This is a great starting point for teams who are new to FRC or who want to focus on other aspects of the robot. Teams who opted into the Drive Base Kit received some parts in a black tote. Some you have to buy yourself. The list of parts is available [here](https://www.firstinspires.org/robotics/frc/blog/2023-2024-kitbot-shopping-list).
 
 ---
 
@@ -37,15 +37,6 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
   - Guidance for FIRST Impact Award Feedback: Teams can submit an optional question for feedback from event judges.
   - The Highest Rookie Seed Award will be discontinued.
 <ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-award-updates-for-the-2024-season" target="_blank">Award Updates for the 2024 Season</a></ul>
-
-**3. Introducing a New Way to Register Youth in the U.S. & Canada**
-- Authored by: FIRST Digital Transformation Team
-- Highlights:
-  - Introduction of mobile-friendly Express Enrollment for youth registration in the U.S. and Canada.
-  - FIRST lead coaches generate and share registration links
-  - Parents use these links for easy youth registration
-<ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-introducing-a-new-way-to-register-youth-in-the-us-and-canada" target="_blank">Introducing a New Way to Register Youth in the U.S. & Canada</a></ul>
-
 ---
 
 ### New FRC Products for the 2024 Season ###
@@ -76,14 +67,16 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
             { title: "Unofficial FRC Mechanism Encyclopedia", description: "A website with information on different mechanisms. Handy for engineering design research.", url: "https://www.projectb.net.au/resources/robot-mechanisms/" },
             { title: "Chief Delphi", description: "The official FIRST Robotics Competition forum.", url: "https://www.chiefdelphi.com/" },
             { title: "CD-Stats", description: "A web app that visualizes your Chief Delphi usage history, created by Connor Horn: https://github.com/ConnorHorn", url: "https://cd-stats.com/" },
-            { title: "FRC China Wiki", description: "A Wiki for FRC China created by Teams 6353, 6940, and 6941 from Shanghai.", url: "https://wiki.firstrobotics.com.cn/" }
+            { title: "FRC China Wiki", description: "A Wiki for FRC China created by Teams 6353, 6940, and 6941 from Shanghai.", url: "https://wiki.firstrobotics.com.cn/" },
         ],
         "Tools": [
+            { title: "GoFundRobots.org", description: "A website that helps you share your fundraising events.", url: "https://www.gofundrobots.org/" },
             { title: "FindRobotParts", description: "A website that helps you find parts for your robot.", url: "https://www.findrobotparts.com/" },
             { title: "The Blue Alliance", description: "The official FIRST Robotics Competition event and match information website.", url: "https://www.thebluealliance.com/" },
             { title: "Statbotics", description: "Modern FRC data and analytics.", url: "https://statbotics.io/" },
             { title: "Nexus for FRC", description: "For teams Get notified when it's time to queue. View upcoming matches, event announcements, and more from anywhere. For events Elevate the team experience at your event with Nexus. Empower your volunteers with tools for queuing, inspection, announcements and more.", url: "https://frc.nexus/en/" },
-            { title: "Cache CAD", description: "A file management interface for Google Drive™ that allows selective syncing of files. This makes it ideal for managing engineering or CAD projects where multiple users need to edit files.", url: "https://www.cachecad.com//" }
+            { title: "Cache CAD", description: "A file management interface for Google Drive™ that allows selective syncing of files. This makes it ideal for managing engineering or CAD projects where multiple users need to edit files.", url: "https://www.cachecad.com//" },
+            { title: "FRC Tools", description: "Semantics Rules Search.", url: "https://frctools.com/"}
         ],
         "Media": [
             { title: "FRC YouTube", description: "The official FIRST Robotics Competition YouTube channel.", url: "https://www.youtube.com/user/FRCGamesense" },
