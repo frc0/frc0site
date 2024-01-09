@@ -10,28 +10,11 @@ editors: ''
 
 ### What are the Game Rules?
 
-A video explaining the game rules can be found [here](https://www.youtube.com/watch?v=0zpflsYc4PA) or you can watch it below.
+A video explaining the game rules can be found [here](https://youtu.be/9keeDyFxzY4?si=QVf2OAxZeceeyn4-) or you can watch it below.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/0zpflsYc4PA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/9keeDyFxzY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Every year the game rules are released in the [FIRST Resource Library 2023 Season Materials](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system). Normally these are available as Password Protected PDFs at kickoff, but by competition season they are usually available to the public. The rules are released in several parts and labeled by section.
-
-The sections for the 2023 Game Manuals was:
-
-| Section | Title | Latest Revision Date |
-| --- | --- | --- |
-| 1 | [Introduction](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-01.pdf) | 2023-02-24 |
-| 2 | [FIRST Season Overview](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-02.pdf) | 2023-01-07 |
-| 3 | [Game Sponsor Recognition](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-03.pdf) | 2023-01-07 |
-| 4 | [Game Overview](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-04.pdf) | 2023-01-07 |
-| 5 | [Arena](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-05.pdf) | 2023-03-21 |
-| 6 | [Match Play](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-06.pdf) | 2023-01-27 |
-| 7 | [GAME RULES: Robots](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-07.pdf) | 2023-03-14 |
-| 8 | [GAME RULES: Humans](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-08.pdf) | 2023-02-24 |
-| 9 | [Robot Construction Rules](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-09.pdf) | 2023-03-07 |
-| 10 | [Inspection & Eligibility](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-10.pdf) | 2023-02-03 |
-| 11 | [Tournaments](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-11.pdf) | 2023-03-14 |
-| 12 | [Glossary](https://firstfrc.blob.core.windows.net/frc2023/Manual/Sections/2023FRCGameManual-12.pdf) | 2023-01-20 |
+Every year the game rules are released in the [FIRST Resource Library 2024 Season Materials](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system). Normally these are available as Password Protected PDFs at kickoff, but by competition season they are usually available to the public. The rules are released in several parts and labeled by section.
 
 ### What are some of the important rules that stay the same every year?
 
@@ -46,8 +29,8 @@ These type of non-game specific rules are related to robot, safety and inspectio
 
     Persons who do not comply with this Code of Conduct may be barred from participating in FIRST activities.
 
-2. There are specific [EVENT RULES](https://frc-qa.firstinspires.org/eventrules) that are **NOT** part of the regular game manual. A summary of the general rules is as follows
-    * Personal safety comes first. See the [Safety Manual](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf) for more information.
+2. There are specific [EVENT RULES](https://www.firstinspires.org/sites/default/files/uploads/frc/EventRulesManual.pdf) that are **NOT** part of the regular game manual. A summary of the general rules is as follows
+    * Personal safety comes first. See the [Safety Manual](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/ftc-frc-safety-manual.pdf) for more information.
     * Be nice, or AKA be GP! see RULE 1 above.
     * Children with adults, please. Children under 12 must be accompanied in the pits by an adult at all times
     * Respect the venue. Aka don’t break stuff, the venue is nice enough to let us use it. Make them want to have us back.

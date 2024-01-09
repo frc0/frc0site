@@ -157,8 +157,4 @@ FRC Zero is a knowledge base for students, mentors, and parents of FIRST Robotic
 
 FRC Zero is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC Zero Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC Zero contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
 
-#### Cool Video of the Github Commit History
-
-https://youtu.be/htZ70xkUiO4
-
 ---
