@@ -71,6 +71,7 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
         ],
         "Tools": [
             { title: "GoFundRobots.org", description: "A website that helps you share your fundraising events.", url: "https://www.gofundrobots.org/" },
+            { title: "FRC Group Tracker", description: "The FRC Group Tracker is a tool developed designed to track the performance for groups of teams over time, to highlight trends that affect more than just a single team.", url: "https://milligansarah.github.io/frc-group-tracker/" },
             { title: "FindRobotParts", description: "A website that helps you find parts for your robot.", url: "https://www.findrobotparts.com/" },
             { title: "The Blue Alliance", description: "The official FIRST Robotics Competition event and match information website.", url: "https://www.thebluealliance.com/" },
             { title: "Statbotics", description: "Modern FRC data and analytics.", url: "https://statbotics.io/" },
