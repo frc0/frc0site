@@ -12,14 +12,9 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 # Important Notices:
 ---
 
-#### &#x26A0; It's Crescendo Time! &#x26A0;
-
-- The 2024 Season has officially kicked off! The game is called Crescendo, and the game manual is available [here](https://firstfrc.blob.core.windows.net/frc2024/Manual/2024GameManual.pdf).
-
-- The game animation is available [here](https://youtu.be/9keeDyFxzY4?si=QVf2OAxZeceeyn4-).
-
-- New to 2024 is the [KitBot](https://www.firstinspires.org/resource-library/frc/kitbot) from FIRST. This is a great starting point for teams who are new to FRC or who want to focus on other aspects of the robot. Teams who opted into the Drive Base Kit received some parts in a black tote. Some you have to buy yourself. The list of parts is available [here](https://www.firstinspires.org/robotics/frc/blog/2023-2024-kitbot-shopping-list).
-
+#### &#x26A0; REEFSCAPE℠ presented by Haas - details coming soon! &#x26A0;
+- The 2025 FRC game REEFSCAPE follows the overal FIRQST theme of FIRST-Dive.
+<ul><a href="[https://www.firstinspires.org/robotics/frc/blog/2023-motor-rule-changes-for-the-2024-season](https://info.firstinspires.org/first-dive#season-theme)" target="_blank"></a></ul>
 ---
 
 **URGENT FRC Blog Updates**
