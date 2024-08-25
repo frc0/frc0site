@@ -13,8 +13,8 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 ---
 
 #### &#x26A0; REEFSCAPE℠ presented by Haas - details coming soon! &#x26A0;
-- The 2025 FRC game REEFSCAPE follows the overal FIRQST theme of FIRST-Dive.
-<ul><a href="https://info.firstinspires.org/first-dive#season-theme" target="_blank"></a></ul>
+- The 2025 FRC game REEFSCAPE follows the overal FIRST theme of FIRST-Dive.
+<ul><a href="https://info.firstinspires.org/first-dive#season-theme" target="_blank">Click here to learn more</a></ul>
 
 ---
 
