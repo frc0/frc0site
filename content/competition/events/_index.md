@@ -3,7 +3,7 @@ date: '2023-3-13'
 title: '1.3 Events'
 weight: 3
 chapter: false
-lastmod: 2024-01-08
+lastmod: 2025-01-07
 author: 'Mr. Siefen'
 editors: ''
 ---

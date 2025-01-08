@@ -3,7 +3,7 @@ title: "1.4 Game Rules"
 date: 2023-02-04
 weight: 4
 chapter: false
-lastmod: 2023-03-23
+lastmod: 2025-01-7
 author: 'Mr. Siefen'
 editors: ''
 ---
