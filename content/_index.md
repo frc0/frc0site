@@ -4,7 +4,7 @@ date: 2023-02-04
 author: 'Mr. Siefen'
 editors: 'ngalotti, foehammer127'
 chapter: false
-lastmod: 2023-10-25
+lastmod: 2025-1-7
 draft: false
 description: 'FRC Zero is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams. The goal of FRC Zero is to provide a single source of information for all things FIRST Robotics Competition. This includes information on the game, the rules, the robot, and the competition. There are lessons, troubleshooting and hardware teardowns. There are also videos and other resources to help you learn more about FRC.'
 ---
@@ -12,35 +12,27 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
 # Important Notices:
 ---
 
-#### &#x26A0; REEFSCAPE℠ presented by Haas - details coming soon! &#x26A0;
-- The 2025 FRC game REEFSCAPE follows the overal FIRST theme of FIRST-Dive.
-<ul><a href="https://info.firstinspires.org/first-dive#season-theme" target="_blank">Click here to learn more</a></ul>
+#### &#x26A0; REEFSCAPE℠ presented by Haas - details released! &#x26A0;
+- The 2025 FRC game REEFSCAPE details were released on January 4th, 2025. If you missed the game reveal, you can watch it [here](https://www.youtube.com/watch?v=5vNlf2O94wQ). FIRST has a full section of their website dedicated to the game, including the game manual, field drawings, and more. You can find that information [here](https://www.firstinspires.org/robotics/frc/game-and-season).
 
 ---
-
-**URGENT FRC Blog Updates**
-
-**1. Motor Rule Changes for the 2024 Season**
-- Authored by: Jay O’Donnell, FIRST Robotics Competition Mechanical Engineer
-- Summary: For the 2024 season, there's a change to the robot rules. Teams will be limited to four motors for robot movement (referred to as propulsion motors). Certain types of motors are excluded from this limitation. The change is intended to reduce robot collisions and ensure field durability while aiming to level the playing field for teams with various resources.
-<ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-motor-rule-changes-for-the-2024-season" target="_blank">Motor Rule Changes for the 2024 Season</a></ul>
-
-**2. Award Updates for the 2024 Season**
-- Authored by: Fiona Hanlon, FIRST Robotics Competition Team Experience Specialist
-- Highlights:
-  - A reminder of award resources available to teams, including guidance for the Dean’s List Award, judging processes, and tips for interacting with judges.
-  - Updates to the FIRST Impact Award Video: Videos will be a part of the submission process, and bringing a flash drive is no longer necessary. Videos are optional and are not a part of the official judging process.
-  - Guidance for FIRST Impact Award Feedback: Teams can submit an optional question for feedback from event judges.
-  - The Highest Rookie Seed Award will be discontinued.
-<ul><a href="https://www.firstinspires.org/robotics/frc/blog/2023-award-updates-for-the-2024-season" target="_blank">Award Updates for the 2024 Season</a></ul>
+<script src="//rss.bloople.net/?url=https%3A%2F%2Fcommunity.firstinspires.org%2Frss.xml&detail=-1&limit=5&showicon=true&type=js"></script>
 ---
 
-### New FRC Products for the 2024 Season ###
-
-- There are new motors being released from [Rev Robotics](https://www.revrobotics.com/next-generation-spark-neo/) and [West Coast Products](https://wcproducts.com/products/kraken) for the 2024 season. Check them out!
-  - Highlights:
-    - REV Robotics presents NEO Vortex, a brushless motor with a high-resolution encoder and 640 Watts power. It's complemented by the SPARK Flex motor controller, featuring 3-phase current sensing and enhanced data port. Both offer direct docking integration
-    - WestCoast Products introduces Kraken X60, a motor with 1100+W peak power and 6,000RPM, integrated with Talon FX technology. Pre-orders are available, with shipments starting mid-December.
+## New FRC Products:
+<!-- Table for vendor name, new products link/homepage, and product highlights if available -->
+| Vendor | Link | Highlights & CD thread |
+| --- | --- | --- |
+| Andymark | <a href="https://www.andymark.com/categories/new-products-for-2025" target="_blank">Andymark</a> | <a href="https://www.andymark.com/products/powered-elevator" target="_blank">Powered Elevator</a>, <a href="https://www.andymark.com/am-5600" target="_blank">Koors40 Brushed DC Motor Controller</a> and the new <a href="https://www.andymark.com/am-5600" target="_blank">REEFSCAPE Reef Pipe, Cage, Net and game pieces</a>. A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/andymark-2024-2025-product-releases-updates/471947" target="_blank">here</a> |
+| Cross the Road Electronics (CTRE) | <a href="https://store.ctr-electronics.com/collections/all-products?filter.v.price.gte=&filter.v.price.lte=&sort_by=created-descending" target="_blank">CTRE</a> | <a href="https://store.ctr-electronics.com/products/kraken-x44" target="_blank">Kraken X44</a>, <a href="https://store.ctr-electronics.com/products/talon-fxs" target="_blank">Talon FXS</a>, <a href="https://store.ctr-electronics.com/products/minion-brushless-motor" target="_blank">Minion</a>, <a href="https://store.ctr-electronics.com/products/candi" target="_blank">CANdi</a> and the <a href="https://store.ctr-electronics.com/products/canrange" target="_blank">CANrange</a>. A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/ctr-electronics-2024-25-new-products/473711" target="_blank">here</a> |
+| Limelight Vision | <a href="https://limelightvision.io/" target="_blank">Limelight Vision</a> | Read more <a href="https://community.firstinspires.org/introducing-the-future-mobile-robot-controller" target="_blank">here</a> |
+| Playing with Fusion | <a href="https://www.playingwithfusion.com/static/frc.php" target="_blank">Playing with Fusion</a> | <a href="https://www.playingwithfusion.com/productview.php?pdid=237&catid=1017" target="_blank">XT30 Power Distribution Module</a> and <a href="https://www.playingwithfusion.com/productview.php?catid=1017&pdid=238" target="_blank">PTC Fused Power Distribution Module</a>. A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/playing-with-fusion-2025-product-launch-power-distribution-lasers-can-and-more/478098" target="_blank">here</a> |
+| Plummer Industries | <a href="https://plummerindustries.com/" target="_blank">Plummer Industries</a> | <a href="https://plummerindustries.com/robotics/shop#!/Swerve/c/139191062" target="_blank">Drive Corners</a>! A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/plummer-industries-24-25-product-releases-updates/468832" target="_blank">here</a> |
+| REV Robotics | <a href="https://www.revrobotics.com/ion/new-products/" target="_blank">REV ION</a> | <a href="https://www.revrobotics.com/MAXComposite-Sheets/" target="_blank">MaxComposite Sheets</a>, <a href="https://www.revrobotics.com/rev-11-2858/" target="_blank">SPARK Flex Dock</a> and an all new <a href="https://www.revrobotics.com/rev-25-3270/" target="_blank">Complete Swerve Drivetrain</a> . A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/rev-robotics-2024-2025/471083" target="_blank">here</a> |
+| Swyft Robotics | <a href="https://swyftrobotics.com/collections/frc?filter.v.price.gte=&filter.v.price.lte=&sort_by=created-descending" target="_blank">Swyft Robotics</a> | <a href="https://swyftrobotics.com/products/swyft-cannect-wiring-system" target="_blank">CANnect</a>, <a href="https://swyftrobotics.com/products/swyft-ascend-frc-ftc-telescoping-elevator" target="_blank">Ascend Telescoping Elevator</a> and <a href="https://swyftrobotics.com/products/preorder-swyft-bumpers" target="_blank">Bumpers!</a>. A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/swyft-robotics-new-products-for-2024-2025/470968" target="_blank">here</a> |
+| The Thrifty Bot | <a href="https://www.thethriftybot.com/collections/newest-products" target="_blank">Thrifty Bot</a> | <a href="https://www.thethriftybot.com/products/thriftycam" target="_blank">Thrifty Cam</a>, <a href="https://www.thethriftybot.com/products/thrifty-swerve" target="_blank">Thrifty Swerve</a> and <a href="https://www.thethriftybot.com/products/thrifty-nova" target="_blank">Thrifty Nova</a>. A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/the-thrifty-bot-2024-2025-product-releases-updates/471554" target="_blank">here</a> |
+| VEX Robotics | <a href="https://www.vexrobotics.com/pro/all/?sortBy=vex_m2_vexrobotics_products_created_at_desc&vex_site=product_hits&q=__empty__" target="_blank">VEX Pro</a> | A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/vexpro-new-products-2024-2025/477293" target="_blank">here</a> |
+| West Coast Products (WCP) | <a href="https://wcproducts.com/#template--16753656660180__15776287250711" target="_blank">WCP</a>| <a href="https://wcproducts.com/blogs/wcp-blog/product-highlight-swerve-x2s" target="_blank">Swerve X2S,</a> and <a href="https://wcproducts.com/blogs/wcp-blog/product-highlight-2025-robot-chassis" target="_blank">X2</a>. A Chief Delphi thread can be found <a href="https://www.chiefdelphi.com/t/wcp-2024-25-product-release-updates/471152" target="_blank">here</a>. |
 ---
 
 ## Important Links:
@@ -60,6 +52,7 @@ description: 'FRC Zero is a knowledge base for students, mentors, and parents of
         ],
         "Community Resources": [
             { title: "gm0 Website", description: "The FTC website that inspired us to create FRC Zero.", url: "https://gm0.org/" },
+            { title: "FRCDesign.org", description: "FRCDesign.org is a comprehensive learning guide and technical reference for FRC design using Onshape", url: "https://www.frcdesign.org/" },
             { title: "Unofficial FRC Mechanism Encyclopedia", description: "A website with information on different mechanisms. Handy for engineering design research.", url: "https://www.projectb.net.au/resources/robot-mechanisms/" },
             { title: "Chief Delphi", description: "The official FIRST Robotics Competition forum.", url: "https://www.chiefdelphi.com/" },
             { title: "CD-Stats", description: "A web app that visualizes your Chief Delphi usage history, created by Connor Horn: https://github.com/ConnorHorn", url: "https://cd-stats.com/" },

@@ -10,11 +10,11 @@ editors: ''
 
 ### What are the Game Rules?
 
-A video explaining the game rules can be found [here](https://youtu.be/9keeDyFxzY4?si=QVf2OAxZeceeyn4-) or you can watch it below.
+A video explaining the game rules can be found [here](https://www.youtube.com/watch?v=YWbxcjlY9JY) or you can watch it below.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/9keeDyFxzY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/watch?v=YWbxcjlY9JY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Every year the game rules are released in the [FIRST Resource Library 2024 Season Materials](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system). Normally these are available as Password Protected PDFs at kickoff, but by competition season they are usually available to the public. The rules are released in several parts and labeled by section.
+Every year the game rules are released in the [FIRST Resource Library 2025 Season Materials](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system). Normally these are available as Password Protected PDFs at kickoff, but by competition season they are usually available to the public. The rules are released in several parts and labeled by section.
 
 ### What are some of the important rules that stay the same every year?
 
