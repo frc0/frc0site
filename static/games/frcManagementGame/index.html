@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <title>FRC Team Management Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootswatch CSS (Spacelab theme) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5/dist/spacelab/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .main-info-row {
+            margin-bottom: 20px;
+            background: #04488d;
+            border-radius: 5px;
+        }
+
+        .secondary-info-row {
+            margin-bottom: 20px;
+            background: #8d0404;
+            border-radius: 5px;
+        }
+
+        /* Styling for info spans */
+        .btn-info {
+            font-size: 1.0rem;
+            padding: 0.1rem 0.5rem;
+            margin-left: 5px;
+            color: #fff !important;
+        }
+
+        .blue-bumper {
+            background: #04488d;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center !important;
+        }
+
+        .red-bumper {
+            background: #8d0404;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center !important;
+        }
+
+        .member-badge {
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            background: #04488d;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .subteam-leader-badge {
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            background: #8d0404;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .team-number-div {
+            background: #000;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        #team-number {
+            /* Centered in the vertical and horizontal of its parent */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            font-size: 2rem;
+            font-family: 'Impact', sans-serif;
+            color: #fff;
+        }
+
+        #team-name {
+            color: #fff;
+        }
+
+        /* team-color-input */
+        #team-color-input {
+            padding: 0;
+            border: none;
+            border-radius: 5px;
+            background: none;
+        }
+
+        /* left-fab */
+        .left-fab {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+
+        thead tr th {
+            background: #5d6063 !important;
+            color: #fff !important;
+            font-size: 0.8rem;
+        }
+
+        /* White tape line style hr */
+        hr {
+            border: 0;
+            height: 10px;
+            background: #fff;
+            background-image: linear-gradient(to right, #fff, #ccc, #fff);
+            opacity: 1;
+        }
+
+        /* Light and Dark modal-title */
+        body[data-bs-theme="dark"] .modal-title {
+            color: #fff;
+        }
+
+        /* dark h1 - h6 */
+        body[data-bs-theme="dark"] h1, body[data-bs-theme="dark"] h2, body[data-bs-theme="dark"] h3, body[data-bs-theme="dark"] h4, body[data-bs-theme="dark"] h5, body[data-bs-theme="dark"] h6 {
+            color: #fff !important;
+        }
+
+        /* minimum width of 400px for the body */
+        body {
+            min-width: 415px;
+        }
+
+        /* loading-footer and new-members-list opacity transitions smoothly */
+        #loading-footer, #new-members-list {
+            transition: opacity 0.5s;
+        }
+
+        /* btn-group should always be 100% width */
+        .btn-group {
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body data-bs-theme="dark">
+
+<div class="container my-3">
+    <!-- Season and Week Information Card -->
+    <div class="card mb-3 main-info-row">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-6">
+                    <h5 id="team-name" title="Double-click to change team name">Team Name</h5>
+                </div>
+                <div class="col-6 text-center team-number-div" id="team-number-div" title="Double-click to change team color">
+                    <h4 id="team-number"></h4>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>Current Season <span class="text-muted btn btn-info" id="season-info">i</span></th>
+                        <th>Current Week <span class="text-muted btn btn-info" id="week-info">i</span></th>
+                        <th>Team Points <span class="text-muted btn btn-info" id="team-points-info">i</span></th>
+                        <th>Prestige Bonus <span class="text-muted btn btn-info" id="prestige-bonus-info">i</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="season-number"></td>
+                        <td id="week-number"></td>
+                        <td id="team-points"></td>
+                        <td>x<span id="prestige-bonus"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Resource Overview -->
+    <div class="card mb-3 secondary-info-row">
+        <div class="card-body">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>Team Members <span class="text-muted btn btn-info" id="team-members-info">i</span></th>
+                        <th>Subteam Leaders <span class="text-muted btn btn-info" id="subteam-leaders-info">i</span></th>
+                        <th>Materials <span class="text-muted btn btn-info" id="materials-info">i</span></th>
+                        <th>Money <span class="text-muted btn btn-info" id="money-info">i</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="team-members"></td>
+                        <td id="subteam-leaders"></td>
+                        <td id="materials"></td>
+                        <td id="money"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button class="btn btn-info" id="purchase-materials-btn">Purchase Materials ($500 for 50 units)</button>
+                <button class="btn btn-warning" id="unlock-subteam-leader-btn">Promote to Subteam Leader ($2,000)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tasks Section -->
+    <div class="card mb-3" id="tasks-card">
+        <div class="card-header">
+            <h5>Tasks</h5>
+            <p class="text-muted">Gold bordered tasks are 'Critical' and must be completed to advance to the next week.</p>
+        </div>
+        <div class="card-body">
+            <div id="tasks-list" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
+                <!-- Task buttons will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Button Group for Roster and Advance Week -->
+    <div class="btn-group col-12" role="group" aria-label="Roster and Advance Week">
+        <button class="btn btn-secondary" id="view-roster-btn">View Team Roster</button>
+        <button class="btn btn-success" id="advance-week-btn">Advance Week</button>
+    </div>
+
+    <!-- Modals -->
+
+    <!-- Settings Modal -->
+    <div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="settingsModalLabel">Settings</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- Change the theme from light to dark, based on user local storage -->
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="theme-switch">
+                                    <label class="form-check label" for="theme-switch">Dark Mode</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reset Game Modal -->
+    <div class="modal fade" id="resetGameModal" tabindex="-1" aria-labelledby="resetGameModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resetGameModalLabel">Reset Game</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to reset the game?</p>
+                    <p>This will erase all progress and start a new game.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="confirm-reset-game-btn">Reset Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Initial Team Info Modal -->
+    <div class="modal fade" id="initialTeamInfoModal" tabindex="-1" aria-labelledby="initialTeamInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="initialTeamInfoModalLabel">Welcome to the FRC Team Management Game!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>You are the new team leader of a rookie FRC team.</p>
+                    <p>Your goal is to lead your team to success by managing resources and making strategic decisions.</p>
+                    <p>Each season consists of 8 weeks. You will build up skill points, materials, and money to prepare for the competition.</p>
+                    <p>After the rookie season, your team will still get the $6,000 grant, but only 100 additional materials to start any additional season.</p>
+                    <p>As you accomplish tasks, your team's skill levels will advance.</p>
+                    <p> You can learn more by clicking on any of the information buttons.</p>
+                    <br>
+                    <p>Good luck!</p>
+                    <!-- Team name and Number input -->
+                    <div class="container mb-3">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label for="team-number-input" class="form-label">Team Number</label>
+                                <input type="number" class="form-control" placeholder="Enter a team number" aria-label="Team Number" id="team-number-input" min="0" max="99999">
+                            </div>
+                            <div class="col-md-2 d-flex align-items-end">
+                                <button class="btn btn-primary w-100" id="random-team-number-btn">Random</button>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="team-name-input" class="form-label">Team Name</label>
+                                <input type="text" class="form-control" placeholder="Enter a team name" aria-label="Team Name" id="team-name-input">
+                            </div>
+                            <div class="col-md-2 d-flex align-items-end">
+                                <button class="btn btn-primary w-100" id="random-team-name-btn">Random</button>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="team-color-input" class="form-label">Team Color</label>
+                                <input type="color" class="form-control" aria-label="Team Color" id="team-color-input">
+                            </div>
+                            <div class="col-md-2 d-flex align-items-end">
+                                <button class="btn btn-primary w-100" id="random-team-color-btn">Random</button>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary mt-3" id="submit-team-info-btn">Register Your Team!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Rookie Team Modal -->
+    <div class="modal fade" id="loadingRookieTeamModal" tabindex="-1" aria-labelledby="loadingRookieTeamModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loadingRookieTeamModalLabel">Generating Rookie Team</h5>
+                </div>
+                <div class="modal-body text-center">
+                    <p id="loading-progress">Initializing...</p>
+                    <div id="new-team-info">
+                        <!-- Dynamically populated team info -->
+                    </div>
+                    <hr>
+                    <div id="new-members-list">
+                        <!-- Dynamically populated member list -->
+                    </div>
+                </div>
+                <!-- Footer is initially Hidden, has a button with countdown timer -->
+                <div class="modal-footer" id="loading-footer" style="opacity: 0;">
+                    <p id="loading-countdown">Done! Starting in <span id="countdown-number">5</span> seconds...</p>
+                    <button type="button" class="btn btn-primary" id="loading-countdown-btn">Skip?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Change Team Color Modal -->
+    <div class="modal fade" id="changeTeamColorModal" tabindex="-1" aria-labelledby="changeTeamColorModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="changeTeamColorModalLabel">Change Team Color</h5>
+                </div>
+                <div class="modal-body">
+                    <input type="color" class="form-control" id="team-color-picker">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="change-team-color-btn">Change Color</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Change Team Name Modal -->
+    <div class="modal fade" id="changeTeamNameModal" tabindex="-1" aria-labelledby="changeTeamNameModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="changeTeamNameModalLabel">Change Team Name</h5>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" id="change-team-name-input">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="change-team-name-btn">Change Name</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Unlock Subteam Leader Modal -->
+    <div class="modal fade" id="unlockSubteamLeaderModal" tabindex="-1" aria-labelledby="unlockSubteamLeaderModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="unlockSubteamLeaderModalLabel">Select a Member to Promote</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="member-selection-list">
+                        <!-- Dynamically populated member list -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Roster Modal -->
+    <div class="modal fade" id="rosterModal" tabindex="-1" aria-labelledby="rosterModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="rosterModalLabel">Team Roster</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="roster-modal-body">
+                    <!-- ID badges will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Choice Modal -->
+    <div class="modal fade" id="taskModal" tabindex="-1" aria-labelledby="taskModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="taskModalLabel">Task Decision</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="task-modal-body">
+            <!-- Task description and choices will be inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Regional Competition Modal -->
+    <div class="modal fade" id="regionalCompetitionModal" tabindex="-1" aria-labelledby="regionalCompetitionModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="regionalCompetitionModalLabel">Regional Competition</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- Regional Results table -->
+                    <table class="table table-bordered text-center">
+                        <thead>
+                            <tr>
+                                <th>Ranking</th>
+                                <th>Team</th>
+                                <th>Wins</th>
+                                <th>Losses</th>
+                                <th>Ties</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody id="regional-results">
+                            <!-- Regional results will be dynamically inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="advance-from-regional-btn">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- World Championship Modal -->
+    <div class="modal fade" id="worldChampionshipModal" tabindex="-1" aria-labelledby="worldChampionshipModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="worldChampionshipModalLabel">World Championship</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- World Championship Results table -->
+                    <table class="table table-bordered text-center">
+                        <thead>
+                            <tr>
+                                <th>Ranking</th>
+                                <th>Team</th>
+                                <th>Wins</th>
+                                <th>Losses</th>
+                                <th>Ties</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody id="world-championship-results">
+                            <!-- World Championship results will be dynamically inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="advance-from-world-championship-btn">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Information Modals -->
+    <div class="modal fade" id="seasonInfoModal" tabindex="-1" aria-labelledby="seasonInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="seasonInfoModalLabel">Season Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body blue-bumper">
+                    <h5>Build Phase</h5>
+                    <p>Each 'Build' phase consists of 8 weeks. Your team builds up skill points, materials, and money to prepare for the 'Competition'.</p>
+                    <p>Teams are given $6,000, and 400 materials to start their Rookie season, and they do NOT have to pay the registration fee unless they qualify for the World Championship.</p>
+                    <p>After the Rookie season, teams will still get the $6,000 grant, but only 100 additional materials to start any additional season.</p>
+                    <p>As you accomplish 'Build' phase tasks, your team's skill levels advance. This is not a visual metric, but a background mechanic that plays into the 'Competition' phase.</p>
+                    <hr>
+                    <h5>Competition Phase</h5>
+                    <p>The 'Competition' phase assumes a Regional Model for simplicity sake. Your team will compete in a regional event, and possibly advance to the World Championship.</p>
+                    <p>This phase will auto advance showing a result of each match. The odds of win/loss/tie are based on your team's skill level, as well as any special bonuses you've earned, and a hint of randomness.</p>
+                    <p>Your team will play 10 Qualifier matches (based on the 2024 San Francisco Regional Schedule for 114), and then move on to the Elimination Rounds.</p>
+                    <p>Elimination rounds work with a single elimination winner takes all for simplicity sake. The top 5 teams of the regional event will advance to the World Championship.</p>
+                    <p>At the World Championship, your team will play 10 Qualifier matches, and then move on to the Elimination Rounds. The winner and runner up of the World Championship will earn extra bonuses towards the next season.</p>
+                    <hr>
+                    <h5>Post-Competition</h5>
+                    <p>After the World Championship, the game will calculate your team's prestige bonus, and then move on to the next season.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="weekInfoModal" tabindex="-1" aria-labelledby="weekInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="weekInfoModalLabel">Week Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body blue-bumper">
+                    <p>Each week, you will be presented with a list of tasks to choose from. Each task will have a description, and a resource cost associated with it.</p>
+                    <p>Tasks will help you build up your team's skill levels, and earn additional resources.</p>
+                    <p>After you've completed all the tasks you can, you may advance to the next week. You can only advance if all 'Critical' tasks are completed. Otherwise the week will start over.</p>
+                    <hr>
+                    <h5>Non-Kitbot Path (Coming Soon)</h5>
+                    <p>There will be a 'Non-Kitbot' path that will allow you to build a custom robot. This path will be more difficult, but will have a higher reward.</p>
+                    <p>This will feature all new tasks as well as new prestige bonuses as well as 'footgun' tasks that waste resources.</p>
+                    <p>Stay tuned for more information on this path in the future.</p>
+                    <hr>
+                    <h5>Retro Schedule (Coming Soon)</h5>
+                    <p>There will be a 'Retro Schedule' that will change the build season to 6 weeks only. This will be a more difficult path, but will have a higher reward.</p>
+                    <p>This will feature all new tasks for both the Kitbot and Non-Kitbot paths as well as new prestige bonuses.</p>
+                    <p>Stay tuned for more information after the Non-Kitbot path is released.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teamPointsInfoModal" tabindex="-1" aria-labelledby="teamPointsInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="teamPointsInfoModalLabel">Team Points Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body blue-bumper">
+                    <p>Team Points are a hidden metric that will help determine your team's success in the 'Competition' phase.</p>
+                    <p>As you complete tasks, your team's skill levels will increase, and so will your general team points.</p>
+                    <p>Team Points are used to determine your team's odds of winning matches, and advancing to the World Championship.</p>
+                    <p>Team Points are also used to determine your team's prestige bonus at the end of the season.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="prestigeBonusInfoModal" tabindex="-1" aria-labelledby="prestigeBonusInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="prestigeBonusInfoModalLabel">Prestige Bonus Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body blue-bumper">
+                    <p>The Prestige Bonus is a bonus that will help your team in all future seasons.</p>
+                    <p>It is calculated based on your team's performance in the 'Competition' phase, and is used as a multiplier for your team's skill levels in the 'Build' phase.</p>
+                    <p>The Prestige Bonus calculation is as follows:</p>
+                    <p><strong>Prestige Bonus = 1 + (Total Prestige / 10000)</strong></p>
+                    <p>Total Prestige is based on your team's points and the Championship bonuses you've earned for all seasons.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teamMembersInfoModal" tabindex="-1" aria-labelledby="teamMembersInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="teamMembersInfoModalLabel">Team Members Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body red-bumper">
+                    <p>Team Members are the core of your team and your most valuable resource.</p>
+                    <p>Team Members have a 'Lifespan' of 4 seasons, and will graduate after their 4th season.</p>
+                    <p>Each week you will see the total number of team members and the amount already assigned to tasks this week.</p>
+                    <hr>
+                    <p>Below is an example of Week 1, Season 1. You start with 7 team members, and none are assigned to tasks yet.</p>
+                    <p style="font-weight: bold; text-align: center;">7 (0)</p>
+                    <p>As you assign team members to tasks, the number of assigned team members will increase, but the total number will stay the same.</p>
+                    <p style="font-weight: bold; text-align: center;">7 (3)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="subteamLeadersInfoModal" tabindex="-1" aria-labelledby="subteamLeadersInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="subteamLeadersInfoModalLabel">Subteam Leaders Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body red-bumper">
+                    <p>Subteam Leaders can be unlocked for $2,000.</p>
+                    <p>Subteam Leader is a permanent upgrade to 1 selected team member. This upgrade lasts only until that student graduates.</p>
+                    <p>A subteam leader can be assigned to a task. This will waive the team member requirements and provide a 33% reduction in resource costs.</p>
+                    <p>Subteam Leaders can be assigned to any task, but only one task per week.</p>
+                    <hr>
+                    <p>Below is an example of Week 1, Season 1. You bought 1 subteam leader, and none are assigned to tasks yet.</p>
+                    <p style="font-weight: bold; text-align: center;">1 (0)</p>
+                    <p>As you assign the subteam leaders to a task, the number of assigned subteam leaders will increase, but the total number will stay the same.</p>
+                    <p style="font-weight: bold; text-align: center;">1 (1)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="materialsInfoModal" tabindex="-1" aria-labelledby="materialsInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="materialsInfoModalLabel">Materials Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body red-bumper">
+                    <p>Materials are used to complete tasks. Tasks may use any amount of materials, and the cost will be displayed on the task button.</p>
+                    <p>Materials can be purchased for $500 for 50 units. This is a fixed cost and will not <strong>normally</strong> increase...</p>
+                    <br>
+                    <p>Teams are given 400 materials to start their Rookie season, and an additional 100 materials to start any additional season.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="moneyInfoModal" tabindex="-1" aria-labelledby="moneyInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="moneyInfoModalLabel">Money Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body red-bumper">
+                    <p>Money is used to purchase materials, and unlock subteam leaders.</p>
+                    <p>Money can be earned by completing tasks. The amount earned will be displayed as part of the rewards for the task.</p>
+                    <br>
+                    <p>Teams are given $6,000 to start their Rookie season, and an additional $6,000 to start any additional season.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAB -->
+    <div class="left-fab">
+        <button class="btn btn-primary" id="settings-btn"><span class="fas fa-cog"></span></button>
+    </div>
+
+
+</div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-6" style="align-items: center; display: flex; flex-direction: column;">
+                    <h5 class="text-uppercase text-white">FRC Team Management Game v<span class="text-muted" id="game-version"></span></h5>
+                    <p>&copy; <span id="current-year"></span> <a href="https://frczero.org" target="_blank">FRCZero.org</a></p>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-danger" id="reset-game-btn">Reset Game</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- Bootstrap JS (Required for modals) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script type="module" src="GameState.js"></script>
+
+<script>
+    // Current Year
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+
+    // FOR MODAL LOGIC ONLY
+    // Season info modal from the season-info button
+    var seasonInfoModal = new bootstrap.Modal(document.getElementById('seasonInfoModal'), {
+        keyboard: false
+    });
+    const seasonInfoButton = document.getElementById('season-info');
+    seasonInfoButton.addEventListener('click', function() {
+        seasonInfoModal.show();
+    });
+
+    // Week info modal from the week-info button
+    var weekInfoModal = new bootstrap.Modal(document.getElementById('weekInfoModal'), {
+        keyboard: false
+    });
+    const weekInfoButton = document.getElementById('week-info');
+    weekInfoButton.addEventListener('click', function() {
+        weekInfoModal.show();
+    });
+
+    // Team Points info modal from the team-points-info button
+    var teamPointsInfoModal = new bootstrap.Modal(document.getElementById('teamPointsInfoModal'), {
+        keyboard: false
+    });
+    const teamPointsInfoButton = document.getElementById('team-points-info');
+    teamPointsInfoButton.addEventListener('click', function() {
+        teamPointsInfoModal.show();
+    });
+
+    // Prestige Bonus info modal from the prestige-bonus-info button
+    var prestigeBonusInfoModal = new bootstrap.Modal(document.getElementById('prestigeBonusInfoModal'), {
+        keyboard: false
+    });
+    const prestigeBonusInfoButton = document.getElementById('prestige-bonus-info');
+    prestigeBonusInfoButton.addEventListener('click', function() {
+        prestigeBonusInfoModal.show();
+    });
+
+    // Team Members info modal from the team-members-info button
+    var teamMembersInfoModal = new bootstrap.Modal(document.getElementById('teamMembersInfoModal'), {
+        keyboard: false
+    });
+    const teamMembersInfoButton = document.getElementById('team-members-info');
+    teamMembersInfoButton.addEventListener('click', function() {
+        teamMembersInfoModal.show();
+    });
+
+    // Subteam Leaders info modal from the subteam-leaders-info button
+    var subteamLeadersInfoModal = new bootstrap.Modal(document.getElementById('subteamLeadersInfoModal'), {
+        keyboard: false
+    });
+    const subteamLeadersInfoButton = document.getElementById('subteam-leaders-info');
+    subteamLeadersInfoButton.addEventListener('click', function() {
+        subteamLeadersInfoModal.show();
+    });
+
+    // Materials info modal from the materials-info button
+    var materialsInfoModal = new bootstrap.Modal(document.getElementById('materialsInfoModal'), {
+        keyboard: false
+    });
+    const materialsInfoButton = document.getElementById('materials-info');
+    materialsInfoButton.addEventListener('click', function() {
+        materialsInfoModal.show();
+    });
+
+    // Money info modal from the money-info button
+    var moneyInfoModal = new bootstrap.Modal(document.getElementById('moneyInfoModal'), {
+        keyboard: false
+    });
+    const moneyInfoButton = document.getElementById('money-info');
+    moneyInfoButton.addEventListener('click', function() {
+        moneyInfoModal.show();
+    });
+
+    // Settings modal from the settings button
+    var settingsModal = new bootstrap.Modal(document.getElementById('settingsModal'), {
+        keyboard: false,
+    });
+    const settingsButton = document.getElementById('settings-btn');
+    settingsButton.addEventListener('click', function() {
+        settingsModal.show();
+    });
+
+    // SETTINGS ONLY
+    // Theme from local storage
+    const themeSwitch = document.getElementById('theme-switch');
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'light') {
+        document.body.setAttribute('data-bs-theme', 'light');
+        themeSwitch.checked = false;
+        themeSwitch.nextElementSibling.textContent = 'Light Mode';
+    } else {
+        document.body.setAttribute('data-bs-theme', 'dark');
+        themeSwitch.checked = true;
+        themeSwitch.nextElementSibling.textContent = 'Dark Mode';
+    }
+    themeSwitch.addEventListener('change', function() {
+        if (themeSwitch.checked) {
+            document.body.setAttribute('data-bs-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+            // Update the label for the theme switch
+            themeSwitch.nextElementSibling.textContent = 'Dark Mode';
+        } else {
+            document.body.setAttribute('data-bs-theme', 'light');
+            localStorage.setItem('theme', 'light');
+            // Update the label for the theme switch
+            themeSwitch.nextElementSibling.textContent = 'Light Mode';
+        }
+    });
+</script>
+</body>
+</html>
