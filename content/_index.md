@@ -1,5 +1,5 @@
 ---
-title: "FRC Zero - HOME"
+title: "HOME"
 date: 2023-02-04
 author: 'Mr. Siefen'
 editors: 'ngalotti, foehammer127'
