@@ -146,6 +146,6 @@ for (let category in linksData) {
 
 FRC Zero is a knowledge base for students, mentors, and parents of FIRST Robotics Competition teams.  The goal of FRC Zero is to provide a single source of information for all things FIRST Robotics Competition.  This includes information on the game, the rules, the robot, and the competition and even important notices (See above). There are lessons, troubleshooting and hardware teardowns.  There are also videos and other resources to help you learn more about FRC. You can learn more about FRC Zero by reading the [about chapter](/about/).
 
-FRC Zero is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. You can also join our [FRC Zero Discord](https://discord.gg/Ja2WFKCjEK) server to chat with other FRC Zero contributors and readers. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
+FRC Zero is a work in progress.  We are always looking for new contributors to help us improve the site.  If you are interested in contributing, please see the [writing-content](/about/writing-content) page. Finally, if you find issues with the site, please [open an issue](https://github.com/FRC0/FRC0site/issues/new/choose) on our GitHub repository.
 
 ---
