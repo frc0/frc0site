@@ -39,11 +39,19 @@
             text-align: center !important;
         }
 
+        .blue-bumper h3 {
+            color: #fff !important;
+        }
+
         .red-bumper {
             background: #8d0404;
             color: #fff;
             border-radius: 5px;
             text-align: center !important;
+        }
+
+        .red-bumper h3 {
+            color: #fff !important;
         }
 
         .member-badge {
@@ -123,7 +131,7 @@
         }
 
         /* dark h1 - h6 */
-        body[data-bs-theme="dark"] h1, body[data-bs-theme="dark"] h2, body[data-bs-theme="dark"] h3, body[data-bs-theme="dark"] h4, body[data-bs-theme="dark"] h5, body[data-bs-theme="dark"] h6 {
+        body[data-bs-theme="dark"] h1, body[data-bs-theme="dark"] h2, body[data-bs-theme="dark"] h3, body[data-bs-theme="dark"] h4, body[data-bs-theme="dark"] h2, body[data-bs-theme="dark"] h6 {
             color: #fff !important;
         }
 
@@ -152,7 +160,7 @@
         <div class="card-header">
             <div class="row">
                 <div class="col-6">
-                    <h5 id="team-name" title="Double-click to change team name">Team Name</h5>
+                    <h2 id="team-name" title="Double-click to change team name">Team Name</h2>
                 </div>
                 <div class="col-6 text-center team-number-div" id="team-number-div" title="Double-click to change team color">
                     <h4 id="team-number"></h4>
@@ -165,7 +173,7 @@
                     <tr>
                         <th>Current Season <span class="text-muted btn btn-info" id="season-info">i</span></th>
                         <th>Current Week <span class="text-muted btn btn-info" id="week-info">i</span></th>
-                        <th>Team Points <span class="text-muted btn btn-info" id="team-points-info">i</span></th>
+                        <th>Team Points <span class="fas fa-trophy"></span> <span class="text-muted btn btn-info" id="team-points-info">i</span></th>
                         <th>Prestige Bonus <span class="text-muted btn btn-info" id="prestige-bonus-info">i</span></th>
                     </tr>
                 </thead>
@@ -180,17 +188,17 @@
             </table>
         </div>
     </div>
-    
+
     <!-- Resource Overview -->
     <div class="card mb-3 secondary-info-row">
         <div class="card-body">
             <table class="table table-bordered text-center">
                 <thead>
                     <tr>
-                        <th>Team Members <span class="text-muted btn btn-info" id="team-members-info">i</span></th>
+                        <th>Team Members <span class="fas fa-users"></span> <span class="text-muted btn btn-info" id="team-members-info">i</span></th>
                         <th>Subteam Leaders <span class="text-muted btn btn-info" id="subteam-leaders-info">i</span></th>
-                        <th>Materials <span class="text-muted btn btn-info" id="materials-info">i</span></th>
-                        <th>Money <span class="text-muted btn btn-info" id="money-info">i</span></th>
+                        <th>Materials <span class="fas fa-screwdriver-wrench"></span> <span class="text-muted btn btn-info" id="materials-info">i</span></th>
+                        <th>Money <span class="fas fa-dollar-sign"></span> <span class="text-muted btn btn-info" id="money-info">i</span></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -202,30 +210,26 @@
                     </tr>
                 </tbody>
             </table>
-            <div class="btn-group" role="group" aria-label="Basic example">
+            <div class="btn-group mb-3" role="group" aria-label="Main Game Buttons">
                 <button class="btn btn-info" id="purchase-materials-btn">Purchase Materials ($500 for 50 units)</button>
                 <button class="btn btn-warning" id="unlock-subteam-leader-btn">Promote to Subteam Leader ($2,000)</button>
+                <button class="btn btn-secondary" id="view-roster-btn">View Team Roster</button>
+                <button class="btn btn-success" id="advance-week-btn">Advance Week</button>
             </div>
         </div>
     </div>
 
     <!-- Tasks Section -->
-    <div class="card mb-3" id="tasks-card">
+    <div class="card" id="tasks-card">
         <div class="card-header">
-            <h5>Tasks</h5>
+            <h2>Tasks</h2>
             <p class="text-muted">Gold bordered tasks are 'Critical' and must be completed to advance to the next week.</p>
         </div>
         <div class="card-body">
-            <div id="tasks-list" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
+            <div id="tasks-list" class="row row-cols-1 row-cols-sm-3 row-cols-md-4 g-2">
                 <!-- Task buttons will be dynamically inserted here -->
             </div>
         </div>
-    </div>
-
-    <!-- Button Group for Roster and Advance Week -->
-    <div class="btn-group col-12" role="group" aria-label="Roster and Advance Week">
-        <button class="btn btn-secondary" id="view-roster-btn">View Team Roster</button>
-        <button class="btn btn-success" id="advance-week-btn">Advance Week</button>
     </div>
 
     <!-- Modals -->
@@ -235,7 +239,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="settingsModalLabel">Settings</h5>
+                    <h2 class="modal-title" id="settingsModalLabel">Settings</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -260,7 +264,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="resetGameModalLabel">Reset Game</h5>
+                    <h2 class="modal-title" id="resetGameModalLabel">Reset Game</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -280,17 +284,202 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="initialTeamInfoModalLabel">Welcome to the FRC Team Management Game!</h4>
+                    <h1 class="modal-title" id="initialTeamInfoModalLabel">Welcome to the FRC Team Management Game!</h1>
                 </div>
                 <div class="modal-body">
+                    <!-- What is FRC? Section -->
+                    <div id="whatIsFRCSection">
+                        <h2>What is FRC?</h2>
+                        <div>
+                            <p>Founded by inventor Dean Kamen (Inventor of the Segway), FIRST Robotics Competition (FRC) combines the excitement of sport with the rigors of science and technology.</p>
+                            <p>Under strict rules, limited resources, and time limits, teams of students are challenged to raise funds, design a team "brand," hone teamwork skills, and build and program industrial-size robots to play a different, challenging field game against like-minded competitors.</p>
+                            <p>Students get to:</p>
+                            <ul>
+                                <li>Learn from professional engineers</li>
+                                <li>Build and compete with a robot of their own design</li>
+                                <li>Learn and use sophisticated software and hardware</li>
+                                <li>Compete and cooperate in alliances at tournaments</li>
+                                <li>Earn a place in the World Championship</li>
+                            </ul>
+                            <p class="text-center">Watch the video below to see a match from the 2024 World Championship!</p>
+                            <!-- Youtube iframe embed video -->
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac6YGoO6BXc?si=ATDVFJ10o4tzFF_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <p>For more general information, visit <a href="https://www.firstinspires.org/robotics/frc" target="_blank">firstinspires.org</a></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h2 class="text-center">Game Information</h2>
+                    <!-- WARNING ALERT -->
+                    <div class="alert alert-warning" role="alert">
+                        <h2>Hey Future Champ in the Making!</h2>
+                        <p>This game is meant to be a fun and educational tool to learn about FRC and some of the general tasks and challenges that teams face.</p>
+                        <p>The mechanics of this game do not exactly follow real FRC rules and tournament formats.</p>
+                        <br>
+                        <p>Carefully read the information provided below (click on each heading) to understand how the game works.</p>
+                        <p>Good luck!</p>
+                    </div>
+                    <h2>The Plot</h2>
                     <p>You are the new team leader of a rookie FRC team.</p>
                     <p>Your goal is to lead your team to success by managing resources and making strategic decisions.</p>
-                    <p>Each season consists of 8 weeks. You will build up skill points, materials, and money to prepare for the competition.</p>
-                    <p>After the rookie season, your team will still get the $6,000 grant, but only 100 additional materials to start any additional season.</p>
-                    <p>As you accomplish tasks, your team's skill levels will advance.</p>
-                    <p> You can learn more by clicking on any of the information buttons.</p>
-                    <br>
-                    <p>Good luck!</p>
+                    <p>Read the 'Game Manual' below to get started!</p>
+                    <!-- Accordion Group to explain different parts of the game -->
+                    <div class="accordion" id="gameInfoAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="seasonInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#seasonInfoCollapse" aria-expanded="true" aria-controls="seasonInfoCollapse" id="season-info-tutorial">
+                                    Season Information
+                                </button>
+                            </h2>
+                            <div id="seasonInfoCollapse" class="accordion-collapse collapse" aria-labelledby="seasonInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <h2>Build Phase</h2>
+                                    <p>Each 'Build' phase consists of 8 weeks. Your team builds up skill points, materials, and money to prepare for the 'Competition'.</p>
+                                    <p>Teams are given $6,000, and 400 materials to start their Rookie season, and they do NOT have to pay the registration fee unless they qualify for the World Championship.</p>
+                                    <p>After the Rookie season, teams will still get the $6,000 grant, but only 100 additional materials to start any additional season.</p>
+                                    <p>As you accomplish 'Build' phase tasks, your team's skill levels advance. This is not a visual metric, but a background mechanic that plays into the 'Competition' phase.</p>
+                                    <hr>
+                                    <h2>Competition Phase</h2>
+                                    <p>The 'Competition' phase assumes a Regional Model for simplicity sake. Your team will compete in a regional event, and possibly advance to the World Championship.</p>
+                                    <p>This phase will auto advance showing a result of each match. The odds of win/loss/tie are based on your team's skill level, as well as any special bonuses you've earned, and a hint of randomness.</p>
+                                    <p>Your team will play 10 Qualifier matches (based on the 2024 San Francisco Regional Schedule for 114), and then move on to the Elimination Rounds.</p>
+                                    <p>Elimination rounds work with a single elimination winner takes all for simplicity sake. The top 5 teams of the regional event will advance to the World Championship.</p>
+                                    <p>At the World Championship, your team will play 10 Qualifier matches, and then move on to the Elimination Rounds. The winner and runner up of the World Championship will earn extra bonuses towards the next season.</p>
+                                    <hr>
+                                    <h2>Post-Competition</h2>
+                                    <p>After the World Championship, the game will calculate your team's prestige bonus, and then move on to the next season.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="weekInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#weekInfoCollapse" aria-expanded="true" aria-controls="weekInfoCollapse" id="week-info-tutorial">
+                                    Week Information
+                                </button>
+                            </h2>
+                            <div id="weekInfoCollapse" class="accordion-collapse collapse" aria-labelledby="weekInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>Each week, you will be presented with a list of tasks to choose from. Each task will have a description, and a resource cost associated with it.</p>
+                                    <p>Tasks will help you build up your team's skill levels, and earn additional resources.</p>
+                                    <p>After you've completed all the tasks you can, you may advance to the next week. You can only advance if all 'Critical' tasks are completed. Otherwise the week will start over.</p>
+                                    <hr>
+                                    <h2>Non-Kitbot Path (Coming Soon)</h2>
+                                    <p>There will be a 'Non-Kitbot' path that will allow you to build a custom robot. This path will be more difficult, but will have a higher reward.</p>
+                                    <p>This will feature all new tasks as well as new prestige bonuses as well as 'footgun' tasks that waste resources.</p>
+                                    <p>Stay tuned for more information on this path in the future.</p>
+                                    <hr>
+                                    <h2>Retro Schedule (Coming Soon)</h2>
+                                    <p>There will be a 'Retro Schedule' that will change the build season to 6 weeks only. This will be a more difficult path, but will have a higher reward.</p>
+                                    <p>This will feature all new tasks for both the Kitbot and Non-Kitbot paths as well as new prestige bonuses.</p>
+                                    <p>Stay tuned for more information after the Non-Kitbot path is released.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="teamPointsInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#teamPointsInfoCollapse" aria-expanded="true" aria-controls="teamPointsInfoCollapse" id="team-points-info-tutorial">
+                                    Team Points Information
+                                </button>
+                            </h2>
+                            <div id="teamPointsInfoCollapse" class="accordion-collapse collapse" aria-labelledby="teamPointsInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>Team Points are a hidden metric that will help determine your team's success in the 'Competition' phase.</p>
+                                    <p>As you complete tasks, your team's skill levels will increase, and so will your general team points.</p>
+                                    <p>Team Points are used to determine your team's odds of winning matches, and advancing to the World Championship.</p>
+                                    <p>Team Points are also used to determine your team's prestige bonus at the end of the season.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="prestigeBonusInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#prestigeBonusInfoCollapse" aria-expanded="true" aria-controls="prestigeBonusInfoCollapse" id="prestige-bonus-info-tutorial">
+                                    Prestige Bonus Information
+                                </button>
+                            </h2>
+                            <div id="prestigeBonusInfoCollapse" class="accordion-collapse collapse" aria-labelledby="prestigeBonusInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>The Prestige Bonus is a bonus that will help your team in all future seasons.</p>
+                                    <p>It is calculated based on your team's performance in the 'Competition' phase, and is used as a multiplier for your team's skill levels in the 'Build' phase.</p>
+                                    <p>The Prestige Bonus calculation is as follows:</p>
+                                    <p><strong>Prestige Bonus = 1 + (Total Prestige / 2150)</strong></p>
+                                    <p>Total Prestige is based on your team's points and the Championship bonuses you've earned for all seasons.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="teamMembersInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#teamMembersInfoCollapse" aria-expanded="true" aria-controls="teamMembersInfoCollapse" id="team-members-info-tutorial">
+                                    Team Members Information
+                                </button>
+                            </h2>
+                            <div id="teamMembersInfoCollapse" class="accordion-collapse collapse" aria-labelledby="teamMembersInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>Team Members are the core of your team and your most valuable resource.</p>
+                                    <p>Team Members have a 'Lifespan' of 4 seasons, and will graduate after their 4th season.</p>
+                                    <p>Each week you will see the total number of team members and the amount already assigned to tasks this week.</p>
+                                    <hr>
+                                    <p>Below is an example of Week 1, Season 1. You start with 7 team members, and none are assigned to tasks yet.</p>
+                                    <p style="font-weight: bold; text-align: center;">7 (0)</p>
+                                    <p>As you assign team members to tasks, the number of assigned team members will increase, but the total number will stay the same.</p>
+                                    <p style="font-weight: bold; text-align: center;">7 (3)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="subteamLeadersInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#subteamLeadersInfoCollapse" aria-expanded="true" aria-controls="subteamLeadersInfoCollapse" id="subteam-leaders-info-tutorial">
+                                    Subteam Leaders Information
+                                </button>
+                            </h2>
+                            <div id="subteamLeadersInfoCollapse" class="accordion-collapse collapse" aria-labelledby="subteamLeadersInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>Subteam Leaders can be unlocked for $2,000.</p>
+                                    <p>Subteam Leader is a permanent upgrade to 1 selected team member. This upgrade lasts only until that student graduates.</p>
+                                    <p>A subteam leader can be assigned to a task. This will waive the team member requirements and provide a 33% reduction in resource costs.</p>
+                                    <p>Subteam Leaders can be assigned to any task, but only one task per week.</p>
+                                    <hr>
+                                    <p>Below is an example of Week 1, Season 1. You bought 1 subteam leader, and none are assigned to tasks yet.</p>
+                                    <p style="font-weight: bold; text-align: center;">1 (0)</p>
+                                    <p>As you assign the subteam leaders to a task, the number of assigned subteam leaders will increase, but the total number will stay the same.</p>
+                                    <p style="font-weight: bold; text-align: center;">1 (1)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="materialsInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#materialsInfoCollapse" aria-expanded="true" aria-controls="materialsInfoCollapse" id="materials-info-tutorial">
+                                    Materials Information
+                                </button>
+                            </h2>
+                            <div id="materialsInfoCollapse" class="accordion-collapse collapse" aria-labelledby="materialsInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>Materials are used to complete tasks. Tasks may use any amount of materials, and the cost will be displayed on the task button.</p>
+                                    <p>Materials can be purchased for $500 for 50 units. This is a fixed cost and will not <strong>normally</strong> increase...</p>
+                                    <br>
+                                    <p>Teams are given 400 materials to start their Rookie season, and an additional 100 materials to start any additional season.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="moneyInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#moneyInfoCollapse" aria-expanded="true" aria-controls="moneyInfoCollapse" id="money-info-tutorial">
+                                    Money Information
+                                </button>
+                            </h2>
+                            <div id="moneyInfoCollapse" class="accordion-collapse collapse" aria-labelledby="moneyInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>Money is used to purchase materials, and unlock subteam leaders.</p>
+                                    <p>Money can be earned by completing tasks. The amount earned will be displayed as part of the rewards for the task.</p>
+                                    <br>
+                                    <p>Teams are given $6,000 to start their Rookie season, and an additional $6,000 to start any additional season.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p> You can learn more by clicking on any of the <span class="text-muted btn btn-info" id="i-info-tutorial">i</span> buttons throughout the game.</p>
+                    <hr>
+                    <h3 class="text-center">Ready to Start?</h3>
                     <!-- Team name and Number input -->
                     <div class="container mb-3">
                         <div class="row g-3">
@@ -299,21 +488,21 @@
                                 <input type="number" class="form-control" placeholder="Enter a team number" aria-label="Team Number" id="team-number-input" min="0" max="99999">
                             </div>
                             <div class="col-md-2 d-flex align-items-end">
-                                <button class="btn btn-primary w-100" id="random-team-number-btn">Random</button>
+                                <button class="btn btn-primary w-100" id="random-team-number-btn"><span class="fas fa-dice"></span></button>
                             </div>
                             <div class="col-md-4">
                                 <label for="team-name-input" class="form-label">Team Name</label>
                                 <input type="text" class="form-control" placeholder="Enter a team name" aria-label="Team Name" id="team-name-input">
                             </div>
                             <div class="col-md-2 d-flex align-items-end">
-                                <button class="btn btn-primary w-100" id="random-team-name-btn">Random</button>
+                                <button class="btn btn-primary w-100" id="random-team-name-btn"><span class="fas fa-dice"></span></button>
                             </div>
                             <div class="col-md-4">
                                 <label for="team-color-input" class="form-label">Team Color</label>
                                 <input type="color" class="form-control" aria-label="Team Color" id="team-color-input">
                             </div>
                             <div class="col-md-2 d-flex align-items-end">
-                                <button class="btn btn-primary w-100" id="random-team-color-btn">Random</button>
+                                <button class="btn btn-primary w-100" id="random-team-color-btn"><span class="fas fa-dice"></span></button>
                             </div>
                             <div class="col-12 text-center">
                                 <button class="btn btn-primary mt-3" id="submit-team-info-btn">Register Your Team!</button>
@@ -330,7 +519,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="loadingRookieTeamModalLabel">Generating Rookie Team</h5>
+                    <h2 class="modal-title" id="loadingRookieTeamModalLabel">Generating Rookie Team</h2>
                 </div>
                 <div class="modal-body text-center">
                     <p id="loading-progress">Initializing...</p>
@@ -356,7 +545,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="changeTeamColorModalLabel">Change Team Color</h5>
+                    <h2 class="modal-title" id="changeTeamColorModalLabel">Change Team Color</h2>
                 </div>
                 <div class="modal-body">
                     <input type="color" class="form-control" id="team-color-picker">
@@ -374,7 +563,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="changeTeamNameModalLabel">Change Team Name</h5>
+                    <h2 class="modal-title" id="changeTeamNameModalLabel">Change Team Name</h2>
                 </div>
                 <div class="modal-body">
                     <input type="text" class="form-control" id="change-team-name-input">
@@ -392,7 +581,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="unlockSubteamLeaderModalLabel">Select a Member to Promote</h5>
+                    <h2 class="modal-title" id="unlockSubteamLeaderModalLabel">Select a Member to Promote</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -412,7 +601,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="rosterModalLabel">Team Roster</h4>
+                    <h2 class="modal-title" id="rosterModalLabel">Team Roster</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="roster-modal-body">
@@ -427,7 +616,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="taskModalLabel">Task Decision</h4>
+            <h2 class="modal-title" id="taskModalLabel">Task Decision</h2>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body" id="task-modal-body">
@@ -442,7 +631,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="regionalCompetitionModalLabel">Regional Competition</h4>
+                    <h2 class="modal-title" id="regionalCompetitionModalLabel">Regional Competition</h2>
                 </div>
                 <div class="modal-body">
                     <!-- Regional Results table -->
@@ -474,7 +663,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="worldChampionshipModalLabel">World Championship</h4>
+                    <h2 class="modal-title" id="worldChampionshipModalLabel">World Championship</h2>
                 </div>
                 <div class="modal-body">
                     <!-- World Championship Results table -->
@@ -506,24 +695,24 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="seasonInfoModalLabel">Season Information</h4>
+                    <h2 class="modal-title" id="seasonInfoModalLabel">Season Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body blue-bumper">
-                    <h5>Build Phase</h5>
+                    <h3>Build Phase</h3>
                     <p>Each 'Build' phase consists of 8 weeks. Your team builds up skill points, materials, and money to prepare for the 'Competition'.</p>
                     <p>Teams are given $6,000, and 400 materials to start their Rookie season, and they do NOT have to pay the registration fee unless they qualify for the World Championship.</p>
                     <p>After the Rookie season, teams will still get the $6,000 grant, but only 100 additional materials to start any additional season.</p>
                     <p>As you accomplish 'Build' phase tasks, your team's skill levels advance. This is not a visual metric, but a background mechanic that plays into the 'Competition' phase.</p>
                     <hr>
-                    <h5>Competition Phase</h5>
+                    <h3>Competition Phase</h3>
                     <p>The 'Competition' phase assumes a Regional Model for simplicity sake. Your team will compete in a regional event, and possibly advance to the World Championship.</p>
                     <p>This phase will auto advance showing a result of each match. The odds of win/loss/tie are based on your team's skill level, as well as any special bonuses you've earned, and a hint of randomness.</p>
                     <p>Your team will play 10 Qualifier matches (based on the 2024 San Francisco Regional Schedule for 114), and then move on to the Elimination Rounds.</p>
                     <p>Elimination rounds work with a single elimination winner takes all for simplicity sake. The top 5 teams of the regional event will advance to the World Championship.</p>
                     <p>At the World Championship, your team will play 10 Qualifier matches, and then move on to the Elimination Rounds. The winner and runner up of the World Championship will earn extra bonuses towards the next season.</p>
                     <hr>
-                    <h5>Post-Competition</h5>
+                    <h3>Post-Competition</h3>
                     <p>After the World Championship, the game will calculate your team's prestige bonus, and then move on to the next season.</p>
                 </div>
             </div>
@@ -534,7 +723,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="weekInfoModalLabel">Week Information</h4>
+                    <h2 class="modal-title" id="weekInfoModalLabel">Week Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body blue-bumper">
@@ -542,12 +731,12 @@
                     <p>Tasks will help you build up your team's skill levels, and earn additional resources.</p>
                     <p>After you've completed all the tasks you can, you may advance to the next week. You can only advance if all 'Critical' tasks are completed. Otherwise the week will start over.</p>
                     <hr>
-                    <h5>Non-Kitbot Path (Coming Soon)</h5>
+                    <h3>Non-Kitbot Path (Coming Soon)</h3>
                     <p>There will be a 'Non-Kitbot' path that will allow you to build a custom robot. This path will be more difficult, but will have a higher reward.</p>
                     <p>This will feature all new tasks as well as new prestige bonuses as well as 'footgun' tasks that waste resources.</p>
                     <p>Stay tuned for more information on this path in the future.</p>
                     <hr>
-                    <h5>Retro Schedule (Coming Soon)</h5>
+                    <h3>Retro Schedule (Coming Soon)</h3>
                     <p>There will be a 'Retro Schedule' that will change the build season to 6 weeks only. This will be a more difficult path, but will have a higher reward.</p>
                     <p>This will feature all new tasks for both the Kitbot and Non-Kitbot paths as well as new prestige bonuses.</p>
                     <p>Stay tuned for more information after the Non-Kitbot path is released.</p>
@@ -560,7 +749,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="teamPointsInfoModalLabel">Team Points Information</h4>
+                    <h2 class="modal-title" id="teamPointsInfoModalLabel">Team Points Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body blue-bumper">
@@ -577,14 +766,14 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="prestigeBonusInfoModalLabel">Prestige Bonus Information</h4>
+                    <h2 class="modal-title" id="prestigeBonusInfoModalLabel">Prestige Bonus Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body blue-bumper">
                     <p>The Prestige Bonus is a bonus that will help your team in all future seasons.</p>
                     <p>It is calculated based on your team's performance in the 'Competition' phase, and is used as a multiplier for your team's skill levels in the 'Build' phase.</p>
                     <p>The Prestige Bonus calculation is as follows:</p>
-                    <p><strong>Prestige Bonus = 1 + (Total Prestige / 10000)</strong></p>
+                    <p><strong>Prestige Bonus = 1 + (Total Prestige / 2150)</strong></p>
                     <p>Total Prestige is based on your team's points and the Championship bonuses you've earned for all seasons.</p>
                 </div>
             </div>
@@ -595,7 +784,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="teamMembersInfoModalLabel">Team Members Information</h4>
+                    <h2 class="modal-title" id="teamMembersInfoModalLabel">Team Members Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body red-bumper">
@@ -616,7 +805,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="subteamLeadersInfoModalLabel">Subteam Leaders Information</h4>
+                    <h2 class="modal-title" id="subteamLeadersInfoModalLabel">Subteam Leaders Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body red-bumper">
@@ -638,7 +827,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="materialsInfoModalLabel">Materials Information</h4>
+                    <h2 class="modal-title" id="materialsInfoModalLabel">Materials Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body red-bumper">
@@ -655,7 +844,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="moneyInfoModalLabel">Money Information</h4>
+                    <h2 class="modal-title" id="moneyInfoModalLabel">Money Information</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body red-bumper">
@@ -677,14 +866,13 @@
 </div>
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start mt-5">
-        <div class="container p-4">
+        <div class="container p-2">
             <div class="row">
-                <div class="col-6" style="align-items: center; display: flex; flex-direction: column;">
-                    <h5 class="text-uppercase text-white">FRC Team Management Game v<span class="text-muted" id="game-version"></span></h5>
+                <div class="col-8" style="align-items: center; display: flex; flex-direction: column;">
+                    <h2 class="text-uppercase">FRC Team Management Game v<span class="text-muted" id="game-version"></span></h2>
                     <p>&copy; <span id="current-year"></span> <a href="https://frczero.org" target="_blank">FRCZero.org</a></p>
                 </div>
-                <div class="col-6">
+                <div class="col-4">
                     <button class="btn btn-danger" id="reset-game-btn">Reset Game</button>
                 </div>
             </div>

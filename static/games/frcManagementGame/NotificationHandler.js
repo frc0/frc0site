@@ -1,7 +1,7 @@
 class NotificationHandler {
     constructor() {
         this.notifications = [];
-        this.maxNotifications = 5;
+        this.maxNotifications = 10;
         this.defaultTimeout = 5000;
         this.container = this.createContainer();
     }

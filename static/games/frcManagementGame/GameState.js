@@ -4,8 +4,11 @@ import NotificationHandler from './NotificationHandler.js';
 
 class GameState {
     constructor() {
-        this.version = "1.0.0";
-        // KICKOFF 2025 Version
+        this.version = "1.0.1";
+        // Post-KICKOFF 2025 Version
+        /*
+            Tutorial is now forced when the player starts a new game
+        */
         this.notificationHandler = new NotificationHandler();
         this.team = new Team();
         this.week1Tasks = [
@@ -533,6 +536,18 @@ class GameState {
                 { materials: 0, money: 0, members: 1, teamPoints: 50 }
             )
         ];
+
+        this.tutorialModulesToComplete = [
+            "Season Information",
+            "Week Information",
+            "Team Points Information",
+            "Prestige Bonus Information",
+            "Team Members Information",
+            "Subteam Leaders Information",
+            "Materials Information",
+            "Money Information",
+            "Information Button Test"
+        ];
     }
 
     initializeGame() {
@@ -748,41 +763,47 @@ class GameState {
                     <h5 class="card-title">${task.name}</h5>
                     <p class="card-text">${task.description}</p>
                     <p class="card-text">Requirements:</p>
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Materials</th>
-                                <th>Money</th>
-                                <th>Members</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>${task.requirements.materials}</td>
-                                <td>$${task.requirements.money}</td>
-                                <td>${task.requirements.members}</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <!-- Responsive table -->
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th><span class="fas fa-screwdriver-wrench"></span></th>
+                                    <th><span class="fas fa-dollar-sign"></span></th>
+                                    <th><span class="fas fa-users"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>${task.requirements.materials}</td>
+                                    <td>$${task.requirements.money}</td>
+                                    <td>${task.requirements.members}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <p class="card-text">Rewards:</p>
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Materials</th>
-                                <th>Money</th>
-                                <th>Members</th>
-                                <th>Team Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>${task.rewards.materials}</td>
-                                <td>$${task.rewards.money}</td>
-                                <td>${task.rewards.members}</td>
-                                <td>${task.rewards.teamPoints}</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <!-- Responsive table -->
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th><span class="fas fa-screwdriver-wrench"></span></th>
+                                    <th><span class="fas fa-dollar-sign"></span></th>
+                                    <th><span class="fas fa-users"></span></th>
+                                    <th><span class="fas fa-trophy"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>${task.rewards.materials}</td>
+                                    <td>$${task.rewards.money}</td>
+                                    <td>${task.rewards.members}</td>
+                                    <td>${task.rewards.teamPoints}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="btn-group" role="group" aria-label="Task Actions">
                         <button class="btn btn-primary" id="members-perform-task-btn-${i}">Members Perform Task</button>
                         <button class="btn btn-warning" id="subteam-leader-perform-task-btn-${i}">Subteam Leader Perform Task</button>
@@ -928,7 +949,17 @@ document.getElementById('submit-team-info-btn').addEventListener('click', () => 
 
     // Check for empty inputs
     if (teamNumber === "" || teamName === "") {
-        alert("Please fill out both fields.");
+        //alert("Please fill out both fields.");
+        gameState.notificationHandler.showNotification('danger', 'Please fill out both team number and team name fields.');
+        return;
+    }
+
+    // Check if they have any tutorial modules to complete
+    if (gameState.tutorialModulesToComplete.length > 0) {
+        console.log("Tutorial modules to complete:", gameState.tutorialModulesToComplete);
+        for (let i = 0; i < gameState.tutorialModulesToComplete.length; i++) {
+            gameState.notificationHandler.showNotification('danger', `Please complete the tutorial module: ${gameState.tutorialModulesToComplete[i]}`);
+        }
         return;
     }
 
@@ -1104,8 +1135,84 @@ document.getElementById('reset-game-btn').addEventListener('click', () => {
     resetGameModal.show();
 });
 document.getElementById('confirm-reset-game-btn').addEventListener('click', () => {
+    gameState.tutorialModulesToComplete = [
+        "Season Information",
+        "Week Information",
+        "Team Points Information",
+        "Prestige Bonus Information",
+        "Team Members Information",
+        "Subteam Leaders Information",
+        "Materials Information",
+        "Money Information",
+        "Information Button Test"
+    ];
     // Clear the game state
     localStorage.removeItem('gameState');
     // Reload the page
     location.reload();
 });
+
+colorTutorialButtons();
+handleTutorialClick('season-info-tutorial', 'Season Information');
+handleTutorialClick('week-info-tutorial', 'Week Information');
+handleTutorialClick('team-points-info-tutorial', 'Team Points Information');
+handleTutorialClick('prestige-bonus-info-tutorial', 'Prestige Bonus Information');
+handleTutorialClick('team-members-info-tutorial', 'Team Members Information');
+handleTutorialClick('subteam-leaders-info-tutorial', 'Subteam Leaders Information');
+handleTutorialClick('materials-info-tutorial', 'Materials Information');
+handleTutorialClick('money-info-tutorial', 'Money Information');
+handleTutorialClick('i-info-tutorial', 'Information Button Test');
+
+function handleTutorialClick(elementId, moduleName) {
+    // List of random congrats messages
+    const congratsMessages = [
+        'Nice job!',
+        'Great work!',
+        'Keep it up!',
+        'You got it!',
+        'Well done!',
+        'You are crushing it!',
+        'You are a rockstar!',
+        'You are on fire!',
+        'You are amazing!',
+        'You are a superstar!'
+    ];
+
+    document.getElementById(elementId).addEventListener('click', () => {
+        const moduleIndex = gameState.tutorialModulesToComplete.indexOf(moduleName);
+        if (moduleIndex !== -1) {
+            // Remove the module from the list
+            gameState.tutorialModulesToComplete = gameState.tutorialModulesToComplete.filter(module => module !== moduleName);
+            // Give them a success notification
+            gameState.notificationHandler.showNotification('success', `${congratsMessages[Math.floor(Math.random() * congratsMessages.length)]} You completed the tutorial module: ${moduleName}`);
+            colorTutorialButtons();
+        }
+    });
+}
+
+function updateTutorialButton(elementId, moduleName) {
+    const element = document.getElementById(elementId);
+    if (gameState.tutorialModulesToComplete.includes(moduleName)) {
+        element.classList.add('btn-danger');
+    } else {
+        element.classList.remove('btn-danger');
+    }
+}
+
+function colorTutorialButtons() {
+    const buttonMapping = {
+        "Season Information": 'season-info-tutorial',
+        "Week Information": 'week-info-tutorial',
+        "Team Points Information": 'team-points-info-tutorial',
+        "Prestige Bonus Information": 'prestige-bonus-info-tutorial',
+        "Team Members Information": 'team-members-info-tutorial',
+        "Subteam Leaders Information": 'subteam-leaders-info-tutorial',
+        "Materials Information": 'materials-info-tutorial',
+        "Money Information": 'money-info-tutorial',
+        "Information Button Test": 'i-info-tutorial'
+    };
+
+    Object.keys(buttonMapping).forEach(moduleName => {
+        updateTutorialButton(buttonMapping[moduleName], moduleName);
+    });
+}
