@@ -32,6 +32,67 @@
             color: #fff !important;
         }
 
+        /* banner-row */
+        body[data-bs-theme="light"] .banner-row {
+            background-color: #f8f9fa;
+        }
+
+        body[data-bs-theme="dark"] .banner-row {
+            background-color: #333;
+        }
+
+        /* center banners inside of their col in the row */
+        .banner-row .col,
+        .banner-row .col-6 {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .blue-banner, .red-banner {
+            background: #0F4BCB;
+            color: #fff !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 85px;
+            line-height: 1.2;
+            margin: 0 0 10px;
+            padding: 5px;
+            position: relative;
+            text-align: center;
+            vertical-align: top;
+            white-space: normal;
+            width: 80px;
+            word-wrap: break-word;
+        }
+
+        .blue-banner:after, .red-banner:after {
+            border-bottom: 80px solid #0f4bcb; /* Adjusted for responsiveness */
+            border-color: #0f4bcb #0f4bcb transparent;
+            border-style: solid;
+            border-width: 3px 40px 10px;
+            content: "";
+            display: block;
+            left: 0;
+            position: absolute;
+            top: 100%;
+        }
+
+        .blue-banner h5, .red-banner h5 {
+            color: #fff !important;
+        }
+
+        .red-banner {
+            background: #8d0404;
+        }
+
+        .red-banner:after {
+            border-color: #8d0404 #8d0404 transparent;
+        }
+
         .blue-bumper {
             background: #04488d;
             color: #fff;
@@ -149,90 +210,125 @@
         .btn-group {
             width: 100%;
         }
+
+        /* small-text */
+        .small-text {
+            font-size: 0.8rem;
+        }
         
     </style>
 </head>
 <body data-bs-theme="dark">
 
 <div class="container my-3">
-    <!-- Season and Week Information Card -->
-    <div class="card mb-3 main-info-row">
-        <div class="card-header">
-            <div class="row">
-                <div class="col-6">
-                    <h2 id="team-name" title="Double-click to change team name">Team Name</h2>
+
+    <!-- Tabbed Container to hold Team Info, Build Season, Competition Season, Statistics-->
+    <div id="mainTabsContainer">
+        <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="teamInfo-tab" data-bs-toggle="tab" data-bs-target="#teamInfo" type="button" role="tab" aria-controls="teamInfo" aria-selected="true">Team Info</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="buildSeason-tab" data-bs-toggle="tab" data-bs-target="#buildSeason" type="button" role="tab" aria-controls="buildSeason" aria-selected="false">Build Season</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="mainTabsContent">
+            <!-- Team Info Tab -->
+            <div class="tab-pane fade show active" id="teamInfo" role="tabpanel" aria-labelledby="teamInfo-tab">
+                <!-- Season and Week Information Card -->
+                <div class="card mb-3 main-info-row">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2 id="team-name" title="Double-click to change team name">Team Name</h2>
+                                <p class="text-white small-text">(Double-click to change team name)</p>
+                            </div>
+                            <div class="col-6 text-center">
+                                <div class=" team-number-div mb-2" id="team-number-div" title="Double-click to change team color">
+                                    <h4 id="team-number"></h4>
+                                </div>
+                                <p class="text-white small-text">(Double-click to change team color)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-bordered text-center">
+                            <thead>
+                                <tr>
+                                    <th>Current Season <span class="text-muted btn btn-info" id="season-info">i</span></th>
+                                    <th>Current Week <span class="text-muted btn btn-info" id="week-info">i</span></th>
+                                    <th>Team Points <span class="fas fa-trophy"></span> <span class="text-muted btn btn-info" id="team-points-info">i</span></th>
+                                    <th>Prestige Bonus <span class="text-muted btn btn-info" id="prestige-bonus-info">i</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="season-number"></td>
+                                    <td id="week-number"></td>
+                                    <td id="team-points"></td>
+                                    <td>x<span id="prestige-bonus"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Footer will be used as a side scrollable div to hold their banners -->
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h2>Team Banners <span class="text-muted btn btn-info" id="team-banners-info">i</span></h2>
+                                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2 banner-row" id="team-banners"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 text-center team-number-div" id="team-number-div" title="Double-click to change team color">
-                    <h4 id="team-number"></h4>
+            </div>
+            <!-- Build Season Tab -->
+            <div class="tab-pane fade" id="buildSeason" role="tabpanel" aria-labelledby="buildSeason-tab">
+                <!-- Resource Overview -->
+                <div class="card mb-3 secondary-info-row">
+                    <div class="card-body">
+                        <table class="table table-bordered text-center">
+                            <thead>
+                                <tr>
+                                    <th>Team Members <span class="fas fa-users"></span> <span class="text-muted btn btn-info" id="team-members-info">i</span></th>
+                                    <th>Subteam Leaders <span class="text-muted btn btn-info" id="subteam-leaders-info">i</span></th>
+                                    <th>Materials <span class="fas fa-screwdriver-wrench"></span> <span class="text-muted btn btn-info" id="materials-info">i</span></th>
+                                    <th>Money <span class="fas fa-dollar-sign"></span> <span class="text-muted btn btn-info" id="money-info">i</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="team-members"></td>
+                                    <td id="subteam-leaders"></td>
+                                    <td id="materials"></td>
+                                    <td id="money"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="btn-group mb-3" role="group" aria-label="Main Game Buttons">
+                            <button class="btn btn-info" id="purchase-materials-btn">Purchase Materials ($500 for 50 units)</button>
+                            <button class="btn btn-warning" id="unlock-subteam-leader-btn">Promote to Subteam Leader ($2,000)</button>
+                            <button class="btn btn-secondary" id="view-roster-btn">View Team Roster</button>
+                            <button class="btn btn-success" id="advance-week-btn">Advance Week</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Tasks Section -->
+                <div class="card" id="tasks-card">
+                    <div class="card-header">
+                        <h2>Tasks</h2>
+                        <p class="text-muted">Gold bordered tasks are 'Critical' and must be completed to advance to the next week.</p>
+                    </div>
+                    <div class="card-body">
+                        <div id="tasks-list" class="row row-cols-1 row-cols-sm-3 row-cols-md-4 g-2">
+                            <!-- Task buttons will be dynamically inserted here -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card-body">
-            <table class="table table-bordered text-center">
-                <thead>
-                    <tr>
-                        <th>Current Season <span class="text-muted btn btn-info" id="season-info">i</span></th>
-                        <th>Current Week <span class="text-muted btn btn-info" id="week-info">i</span></th>
-                        <th>Team Points <span class="fas fa-trophy"></span> <span class="text-muted btn btn-info" id="team-points-info">i</span></th>
-                        <th>Prestige Bonus <span class="text-muted btn btn-info" id="prestige-bonus-info">i</span></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="season-number"></td>
-                        <td id="week-number"></td>
-                        <td id="team-points"></td>
-                        <td>x<span id="prestige-bonus"></span></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
     </div>
-
-    <!-- Resource Overview -->
-    <div class="card mb-3 secondary-info-row">
-        <div class="card-body">
-            <table class="table table-bordered text-center">
-                <thead>
-                    <tr>
-                        <th>Team Members <span class="fas fa-users"></span> <span class="text-muted btn btn-info" id="team-members-info">i</span></th>
-                        <th>Subteam Leaders <span class="text-muted btn btn-info" id="subteam-leaders-info">i</span></th>
-                        <th>Materials <span class="fas fa-screwdriver-wrench"></span> <span class="text-muted btn btn-info" id="materials-info">i</span></th>
-                        <th>Money <span class="fas fa-dollar-sign"></span> <span class="text-muted btn btn-info" id="money-info">i</span></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="team-members"></td>
-                        <td id="subteam-leaders"></td>
-                        <td id="materials"></td>
-                        <td id="money"></td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="btn-group mb-3" role="group" aria-label="Main Game Buttons">
-                <button class="btn btn-info" id="purchase-materials-btn">Purchase Materials ($500 for 50 units)</button>
-                <button class="btn btn-warning" id="unlock-subteam-leader-btn">Promote to Subteam Leader ($2,000)</button>
-                <button class="btn btn-secondary" id="view-roster-btn">View Team Roster</button>
-                <button class="btn btn-success" id="advance-week-btn">Advance Week</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Tasks Section -->
-    <div class="card" id="tasks-card">
-        <div class="card-header">
-            <h2>Tasks</h2>
-            <p class="text-muted">Gold bordered tasks are 'Critical' and must be completed to advance to the next week.</p>
-        </div>
-        <div class="card-body">
-            <div id="tasks-list" class="row row-cols-1 row-cols-sm-3 row-cols-md-4 g-2">
-                <!-- Task buttons will be dynamically inserted here -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Modals -->
 
     <!-- Settings Modal -->
     <div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true">
@@ -245,12 +341,15 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-6">
                                 <!-- Change the theme from light to dark, based on user local storage -->
                                 <div class="form-check form-switch">
                                     <input class="form-check-input" type="checkbox" id="theme-switch">
                                     <label class="form-check label" for="theme-switch">Dark Mode</label>
                                 </div>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn btn-danger" id="reset-game-btn">Reset Game</button>
                             </div>
                         </div>
                     </div>
@@ -310,7 +409,6 @@
                         </div>
                     </div>
                     <hr>
-                    <h2 class="text-center">Game Information</h2>
                     <!-- WARNING ALERT -->
                     <div class="alert alert-warning" role="alert">
                         <h2>Hey Future Champ in the Making!</h2>
@@ -373,6 +471,45 @@
                                     <p>There will be a 'Retro Schedule' that will change the build season to 6 weeks only. This will be a more difficult path, but will have a higher reward.</p>
                                     <p>This will feature all new tasks for both the Kitbot and Non-Kitbot paths as well as new prestige bonuses.</p>
                                     <p>Stay tuned for more information after the Non-Kitbot path is released.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- game-ui-info-tutorial -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="gameUIInfoHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#gameUIInfoCollapse" aria-expanded="true" aria-controls="gameUIInfoCollapse" id="game-ui-info-tutorial">
+                                    Game UI Information
+                                </button>
+                            </h2>
+                            <div id="gameUIInfoCollapse" class="accordion-collapse collapse" aria-labelledby="gameUIInfoHeading" data-bs-parent="#gameInfoAccordion">
+                                <div class="accordion-body">
+                                    <p>The game UI is mobile friendly, but is best played on a desktop or laptop.</p>
+                                    <p>There are 4 main tabs to navigate through the game: 'Team Info', 'Build Season', 'Competition Season(Coming Soon)', and 'Statistics(Coming Soon)'.</p>
+                                    <ul>
+                                        <li>Team Info: This tab will show your team's information, and allow you to change your team's name and color. You can also see the current season and week. Also your current team points and prestige bonus.<br>Starting in V1.0.2 your team will earn Blue Banners for each Regional and World Championship win! These are a permanent record of your team's success.</li>
+                                        <li>Build Season: This tab will show your team's resources, and allow you to purchase materials, unlock subteam leaders, view your team roster, and advance the week. You will also see a list of tasks to complete each week.</li>
+                                        <li>Competition Season: This tab is still under construction.</li>
+                                        <li>Statistics: This tab is still under construction.</li>
+                                        <hr>
+                                        <div id="ui-images-carousel" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="tutorial_images/team_info.PNG" class="d-block w-100" alt="team-info">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="tutorial_images/build_season.PNG" class="d-block w-100" alt="build-season">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#ui-images-carousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#ui-images-carousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -857,6 +994,43 @@
         </div>
     </div>
 
+    <!-- Team Banners Info -->
+    <div class="modal fade" id="teamBannersInfoModal" tabindex="-1" aria-labelledby="teamBannersInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="teamBannersInfoModalLabel">Team Banners Information</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body blue-bumper">
+                    <p>Team Banners are a visual representation of your team's success in the 'Competition' phase.</p>
+                    <p>Banners are earned by placing 1st in the Regional or World Championship events.</p>
+                    <p>Each banner will be displayed on your team's profile, and will be a permanent reminder of your team's success.</p>
+                    <hr>
+                    <!-- Example Blue Banners in a row with col-6 -->
+                    <div class="row text-center banner-row">
+                        <div class="col-6">
+                            <div class="blue-banner">
+                                <h5>Regional</h5>
+                                <span class="fas fa-crown"></span>
+                                <p><span class="fas fa-calendar-alt"></span> X</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="blue-banner">
+                                <h5>World</h5>
+                                <span class="fas fa-crown"></span>
+                                <p><span class="fas fa-calendar-alt"></span> X</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="alert alert-warning">Note: Banners were implemented in version 1.0.2. Any championship wins you earned before this version will not be displayed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- FAB -->
     <div class="left-fab">
         <button class="btn btn-primary" id="settings-btn"><span class="fas fa-cog"></span></button>
@@ -868,12 +1042,9 @@
     <!-- Footer -->
         <div class="container p-2">
             <div class="row">
-                <div class="col-8" style="align-items: center; display: flex; flex-direction: column;">
+                <div class="col-12" style="align-items: center; display: flex; flex-direction: column;">
                     <h2 class="text-uppercase">FRC Team Management Game v<span class="text-muted" id="game-version"></span></h2>
                     <p>&copy; <span id="current-year"></span> <a href="https://frczero.org" target="_blank">FRCZero.org</a></p>
-                </div>
-                <div class="col-4">
-                    <button class="btn btn-danger" id="reset-game-btn">Reset Game</button>
                 </div>
             </div>
         </div>
@@ -961,6 +1132,15 @@
     const moneyInfoButton = document.getElementById('money-info');
     moneyInfoButton.addEventListener('click', function() {
         moneyInfoModal.show();
+    });
+
+    // Team Banners info modal from the team-banners-info button
+    var teamBannersInfoModal = new bootstrap.Modal(document.getElementById('teamBannersInfoModal'), {
+        keyboard: false
+    });
+    const teamBannersInfoButton = document.getElementById('team-banners-info');
+    teamBannersInfoButton.addEventListener('click', function() {
+        teamBannersInfoModal.show();
     });
 
     // Settings modal from the settings button

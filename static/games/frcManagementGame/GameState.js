@@ -1,545 +1,41 @@
 import Team from './Team.js';
 import Task from './Task.js';
+import TaskList from './TaskList.js';
 import NotificationHandler from './NotificationHandler.js';
 
 class GameState {
     constructor() {
-        this.version = "1.0.1";
-        // Post-KICKOFF 2025 Version
+        this.version = "1.0.2";
+        // Blue Banner and Tabs Update
         /*
-            Tutorial is now forced when the player starts a new game
+            Teams will track their regional and world championship wins.
+            Banners will be displayed in the team's profile.
+
+            Tasks were moved from gameState to TaskList.js for better organization.
+
+            Also including some hyperlinks in task descriptions to real FRC resources.
+
+            Adding some new non-critical tasks for the team to complete.
+
+            Finally broke up the UI into tabs for better organization.
         */
         this.notificationHandler = new NotificationHandler();
         this.team = new Team();
-        this.week1Tasks = [
-            new Task(
-                "Read and Analyze Game Manual", 
-                true, 
-                "Thoroughly read and analyze the game manual to understand the rules and challenges.", 
-                { materials: 0, money: 0, members: 2 }, 
-                { materials: 0, money: 0, members: 0, teamPoints: 150 } 
-            ),
-            new Task(
-                "Brainstorm Robot Strategies", 
-                true, 
-                "Hold brainstorming sessions to generate ideas and strategies for the robot's design and functionality.", 
-                { materials: 0, money: 0, members: 2 }, 
-                { materials: 0, money: 0, members: 0, teamPoints: 100 } 
-            ),
-            new Task(
-                "Inventory Kit of Parts", 
-                false, 
-                "Inventory the Kit of Parts to ensure all components are present and accounted for.", 
-                { materials: 0, money: 0, members: 1 }, 
-                { materials: 100, money: 0, members: 0, teamPoints: 30 } 
-            ),
-            new Task(
-                "Watch Ri3D/Everybot Videos", 
-                false, 
-                "Watch Ri3D (Robots in 3 Days) or Everybot videos for inspiration and design ideas.", 
-                { materials: 0, money: 0, members: 1 }, 
-                { materials: 0, money: 0, members: 0, teamPoints: 30 } 
-            ),
-            new Task(
-                "Research Game Specific Mechanisms", 
-                false, 
-                "Research different mechanisms that might be useful for this year's game challenge.", 
-                { materials: 0, money: 0, members: 2 }, 
-                { materials: 0, money: 0, members: 0, teamPoints: 60 } 
-            ),
-            new Task(
-                "Host a Kickoff Open House",
-                false,
-                "Host a kickoff open house for team members and parents to discuss the upcoming season. Invite current and potential sponsors.",
-                { materials: 10, money: 100, members: 3 },
-                { materials: 0, money: 1000, members: 1, teamPoints: 50 }
-            ),
-            new Task(
-                "Contact Local Machine Shops", 
-                false, 
-                "Contact local machine shops to inquire about their capabilities and availability for assistance.", 
-                { materials: 0, money: 0, members: 1 }, 
-                { materials: 0, money: 0, members: 0, teamPoints: 20 } 
-            ),
-            new Task(
-                "Clean and Organize the Workspace",
-                false, 
-                "Clean and organize the team's workspace, ensuring tools and materials are readily available.", 
-                { materials: 0, money: 25, members: 1 }, 
-                { materials: 25, money: 0, members: 0, teamPoints: 20 } 
-            ),
-            new Task(
-                "Create a Team Calendar", 
-                false, 
-                "Create a team calendar to schedule meetings, events, and deadlines.", 
-                { materials: 0, money: 0, members: 1 }, 
-                { materials: 0, money: 0, members: 0, teamPoints: 20 } 
-            )
-        ];
-        this.week2Tasks = [
-            new Task(
-                "Gather Kit-Bot Parts",
-                true,
-                "Gather the additional part, not included in the KOP, to build the Kit-Bot.",
-                { materials: 0, money: 500, members: 2 },
-                { materials: 50, money: 0, members: 0, teamPoints: 100 }
-            ),
-            new Task(
-                "Print out Kit-Bot Instructions",
-                true,
-                "Print out the Kit-Bot assembly instructions, coding guides, and other resources. Distribute to team members.",
-                { materials: 10, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 50 }
-            ),
-            new Task(
-                "Inventory Existing Materials", 
-                false, 
-                "Take inventory of existing materials and tools, noting any shortages or needs.", 
-                { materials: 0, money: 20, members: 2 }, 
-                { materials: 50, money: 0, members: 0, teamPoints: 10 } 
-            ),
-            new Task(
-                "Create or Update the Team Website",
-                false,
-                "Create a new team website or update the existing one with current information, photos, and videos.",
-                { materials: 0, money: 10, members: 1 },
-                { materials: 0, money: 250, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Research and Contact Sponsors",
-                false,
-                "Research potential sponsors and contact them to discuss sponsorship opportunities and benefits.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 500, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Brainstorm additional Robot Mechanisms to enhance the Kit-Bot",
-                false,
-                "Brainstorm additional mechanisms that can be added to the Kit-Bot to enhance its capabilities. The base Kit-Bot is a good starting point, but additional mechanisms may be needed to win more matches or get picked for playoffs!",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 60 }
-            ),
-            new Task(
-                "Clean and Organize the Workspace",
-                false,
-                "Clean and organize the team's workspace, ensuring tools and materials are readily available.",
-                { materials: 0, money: 25, members: 1 },
-                { materials: 25, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Create or Update the Team Handbook",
-                false,
-                "Create a new team handbook or update the existing one with current information, policies, and procedures.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Create or Update the Team Calendar",
-                false,
-                "Create a team calendar or update the existing one with meeting dates, events, and deadlines.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 20 }
-            )
-        ];
-        this.week3Tasks = [
-            new Task(
-                "Build the Kit-Bot Chassis",
-                true,
-                "Build the Kit-Bot chassis according to the assembly instructions. Ensure all parts are assembled correctly and securely.",
-                { materials: 200, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 200 }
-            ),
-            new Task(
-                "Order Additional Motors, Sensors, and Electronics",
-                true,
-                "Order additional motors, sensors, and electronics to enhance the Kit-Bot's capabilities.",
-                { materials: 0, money: 1000, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 100 }
-            ),
-            new Task(
-                "Safety Training",
-                false,
-                "Conduct safety training for all team members. Review safety rules, procedures, and emergency protocols.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 60 }
-            ),
-            new Task(
-                "Inventory Electronics Components",
-                false,
-                "Inventory the electronics components and tools to ensure all parts are present and accounted for.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 50, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Create or Update the Team Logo",
-                false,
-                "Create a new team logo or update the existing one with current design and branding.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Draft Robot and Mechanism CAD Models",
-                false,
-                "The Kit-Bot CAD models are provided by FIRST. Draft additional CAD models for mechanisms to be added to the robot.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 80 }
-            ),
-            new Task(
-                "Update the Development Computer",
-                false,
-                "Update the development computer with the latest software, tools, and libraries for robot programming.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Run a recruitment event",
-                false,
-                "Run a recruitment event to attract new members to the team. Showcase the team's projects and robot(s). Bribe them with snacks, drinks and swag.",
-                { materials: 20, money: 250, members: 3 },
-                { materials: 0, money: 0, members: 1, teamPoints: 50 }
-            ),
-            new Task(
-                "Document the Team's Progress",
-                false,
-                "Document the team's progress, challenges, and achievements on a Chief Delphi build thread or team blog.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            )
-        ];
-
-        this.week4Tasks = [
-            new Task(
-                "Assemble the Kit-Bot Electronics",
-                true,
-                "Assemble the Kit-Bot electronics according to the wiring diagram. Test all connections and ensure proper functionality.",
-                { materials: 100, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 150 }
-            ),
-            new Task(
-                "Assemble Basic Bumpers",
-                true,
-                "Assemble basic bumpers for the Kit-Bot. Ensure they are sturdy and meet the bumper rules.",
-                { materials: 50, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 100 }
-            ),
-            new Task(
-                "Create or Update the Team T-Shirts",
-                false,
-                "Create new team t-shirts or update the existing ones with current design and branding.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Inventory Pneumatics Components",
-                false,
-                "Inventory the pneumatics components and tools to ensure all parts are present and accounted for.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 50, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Create or Update the Team Business Cards",
-                false,
-                "Create new team business cards or update the existing ones with current contact information and branding.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Order new Controllers",
-                false,
-                "Order new controllers for the drive team. The old set is covered in cheeto dust and the joystick drifts.",
-                { materials: 0, money: 80, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Create or Update the Team's Handouts",
-                false,
-                "Create new team handouts or update the existing ones with current information, photos, and resources.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Clean and Organize the Workspace",
-                false,
-                "Clean and organize the team's workspace, ensuring tools and materials are readily available.",
-                { materials: 0, money: 25, members: 1 },
-                { materials: 25, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Create or Update the Team's Sponsorship Packet",
-                false,
-                "Create a new team sponsorship packet or update the existing one with current information, benefits, and opportunities. Maybe send it out to some potential sponsors.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 400, members: 0, teamPoints: 40 }
-            )
-        ];
-
-        this.week5Tasks = [
-            new Task(
-                "Assemble Kit-Bot Game Specific Mechanisms",
-                true,
-                "Assemble the game-specific mechanisms for the Kit-Bot. Test functionality and integration with the robot.",
-                { materials: 200, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 150 }
-            ),
-            new Task(
-                "Initial Drive Test of the Kit-Bot chassis",
-                true,
-                "Conduct an initial drive test of the Kit-Bot to ensure drive systems are working correctly. Make any necessary adjustments.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 100 }
-            ),
-            new Task(
-                "Create or Update the Team's Social Media",
-                false,
-                "Create new team social media accounts or update the existing ones with current information, photos, and posts.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Adjust the default code",
-                false,
-                "Adjust the default code... The drive team wants a 'Turbo' button.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Inventory Tools and Supplies",
-                false,
-                "Inventory the team's tools and supplies to ensure all items are present and in good condition.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 50, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Create this season's sponsor banner",
-                false,
-                "Create a new team sponsor banner or update the existing one with current logos and branding.",
-                { materials: 50, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Order LED strips",
-                false,
-                "Order LED strips to add some pizazz to the robot.",
-                { materials: 0, money: 50, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Document the Team's Progress",
-                false,
-                "Document the team's progress, challenges, and achievements on a Chief Delphi build thread or team blog.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Create a press release",
-                false,
-                "Create a press release to announce the team's participation in the upcoming competition. Send it to local media outlets.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 150, members: 1, teamPoints: 40 }
-            )
-        ];
-
-        this.week6Tasks = [
-            new Task(
-                "Finalize Robot Design",
-                true,
-                "Finalize the robot design and make any necessary adjustments based on testing and feedback.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 200 }
-            ),
-            new Task(
-                "Finish wiring the robot",
-                true,
-                "Finish wiring the robot. Make sure all connections are secure and properly insulated.",
-                { materials: 100, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 150 }
-            ),
-            new Task(
-                "Order Team Buttons",
-                false,
-                "Order team buttons to give out at competitions and events. Everyone loves buttons!",
-                { materials: 0, money: 100, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Inventory Safety Equipment",
-                false,
-                "Inventory the team's safety equipment and supplies to ensure all items are present and in good condition.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 50, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Create this seasons competition packing list",
-                false,
-                "Create a packing list for the competition. Don't forget the batteries!",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Order Extra Batteries",
-                false,
-                "Order extra batteries for the robot. You can never have too many batteries!",
-                { materials: 0, money: 200, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "More code adjustments",
-                false,
-                "More code adjustments... Make the LEDs flash when the robot scores.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Mock Inspection",
-                false,
-                "Conduct a mock inspection of the robot to ensure it meets all competition rules and requirements.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 60 }
-            ),
-            new Task(
-                "Research Autonomous Strategies and Other Teams Performance",
-                false,
-                "Research autonomous strategies and watch videos of other teams' performance to gather ideas and insights.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 80 }
-            )
-        ];
-
-        this.week7Tasks = [
-            new Task(
-                "Practice Driving the Robot",
-                true,
-                "Practice driving the robot to develop the drive team's skills and familiarity with the controls.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 150 }
-            ),
-            new Task(
-                "Begin Autonomous Programming",
-                true,
-                "Begin programming the autonomous mode for the robot. Test and refine the code for accuracy and consistency.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 100 }
-            ),
-            new Task(
-                "Order Team Stickers",
-                false,
-                "Order team stickers to give out at competitions and events. Everyone loves stickers!",
-                { materials: 0, money: 50, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Inventory Tools and Supplies",
-                false,
-                "Inventory the team's tools and supplies to ensure all items are present and in good condition.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 50, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Create an Event Carpool/Transportation Plan",
-                false,
-                "Create a carpool or transportation plan for team members to get to and from competitions and events.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Order Extra Parts",
-                false,
-                "Order extra parts for the robot. You never know what might break during competition!",
-                { materials: 0, money: 400, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 50 }
-            ),
-            new Task(
-                "Even more code adjustments",
-                false,
-                "Even more code adjustments... Field-Centric drive mode anyone?",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Document the Team's Progress",
-                false,
-                "Document the team's progress, challenges, and achievements on a Chief Delphi build thread or team blog.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Clean and Organize the Workspace",
-                false,
-                "Clean and organize the team's workspace, ensuring tools and materials are readily available.",
-                { materials: 0, money: 25, members: 1 },
-                { materials: 25, money: 0, members: 0, teamPoints: 20 }
-            )
-        ];
-
-        this.week8Tasks = [
-            new Task(
-                "Finalize Autonomous Programming",
-                true,
-                "Finalize the autonomous mode programming for the robot. Test and refine the code for accuracy and consistency.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 200 }
-            ),
-            new Task(
-                "Attend a scrimmage",
-                true,
-                "Attend a scrimmage to test the robot in a competitive environment and gather feedback for improvements.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 150 }
-            ),
-            new Task(
-                "Create or Update the Team's Pit Display",
-                false,
-                "Create a new team pit display or update the existing one with current information, photos, and branding.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Buy extra safety glasses",
-                false,
-                "Buy extra safety glasses for the team. Safety first!",
-                { materials: 0, money: 100, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Create a scouting plan",
-                false,
-                "Create a scouting plan for the competition. What data will you collect and how will you use it?",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 30 }
-            ),
-            new Task(
-                "Publish code to GitHub",
-                false,
-                "Publish the team's code to GitHub for version control and collaboration.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 40 }
-            ),
-            new Task(
-                "Create a new team cheer",
-                false,
-                "Create a new team cheer to pump up the team and show spirit at competitions.",
-                { materials: 0, money: 0, members: 1 },
-                { materials: 0, money: 0, members: 0, teamPoints: 20 }
-            ),
-            new Task(
-                "Practice Judge Interviews",
-                false,
-                "Practice judge interviews to prepare for questions about the team, robot, and outreach efforts.",
-                { materials: 0, money: 0, members: 2 },
-                { materials: 0, money: 0, members: 0, teamPoints: 60 }
-            ),
-            new Task(
-                "Celebrate the end of build season with a team party",
-                false,
-                "The party should include food, drinks, games, and inviting friends and family to celebrate the end of build season.",
-                { materials: 50, money: 200, members: 3 },
-                { materials: 0, money: 0, members: 1, teamPoints: 50 }
-            )
-        ];
+        
+        const taskList = new TaskList();
+        this.week1Tasks = taskList.week1Tasks;
+        this.week2Tasks = taskList.week2Tasks;
+        this.week3Tasks = taskList.week3Tasks;
+        this.week4Tasks = taskList.week4Tasks;
+        this.week5Tasks = taskList.week5Tasks;
+        this.week6Tasks = taskList.week6Tasks;
+        this.week7Tasks = taskList.week7Tasks;
+        this.week8Tasks = taskList.week8Tasks;
 
         this.tutorialModulesToComplete = [
             "Season Information",
             "Week Information",
+            "Game UI Information",
             "Team Points Information",
             "Prestige Bonus Information",
             "Team Members Information",
@@ -857,6 +353,12 @@ class GameState {
     updateUI() {
         document.getElementById('team-name').innerText = this.team.name.toUpperCase();
         document.getElementById('team-number').innerText = this.team.number;
+        var teamNumberDiv = document.getElementById("team-number-div");
+
+        if (document.getElementById('team-name') && teamNumberDiv) {
+            var teamNameHeight = document.getElementById('team-name').offsetHeight;
+            teamNumberDiv.style.height = teamNameHeight + "px";
+        }
         document.getElementById('team-members').innerText = `${this.team.members.length} (${this.team.numCurrentlyAssignedMembers})`;
         document.getElementById('subteam-leaders').innerText = `${this.team.subTeamLeaders.length} (${this.team.numCurrentlyAssignedSubTeamLeaders})`;
         document.getElementById('materials').innerText = `${this.team.materials} Units`;
@@ -867,13 +369,8 @@ class GameState {
         const r = this.team.color[0] / 255;
         const g = this.team.color[1] / 255;
         const b = this.team.color[2] / 255;
-
-        // Calculate brightness
         const brightness = (r * 0.299 + g * 0.587 + b * 0.114);
-
         const teamNumberElement = document.getElementById('team-number');
-
-        // Apply text shadow based on brightness
         if (brightness > 0.5) {
             teamNumberElement.style.textShadow = "0px 0px 3px black";
         } else {
@@ -881,6 +378,30 @@ class GameState {
         }
         document.getElementById('prestige-bonus').innerText = `${this.team.prestigeBonus.toFixed(2)}`;
         document.getElementById('team-points').innerText = this.team.teamPoints;
+        
+        // Add championship banners
+        const teamBanners = document.getElementById('team-banners');
+        teamBanners.innerHTML = ''; // Clear existing banners
+
+        const createBanner = (type, season) => {
+            return `
+                <div class="col">
+                    <div class="blue-banner">
+                        <h5>${type} <span class="fas fa-crown"></span></h5>
+                        <p><span class="fas fa-calendar-alt"></span> ${season}</p>
+                    </div>
+                </div>
+            `;
+        };
+
+        this.team.regionalChampionships.forEach(season => {
+            teamBanners.innerHTML += createBanner('Regional', season);
+        });
+
+        this.team.worldsChampionships.forEach(season => {
+            teamBanners.innerHTML += createBanner('Worlds', season);
+        });
+
         this.addWeekTasks();
 
         // If its the last week, update the button text
@@ -1138,6 +659,7 @@ document.getElementById('confirm-reset-game-btn').addEventListener('click', () =
     gameState.tutorialModulesToComplete = [
         "Season Information",
         "Week Information",
+        "Game UI Information",
         "Team Points Information",
         "Prestige Bonus Information",
         "Team Members Information",
@@ -1155,6 +677,7 @@ document.getElementById('confirm-reset-game-btn').addEventListener('click', () =
 colorTutorialButtons();
 handleTutorialClick('season-info-tutorial', 'Season Information');
 handleTutorialClick('week-info-tutorial', 'Week Information');
+handleTutorialClick('game-ui-info-tutorial', 'Game UI Information');
 handleTutorialClick('team-points-info-tutorial', 'Team Points Information');
 handleTutorialClick('prestige-bonus-info-tutorial', 'Prestige Bonus Information');
 handleTutorialClick('team-members-info-tutorial', 'Team Members Information');
@@ -1194,8 +717,10 @@ function updateTutorialButton(elementId, moduleName) {
     const element = document.getElementById(elementId);
     if (gameState.tutorialModulesToComplete.includes(moduleName)) {
         element.classList.add('btn-danger');
+        element.classList.add('text-white');
     } else {
         element.classList.remove('btn-danger');
+        element.classList.remove('text-white');
     }
 }
 
@@ -1203,6 +728,7 @@ function colorTutorialButtons() {
     const buttonMapping = {
         "Season Information": 'season-info-tutorial',
         "Week Information": 'week-info-tutorial',
+        "Game UI Information": 'game-ui-info-tutorial',
         "Team Points Information": 'team-points-info-tutorial',
         "Prestige Bonus Information": 'prestige-bonus-info-tutorial',
         "Team Members Information": 'team-members-info-tutorial',
