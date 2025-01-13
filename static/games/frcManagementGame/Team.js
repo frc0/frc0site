@@ -18,6 +18,8 @@ class Team {
         this.teamPoints = 0;
         this.prestigeBonus = 1.0;
         this.prestigeTotal = 0;
+        this.regionalChampionships = [];
+        this.worldsChampionships = [];
         this.weekStartState = null;
     }
 
@@ -424,6 +426,11 @@ class Team {
                 regionalResults.appendChild(row);
             }
 
+            // Check if the player was the champion
+            if (allTeams[0].id === this.number) {
+                this.regionalChampionships.push(this.season);
+            }
+
             // When user clicks advance from regional
             document.getElementById('advance-from-regional-btn').addEventListener('click', () => {
                 modal.hide();
@@ -574,6 +581,7 @@ class Team {
             // Bonus points
             if (allTeams[0].id === this.number) {
                 this.teamPoints += 1000;
+                this.worldsChampionships.push(this.season);
             }
             if (allTeams[1].id === this.number) {
                 this.teamPoints += 500;
